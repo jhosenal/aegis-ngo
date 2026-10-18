@@ -1,0 +1,28 @@
+[
+  {
+    "id": "SYNTH-FLOOD-1",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "high",
+    "title": "SYNTHETIC EXAMPLE: flash flood scenario",
+    "region": "Synthetic region (not a real place)",
+    "synthetic": true,
+    "lines": [
+      { "id": "L1", "kind": "contact", "text": "SYNTHETIC: call the emergency number first.", "sourceId": "SYNTH-SRC" },
+      { "id": "L2", "kind": "step", "text": "SYNTHETIC: example evacuation step for layout testing only.", "sourceId": "SYNTH-SRC" },
+      { "id": "L3", "kind": "do", "text": "SYNTHETIC: example do item for layout testing only.", "sourceId": "SYNTH-SRC" },
+      { "id": "L4", "kind": "dont", "text": "SYNTHETIC: example do-not item for layout testing only.", "sourceId": "SYNTH-SRC", "condition": "SYNTHETIC: example condition text" },
+      { "id": "L5", "kind": "contact", "text": "SYNTHETIC: example shelter and hotline line.", "sourceId": "SYNTH-SRC" }
+    ],
+    "sources": [
+      {
+        "sourceId": "SYNTH-SRC",
+        "publisher": "Synthetic test publisher (not a real authority)",
+        "url": "https://example.org/synthetic",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Synthetic test passage. This text is invented for layout and test purposes and contains no real guidance."
+      }
+    ]
+  }
+]

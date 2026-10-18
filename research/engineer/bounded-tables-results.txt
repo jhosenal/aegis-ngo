@@ -1,0 +1,16 @@
+D1-diagram                     | unbounded ACCEPTED cells 15 gaps 0 amb 0                         | bounded ACCEPTED cells 24 gaps 0 amb 0 negativeWitnesses 0
+D1-table-grouping-a-and-b-or-c | unbounded REJECTED_AMBIGUITY cells 45 gaps 0 amb 11              | bounded REJECTED_AMBIGUITY cells 120 gaps 0 amb 40 negativeWitnesses 0
+D1-table-grouping-a-and-b-or-c-alt | unbounded REJECTED_AMBIGUITY cells 45 gaps 0 amb 2               | bounded REJECTED_AMBIGUITY cells 120 gaps 0 amb 8 negativeWitnesses 0
+D2-table                       | unbounded REJECTED_AMBIGUITY cells 135 gaps 0 amb 90             | bounded REJECTED_AMBIGUITY cells 480 gaps 0 amb 256 negativeWitnesses 0
+D3-diagram                     | unbounded REJECTED_AMBIGUITY cells 21 gaps 1 amb 8               | bounded REJECTED_AMBIGUITY cells 36 gaps 2 amb 10 negativeWitnesses 0
+D3-table                       | unbounded REJECTED_AMBIGUITY cells 975 gaps 34 amb 737           | bounded REJECTED_AMBIGUITY cells 1188 gaps 56 amb 816 negativeWitnesses 0
+D4-diagram                     | unbounded ACCEPTED cells 5 gaps 0 amb 0                          | bounded ACCEPTED cells 5 gaps 0 amb 0 negativeWitnesses 0
+D4-table                       | unbounded REJECTED_AMBIGUITY cells 525 gaps 80 amb 156           | bounded REJECTED_AMBIGUITY cells 1008 gaps 220 amb 300 negativeWitnesses 0
+D5-diagram                     | unbounded REJECTED_COVERAGE cells 15 gaps 10 amb 0               | bounded REJECTED_COVERAGE cells 96 gaps 56 amb 0 negativeWitnesses 0 (+untranslatable: NOT_PROVEN)
+D5-table                       | unbounded REJECTED_AMBIGUITY cells 135 gaps 5 amb 80             | bounded REJECTED_AMBIGUITY cells 576 gaps 32 amb 320 negativeWitnesses 0 (+untranslatable: NOT_PROVEN)
+D6-diagram                     | unbounded ACCEPTED cells 5 gaps 0 amb 0                          | bounded ACCEPTED cells 6 gaps 0 amb 0 negativeWitnesses 0
+D6-table                       | unbounded REJECTED_AMBIGUITY cells 315 gaps 0 amb 277            | bounded REJECTED_AMBIGUITY cells 720 gaps 0 amb 608 negativeWitnesses 240
+D7-diagram                     | unbounded REJECTED_AMBIGUITY cells 27 gaps 2 amb 10              | bounded REJECTED_AMBIGUITY cells 36 gaps 4 amb 10 negativeWitnesses 0
+D7-table                       | unbounded REJECTED_AMBIGUITY cells 945 gaps 27 amb 730           | bounded REJECTED_AMBIGUITY cells 1728 gaps 64 amb 1236 negativeWitnesses 0
+fields without a justified bound (their witnesses are mathematical only, not physically established): ["TTI","Delta_H","S_access","VEI"]
+fields with negative witnesses: {"D6-table.S_access":240}

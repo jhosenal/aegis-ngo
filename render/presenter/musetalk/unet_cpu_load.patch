@@ -1,0 +1,19 @@
+diff --git a/musetalk/models/unet.py b/musetalk/models/unet.py
+index 575e79a..478c78b 100755
+--- a/musetalk/models/unet.py
++++ b/musetalk/models/unet.py
+@@ -41,11 +41,12 @@ class UNet():
+             self.device = device
+         else:
+             self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+-        weights = torch.load(model_path) if torch.cuda.is_available() else torch.load(model_path, map_location=self.device)
++        # OAG patch: load on CPU and leave the model there; scripts/inference.py halves it and moves it to the GPU
++        # (an fp32 UNet on a 6 GB laptop GPU runs out of memory before the fp16 conversion).
++        weights = torch.load(model_path, map_location='cpu')
+         self.model.load_state_dict(weights)
+         if use_float16:
+             self.model = self.model.half()
+-        self.model.to(self.device)
+     
+ if __name__ == "__main__":
+     unet = UNet()

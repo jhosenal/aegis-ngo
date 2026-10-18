@@ -1,0 +1,82 @@
+[
+  {
+    "id": "HAZE-MY-EN-01",
+    "language": "en",
+    "country": "MY",
+    "hazard": "haze",
+    "severity": "moderate",
+    "title": "Haze safety - Ministry of Health leaflet, 2008 - Malaysia",
+    "region": "Malaysia",
+    "synthetic": false,
+    "lines": [
+      {
+        "id": "HAZE-MY-CONTACT",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "HAZE-MY-OUTDOOR",
+        "kind": "do",
+        "text": "Reduce outdoor physical activities",
+        "sourceId": "SRC-MY-MOH-OUTDOOR",
+        "condition": "Actions to take during the HAZE"
+      },
+      {
+        "id": "HAZE-MY-INDOOR",
+        "kind": "do",
+        "text": "As far as possible, stay indoor. If you need to be outdoor, wear a suitable mask, such as the N95 or P100",
+        "sourceId": "SRC-MY-MOH-INDOOR",
+        "condition": "Actions to take during the HAZE"
+      },
+      {
+        "id": "HAZE-MY-MEDICAL-ATTENTION",
+        "kind": "step",
+        "text": "SEEK IMMEDIATE MEDICAL ATTENTION IF YOUR HEALTH IS AFFECTED BY HAZE",
+        "sourceId": "SRC-MY-MOH-ATTENTION",
+        "condition": "EFFECTS OF HAZE ON HEALTH"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number",
+        "savedFile": "R0111_malaysia-999-source.html"
+      },
+      {
+        "sourceId": "SRC-MY-MOH-OUTDOOR",
+        "publisher": "Ministry of Health Malaysia",
+        "url": "https://infosihat.moh.gov.my/images/isusemasa/Jerebu/04_Jerebu%2009%20BI.pdf",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Reduce outdoor physical activities",
+        "published": "2008",
+        "savedFile": "R0084_moh-haze-leaflet-2008.pdf"
+      },
+      {
+        "sourceId": "SRC-MY-MOH-INDOOR",
+        "publisher": "Ministry of Health Malaysia",
+        "url": "https://infosihat.moh.gov.my/images/isusemasa/Jerebu/04_Jerebu%2009%20BI.pdf",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "As far as possible, stay indoor. If you need to be outdoor, wear a suitable mask, such as the N95 or P100",
+        "published": "2008",
+        "savedFile": "R0084_moh-haze-leaflet-2008.pdf"
+      },
+      {
+        "sourceId": "SRC-MY-MOH-ATTENTION",
+        "publisher": "Ministry of Health Malaysia",
+        "url": "https://infosihat.moh.gov.my/images/isusemasa/Jerebu/04_Jerebu%2009%20BI.pdf",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "SEEK IMMEDIATE MEDICAL ATTENTION IF YOUR HEALTH IS AFFECTED BY HAZE",
+        "published": "2008",
+        "savedFile": "R0084_moh-haze-leaflet-2008.pdf"
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "asOf": "2026-10-14",
+  "statement": "Seven hazard domains are specified. Selected claims in each specification were reviewed against saved primary sources: what a source supports is marked, and what no source supports is held back and not used. None of the seven runs in the Aegis engine yet: the code holds only the general resource-shortfall formulation. The public haze guidance page runs on sourced cards.",
+  "domains": [
+    {
+      "number": 1,
+      "refId": "AEG-FRM-001",
+      "name": "Seismic",
+      "hazard": "Earthquakes: shaking intensity, damaged shelter and injured people.",
+      "inputFeeds": "USGS / EMSC telemetry",
+      "outputs": ["Tents", "Blankets", "Trauma kits", "Search-and-rescue units"],
+      "topDecisionLevel": "Level 3 (Catastrophic Shaking)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "The Modified Mercalli scale runs I to XII (USGS Circular 1045); water at 15 litres per person per day matches the Sphere Handbook." },
+        { "kind": "held-back", "text": "An exact ground-acceleration equivalent for an intensity level is not a property of the scale (USGS calls it an arbitrary ranking of observed effects); the acceleration bands rest on Italian zone rules." }
+      ],
+      "specFile": "0003_domain_1_seismic_formulation_sop_specification.md",
+      "auditNote": "S0008"
+    },
+    {
+      "number": 2,
+      "refId": "AEG-FRM-002",
+      "name": "Hydrological",
+      "hazard": "Floods: water depth and flow, unsafe water and displaced households.",
+      "inputFeeds": "GloFAS / Copernicus",
+      "outputs": ["Water purification tablets", "Jerry cans", "Oral rehydration packets"],
+      "topDecisionLevel": "Level 3 (Extreme Surge)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "The Sphere 15-litre daily minimum is confirmed, with its stated context cases (7.5 litres in acute drought, 50 in urban settings)." },
+        { "kind": "held-back", "text": "A coping-capacity scale of 0.1 to 1.0 conflicts with the published 0 to 10 scale of the INFORM risk report; the water-kit denominators and the composite index have no source." },
+        { "kind": "held-back", "text": "Several items rest on a flood-forecasting document that was not read, so they stay unverified." }
+      ],
+      "specFile": "0004_domain_2_hydrological_formulation_sop_specification.md",
+      "auditNote": "S0011"
+    },
+    {
+      "number": 3,
+      "refId": "AEG-FRM-003",
+      "name": "Meteorological",
+      "hazard": "Cyclones and severe storms: wind, storm surge and lost shelter.",
+      "inputFeeds": "NOAA / GDACS",
+      "outputs": ["High-calorie ready-to-eat rations", "Tarpaulins", "Tie-down kits"],
+      "topDecisionLevel": "Level 3 (Category 5 Cyclone)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "The dynamic-pressure formula, the knots conversion and the wind cut-offs of 64, 83, 96 and 113 knots match saved NOAA and NHC sources." },
+        { "kind": "held-back", "text": "Storm-surge heights of 2.0, 2.5 and 4.0 m cannot be derived from the category (NHC says surge depends on storm size, track and coast); the gust thresholds are not a feature of any saved source, and central pressure is no longer a criterion of the scale." }
+      ],
+      "specFile": "0013_missing AEG-FRM-003 Domain 3 — Meteorolog.txt",
+      "auditNote": "S0010"
+    },
+    {
+      "number": 4,
+      "refId": "AEG-FRM-004",
+      "name": "Wildfire",
+      "hazard": "Wildfires and the smoke that follows, including regional haze.",
+      "inputFeeds": "NASA FIRMS / MODIS",
+      "outputs": ["Smoke masks (N95)", "Burn kits", "Evacuation shelters"],
+      "topDecisionLevel": "Level 3 (Critical Interface Fire)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "Fire radiative power is reported in megawatts (NASA FIRMS product description)." },
+        { "kind": "held-back", "text": "The spread equation, its coefficients, the distance and time tiers and the population gate are not on the NASA page that was read; this is an absence on one page, not a search of all literature." }
+      ],
+      "specFile": "0005_domain_4_wildfire_formulation_sop_specification.md",
+      "auditNote": "S0012"
+    },
+    {
+      "number": 5,
+      "refId": "AEG-FRM-005",
+      "name": "Biological",
+      "hazard": "Disease outbreaks: how fast an infection spreads and what care and protection is needed.",
+      "inputFeeds": "WHO Disease Outbreak News / CDC feeds",
+      "outputs": ["IV fluids", "PPE sets", "Water chlorination", "Rapid diagnostic tests"],
+      "topDecisionLevel": "Level 3 (Catastrophic Outbreak)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "The definitions of the basic reproduction number and of the duration of infectiousness match the WHO Unity study protocol." },
+        { "kind": "held-back", "text": "The numeric ranges, the hospitalisation ratio of 0.15 and most other constants are not in that protocol, which gives no operational thresholds; the water formula conflicts with the Sphere 15-litre minimum." }
+      ],
+      "specFile": "0006_domain_5_biological_formulation_sop_specification.md",
+      "auditNote": "S0012"
+    },
+    {
+      "number": 6,
+      "refId": "AEG-FRM-006",
+      "name": "Displacement",
+      "hazard": "People displaced into camps or settlements: space, sanitation, water and nutrition.",
+      "inputFeeds": "UNHCR / IOM DTM",
+      "outputs": ["Communal latrines", "Non-food shelter kits", "Therapeutic food rations"],
+      "topDecisionLevel": "Level 3 (Complex Emergency)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "45 square metres per person and the latrine ratios (1 per 20 people in the medium term, 1 per 50 in the first phase) are in the Sphere Handbook; an acute-malnutrition prevalence of 15 to 29.9 percent (weight-for-height) is the IPC critical band." },
+        { "kind": "held-back", "text": "Sphere gives 30 square metres only where communal services are outside the settlement, so it cannot be called an absolute minimum; the influx and access-index triggers have no source." }
+      ],
+      "specFile": "0007_EG-FRM-007_domain-7-volcanic-formulation-and-sop.md (the file name says Domain 7; its content is Domain 6)",
+      "auditNote": "S0012"
+    },
+    {
+      "number": 7,
+      "refId": "AEG-FRM-007",
+      "name": "Volcanic",
+      "hazard": "Eruptions and ashfall: roof loads, breathing hazards and clean-up.",
+      "inputFeeds": "Smithsonian GVP / VAAC",
+      "outputs": ["Silicate particulate masks", "Eye wash", "Clearing kits"],
+      "topDecisionLevel": "Level 3 (Catastrophic Eruption)",
+      "runsInEngine": false,
+      "audit": [
+        { "kind": "supported", "text": "A source says roof collapse typically needs ash thicker than 100 mm, but non-engineered, long-span and low-pitched roofs may collapse at about 100 mm or less; the roof-load formula is dimensionally consistent, but its equation was an image missing from the saved page." },
+        { "kind": "held-back", "text": "The 5 mm and 50 mm cut-offs, the plume-radius constants, the vent-distance decay and the 10 km zone are not in the saved sources; the volcanic explosivity index page could not be read." }
+      ],
+      "specFile": "0008_AEG-FRM-007_Domain 7 _ Geophysical Volcanic & Ashfall Events.txt",
+      "auditNote": "S0011"
+    }
+  ]
+}

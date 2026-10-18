@@ -1,0 +1,46 @@
+# Local secrets and runtime material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+client_secret*.json
+*service-account*.json
+*service_account*.json
+data/secrets/
+node_modules/
+/dist/
+/ui/dist/
+/coverage/
+/data/
+/runtime/
+/render/out/
+/records/screenshots/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.log
+# Public source uses an explicit records allowlist. Existing tracked private files
+# stay local until exported; this ignore file does not remove them from history.
+/records/*
+!/records/costs/
+/records/costs/*
+!/records/costs/price-book.json
+!/records/costs/budget.json
+!/records/costs/credit-terms.json
+!/records/costs/provider-caps.json
+!/records/releases/
+/records/releases/*
+!/records/releases/assist-release.json
+!/records/releases/assist-endorsements.json
+!/records/reviews/
+/records/reviews/*
+!/records/reviews/AEG-MEDIA-*.json
+!/records/sources/
+/test-results/
+/playwright-report/
+__pycache__/
+

@@ -1,0 +1,46 @@
+{
+  "node": "v22.19.0",
+  "platform": "win32",
+  "cpu": "x64",
+  "when": "2026-10-13T12:50:17.407Z",
+  "chainVerifyMsByEvents": {
+    "100": 1.08,
+    "500": 4.67,
+    "1000": 20.12,
+    "2000": 27.39,
+    "4000": 75.2,
+    "elapsed to write 100 events (each write verifies the whole chain)": 135,
+    "elapsed to write 500 events (each write verifies the whole chain)": 1694,
+    "elapsed to write 1000 events (each write verifies the whole chain)": 8211,
+    "elapsed to write 2000 events (each write verifies the whole chain)": 34481,
+    "elapsed to write 4000 events (each write verifies the whole chain)": 144221
+  },
+  "rationalOpsPerMsByDigits": {
+    "10": {
+      "addOpsPerMs": 246.5,
+      "mulOpsPerMs": 525.8
+    },
+    "40": {
+      "addOpsPerMs": 121.9,
+      "mulOpsPerMs": 260.3
+    },
+    "120": {
+      "addOpsPerMs": 49.1,
+      "mulOpsPerMs": 38.9
+    }
+  },
+  "makeOpsPerMsSmall": 1193,
+  "graphValidateMs": {
+    "10 nodes / 17 edges": 0.98,
+    "100 nodes / 197 edges": 0.6,
+    "500 nodes / 997 edges": 2.82,
+    "1000 nodes / 1997 edges": 5.04,
+    "5000 nodes / 9997 edges": 24.01
+  },
+  "partitionMs": {
+    "441 cells (2 fields)": 4.1,
+    "15625 cells (3 fields)": 50.08,
+    "194481 cells (4 fields)": 611.51,
+    "707281 cells (4 fields)": 2615.31
+  }
+}

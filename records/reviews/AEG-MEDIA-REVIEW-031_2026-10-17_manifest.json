@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentId": "AEG-MEDIA-REVIEW-031",
+  "date": "2026-10-17",
+  "status": "LOCAL_DELIVERY_SNAPSHOT",
+  "scope": "Luna handback acceptance, frontend import fix, landmark policy and separate incident gallery UI",
+  "predecessor": "records/reviews/AEG-ENV-UI-030_2026-10-17_manifest.json",
+  "reviewedSnapshot": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_manifest.json",
+  "files": [
+    {
+      "path": "HANDOVER.md",
+      "bytes": 70896,
+      "sha256": "7bf3e69fa7eb0de1a5e62342af301d5106982a75ce1f7b046472c6fcaf3c5bd9"
+    },
+    {
+      "path": "docs/00-governance/AEG-REG-001_document-register.csv",
+      "bytes": 3950,
+      "sha256": "7bd722763185679a5b2f7871c7b694020dded7ed74a0ade10ec13f0ae780d741"
+    },
+    {
+      "path": "docs/03-delivery/AEG-LOG-001_work-log.md",
+      "bytes": 144085,
+      "sha256": "20ec00070ecdc9f4801d237939926e028a16ed9d5b0957c06527a481907d6fe0"
+    },
+    {
+      "path": "docs/03-delivery/AEG-SOP-005_place-image-research-and-verification.md",
+      "bytes": 11034,
+      "sha256": "7c96be30a2286ac6bfc1fc5298a378ebd830da4e0152a9c03d594ba76e3d1163"
+    },
+    {
+      "path": "docs/03-delivery/AEG-SOW-001_luna-monitoring-place-images.md",
+      "bytes": 9189,
+      "sha256": "33824729faacf0cabc6998f31bcfed17f491ba238f6e22fe9418bbc92cd26e08"
+    },
+    {
+      "path": "docs/06-engineering/AEG-LOG-002_build-log.md",
+      "bytes": 130790,
+      "sha256": "bd1af37a58991b7a7cba47a9d4eb12eebd9cfa73e0c0d974441b7538e4b97a66"
+    },
+    {
+      "path": "docs/99-inbox/C0018_sol-media-review-landmark-policy.md",
+      "bytes": 2521,
+      "sha256": "a98b1a0e47df3e4dffa62badf37a57d77cc52f40a30f1dbff016d0447dfe1d4c"
+    },
+    {
+      "path": "records/baselines/AEG-BAS-002_2026-10-13_expected-changes.json",
+      "bytes": 4245,
+      "sha256": "a0d06f0e559ece763ecf8b196c64b07aa119404add6413c6750d026c080eb46e"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_gallery.json",
+      "bytes": 429,
+      "sha256": "06340e918709acf366ad1a0ba859ca07d5f2ab2683b4b8d570b14505e37a96fa"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_handover-check.json",
+      "bytes": 4507,
+      "sha256": "a93b6d73bc3fc69c2bb27eee765ddf833876616f425436c3d8d62e9e4e294cd5"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_result.json",
+      "bytes": 705,
+      "sha256": "583a0475105c0051c1a00d1347d07fc89e1e6cbe37149b4588ddc22d8830d71e"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_review.md",
+      "bytes": 2932,
+      "sha256": "21fedc182afe40847ae97ee8700ce8bbd50ebfc2abb2d691d8036b6508f8f588"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_ui.json",
+      "bytes": 113,
+      "sha256": "c9dc0835174ce41e158cb7852c0c6eabfaf1cb18bda62fee66c1b8306915c28f"
+    },
+    {
+      "path": "records/screenshots/incident-media-2026-10-17/gallery-first.png",
+      "bytes": 13423,
+      "sha256": "0afe227c4428e5da1fd5dd7f035367ab3324fecf3423501c107ade4520326487"
+    },
+    {
+      "path": "records/screenshots/incident-media-2026-10-17/gallery-second-fallback.png",
+      "bytes": 15374,
+      "sha256": "01f94734d4fe0bd2c1e0abe3a4f5681c3806cff8a3dbb584c9eb5e706232230f"
+    },
+    {
+      "path": "records/screenshots/incident-media-2026-10-17/separate-illustration.png",
+      "bytes": 410028,
+      "sha256": "512747c79afd1e1205a75e32ede60df5584214e8a1509d772e7d5e8ef57cfbd0"
+    },
+    {
+      "path": "tools/verify-incident-image-placement.mjs",
+      "bytes": 1483,
+      "sha256": "c7395893fe8ecc7f5d13e120d2ce1096e72829c69594bc1c089d509776d7feda"
+    },
+    {
+      "path": "tools/verify-incident-photo-gallery.mjs",
+      "bytes": 4212,
+      "sha256": "3007c5c8ec5a27b38eae2124815199a6c9032dbe77d5c4d5f75ecce0ec3a2546"
+    },
+    {
+      "path": "ui/src/components/CardView.tsx",
+      "bytes": 5259,
+      "sha256": "4031ebf57f83d11be3c7c19751abdfa9f32c04638ce4707683196da1f4a3e402"
+    },
+    {
+      "path": "ui/src/components/IncidentPhotoGallery.tsx",
+      "bytes": 2299,
+      "sha256": "597142ff76b04fde982655aae9614915cd69cd3a48de5fc79bbe7904fe04ca6a"
+    },
+    {
+      "path": "ui/src/dashboard/environment.ts",
+      "bytes": 8193,
+      "sha256": "458d74dad9c5efa1e9d8e4be5dfafc9bc55b6456426d7a4b9d56cac7b64ebe33"
+    },
+    {
+      "path": "ui/src/design/hazard-cards.css",
+      "bytes": 3975,
+      "sha256": "9a1b57bfd5b4bbfb9bff6d4a97263556a7356bd7a58b29186c552e7a76f45ed9"
+    }
+  ],
+  "combinedDnaRoot": "0x991045763c6494a5f0bb721a12eecc490b2f8b684e36a98c5990b94945bfd22c",
+  "pathBoundRoot": "0x1d7f2b4b1d601553c892ba9a74154df268261a1d1b12ed5cb2004e2927230103"
+}

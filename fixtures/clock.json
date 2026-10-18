@@ -1,0 +1,1 @@
+{ "_note": "SYNTHETIC. Tests and the demo seed inject this instant as 'now'. Never read the system clock inside engine/registry code.", "fixedNow": "2026-10-13T00:00:00Z" }

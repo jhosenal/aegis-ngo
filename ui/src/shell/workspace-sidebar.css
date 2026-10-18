@@ -1,0 +1,79 @@
+/* Shared column-1 controls. 44px navigation target reduced by 15% to 37.4px. */
+.regional-app .dashboard-sidebar { --sidebar-row-height:37.4px; }
+.regional-app .dashboard-sidebar nav > :is(a,button),
+.regional-app .dashboard-sidebar .sidebar-workspace-links > :is(a,button),
+.regional-app .dashboard-sidebar .sidebar-disclosure > summary,
+.regional-app .dashboard-sidebar .sidebar-disclosure-links > a {
+ box-sizing:border-box; min-height:var(--sidebar-row-height); padding:6.7px 12px;
+ display:flex; align-items:center; gap:10px; font-family:inherit; font-size:13px;
+ line-height:1.4; font-weight:500; color:#dce8f5; text-align:left;
+ text-decoration:none; border:0; border-radius:8px; background:transparent; cursor:pointer;
+}
+.regional-app .dashboard-sidebar .sidebar-disclosure > summary { list-style:none; }
+.regional-app .dashboard-sidebar summary::-webkit-details-marker { display:none; }
+.regional-app .dashboard-sidebar .sidebar-disclosure-links { display:flex; flex-direction:column; gap:2px; padding-left:22px; }
+.regional-app .dashboard-sidebar .sidebar-disclosure-links > a { white-space:normal; }
+.regional-app .dashboard-sidebar .sidebar-disclosure-links > a[aria-current=page],
+.regional-app .dashboard-sidebar .sidebar-disclosure > summary.selected { color:#07385b; background:linear-gradient(100deg,#b3e8ff,#77b5eb); box-shadow:inset 3px 0 #5bc5ff; font-weight:650; }
+.regional-app .dashboard-sidebar .sidebar-disclosure > summary:hover,
+.regional-app .dashboard-sidebar .sidebar-disclosure-links > a:hover { background:#203c58; color:#dce8f5; }
+.regional-app .dashboard-sidebar .sidebar-chevron { display:inline-block; width:6px; height:6px; flex:0 0 6px; border-right:1.5px solid currentColor; border-top:1.5px solid currentColor; transform:rotate(45deg); margin:0 4px 0 1px; transition:transform .15s; }
+.regional-app .dashboard-sidebar .sidebar-account .sidebar-chevron { transform:rotate(135deg); }
+.regional-app .dashboard-sidebar .sidebar-account[aria-expanded=true] .sidebar-chevron { transform:rotate(-45deg); }
+.regional-app .dashboard-sidebar details[open] > summary > .sidebar-chevron,
+.regional-app .dashboard-sidebar .chat-recent-toggle[aria-expanded=true] > .sidebar-chevron { transform:rotate(135deg); }
+.regional-app .dashboard-sidebar :is(.chat-about > summary,.chat-recent-toggle) { display:flex; align-items:center; gap:10px; font-family:inherit; font-size:13px; font-weight:500; line-height:1.4; list-style:none; min-height:var(--sidebar-row-height); padding:6.7px 12px; box-sizing:border-box; }
+.regional-app .dashboard-sidebar .sidebar-disclosure > summary:focus-visible { outline:var(--aeg-focus); outline-offset:2px; }
+
+.regional-app .dashboard-sidebar .sidebar-workspace-links { display:flex; flex-direction:column; gap:2px; }
+.regional-app .dashboard-sidebar .sidebar-workspace-links > .selected { color:#07385b; background:linear-gradient(100deg,#b3e8ff,#77b5eb); box-shadow:inset 3px 0 #5bc5ff; font-weight:650; }
+.regional-app .dashboard-sidebar .sidebar-workspace-links > :is(a,button):hover { background:#203c58; color:#dce8f5; }
+.regional-app .dashboard-sidebar > nav { flex:0 1 auto; }
+.regional-app .dashboard-sidebar > nav > .chat-history-nav { margin-top:8px; }
+.regional-app .chat-account-popover { width:290px; max-width:calc(100vw - 32px); padding:8px; gap:0; border-radius:14px; font-size:13px; }
+.regional-app .chat-account-popover :is(summary,a,button) { display:flex; align-items:center; gap:10px; box-sizing:border-box; min-height:37.4px; width:100%; padding:8px 10px; border:0; border-radius:8px; background:transparent; color:var(--aeg-pearl-white); text-decoration:none; font:inherit; cursor:pointer; list-style:none; text-align:left; }
+.regional-app .chat-account-popover :is(summary,a,button):hover { background:#203c58; }
+.regional-app .chat-account-popover summary::-webkit-details-marker { display:none; }
+.regional-app .chat-account-popover .sidebar-chevron { margin-left:auto; }
+.regional-app .chat-account-popover .account-profile summary > span:nth-child(2) { display:grid; min-width:0; gap:3px; }
+.regional-app .chat-account-popover small { color:var(--aeg-ice-blue); font-size:10px; }
+.regional-app .chat-account-popover details > div { padding:8px 10px; }
+.regional-app .chat-account-popover p { font-size:11px; margin:4px 0; }
+.regional-app .chat-account-popover .account-menu-links { border-top:1px solid #789bad55; padding:6px 0; }
+.regional-app .dashboard-sidebar > .sidebar-view-tabs { display:flex; flex-direction:row; flex:none; min-height:0; gap:3px; padding:3px; margin:0 0 10px; border:1px solid #52728b88; border-radius:9px; overflow:visible; }
+.regional-app .dashboard-sidebar > .sidebar-view-tabs > a { flex:1; min-width:0; justify-content:center; min-height:32px; padding:6px 3px; font:500 12px/1.4 var(--aeg-font); border-radius:6px; }
+.regional-app .dashboard-sidebar > .sidebar-view-tabs > a + a { border-left:1px solid #52728b55; }
+.regional-app .dashboard-sidebar > .sidebar-view-tabs > a[aria-current=page] { color:#07385b; background:var(--aeg-ice-blue); font-weight:650; }
+.regional-app .dashboard-sidebar :is(.workspace-destinations,.explore-destinations,.legal-destinations) > summary,
+.regional-app .dashboard-sidebar .chat-history-nav > .chat-recent-toggle {
+ font-family:inherit; font-size:12px; font-weight:700; letter-spacing:.65px;
+ text-transform:uppercase; line-height:1.4; min-height:37.4px; padding:6.7px 12px;
+ display:flex; align-items:center; gap:10px; box-sizing:border-box;
+}
+.regional-app .dashboard-sidebar > nav[aria-label="Workspace pages"] { display:flex; flex-direction:column; flex:1; min-height:0; overflow:hidden; }
+.regional-app .dashboard-sidebar > nav[aria-label="Workspace pages"] > :is(.workspace-destinations,.sidebar-divider) { flex:none; }
+.regional-app .dashboard-sidebar .sidebar-scroll-region { flex:1; min-height:0; overflow-y:auto; overflow-x:hidden; overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:#52728b transparent; padding:2px 3px 6px; }
+.regional-app .dashboard-sidebar .sidebar-scroll-region .explore-destinations > summary { margin-inline:-3px; }
+.regional-app .dashboard-sidebar .sidebar-scroll-region .chat-recent-list { max-height:none; overflow:visible; }
+.regional-app .dashboard-sidebar .sidebar-scroll-region .chat-history-nav { margin-top:8px; }
+.regional-app .chat-account-popover .account-menu-identity { display:flex; align-items:center; gap:10px; padding:12px 10px; }
+.regional-app .chat-account-popover .account-menu-identity > span { display:grid; gap:4px; }
+.regional-app .chat-account .chat-account-popover { left:0; right:0; width:100%; max-width:100%; box-sizing:border-box; padding:6px; max-height:calc(100dvh - 110px); overflow-y:auto; overflow-x:hidden; }
+.regional-app .chat-account .chat-account-popover :is(summary,a,button),
+.regional-app .chat-account .chat-account-popover .account-menu-identity { padding:8px 6px; gap:8px; }
+.regional-app .chat-account .chat-account-popover svg { flex:0 0 18px; width:18px; height:18px; }
+.regional-app .chat-account .chat-account-popover :is(a,button,summary) > span,
+.regional-app .chat-account .chat-account-popover .account-menu-identity > span { min-width:0; overflow-wrap:break-word; }
+@media(min-width:1151px) {
+ .regional-app.chat-workspace-shell .dashboard-sidebar,
+ .regional-app.workspace-shell .dashboard-sidebar { width:260px; max-width:260px; box-sizing:border-box; }
+ .regional-app.workspace-shell[data-ui-formulation] { grid-template-columns:260px minmax(0,1fr); }
+ .regional-app.chat-workspace-shell .dashboard-assist,
+ .regional-app.workspace-shell .dashboard-assist { margin-left:0; margin-right:0; }
+ .regional-app .chat-dock-expanded { width:min(740px,calc(100vw - 290px)); }
+}
+
+/* The version label: the far top-left corner of the page (the first column starts at the left edge). */
+.dashboard-sidebar { position: relative; }
+.dashboard-sidebar .chat-sidebar-bottom > .sidebar-version { display:block; margin-top:2px; padding-right:9px; color:#9aabba; font-size:9px; font-weight:400; letter-spacing:.04em; line-height:12px; text-align:right; pointer-events:none; }
+.dashboard-sidebar .chat-sidebar-bottom > .sidebar-version strong { font-weight:700; }

@@ -1,0 +1,370 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "generated": 1792097206000,
+  "title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+  "count": 9
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "198 km SSE of Vilyuchinsk, Russia",
+    "time": 1792076392905,
+    "updated": 1792079020040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i2",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u2i2.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 369,
+    "net": "us",
+    "code": "6000u2i2",
+    "ids": ",us6000u2i2,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 28,
+    "dmin": 2.177,
+    "rms": 1.28,
+    "gap": 151,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.9 - 198 km SSE of Vilyuchinsk, Russia"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.8474,
+     51.3801,
+     10
+    ]
+   },
+   "id": "us6000u2i2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "9 km SSE of Los Asientos, Panama",
+    "time": 1792071097166,
+    "updated": 1792093678575,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ht",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u2ht.geojson",
+    "felt": 10,
+    "cdi": 4.6,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 316,
+    "net": "us",
+    "code": "6000u2ht",
+    "ids": ",us6000u2ht,",
+    "sources": ",us,",
+    "types": ",dyfi,origin,phase-data,",
+    "nst": 14,
+    "dmin": 1.728,
+    "rms": 0.85,
+    "gap": 132,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.5 - 9 km SSE of Los Asientos, Panama"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.0893,
+     7.4452,
+     10
+    ]
+   },
+   "id": "us6000u2ht"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "121 km S of Kokopo, Papua New Guinea",
+    "time": 1791959226453,
+    "updated": 1791964387040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27u",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u27u.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 369,
+    "net": "us",
+    "code": "6000u27u",
+    "ids": ",us6000u27u,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 45,
+    "dmin": 1.247,
+    "rms": 0.92,
+    "gap": 78,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.9 - 121 km S of Kokopo, Papua New Guinea"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.2617,
+     -5.443,
+     35
+    ]
+   },
+   "id": "us6000u27u"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "8 km SE of Sarangani, Philippines",
+    "time": 1791904904242,
+    "updated": 1791913990040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u21y.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 354,
+    "net": "us",
+    "code": "6000u21y",
+    "ids": ",us6000u21y,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 59,
+    "dmin": 1.712,
+    "rms": 0.73,
+    "gap": 102,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.8 - 8 km SE of Sarangani, Philippines"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     125.5183,
+     5.3478,
+     65.699
+    ]
+   },
+   "id": "us6000u21y"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "71 km SW of Tambolaka, Indonesia",
+    "time": 1791884908205,
+    "updated": 1791886827040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20i",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u20i.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 312,
+    "net": "us",
+    "code": "6000u20i",
+    "ids": ",us6000u20i,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 28,
+    "dmin": 4.966,
+    "rms": 0.67,
+    "gap": 123,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.5 - 71 km SW of Tambolaka, Indonesia"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.8246,
+     -9.9266,
+     35
+    ]
+   },
+   "id": "us6000u20i"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.7,
+    "place": "124 km N of Pagudpud, Philippines",
+    "time": 1791871284155,
+    "updated": 1791875231040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zc",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1zc.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 340,
+    "net": "us",
+    "code": "6000u1zc",
+    "ids": ",us6000u1zc,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 42,
+    "dmin": 3.136,
+    "rms": 0.95,
+    "gap": 132,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.7 - 124 km N of Pagudpud, Philippines"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.7047,
+     19.6853,
+     10
+    ]
+   },
+   "id": "us6000u1zc"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.1,
+    "place": "119 km SSW of Gambiran Satu, Indonesia",
+    "time": 1791864015768,
+    "updated": 1791864946040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ye",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ye.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 400,
+    "net": "us",
+    "code": "6000u1ye",
+    "ids": ",us6000u1ye,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 40,
+    "dmin": 7.295,
+    "rms": 0.76,
+    "gap": 59,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.8887,
+     -9.4473,
+     10
+    ]
+   },
+   "id": "us6000u1ye"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "Mid-Indian Ridge",
+    "time": 1791829819138,
+    "updated": 1791831510040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uv",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1uv.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 326,
+    "net": "us",
+    "code": "6000u1uv",
+    "ids": ",us6000u1uv,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 56,
+    "dmin": 4.706,
+    "rms": 0.67,
+    "gap": 47,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.6 - Mid-Indian Ridge"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67,
+     -16.5382,
+     10
+    ]
+   },
+   "id": "us6000u1uv"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "100 km SSW of Kencong, Indonesia",
+    "time": 1791806288604,
+    "updated": 1791808791040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rm",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rm.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 326,
+    "net": "us",
+    "code": "6000u1rm",
+    "ids": ",us6000u1rm,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 44,
+    "dmin": 7.417,
+    "rms": 0.54,
+    "gap": 69,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.6 - 100 km SSW of Kencong, Indonesia"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.0997,
+     -9.152,
+     55.223
+    ]
+   },
+   "id": "us6000u1rm"
+  }
+ ]
+}

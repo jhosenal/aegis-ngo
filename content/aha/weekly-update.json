@@ -1,0 +1,222 @@
+{
+  "_note": "Transcribed by SNET on 2026-10-17 from two PDFs the owner downloaded from ahacentre.org (DWeek_40_28Sep-4Oct2026.pdf, DWeek_41_5-11Oct2026.pdf). Figures are AHA Centre's own, quoting national agencies; nothing here is computed or estimated by AEGIS. Not independently verified. Licence: UNVERIFIED (AHA Centre states 'All rights reserved'; use is by citation of figures only until the owner confirms terms). ADINet incident reports (adinetReports) were transcribed from pages the owner saved on 2026-10-18 (E:\\Aegis\\import\\websites). The four counters at the top of every ADINet page (0 / 12 / 1,240 / 85) are identical on all pages, so they are a page-template placeholder and are NOT used.",
+  "publisher": "ASEAN Coordinating Centre for Humanitarian Assistance on disaster management (AHA Centre)",
+  "sourcePage": "https://ahacentre.org/weekly-disaster-update/weekly-disaster-update-5-11-october-2026/",
+  "retrievedAt": "2026-10-17",
+  "licence": "UNVERIFIED",
+  "reports": [
+    {
+      "week": 41,
+      "period": "5 - 11 Oct 2026",
+      "regionalTally": {
+        "affectedPersons": "6.5K",
+        "displacedPersons": 658,
+        "affectedHouses": 661,
+        "dead": null,
+        "missing": null,
+        "injured": null,
+        "disasters": 6,
+        "note": "AHA regional tally; the Thailand flood is reported separately below and is not part of the 6.5K"
+      },
+      "highlights": [
+        {
+          "country": "Indonesia",
+          "event": "Flooding, Padang City, West Sumatra",
+          "date": "2026-10-10",
+          "affected": 498,
+          "displaced": 672,
+          "evacuated": 238,
+          "source": "BNPB via AHA Centre"
+        },
+        {
+          "country": "Indonesia",
+          "event": "Flooding, Pesisir Selatan, West Sumatra",
+          "date": "2026-10-10",
+          "affected": 4240,
+          "source": "BNPB via AHA Centre"
+        },
+        {
+          "country": "Thailand",
+          "event": "Flooding, 50 provinces and Bangkok (since 16 Sep)",
+          "date": "2026-09-16",
+          "affected": 4300000,
+          "dead": 71,
+          "ongoingAffected": 2500000,
+          "ongoingAsOf": "2026-10-12 06:00 UTC+7",
+          "source": "DDPM via AHA Centre"
+        },
+        {
+          "country": "Indonesia",
+          "event": "Drought, Sorong Selatan (Southwest Papua)",
+          "date": "2026-10-05",
+          "affected": null,
+          "source": "BNPB via AHA Centre"
+        },
+        {
+          "country": "Indonesia",
+          "event": "Drought, Bone (South Sulawesi)",
+          "date": "2026-10-09",
+          "affected": null,
+          "source": "BNPB via AHA Centre"
+        }
+      ]
+    },
+    {
+      "week": 40,
+      "period": "28 Sep - 4 Oct 2026",
+      "regionalTally": {
+        "affectedPersons": "29K",
+        "displacedPersons": 308,
+        "affectedHouses": "3.7K",
+        "dead": null,
+        "missing": null,
+        "injured": 1,
+        "disasters": 23
+      },
+      "highlights": [
+        {
+          "country": "Thailand",
+          "event": "Flooding, 47 provinces and Bangkok (since 16 Sep)",
+          "date": "2026-09-16",
+          "affected": 4100000,
+          "dead": 31,
+          "ongoingAffected": 3500000,
+          "ongoingAsOf": "2026-10-05 06:00 UTC+7",
+          "source": "DDPM via AHA Centre"
+        },
+        {
+          "country": "Myanmar",
+          "event": "Flooding, Tanintharyi",
+          "date": "2026-09-29",
+          "affected": 19000,
+          "source": "DDM via AHA Centre"
+        },
+        {
+          "country": "Malaysia",
+          "event": "Floods, landslides, storms and winds, Perak, Sabah, Selangor, Kuala Lumpur",
+          "date": "2026-10-01",
+          "affected": null,
+          "source": "NADMA via AHA Centre"
+        },
+        {
+          "country": "Indonesia",
+          "event": "M6.1 earthquake, Sumba Barat Daya (East Nusa Tenggara)",
+          "date": "2026-10-04",
+          "affected": null,
+          "source": "BMKG via AHA Centre"
+        }
+      ]
+    }
+  ],
+  "notReported": [
+    "Brunei Darussalam",
+    "Singapore"
+  ],
+  "adinetReports": [
+    {
+      "reportId": "AHA-FL-2026-000899-KHM",
+      "hazardType": "FLOOD",
+      "title": "Cambodia, Flooding in Battambang",
+      "country": "Cambodia",
+      "status": "ACTIVE",
+      "eventDate": "2026-09-27",
+      "updatedAt": "2026-09-27",
+      "lat": 12.979183,
+      "lng": 103.101657,
+      "affectedPeople": 87228,
+      "affectedFamilies": 21807,
+      "displaced": 2767,
+      "affectedHouses": 19291,
+      "dead": null,
+      "missing": null,
+      "injured": null,
+      "summary": "Battambang Provincial Committee for Disaster Management: rainfall-induced flooding affected all 14 cities/districts and 71 communes/sangkats; 19,291 houses (21,807 families) affected; 856 families (2,767 people) evacuated; 780 infrastructure facilities and 35,612 hectares of rice crops affected.",
+      "source": "Battambang Provincial Committee for Disaster Management, via AHA Centre ADInet",
+      "sourcePage": "https://adinet.ahacentre.org/report/cambodia-flooding-in-battambang-20260927"
+    },
+    {
+      "reportId": "AHA-EQ-2026-000911-IDN",
+      "hazardType": "EARTHQUAKE",
+      "title": "Indonesia, M6.1 Earthquake in Sumba Barat Daya (East Nusa Tenggara)",
+      "country": "Indonesia",
+      "status": "ACTIVE",
+      "eventDate": "2026-10-04",
+      "updatedAt": "2026-10-07",
+      "lat": -9.7,
+      "lng": 118.92,
+      "affectedPeople": 1392,
+      "affectedFamilies": 348,
+      "displaced": null,
+      "affectedHouses": 348,
+      "dead": null,
+      "missing": null,
+      "injured": 1,
+      "summary": "Preliminary parameters (BNPB report): magnitude 6.1, 4 Oct 2026 05:55 WIB, depth 10 km, offshore, no tsunami potential; aftershock M5.9. 348 houses affected (343 partly damaged, 5 totally damaged), 9 schools, 7 health facilities, 7 government offices and 8 places of worship affected; 1 injured.",
+      "source": "BNPB (Indonesia), via AHA Centre ADInet",
+      "sourcePage": "https://adinet.ahacentre.org/report/indonesia-m61-earthquake-in-sumba-barat-daya-east-nusa-tenggara-20261004"
+    },
+    {
+      "reportId": "AHA-FL-2026-000916-VNM",
+      "hazardType": "FLOOD",
+      "title": "Viet Nam, Flooding, Landslides, Storms and Winds in Ho Chi Minh, Dong Nai, Can Tho and Ca Mau",
+      "country": "Viet Nam",
+      "status": "ACTIVE",
+      "eventDate": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "lat": 10.51117,
+      "lng": 105.182631,
+      "affectedPeople": 1472,
+      "affectedFamilies": 368,
+      "displaced": 12,
+      "affectedHouses": 368,
+      "dead": null,
+      "missing": null,
+      "injured": null,
+      "summary": "Provincial reports via VDDMA: heavy rain and thunderstorms 28 Sep to 1 Oct caused local flooding and landslides (Ho Chi Minh City, Dong Nai: 70 houses flooded, 2.4 km of road affected) and roof damage (An Giang 48 houses, Can Tho 235 houses). Water had receded in most flooded areas. The map point is the ADINet reference point (An Giang); the event spans five provinces.",
+      "source": "VDDMA and provincial authorities (Viet Nam), via AHA Centre ADInet",
+      "sourcePage": "https://adinet.ahacentre.org/report/viet-nam--flooding-landslides-storms-and-winds-in-ho-chi-minh-dong-nai-can-tho--and-ca-mau-20260928"
+    },
+    {
+      "reportId": "AHA-FL-2026-000918-MMR",
+      "hazardType": "FLOOD",
+      "title": "Myanmar, Flooding in Tanintharyi",
+      "country": "Myanmar",
+      "status": "CLOSED",
+      "eventDate": "2026-09-29",
+      "updatedAt": "2026-09-29",
+      "lat": 12.661494,
+      "lng": 98.745188,
+      "affectedPeople": 19158,
+      "affectedFamilies": 1703,
+      "displaced": null,
+      "affectedHouses": 2596,
+      "dead": null,
+      "missing": null,
+      "injured": null,
+      "summary": "Data as of 29 Sep 2026 (DDM, Myanmar): heavy rain from a strong low-pressure area flooded six townships of Tanintharyi Region (Bokepyin, Dawei, Thayetchaung, Launglon, Palaw, Yebyu). 19,158 people (1,703 households) and 2,596 houses affected, 14 households totally destroyed, 56 schools affected, 13 evacuation centres open. Humanitarian assistance started.",
+      "source": "Department of Disaster Management (Myanmar), via AHA Centre ADInet",
+      "sourcePage": "https://adinet.ahacentre.org/report/myanmar-flooding-in-tanintharyi-20260929"
+    },
+    {
+      "reportId": "AHA-FL-2026-000927-IDN",
+      "hazardType": "FLOOD",
+      "title": "Indonesia, Flood in Pesisir Selatan (West Sumatra)",
+      "country": "Indonesia",
+      "status": "CLOSED",
+      "eventDate": "2026-10-10",
+      "updatedAt": "2026-10-11",
+      "lat": -1.738289,
+      "lng": 100.880674,
+      "affectedPeople": 4240,
+      "affectedFamilies": null,
+      "displaced": null,
+      "affectedHouses": null,
+      "dead": null,
+      "missing": null,
+      "injured": null,
+      "summary": "BPBD Pesisir Selatan (data collection ongoing when written): heavy rain flooded 10 villages in Ranah Ampek Hulu Tapan District on 10 Oct 2026; about 4,240 people affected, 2 houses washed away, 12 educational, 4 religious and 7 office buildings affected, one section of the main road damaged. Residents self-evacuated to relatives; floodwater had not yet receded at the time of writing.",
+      "source": "BPBD Pesisir Selatan (Indonesia), via AHA Centre ADInet",
+      "sourcePage": "https://adinet.ahacentre.org/report/indonesia-flood-in-pesisir-selatan-west-sumatra-20261010"
+    }
+  ]
+}

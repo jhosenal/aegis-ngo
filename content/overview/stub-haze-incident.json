@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "synthetic": true,
+  "syntheticLabel": "Synthetic demonstration data. This is a made-up scenario for design review, not a real incident or real people.",
+  "generatedAt": "2026-10-14T10:30:00+08:00",
+  "incident": {
+    "id": "SYN-HZ-2026-0001",
+    "title": "Haze Situation Report",
+    "status": "ACTIVE",
+    "region": "Synthetic Region A",
+    "reportedAt": "2026-10-14T08:24:00+08:00",
+    "tags": ["Haze", "Air quality", "Cross-border"],
+    "situation": { "label": "Ongoing", "note": "Air quality remains poor in affected areas." }
+  },
+  "kpis": {
+    "airQuality": { "value": 156, "scale": "US AQI", "pollutant": "PM2.5", "band": "UNHEALTHY", "asOf": "2026-10-14T10:00:00+08:00", "trend": [20, 32, 48, 66, 84], "tag": "SYNTHETIC" },
+    "peopleAtRisk": { "total": 12480, "changePercent": 12, "communities": 8, "trend": [40, 44, 52, 58, 70], "tag": "SYNTHETIC" },
+    "affectedAreas": { "count": 8, "unit": "Communities", "trend": [30, 45, 62, 80], "tag": "SYNTHETIC" },
+    "resourceShortfall": { "criticalItems": 3, "actionNeeded": true, "tag": "SYNTHETIC" }
+  },
+  "map": {
+    "schematic": true,
+    "note": "Schematic sketch of a synthetic region. It is not a geographic map.",
+    "layers": [
+      { "id": "haze-extent", "label": "Haze extent", "defaultOn": true },
+      { "id": "air-quality", "label": "Air quality (PM2.5)", "defaultOn": true },
+      { "id": "communities", "label": "Affected communities", "defaultOn": true },
+      { "id": "ngo-sites", "label": "NGO sites", "defaultOn": false },
+      { "id": "boundary", "label": "Administrative boundary", "defaultOn": false }
+    ],
+    "areas": [
+      { "id": "community-1", "name": "Community 1", "aqi": 182, "band": "UNHEALTHY", "x": 46, "y": 28 },
+      { "id": "community-2", "name": "Community 2", "aqi": 156, "band": "UNHEALTHY", "x": 38, "y": 45 },
+      { "id": "community-3", "name": "Community 3", "aqi": 128, "band": "UNHEALTHY_SENSITIVE", "x": 66, "y": 55 },
+      { "id": "community-4", "name": "Community 4", "aqi": 98, "band": "MODERATE", "x": 52, "y": 78 },
+      { "id": "community-5", "name": "Community 5", "aqi": 171, "band": "UNHEALTHY", "x": 24, "y": 30 },
+      { "id": "community-6", "name": "Community 6", "aqi": 139, "band": "UNHEALTHY_SENSITIVE", "x": 78, "y": 36 },
+      { "id": "community-7", "name": "Community 7", "aqi": 119, "band": "UNHEALTHY_SENSITIVE", "x": 30, "y": 68 },
+      { "id": "community-8", "name": "Community 8", "aqi": 145, "band": "UNHEALTHY_SENSITIVE", "x": 62, "y": 22 }
+    ]
+  },
+  "groups": [
+    { "id": "children", "label": "Children (0-12)", "icon": "child", "count": 4320, "sharePercent": 35 },
+    { "id": "older-adults", "label": "Older adults (60+)", "icon": "older", "count": 2180, "sharePercent": 18 },
+    { "id": "respiratory", "label": "People with respiratory conditions", "icon": "respiratory", "count": 1960, "sharePercent": 16 },
+    { "id": "general", "label": "General population", "icon": "general", "count": 4020, "sharePercent": 32 }
+  ],
+  "shortfall": [
+    { "id": "n95", "item": "N95 masks", "type": "Equipment", "requested": 10000, "available": 3000, "shortfall": 7000, "priority": "CRITICAL", "tag": "SYNTHETIC" },
+    { "id": "purifiers", "item": "Air purifiers", "type": "Equipment", "requested": 200, "available": 50, "shortfall": 150, "priority": "HIGH", "tag": "SYNTHETIC" },
+    { "id": "respiratory-medicine", "item": "Respiratory medicine", "type": "Medical", "requested": 5000, "available": 2000, "shortfall": 3000, "priority": "HIGH", "tag": "SYNTHETIC" }
+  ],
+  "updates": [
+    { "id": "u1", "at": "2026-10-14T08:30:00+08:00", "text": "Air quality remains in unhealthy range across Synthetic Region A.", "kind": "AIR_QUALITY" },
+    { "id": "u2", "at": "2026-10-14T05:30:00+08:00", "text": "Additional 2 communities reported haze symptoms.", "kind": "HEALTH_REPORT" },
+    { "id": "u3", "at": "2026-10-14T02:30:00+08:00", "text": "10,000 masks requested from partner NGO.", "kind": "RESOURCE_REQUEST" }
+  ],
+  "assist": {
+    "title": "AI Assist",
+    "subtitle": "Your partner for faster, safer response.",
+    "footnote": "Answers are built from the data on this page. No AI model is used in this preview.",
+    "quickActions": [
+      { "id": "summarize", "label": "Summarize this incident" },
+      { "id": "draft-report", "label": "Draft situation report" },
+      { "id": "people-at-risk", "label": "Identify people at risk" },
+      { "id": "resources", "label": "Suggest required resources" }
+    ],
+    "suggestions": [
+      { "id": "generate-report", "label": "Generate report" },
+      { "id": "risk-factors", "label": "Key risk factors" },
+      { "id": "communication", "label": "Communication draft" }
+    ]
+  }
+}

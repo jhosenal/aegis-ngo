@@ -1,0 +1,7 @@
+{
+  "_note": "SYNTHETIC source registry. Real GDACS/HDX adapters are a later work order (WO-002). example.invalid URLs never resolve.",
+  "sources": [
+    { "sourceId": "SRC.SYNTH_FEED_A", "title": "Synthetic hazard feed A", "licenceRef": "LIC.SYNTHETIC-DEMO-NO-RIGHTS-CLAIMED", "validHours": 48, "adapterVersion": "fixture-1.0.0" },
+    { "sourceId": "SRC.SYNTH_FEED_B", "title": "Synthetic hazard feed B", "licenceRef": "LIC.SYNTHETIC-DEMO-NO-RIGHTS-CLAIMED", "validHours": 48, "adapterVersion": "fixture-1.0.0" }
+  ]
+}

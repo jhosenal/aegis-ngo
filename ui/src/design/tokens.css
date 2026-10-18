@@ -1,0 +1,53 @@
+/* GENERATED from tokens.json by tools/gen-design-tokens.py; edit tokens.json, then regenerate. tests/unit/design-tokens.test.ts checks that this file and tokens.json agree
+   and that every text pair reaches its contrast ratio. Colours of the owner's design D0001 to D0004 (see the origin of each in tokens.json). */
+:root {
+  --aeg-brand-navy: #09356E;
+  --aeg-brand-cyan: #00B7E5;
+  --aeg-primary-fill: #147BFD;
+  --aeg-primary-action: #1271E8;
+  --aeg-primary-text: #0E65D3;
+  --aeg-ink-strong: #00004E;
+  --aeg-ink: #1F2A44;
+  --aeg-ink-muted: #52606D;
+  --aeg-page-bg: #F1F9FD;
+  --aeg-nav-bg: #F6FAFD;
+  --aeg-surface: #FFFFFF;
+  --aeg-tile-bg: #E5F2FE;
+  --aeg-bar-track: #E4EBF4;
+  --aeg-info-chip-bg: #DBEDFD;
+  --aeg-user-bubble-bg: #D8EAFE;
+  --aeg-border: #D5E2EE;
+  --aeg-critical-bg: #FDE4E6;
+  --aeg-critical-text: #C6262E;
+  --aeg-high-bg: #FEEDDD;
+  --aeg-high-text: #C43A03;
+  --aeg-medium-bg: #FFF4CC;
+  --aeg-medium-text: #7A5A00;
+  --aeg-low-bg: #E5F2FE;
+  --aeg-low-text: #0F4C9A;
+  --aeg-positive-bg: #D5FAE5;
+  --aeg-positive-text: #007E56;
+  --aeg-badge-red: #FE022A;
+  --aeg-band-good: #009A6A;
+  --aeg-band-moderate: #FECD53;
+  --aeg-band-sensitive: #FF8A1F;
+  --aeg-band-unhealthy: #FB0B03;
+  --aeg-band-very-unhealthy: #8F3F97;
+  --aeg-band-hazardous: #7E0023;
+  --aeg-on-action: #FFFFFF;
+  --aeg-midnight-navy: #0A1F50;
+  --aeg-royal-blue: #0B409C;
+  --aeg-electric-cyan: #0BB7D9;
+  --aeg-ice-blue: #B8E5F9;
+  --aeg-pearl-white: #F6FBFF;
+
+  /* shape, space and type (chosen from the mockups: rounded cards, soft shadow, system type) */
+  --aeg-radius-card: 14px;
+  --aeg-radius-chip: 999px;
+  --aeg-radius-control: 10px;
+  --aeg-shadow-card: 0 1px 2px rgba(9, 53, 110, 0.06), 0 4px 14px rgba(9, 53, 110, 0.06);
+  --aeg-gap: 16px;
+  --aeg-target: 48px;
+  --aeg-font: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --aeg-focus: 3px solid #0E65D3;
+}

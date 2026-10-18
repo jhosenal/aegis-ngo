@@ -1,0 +1,30 @@
+[
+  {
+    "id": "HAZE-ID-EN-01",
+    "language": "en",
+    "country": "ID",
+    "hazard": "haze",
+    "severity": "moderate",
+    "title": "Haze emergency contact - Indonesia",
+    "region": "Indonesia",
+    "synthetic": false,
+    "lines": [
+      {
+        "id": "HAZE-ID-CONTACT",
+        "kind": "contact",
+        "text": "112 is Indonesia's single emergency call number under the regulation; it is organised at national and regional levels.",
+        "sourceId": "SRC-ID-112"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-ID-112",
+        "publisher": "Ministry of Communication and Informatics of the Republic of Indonesia (Komdigi)",
+        "url": "https://jdih.komdigi.go.id/produk_hukum/abstrak/278",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Layanan nomor tunggal panggilan darurat harus menggunakan nomor 112, diselenggarakan di tingkat nasional dan daerah serta dilaksanakan untuk penanganan keadaan darurat yang meliputi antara lain kebakaran."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1676 @@
+{
+  "schemaVersion": 1,
+  "bookId": "AEG-PRICEBOOK-GCP-MODELS",
+  "version": "1.7.0",
+  "asOf": "2026-10-17",
+  "currency": "USD",
+  "rules": "A price enters this book only with its source URL, access date and a quoted passage. status QUOTED means read on the publisher's own page; SECONDARY means a second-hand table. Prices change: re-read the source before relying on an old entry. A price that is absent is UNKNOWN, never zero.",
+  "prices": [
+    {
+      "priceId": "GCP.RUN.REQ.CPU.ACTIVE.T1",
+      "service": "cloud-run",
+      "description": "Request-based billing, CPU, active time, Tier 1 region",
+      "unit": "vCPU-second",
+      "per": "1",
+      "priceUsd": "0.000024",
+      "tier": "TIER_1",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Services (Requests-based billing) CPU (per vCPU-second) Active time $0.000024",
+        "note": "Read from the page's embedded per-region tables; the Tier 1 and Tier 2 attribution was checked by the pattern repeated across Taiwan, Iowa and Tokyo (Tier 1) and Singapore, Jakarta and Hong Kong (Tier 2).",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.000024\""
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.CPU.ACTIVE.T2",
+      "service": "cloud-run",
+      "description": "Request-based billing, CPU, active time, Tier 2 region (includes Singapore asia-southeast1 and Jakarta asia-southeast2)",
+      "unit": "vCPU-second",
+      "per": "1",
+      "priceUsd": "0.0000336",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Singapore (asia-southeast1) Services (Requests-based billing) CPU (per vCPU-second) Active time $0.0000336",
+        "note": "Embedded page data; identical for Singapore, Jakarta and Hong Kong.",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000336\"",
+            "Singapore (asia-southeast1)"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.CPU.IDLE.T1",
+      "service": "cloud-run",
+      "description": "Request-based billing, CPU, idle time of a minimum instance, Tier 1",
+      "unit": "vCPU-second",
+      "per": "1",
+      "priceUsd": "0.0000025",
+      "tier": "TIER_1",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "CPU (per vCPU-second) Idle time (Min instance 1) $0.0000025",
+        "note": "Idle instances that are not minimum instances are not charged (same page).",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000025\""
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.CPU.IDLE.T2",
+      "service": "cloud-run",
+      "description": "Request-based billing, CPU, idle time of a minimum instance, Tier 2",
+      "unit": "vCPU-second",
+      "per": "1",
+      "priceUsd": "0.0000035",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Singapore (asia-southeast1) CPU Idle time (Min instance 1) $0.0000035",
+        "note": "Embedded page data.",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000035\"",
+            "Singapore (asia-southeast1)"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.MEM.ACTIVE.T1",
+      "service": "cloud-run",
+      "description": "Request-based billing, memory, active time, Tier 1",
+      "unit": "GiB-second",
+      "per": "1",
+      "priceUsd": "0.0000025",
+      "tier": "TIER_1",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Memory (per GiB-second) Active time $0.0000025",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000025\""
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.MEM.ACTIVE.T2",
+      "service": "cloud-run",
+      "description": "Request-based billing, memory, active time, Tier 2",
+      "unit": "GiB-second",
+      "per": "1",
+      "priceUsd": "0.0000035",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Singapore (asia-southeast1) Memory Active time $0.0000035",
+        "note": "Embedded page data.",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000035\"",
+            "Singapore (asia-southeast1)"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.MEM.IDLE.T1",
+      "service": "cloud-run",
+      "description": "Request-based billing, memory, idle time of a minimum instance, Tier 1",
+      "unit": "GiB-second",
+      "per": "1",
+      "priceUsd": "0.0000025",
+      "tier": "TIER_1",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Memory (per GiB-second) Idle time (Min instance 1) $0.0000025",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000025\""
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.MEM.IDLE.T2",
+      "service": "cloud-run",
+      "description": "Request-based billing, memory, idle time of a minimum instance, Tier 2",
+      "unit": "GiB-second",
+      "per": "1",
+      "priceUsd": "0.0000035",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Singapore (asia-southeast1) Memory Idle time (Min instance 1) $0.0000035",
+        "note": "Embedded page data.",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.0000035\""
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.REQUESTS.T1",
+      "service": "cloud-run",
+      "description": "Requests, Tier 1",
+      "unit": "request",
+      "per": "1000000",
+      "priceUsd": "0.40",
+      "tier": "TIER_1",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Requests (per 1,000,000) $0.40",
+        "note": "Requests are only billed when they reach the container after successfully being authenticated, requests denied by IAM policy are not billed.",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.40\""
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.REQ.REQUESTS.T2",
+      "service": "cloud-run",
+      "description": "Requests, Tier 2",
+      "unit": "request",
+      "per": "1000000",
+      "priceUsd": "0.40",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Singapore (asia-southeast1) Requests (per 1,000,000) $0.40",
+        "note": "Embedded page data; the same figure as Tier 1.",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "\"$0.40\"",
+            "Singapore (asia-southeast1)"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.AR.STORAGE",
+      "service": "artifact-registry",
+      "description": "Artifact Registry storage above the free amount (regional and multi-regional are the same)",
+      "unit": "GiB-hour",
+      "per": "1",
+      "priceUsd": "0.000136986",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/artifact-registry/pricing",
+        "accessed": "2026-10-14",
+        "passage": "0.5 gibibyte month and above $0.000136986 / 1 gibibyte hour, per 1 month / account",
+        "note": "The pricing is the same for both regional and multi-regional repositories.",
+        "check": {
+          "file": "docs/99-inbox/R0059_artifact-registry-pricing.html",
+          "contains": [
+            "0.000136986",
+            "0.5 gibibyte month"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.BUILD.E2STD2",
+      "service": "cloud-build",
+      "description": "Cloud Build, e2-standard-2 default pool, per build-minute beyond the free minutes",
+      "unit": "build-minute",
+      "per": "1",
+      "priceUsd": "0.006",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/build/pricing",
+        "accessed": "2026-10-14",
+        "passage": "e2-standard-2 | 2 | 8 | Yes | $0.006",
+        "note": "Build-minutes are not incurred for the time that a build is queued.",
+        "check": {
+          "file": "docs/99-inbox/R0058_cloud-build-pricing.html",
+          "contains": [
+            "$0.006"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.AA.SCAN",
+      "service": "artifact-analysis",
+      "description": "Automatic vulnerability scan of a pushed container image (when the Container Scanning API is enabled)",
+      "unit": "scan",
+      "per": "1",
+      "priceUsd": "0.26",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/artifact-analysis/pricing",
+        "accessed": "2026-10-14",
+        "passage": "the price is $0.26 per scan",
+        "check": {
+          "file": "docs/99-inbox/R0060_artifact-analysis-pricing.html",
+          "contains": [
+            "$0.26 per scan"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "MODEL.REAPI.GPT-6-LUNA.IN",
+      "service": "model",
+      "description": "gpt-6-luna input via reAPI",
+      "unit": "million input tokens",
+      "per": "1",
+      "priceUsd": "0.08",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://reapi.ai/models/gpt-6-luna/llms.txt",
+        "accessed": "2026-10-15",
+        "passage": "standard / input: $0.08 per 1M tokens",
+        "note": "Checked against the provider quote for the owner-authorized local helper.",
+        "check": {
+          "file": "records/reviews/AEG-HELPER-001_2026-10-15_provider-price.txt",
+          "contains": [
+            "standard / input: $0.08"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "MODEL.REAPI.GPT-6-LUNA.OUT",
+      "service": "model",
+      "description": "gpt-6-luna output via reAPI",
+      "unit": "million output tokens",
+      "per": "1",
+      "priceUsd": "0.4",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://reapi.ai/models/gpt-6-luna/llms.txt",
+        "accessed": "2026-10-15",
+        "passage": "standard / output: $0.4 per 1M tokens",
+        "note": "Checked against the provider quote for the owner-authorized local helper.",
+        "check": {
+          "file": "records/reviews/AEG-HELPER-001_2026-10-15_provider-price.txt",
+          "contains": [
+            "standard / output: $0.4"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "MODEL.REAPI.GPT-6-SOL.IN",
+      "service": "model",
+      "description": "gpt-6-sol input via reAPI",
+      "unit": "million input tokens",
+      "per": "1",
+      "priceUsd": "1.6",
+      "tier": null,
+      "status": "SECONDARY",
+      "source": {
+        "url": "https://reapi.ai/models",
+        "accessed": "2026-10-06",
+        "passage": "reapi.ai/models and QZEEX table 2026-10-06"
+      }
+    },
+    {
+      "priceId": "MODEL.REAPI.GPT-6-SOL.OUT",
+      "service": "model",
+      "description": "gpt-6-sol output via reAPI",
+      "unit": "million output tokens",
+      "per": "1",
+      "priceUsd": "8",
+      "tier": null,
+      "status": "SECONDARY",
+      "source": {
+        "url": "https://reapi.ai/models",
+        "accessed": "2026-10-06",
+        "passage": "reapi.ai/models and QZEEX table 2026-10-06"
+      }
+    },
+    {
+      "priceId": "MODEL.REAPI.CLAUDE-OPUS-5-5.IN",
+      "service": "model",
+      "description": "claude-opus-5-5 input via reAPI",
+      "unit": "million input tokens",
+      "per": "1",
+      "priceUsd": "3.2",
+      "tier": null,
+      "status": "SECONDARY",
+      "source": {
+        "url": "https://reapi.ai/models",
+        "accessed": "2026-10-06",
+        "passage": "QZEEX table 2026-10-06 (reapi.ai/models now shows 2.80 input)"
+      }
+    },
+    {
+      "priceId": "MODEL.REAPI.CLAUDE-OPUS-5-5.OUT",
+      "service": "model",
+      "description": "claude-opus-5-5 output via reAPI",
+      "unit": "million output tokens",
+      "per": "1",
+      "priceUsd": "16",
+      "tier": null,
+      "status": "SECONDARY",
+      "source": {
+        "url": "https://reapi.ai/models",
+        "accessed": "2026-10-06",
+        "passage": "QZEEX table 2026-10-06 (the opus output price is not currently published)"
+      }
+    },
+    {
+      "priceId": "GCP.NET.EGRESS.PREMIUM.ASIA_EX_KR_ID.BAND1",
+      "service": "network",
+      "description": "Premium Tier internet data transfer out TO Asia excluding Korea and Indonesia, first volume band (1 to 1,024 GiB per month)",
+      "unit": "GiB",
+      "per": "1",
+      "priceUsd": "0.12",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/vpc/network-pricing",
+        "accessed": "2026-10-14",
+        "passage": "Network (data transfer out) TO Asia Excl Korea, Indonesia (per GiB in USD) 1 gibibyte to 1,024 gibibyte $0.12 / 1 gibibyte, per 1 month / account",
+        "note": "The network page also lists 0 to 1 GiB as free, but the Cloud Run page says its free tier is 1GiB \"within North America\", so the engine deducts NO free egress (conservative). Cloud Run: \"Outbound internet data transfer uses the Premium Network Service Tier and is charged at Google Cloud networking pricing\". Only the first volume band is modelled.",
+        "check": {
+          "file": "docs/99-inbox/R0068_network-pricing.html",
+          "contains": [
+            "TO Asia Excl Korea, Indonesia",
+            "$0.12 / 1 gibibyte"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.NET.EGRESS.PREMIUM.AU_ID_KR_SA_SAUDI.BAND1",
+      "service": "network",
+      "description": "Premium Tier internet data transfer out TO Australia, Indonesia, Korea, South America and Saudi Arabia, first volume band (0 to 1,024 GiB per month)",
+      "unit": "GiB",
+      "per": "1",
+      "priceUsd": "0.19",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/vpc/network-pricing",
+        "accessed": "2026-10-14",
+        "passage": "Network (data transfer out) TO Australia, Indonesia, Korea, South America, Saudi Arabia (per GiB in USD) 0 gibibyte to 1,024 gibibyte $0.19 / 1 gibibyte, per 1 month / account",
+        "note": "No free band is listed for this destination group. Only the first volume band is modelled.",
+        "check": {
+          "file": "docs/99-inbox/R0068_network-pricing.html",
+          "contains": [
+            "TO Australia, Indonesia, Korea, South America, Saudi Arabia",
+            "$0.19 / 1 gibibyte"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.SECRET.ACTIVE-VERSION.HOUR",
+      "service": "secret-manager",
+      "description": "Secret Manager active secret version beyond the free versions",
+      "unit": "secret-version-hour",
+      "per": "1",
+      "priceUsd": "0.000082192",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/secret-manager/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Active secret versions | 6 month and above $0.000082192 / 1 hour, per 1 month / account | Active secret versions 6 versions",
+        "note": "Page bills active versions hourly; it also shows $0.06 in an example calculation, not as the tariff row. Free limit is monthly per billing account.",
+        "check": {
+          "file": "docs/99-inbox/R0061_secret-manager-pricing.html",
+          "contains": [
+            "Active secret versions",
+            "6 month and above $0.000082192 / 1 hour, per 1 month / account",
+            "Active secret versions 6 versions"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.SECRET.ACCESS-OPS",
+      "service": "secret-manager",
+      "description": "Secret Manager access operations beyond the free operations",
+      "unit": "access operation",
+      "per": "10000",
+      "priceUsd": "0.03",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/secret-manager/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Access operations 0 count to 10,000 count $0.00 (Free) / 10,000 count, per 1 month / account 10,000 count and above $0.03 / 10,000 count, per 1 month / account | Access operations 10,000 operations",
+        "note": "Monthly free usage limit aggregates across projects by billing account.",
+        "check": {
+          "file": "docs/99-inbox/R0061_secret-manager-pricing.html",
+          "contains": [
+            "Access operations 0 count to 10,000 count $0.00 (Free) / 10,000 count, per 1 month / account 10,000 count and above $0.03 / 10,000 count, per 1 month / account",
+            "Access operations 10,000 operations"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.SECRET.ROTATION",
+      "service": "secret-manager",
+      "description": "Secret Manager rotation notification beyond the free notifications",
+      "unit": "notification",
+      "per": "1",
+      "priceUsd": "0.05",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/secret-manager/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Rotation Notifications 0 count to 3 count $0.00 (Free) / 1 count, per 1 month / account 3 count and above $0.05 / 1 count, per 1 month / account | Rotation Notifications 3 rotations",
+        "note": "The page says billing is per SECRET_ROTATE message sent to a Pub/Sub topic.",
+        "check": {
+          "file": "docs/99-inbox/R0061_secret-manager-pricing.html",
+          "contains": [
+            "Rotation Notifications 0 count to 3 count $0.00 (Free) / 1 count, per 1 month / account 3 count and above $0.05 / 1 count, per 1 month / account",
+            "Rotation Notifications 3 rotations"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.LOG.INGEST",
+      "service": "cloud-logging",
+      "description": "Cloud Logging ingestion beyond the free GiB per project per month",
+      "unit": "GiB",
+      "per": "1",
+      "priceUsd": "0.50",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/products/observability/pricing?hl=en",
+        "accessed": "2026-10-14",
+        "passage": "Logging storage* except for vended network logs. | $0.50/GiB | One-time charge for streaming logs into log bucket storage for indexing, querying, and analysis; includes up to 30 days of storage in log buckets. | First 50 GiB/project/month",
+        "note": "The page says no storage charge applies to logs in the _Required bucket; vended network logs have a separate rate.",
+        "check": {
+          "file": "docs/99-inbox/R0062_logging-monitoring-pricing.html",
+          "contains": [
+            "Logging storage* except for vended network logs.",
+            "$0.50/GiB",
+            "One-time charge for streaming logs into log bucket storage for indexing, querying, and analysis; includes up to 30 days of storage in log buckets.",
+            "First 50 GiB/project/month"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.LOG.RETENTION",
+      "service": "cloud-logging",
+      "description": "Cloud Logging retention of logs kept more than 30 days",
+      "unit": "GiB-month",
+      "per": "1",
+      "priceUsd": "0.01",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/products/observability/pricing?hl=en",
+        "accessed": "2026-10-14",
+        "passage": "Logging retention | $0.01 per GiB per month for logs retained more than 30 days; billed monthly according to retention. | Logs retained for the default retention period don't incur a retention cost.",
+        "note": "The _Required bucket has fixed retention of 400 days and no retention charge, as stated in the same saved page.",
+        "check": {
+          "file": "docs/99-inbox/R0062_logging-monitoring-pricing.html",
+          "contains": [
+            "Logging retention",
+            "$0.01 per GiB per month for logs retained more than 30 days; billed monthly according to retention.",
+            "Logs retained for the default retention period don't incur a retention cost."
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.SCHED.JOB",
+      "service": "cloud-scheduler",
+      "description": "Cloud Scheduler job beyond the free jobs (billed per 31 days)",
+      "unit": "job per 31 days",
+      "per": "1",
+      "priceUsd": "0.10",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/scheduler/pricing",
+        "accessed": "2026-10-14",
+        "passage": "A job is billed $0.10/job/31 days, which is $0.003 per day for each billable job. | Each Google billing account gets 3 jobs per month free. | Jobs 0 count to 93 count $0.00 (Free) / 31 count, per 1 month / account 93 count and above $0.10 / 31 count, per 1 month / account",
+        "note": "Free jobs are account-level, not project-level; paused jobs count as jobs. Both exact price representations are present on the page.",
+        "check": {
+          "file": "docs/99-inbox/R0067_scheduler-pricing.html",
+          "contains": [
+            "A job is billed $0.10/job/31 days, which is $0.003 per day for each billable job.",
+            "Each Google billing account gets 3 jobs per month free.",
+            "Jobs 0 count to 93 count $0.00 (Free) / 31 count, per 1 month / account 93 count and above $0.10 / 31 count, per 1 month / account"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "FB.HOSTING.STORAGE",
+      "service": "firebase-hosting",
+      "description": "Firebase Hosting storage beyond the free GB",
+      "unit": "GB-month",
+      "per": "1",
+      "priceUsd": "0.026",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://firebase.google.com/docs/hosting/usage-quotas-pricing",
+        "accessed": "2026-10-14",
+        "passage": "10 GB limit of no-cost Hosting storage | $0.026 for each additional GB of Hosting storage",
+        "note": "The saved page states that projects not on Blaze may have releases deleted or upgrade when the storage allowance is reached.",
+        "check": {
+          "file": "docs/99-inbox/R0066_firebase-hosting-pricing.html",
+          "contains": [
+            "10 GB limit of no-cost Hosting storage",
+            "$0.026 for each additional GB of Hosting storage"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "FB.HOSTING.TRANSFER",
+      "service": "firebase-hosting",
+      "description": "Firebase Hosting CDN transfer beyond the free GB per month",
+      "unit": "GB",
+      "per": "1",
+      "priceUsd": "0.15",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://firebase.google.com/docs/hosting/usage-quotas-pricing",
+        "accessed": "2026-10-14",
+        "passage": "Data transfer from the CDN to your end users is at no cost up to 10 GB/month. | $0.15 for each additional GB of data transferred that month",
+        "note": "The global CDN itself is stated as at no charge.",
+        "check": {
+          "file": "docs/99-inbox/R0066_firebase-hosting-pricing.html",
+          "contains": [
+            "Data transfer from the CDN to your end users is at no cost up to 10 GB/month.",
+            "$0.15 for each additional GB of data transferred that month"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.CDN.EGRESS.APAC.BAND1",
+      "service": "cloud-cdn",
+      "description": "Cloud CDN cached egress, Asia Pacific including Hong Kong, first volume band (0 to 10 TiB)",
+      "unit": "GiB",
+      "per": "1",
+      "priceUsd": "0.09",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/cdn/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Asia Pacific(including Hong Kong) | 0 byte to 10 tebibyte $0.09 / 1 gibibyte, per 1 month / account",
+        "note": "The page says network usage is measured in GiB; first volume band only.",
+        "check": {
+          "file": "docs/99-inbox/R0069_cloud-cdn-pricing.html",
+          "contains": [
+            "Asia Pacific(including Hong Kong)",
+            "0 byte to 10 tebibyte $0.09 / 1 gibibyte, per 1 month / account"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GEMINI.3-8-FLASH.IN.2026",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-3.8-flash, paid tier, standard, input tokens per 1M through 2026-12-31",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "0.75",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-3.8-flash",
+      "direction": "input",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 3.8 Flash gemini-3.8-flash Standard Paid Tier, per 1M tokens in USD Input price $0.75 through December 31, 2026. $1.50 starting January 1, 2027.",
+        "note": "Prices change by date on the page: the first figure applies through December 31, 2026 and the second starting January 1, 2027. The free tier of this model is free of charge but its content is 'Used to improve our products: Yes'.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-3.8-flash",
+            "$0.75 through December 31, 2026. $1.50 starting January 1, 2027."
+          ]
+        }
+      },
+      "validUntil": "2026-12-31"
+    },
+    {
+      "priceId": "GEMINI.3-8-FLASH.IN.2027",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-3.8-flash, paid tier, standard, input tokens per 1M, valid from 2027-01-01",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "1.50",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-3.8-flash",
+      "direction": "input",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 3.8 Flash gemini-3.8-flash Standard Paid Tier, per 1M tokens in USD Input price $0.75 through December 31, 2026. $1.50 starting January 1, 2027.",
+        "note": "Prices change by date on the page: the first figure applies through December 31, 2026 and the second starting January 1, 2027. The free tier of this model is free of charge but its content is 'Used to improve our products: Yes'.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-3.8-flash",
+            "$0.75 through December 31, 2026. $1.50 starting January 1, 2027."
+          ]
+        }
+      },
+      "validFrom": "2027-01-01"
+    },
+    {
+      "priceId": "GEMINI.3-8-FLASH.OUT.2026",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-3.8-flash, paid tier, standard, output tokens per 1M through 2026-12-31",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "3.75",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-3.8-flash",
+      "direction": "output",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 3.8 Flash gemini-3.8-flash Standard Paid Tier Output price (including thinking tokens) $3.75 through December 31, 2026. $7.50 starting January 1, 2027.",
+        "note": "Prices change by date on the page: the first figure applies through December 31, 2026 and the second starting January 1, 2027. The free tier of this model is free of charge but its content is 'Used to improve our products: Yes'.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-3.8-flash",
+            "$3.75 through December 31, 2026. $7.50 starting January 1, 2027."
+          ]
+        }
+      },
+      "validUntil": "2026-12-31"
+    },
+    {
+      "priceId": "GEMINI.3-8-FLASH.OUT.2027",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-3.8-flash, paid tier, standard, output tokens per 1M, valid from 2027-01-01",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "7.50",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-3.8-flash",
+      "direction": "output",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 3.8 Flash gemini-3.8-flash Standard Paid Tier Output price (including thinking tokens) $3.75 through December 31, 2026. $7.50 starting January 1, 2027.",
+        "note": "Prices change by date on the page: the first figure applies through December 31, 2026 and the second starting January 1, 2027. The free tier of this model is free of charge but its content is 'Used to improve our products: Yes'.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-3.8-flash",
+            "$3.75 through December 31, 2026. $7.50 starting January 1, 2027."
+          ]
+        }
+      },
+      "validFrom": "2027-01-01"
+    },
+    {
+      "priceId": "GEMINI.4-ARGON.IN.2026",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-4-argon, paid tier, standard, input tokens per 1M, through 2026-11-30",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "2.00",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-4-argon",
+      "direction": "input",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Gemini 4 Argon gemini-4-argon Standard Paid Tier, per 1M tokens in USD Input price $2.00 through November 30, 2026. $4.00 starting December 1, 2026.",
+        "note": "Prices change by date: the first figure applies through November 30, 2026 and the second starting December 1, 2026.",
+        "check": {
+          "file": "records/costs/sources/google-gemini-argon-pricing_2026-10-17.json",
+          "contains": [
+            "gemini-4-argon",
+            "$2.00 through November 30, 2026. $4.00 starting December 1, 2026."
+          ]
+        }
+      },
+      "validUntil": "2026-11-30"
+    },
+    {
+      "priceId": "GEMINI.4-ARGON.OUT.2026",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-4-argon, paid tier, standard, output tokens per 1M, through 2026-11-30",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "10.00",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-4-argon",
+      "direction": "output",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Gemini 4 Argon gemini-4-argon Standard Paid Tier, per 1M tokens in USD Output price (including thinking tokens) $10.00 through November 30, 2026. $20.00 starting December 1, 2026.",
+        "note": "Prices change by date: the first figure applies through November 30, 2026 and the second starting December 1, 2026.",
+        "check": {
+          "file": "records/costs/sources/google-gemini-argon-pricing_2026-10-17.json",
+          "contains": [
+            "gemini-4-argon",
+            "$10.00 through November 30, 2026. $20.00 starting December 1, 2026."
+          ]
+        }
+      },
+      "validUntil": "2026-11-30"
+    },
+    {
+      "priceId": "GEMINI.4-ARGON.IN.2027",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-4-argon, paid tier, standard, input tokens per 1M, valid from 2026-12-01",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "4.00",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-4-argon",
+      "direction": "input",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Gemini 4 Argon gemini-4-argon Standard Paid Tier, per 1M tokens in USD Input price $2.00 through November 30, 2026. $4.00 starting December 1, 2026.",
+        "note": "Prices change by date: the first figure applies through November 30, 2026 and the second starting December 1, 2026.",
+        "check": {
+          "file": "records/costs/sources/google-gemini-argon-pricing_2026-10-17.json",
+          "contains": [
+            "gemini-4-argon",
+            "$2.00 through November 30, 2026. $4.00 starting December 1, 2026."
+          ]
+        }
+      },
+      "validFrom": "2026-12-01"
+    },
+    {
+      "priceId": "GEMINI.4-ARGON.OUT.2027",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-4-argon, paid tier, standard, output tokens per 1M, valid from 2026-12-01",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "20.00",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-4-argon",
+      "direction": "output",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Gemini 4 Argon gemini-4-argon Standard Paid Tier, per 1M tokens in USD Output price (including thinking tokens) $10.00 through November 30, 2026. $20.00 starting December 1, 2026.",
+        "note": "Prices change by date: the first figure applies through November 30, 2026 and the second starting December 1, 2026.",
+        "check": {
+          "file": "records/costs/sources/google-gemini-argon-pricing_2026-10-17.json",
+          "contains": [
+            "gemini-4-argon",
+            "$10.00 through November 30, 2026. $20.00 starting December 1, 2026."
+          ]
+        }
+      },
+      "validFrom": "2026-12-01"
+    },
+    {
+      "priceId": "VERTEX.ARGON.TEXT.IN.GLOBAL",
+      "service": "vertex-ai",
+      "description": "Vertex AI, Gemini 4 Argon, global, text input tokens per 1M, online predictions (standard)",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "4.00",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-4-argon",
+      "direction": "input",
+      "source": {
+        "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Gemini 4 Argon Global Text Input - Online Predictions | 0.000004 per token (4.00 per million)",
+        "note": "Read from the Cloud Billing Catalog API (service Vertex AI) on 2026-10-17, effective 2026-10-17T07:00Z. Vertex AI bills Argon at 4 and 20 USD per million tokens, higher than the Gemini API page (2 and 10 until 30 Nov): production on Vertex AI uses these.",
+        "check": {
+          "file": "records/costs/sources/google-vertex-argon-skus_2026-10-17.json",
+          "contains": [
+            "Gemini 4 Argon Global Text Input - Online Predictions",
+            "4000"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "VERTEX.ARGON.TEXT.OUT.GLOBAL",
+      "service": "vertex-ai",
+      "description": "Vertex AI, Gemini 4 Argon, global, text output tokens per 1M, online predictions (standard)",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "20.00",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-4-argon",
+      "direction": "output",
+      "source": {
+        "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Gemini 4 Argon Global Text Output - Online Predictions | 0.00002 per token (20.00 per million)",
+        "note": "Read from the Cloud Billing Catalog API (service Vertex AI) on 2026-10-17, effective 2026-10-17T07:00Z. Vertex AI bills Argon at 4 and 20 USD per million tokens, higher than the Gemini API page (2 and 10 until 30 Nov): production on Vertex AI uses these.",
+        "check": {
+          "file": "records/costs/sources/google-vertex-argon-skus_2026-10-17.json",
+          "contains": [
+            "Gemini 4 Argon Global Text Output - Online Predictions",
+            "20000"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GEMINI.3-5-FLASH-LITE.IN",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-3.5-flash-lite, paid tier, standard, input tokens per 1M",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "0.30",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-3.5-flash-lite",
+      "direction": "input",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 3.5 Flash-Lite gemini-3.5-flash-lite Standard Paid Tier, per 1M tokens in USD Input price $0.30 (text / image / video / audio)",
+        "note": "Output price includes thinking tokens. The free tier of this model is free of charge but its content is 'Used to improve our products: Yes'.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-3.5-flash-lite",
+            "$0.30 (text / image / video / audio)"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GEMINI.3-5-FLASH-LITE.OUT",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-3.5-flash-lite, paid tier, standard, output tokens per 1M",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "2.50",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-3.5-flash-lite",
+      "direction": "output",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 3.5 Flash-Lite gemini-3.5-flash-lite Standard Paid Tier Output price (including thinking tokens) $2.50",
+        "note": "Output price includes thinking tokens. The free tier of this model is free of charge but its content is 'Used to improve our products: Yes'.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-3.5-flash-lite",
+            "Output price (including thinking tokens) Free of charge $2.50"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GEMINI.2-5-FLASH-LITE.IN",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-2.5-flash-lite, paid tier, standard, input tokens per 1M",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "0.10",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-2.5-flash-lite",
+      "direction": "input",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 2.5 Flash-Lite gemini-2.5-flash-lite Standard Free Tier Paid Tier, per 1M tokens in USD Input price (text, image, video) Free of charge $0.10 (text / image / video)",
+        "note": "Output price includes thinking tokens. The free tier is free of charge but its content is used to improve Google products.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-2.5-flash-lite",
+            "$0.10 (text / image / video)"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GEMINI.2-5-FLASH-LITE.OUT",
+      "service": "gemini-api",
+      "description": "Gemini Developer API, gemini-2.5-flash-lite, paid tier, standard, output tokens per 1M",
+      "unit": "million tokens",
+      "per": "1",
+      "priceUsd": "0.40",
+      "tier": null,
+      "status": "QUOTED",
+      "model": "gemini-2.5-flash-lite",
+      "direction": "output",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Gemini 2.5 Flash-Lite gemini-2.5-flash-lite Output price (including thinking tokens) Free of charge $0.40",
+        "note": "Output price includes thinking tokens. The free tier is free of charge but its content is used to improve Google products.",
+        "check": {
+          "file": "docs/99-inbox/R0080_gemini-api-pricing.html",
+          "contains": [
+            "gemini-2.5-flash-lite",
+            "$0.40"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GMP.AIRQUALITY.REQ.T1",
+      "service": "google-air-quality",
+      "description": "Air Quality API, one billable event, first volume band (1 to 100,000 events per month). currentConditions, heatmapTiles, and each history/forecast PAGE are one event each.",
+      "unit": "request",
+      "per": "1000",
+      "priceUsd": "5.00",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-15",
+        "passage": "Essentials | Air Quality Usage 90A9-B3FA-4A12 | free usage cap 10,000 | 0-100,000: $5.00 | 100,001-500,000: $4.00 | 500,001-1,000,000: $2.00 | 1,000,001-5,000,000: $0.50 | 5,000,000+: $0.25",
+        "note": "Only the first band is modelled; the quota gate refuses to cross 100,000 events, so the lower bands are never needed. The page does not mention a $200 monthly credit.",
+        "check": {
+          "file": "docs/99-inbox/R0161_gmp-pricing-list.html",
+          "contains": [
+            "Air Quality Usage",
+            "90A9-B3FA-4A12",
+            "$5.00"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GMP.WEATHER.REQ.T1",
+      "service": "google-weather",
+      "description": "Weather API, one billable event, first volume band (1 to 100,000 events per month). currentConditions, forecast.days, forecast.hours, history.hours and publicAlerts are one event each.",
+      "unit": "request",
+      "per": "1000",
+      "priceUsd": "0.15",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-15",
+        "passage": "Essentials | Weather Usage 9DB8-727A-ACFE | free usage cap 10,000 | 0-100,000: $0.15 | 100,001-500,000: $0.12 | 500,001-1,000,000: $0.09 | 1,000,001-5,000,000: $0.06 | 5,000,000+: $0.038",
+        "note": "Only the first band is modelled. Weather is far cheaper than Air Quality (about 1/33); it is NOT $5.00 per 1,000.",
+        "check": {
+          "file": "docs/99-inbox/R0161_gmp-pricing-list.html",
+          "contains": [
+            "Weather Usage",
+            "9DB8-727A-ACFE",
+            "$0.15"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.JOB.GPU.L4.NOZR.ASIA-SOUTHEAST1",
+      "service": "cloud-run",
+      "description": "Cloud Run jobs, NVIDIA L4 GPU, no zonal redundancy, asia-southeast1",
+      "unit": "GPU-second",
+      "per": "1",
+      "priceUsd": "0.00022404",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloudbilling.googleapis.com/v1/services/152E-C115-5142/skus?currencyCode=USD",
+        "accessed": "2026-10-16",
+        "passage": "NVIDIA L4 GPU with no zonal redundancy in asia-southeast1 (skuId 453B-678A-63C7) 0.00022404 USD per GPU-second; pricingInfo effectiveTime 2026-10-15T07:00:00Z",
+        "note": "Read from the Cloud Billing Catalog API on 2026-10-16; Singapore (asia-southeast1) is Tier 2 on the Cloud Run locations page already recorded in regionTiers. Cloud Run jobs use the \"no zonal redundancy\" GPU price (jobs documentation, updated 2026-10-13).",
+        "check": {
+          "file": "records/costs/sources/gcp-cloud-run-skus_2026-10-16.json",
+          "contains": [
+            "\"skuId\": \"453B-678A-63C7\"",
+            "\"nanos\": 224040"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.JOB.CPU.ASIA-SOUTHEAST1",
+      "service": "cloud-run",
+      "description": "Cloud Run jobs, CPU, asia-southeast1",
+      "unit": "vCPU-second",
+      "per": "1",
+      "priceUsd": "0.0000216",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloudbilling.googleapis.com/v1/services/152E-C115-5142/skus?currencyCode=USD",
+        "accessed": "2026-10-16",
+        "passage": "Jobs CPU in asia-southeast1 (skuId 827B-D6DA-48FA) 0.0000216 USD per vCPU-second; pricingInfo effectiveTime 2026-10-15T07:00:00Z",
+        "note": "Read from the Cloud Billing Catalog API on 2026-10-16; Singapore (asia-southeast1) is Tier 2 on the Cloud Run locations page already recorded in regionTiers. Cloud Run jobs use the \"no zonal redundancy\" GPU price (jobs documentation, updated 2026-10-13).",
+        "check": {
+          "file": "records/costs/sources/gcp-cloud-run-skus_2026-10-16.json",
+          "contains": [
+            "\"skuId\": \"827B-D6DA-48FA\"",
+            "\"nanos\": 21600"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.RUN.JOB.MEM.ASIA-SOUTHEAST1",
+      "service": "cloud-run",
+      "description": "Cloud Run jobs, memory, asia-southeast1",
+      "unit": "GiB-second",
+      "per": "1",
+      "priceUsd": "0.0000024",
+      "tier": "TIER_2",
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloudbilling.googleapis.com/v1/services/152E-C115-5142/skus?currencyCode=USD",
+        "accessed": "2026-10-16",
+        "passage": "Jobs Memory in asia-southeast1 (skuId 9A4F-60E0-BA38) 0.0000024 USD per GiB-second; pricingInfo effectiveTime 2026-10-15T07:00:00Z",
+        "note": "Read from the Cloud Billing Catalog API on 2026-10-16; Singapore (asia-southeast1) is Tier 2 on the Cloud Run locations page already recorded in regionTiers. Cloud Run jobs use the \"no zonal redundancy\" GPU price (jobs documentation, updated 2026-10-13).",
+        "check": {
+          "file": "records/costs/sources/gcp-cloud-run-skus_2026-10-16.json",
+          "contains": [
+            "\"skuId\": \"9A4F-60E0-BA38\"",
+            "\"nanos\": 2400"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GMP.DYNSTREETVIEW.REQ.T1",
+      "service": "google-streetview",
+      "description": "Maps JavaScript API Dynamic Street View, one billable event per panorama loaded, first volume band (1 to 100,000 per month).",
+      "unit": "panorama",
+      "per": "1000",
+      "priceUsd": "14.00",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Essentials | Dynamic Street View 658E-F885-E11A | free usage cap 5,000 | 0-100,000: $14.00 | 100,001-500,000: $11.20 | 500,001-1,000,000: $8.40 | 1,000,001-5,000,000: $4.20 | 5,000,000+: $1.05",
+        "note": "Confirmed by the Cloud Billing Catalog API on 2026-10-17 (SKU 658E-F885-E11A, count, 0.014 USD each after the first 5,000). One billable event is one panorama that loads in the page; every new spot a visitor walks to is another event, so AEGIS fixes the spot (walking off). Only the first band is modelled.",
+        "check": {
+          "file": "docs/99-inbox/R0161_gmp-pricing-list.html",
+          "contains": [
+            "Dynamic Street View",
+            "658E-F885-E11A",
+            "$14.00"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GMP.PLACES.TEXTSEARCH.ENT.T1",
+      "service": "google-places",
+      "description": "Places API (New) Text Search Enterprise (phone number, opening hours, website), one billable request, first volume band (1 to 100,000 per month). Used by the pin tag to fetch one place's details in the browser.",
+      "unit": "request",
+      "per": "1000",
+      "priceUsd": "35.00",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Places API Text Search Enterprise E967-44BC-B44D | free usage cap 1,000 | 0-100,000: $35.00 | next bands $28.00, $21.00, $10.50, $2.63",
+        "note": "Confirmed by the Cloud Billing Catalog API on 2026-10-17 (0 up to 1,000, then 35 per 1,000). A probe on 2026-10-17 returned phone, address, hours and website for one clinic. Only the first band is modelled.",
+        "check": {
+          "file": "docs/99-inbox/R0161_gmp-pricing-list.html",
+          "contains": [
+            "Places API Text Search Enterprise",
+            "E967-44BC-B44D",
+            "$35.00"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.TRANSLATE.NMT.CHAR.T1",
+      "service": "google-translate",
+      "description": "Cloud Translation (Basic, v2), neural machine translation, per character after the free allowance.",
+      "unit": "character",
+      "per": "1000000",
+      "priceUsd": "20.00",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/translate/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Neural Translation Model Predictions | 0.00002 per character (first paid band)",
+        "note": "Read from the Cloud Billing Catalog API on 2026-10-17 (service Translate). The monthly free allowance is not in the catalog rows and is not assumed here.",
+        "check": {
+          "file": "records/costs/sources/google-translate-skus_2026-10-17.json",
+          "contains": [
+            "Neural Translation Model Predictions",
+            "20000"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.TTS.STANDARD.CHAR.T1",
+      "service": "google-tts",
+      "description": "Cloud Text-to-Speech, standard voices, per character after the free allowance.",
+      "unit": "character",
+      "per": "1000000",
+      "priceUsd": "4.00",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/text-to-speech/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Count of characters for using standard voices | free up to 4,000,000 | then 0.000004 per character",
+        "note": "Read from the Cloud Billing Catalog API on 2026-10-17. Only the first paid band is modelled.",
+        "check": {
+          "file": "records/costs/sources/google-tts-skus_2026-10-17.json",
+          "contains": [
+            "standard voices",
+            "0.000004"
+          ]
+        }
+      }
+    },
+    {
+      "priceId": "GCP.TTS.WAVENET.CHAR.T1",
+      "service": "google-tts",
+      "description": "Cloud Text-to-Speech, WaveNet and Neural2 voices, per character after the free allowance.",
+      "unit": "character",
+      "per": "1000000",
+      "priceUsd": "16.00",
+      "tier": null,
+      "status": "QUOTED",
+      "source": {
+        "url": "https://cloud.google.com/text-to-speech/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Count of characters for using wavenet voices | free up to 1,000,000 | then 0.000016 per character",
+        "note": "Read from the Cloud Billing Catalog API on 2026-10-17. Only the first paid band is modelled.",
+        "check": {
+          "file": "records/costs/sources/google-tts-skus_2026-10-17.json",
+          "contains": [
+            "wavenet voices",
+            "0.000016"
+          ]
+        }
+      }
+    }
+  ],
+  "freeTiers": [
+    {
+      "freeId": "GCP.RUN.REQ.FREE.CPU",
+      "service": "cloud-run",
+      "unit": "vCPU-second",
+      "quantityPerMonth": "180000",
+      "scope": "billing-account",
+      "priceId": "GCP.RUN.REQ.CPU.ACTIVE.T1",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Free tier (based on us-central1 active pricing): CPU - First 180,000 vCPU-seconds free per month",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "180,000 vCPU-seconds free per month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.RUN.REQ.FREE.MEM",
+      "service": "cloud-run",
+      "unit": "GiB-second",
+      "quantityPerMonth": "360000",
+      "scope": "billing-account",
+      "priceId": "GCP.RUN.REQ.MEM.ACTIVE.T1",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "RAM - First 360,000 GiB-seconds free per month",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "360,000 GiB-seconds free per month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.RUN.REQ.FREE.REQUESTS",
+      "service": "cloud-run",
+      "unit": "request",
+      "quantityPerMonth": "2000000",
+      "scope": "billing-account",
+      "priceId": "GCP.RUN.REQ.REQUESTS.T1",
+      "source": {
+        "url": "https://docs.cloud.google.com/run/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Requests - 2 million requests free per month",
+        "check": {
+          "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+          "contains": [
+            "2 million requests free per month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.AR.FREE.STORAGE",
+      "service": "artifact-registry",
+      "unit": "GiB-month",
+      "quantityPerMonth": "0.5",
+      "scope": "billing-account",
+      "priceId": "GCP.AR.STORAGE",
+      "source": {
+        "url": "https://cloud.google.com/artifact-registry/pricing",
+        "accessed": "2026-10-14",
+        "passage": "0 gibibyte month to 0.5 gibibyte month $0.00 (Free)",
+        "check": {
+          "file": "docs/99-inbox/R0059_artifact-registry-pricing.html",
+          "contains": [
+            "0.5 gibibyte month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.BUILD.FREE.MINUTES",
+      "service": "cloud-build",
+      "unit": "build-minute",
+      "quantityPerMonth": "2500",
+      "scope": "billing-account",
+      "priceId": "GCP.BUILD.E2STD2",
+      "source": {
+        "url": "https://cloud.google.com/build/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Each billing account comes with 2,500 free build-minutes per month.",
+        "note": "Promotional, e2-standard-2 default pool, subject to change.",
+        "check": {
+          "file": "docs/99-inbox/R0058_cloud-build-pricing.html",
+          "contains": [
+            "2,500 free build-minutes per month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.SECRET.FREE.VERSIONS",
+      "service": "secret-manager",
+      "unit": "secret-version",
+      "quantityPerMonth": "6",
+      "scope": "billing-account",
+      "priceId": "GCP.SECRET.ACTIVE-VERSION.HOUR",
+      "source": {
+        "url": "https://cloud.google.com/secret-manager/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Active secret versions | 6 month and above $0.000082192 / 1 hour, per 1 month / account | Active secret versions 6 versions",
+        "note": "Page bills active versions hourly; it also shows $0.06 in an example calculation, not as the tariff row. Free limit is monthly per billing account.",
+        "check": {
+          "file": "docs/99-inbox/R0061_secret-manager-pricing.html",
+          "contains": [
+            "Active secret versions",
+            "6 month and above $0.000082192 / 1 hour, per 1 month / account",
+            "Active secret versions 6 versions"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.SECRET.FREE.ACCESS",
+      "service": "secret-manager",
+      "unit": "access operation",
+      "quantityPerMonth": "10000",
+      "scope": "billing-account",
+      "priceId": "GCP.SECRET.ACCESS-OPS",
+      "source": {
+        "url": "https://cloud.google.com/secret-manager/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Access operations 0 count to 10,000 count $0.00 (Free) / 10,000 count, per 1 month / account 10,000 count and above $0.03 / 10,000 count, per 1 month / account | Access operations 10,000 operations",
+        "note": "Monthly free usage limit aggregates across projects by billing account.",
+        "check": {
+          "file": "docs/99-inbox/R0061_secret-manager-pricing.html",
+          "contains": [
+            "Access operations 0 count to 10,000 count $0.00 (Free) / 10,000 count, per 1 month / account 10,000 count and above $0.03 / 10,000 count, per 1 month / account",
+            "Access operations 10,000 operations"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.SECRET.FREE.ROTATION",
+      "service": "secret-manager",
+      "unit": "notification",
+      "quantityPerMonth": "3",
+      "scope": "billing-account",
+      "priceId": "GCP.SECRET.ROTATION",
+      "source": {
+        "url": "https://cloud.google.com/secret-manager/pricing",
+        "accessed": "2026-10-14",
+        "passage": "Rotation Notifications 0 count to 3 count $0.00 (Free) / 1 count, per 1 month / account 3 count and above $0.05 / 1 count, per 1 month / account | Rotation Notifications 3 rotations",
+        "note": "The page says billing is per SECRET_ROTATE message sent to a Pub/Sub topic.",
+        "check": {
+          "file": "docs/99-inbox/R0061_secret-manager-pricing.html",
+          "contains": [
+            "Rotation Notifications 0 count to 3 count $0.00 (Free) / 1 count, per 1 month / account 3 count and above $0.05 / 1 count, per 1 month / account",
+            "Rotation Notifications 3 rotations"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.LOG.FREE.INGEST",
+      "service": "cloud-logging",
+      "unit": "GiB",
+      "quantityPerMonth": "50",
+      "scope": "project",
+      "priceId": "GCP.LOG.INGEST",
+      "source": {
+        "url": "https://cloud.google.com/products/observability/pricing?hl=en",
+        "accessed": "2026-10-14",
+        "passage": "Logging storage* except for vended network logs. | $0.50/GiB | One-time charge for streaming logs into log bucket storage for indexing, querying, and analysis; includes up to 30 days of storage in log buckets. | First 50 GiB/project/month",
+        "note": "The page says no storage charge applies to logs in the _Required bucket; vended network logs have a separate rate.",
+        "check": {
+          "file": "docs/99-inbox/R0062_logging-monitoring-pricing.html",
+          "contains": [
+            "Logging storage* except for vended network logs.",
+            "$0.50/GiB",
+            "One-time charge for streaming logs into log bucket storage for indexing, querying, and analysis; includes up to 30 days of storage in log buckets.",
+            "First 50 GiB/project/month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.SCHED.FREE.JOBS",
+      "service": "cloud-scheduler",
+      "unit": "job",
+      "quantityPerMonth": "3",
+      "scope": "billing-account",
+      "priceId": "GCP.SCHED.JOB",
+      "source": {
+        "url": "https://cloud.google.com/scheduler/pricing",
+        "accessed": "2026-10-14",
+        "passage": "A job is billed $0.10/job/31 days, which is $0.003 per day for each billable job. | Each Google billing account gets 3 jobs per month free. | Jobs 0 count to 93 count $0.00 (Free) / 31 count, per 1 month / account 93 count and above $0.10 / 31 count, per 1 month / account",
+        "note": "Free jobs are account-level, not project-level; paused jobs count as jobs. Both exact price representations are present on the page.",
+        "check": {
+          "file": "docs/99-inbox/R0067_scheduler-pricing.html",
+          "contains": [
+            "A job is billed $0.10/job/31 days, which is $0.003 per day for each billable job.",
+            "Each Google billing account gets 3 jobs per month free.",
+            "Jobs 0 count to 93 count $0.00 (Free) / 31 count, per 1 month / account 93 count and above $0.10 / 31 count, per 1 month / account"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "FB.HOSTING.FREE.STORAGE",
+      "service": "firebase-hosting",
+      "unit": "GB",
+      "quantityPerMonth": "10",
+      "scope": "project",
+      "priceId": "FB.HOSTING.STORAGE",
+      "source": {
+        "url": "https://firebase.google.com/docs/hosting/usage-quotas-pricing",
+        "accessed": "2026-10-14",
+        "passage": "10 GB limit of no-cost Hosting storage | $0.026 for each additional GB of Hosting storage",
+        "note": "The saved page states that projects not on Blaze may have releases deleted or upgrade when the storage allowance is reached.",
+        "check": {
+          "file": "docs/99-inbox/R0066_firebase-hosting-pricing.html",
+          "contains": [
+            "10 GB limit of no-cost Hosting storage",
+            "$0.026 for each additional GB of Hosting storage"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "FB.HOSTING.FREE.TRANSFER",
+      "service": "firebase-hosting",
+      "unit": "GB",
+      "quantityPerMonth": "10",
+      "scope": "project",
+      "priceId": "FB.HOSTING.TRANSFER",
+      "source": {
+        "url": "https://firebase.google.com/docs/hosting/usage-quotas-pricing",
+        "accessed": "2026-10-14",
+        "passage": "Data transfer from the CDN to your end users is at no cost up to 10 GB/month. | $0.15 for each additional GB of data transferred that month",
+        "note": "The global CDN itself is stated as at no charge.",
+        "check": {
+          "file": "docs/99-inbox/R0066_firebase-hosting-pricing.html",
+          "contains": [
+            "Data transfer from the CDN to your end users is at no cost up to 10 GB/month.",
+            "$0.15 for each additional GB of data transferred that month"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GMP.AIRQUALITY.FREE.REQ",
+      "service": "google-air-quality",
+      "unit": "request",
+      "quantityPerMonth": "10000",
+      "scope": "billing-account",
+      "priceId": "GMP.AIRQUALITY.REQ.T1",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-15",
+        "passage": "Air Quality Usage 90A9-B3FA-4A12 | 10,000",
+        "note": "Scope is the conservative reading (billing account); the page lists a monthly free usage cap per SKU without naming the scope. The SKU page lists the billable event as 'Successful request for Air Quality data'.",
+        "check": {
+          "file": "docs/99-inbox/R0162_gmp-sku-details.html",
+          "contains": [
+            "Successful request for Air Quality data",
+            "90A9-B3FA-4A12"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GMP.WEATHER.FREE.REQ",
+      "service": "google-weather",
+      "unit": "request",
+      "quantityPerMonth": "10000",
+      "scope": "billing-account",
+      "priceId": "GMP.WEATHER.REQ.T1",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-15",
+        "passage": "Weather Usage 9DB8-727A-ACFE | 10,000",
+        "note": "Scope is the conservative reading (billing account). The SKU page says billing is triggered for currentConditions, forecast.days, forecast.hours, history.hours and publicAlerts.",
+        "check": {
+          "file": "docs/99-inbox/R0162_gmp-sku-details.html",
+          "contains": [
+            "Billing is triggered for requests to the following endpoints/methods",
+            "9DB8-727A-ACFE"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GMP.DYNSTREETVIEW.FREE.REQ",
+      "service": "google-streetview",
+      "unit": "panorama",
+      "quantityPerMonth": "5000",
+      "scope": "billing-account",
+      "priceId": "GMP.DYNSTREETVIEW.REQ.T1",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Dynamic Street View 658E-F885-E11A | 5,000",
+        "note": "Scope is the conservative reading (billing account). The first tier of the catalog SKU is priced at zero up to 5,000.",
+        "check": {
+          "file": "records/costs/sources/google-dynamic-street-view-sku_2026-10-17.json",
+          "contains": [
+            "658E-F885-E11A",
+            "Dynamic Street View",
+            "5000"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GMP.PLACES.TEXTSEARCH.ENT.FREE.REQ",
+      "service": "google-places",
+      "unit": "request",
+      "quantityPerMonth": "1000",
+      "scope": "billing-account",
+      "priceId": "GMP.PLACES.TEXTSEARCH.ENT.T1",
+      "source": {
+        "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+        "accessed": "2026-10-17",
+        "passage": "Places API Text Search Enterprise E967-44BC-B44D | 1,000",
+        "note": "Scope is the conservative reading (billing account).",
+        "check": {
+          "file": "docs/99-inbox/R0161_gmp-pricing-list.html",
+          "contains": [
+            "E967-44BC-B44D",
+            "Places API Text Search Enterprise"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.TTS.STANDARD.FREE.CHAR",
+      "service": "google-tts",
+      "unit": "character",
+      "quantityPerMonth": "4000000",
+      "scope": "billing-account",
+      "priceId": "GCP.TTS.STANDARD.CHAR.T1",
+      "source": {
+        "url": "https://cloud.google.com/text-to-speech/pricing",
+        "accessed": "2026-10-17",
+        "passage": "standard voices | first 4,000,000 characters a month",
+        "note": "Scope is the conservative reading (billing account).",
+        "check": {
+          "file": "records/costs/sources/google-tts-skus_2026-10-17.json",
+          "contains": [
+            "standard voices",
+            "4000000"
+          ]
+        }
+      }
+    },
+    {
+      "freeId": "GCP.TTS.WAVENET.FREE.CHAR",
+      "service": "google-tts",
+      "unit": "character",
+      "quantityPerMonth": "1000000",
+      "scope": "billing-account",
+      "priceId": "GCP.TTS.WAVENET.CHAR.T1",
+      "source": {
+        "url": "https://cloud.google.com/text-to-speech/pricing",
+        "accessed": "2026-10-17",
+        "passage": "wavenet voices | first 1,000,000 characters a month",
+        "note": "Scope is the conservative reading (billing account).",
+        "check": {
+          "file": "records/costs/sources/google-tts-skus_2026-10-17.json",
+          "contains": [
+            "wavenet voices",
+            "1000000"
+          ]
+        }
+      }
+    }
+  ],
+  "runFreeTierRule": {
+    "text": "The free tier is applied as a spending based discount using Tier 1 pricing.",
+    "source": {
+      "url": "https://docs.cloud.google.com/run/pricing",
+      "accessed": "2026-10-14",
+      "passage": "The free tier is applied as a spending based discount using Tier 1 pricing.",
+      "check": {
+        "file": "docs/99-inbox/R0052_cloud-run-pricing.html",
+        "contains": [
+          "spending based discount using Tier 1 pricing"
+        ]
+      }
+    }
+  },
+  "regionTiers": {
+    "cloud-run": {
+      "TIER_1": [
+        "asia-east1",
+        "asia-northeast1",
+        "asia-northeast2",
+        "asia-south1",
+        "asia-southeast3",
+        "us-central1",
+        "us-east1",
+        "us-east4",
+        "us-east5",
+        "us-south1",
+        "us-west1"
+      ],
+      "TIER_2": [
+        "africa-south1",
+        "asia-east2",
+        "asia-northeast3",
+        "asia-southeast1",
+        "asia-southeast2",
+        "asia-south2",
+        "australia-southeast1",
+        "australia-southeast2",
+        "europe-central2"
+      ],
+      "source": {
+        "url": "https://docs.cloud.google.com/run/docs/locations",
+        "accessed": "2026-10-14",
+        "passage": "Subject to Tier 2 pricing africa-south1 (Johannesburg) asia-east2 (Hong Kong) asia-northeast3 (Seoul, South Korea) asia-southeast1 (Singapore) asia-southeast2 (Jakarta) asia-south2 (Delhi, India) australia-southeast1 (Sydney) australia-southeast2 (Melbourne) europe-central2 (Warsaw, Poland)",
+        "note": "Only regions read on that page are listed; any other region, for example Kuala Lumpur asia-southeast4 (on the pricing page but absent from this locations page), has an UNKNOWN tier."
+      }
+    }
+  }
+}

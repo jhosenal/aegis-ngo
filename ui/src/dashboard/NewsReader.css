@@ -1,0 +1,77 @@
+.news-reader-host { display: contents; }
+.news-reader { position: absolute; inset: 0; z-index: 10; pointer-events: none; isolation: isolate; }
+.news-reader-video { position: absolute; pointer-events: none; background: transparent; object-fit: contain; }
+.news-reader-label { position: absolute; right: 60px; bottom: 56px; padding: 2px 7px; border-radius: 4px; background: #123248d9; color: #fff; font-size: 10px; letter-spacing: .02em; pointer-events: none; }
+.news-reader-controls { position: absolute; right: 60px; bottom: 16px; box-sizing: border-box; height: 44px; padding: 4px; border: 1px solid #c8def0; border-radius: 8px; background: #f9fcfff5; box-shadow: 0 2px 8px #061c3b20; color: #123350; pointer-events: auto; font-family: inherit; }
+.news-reader-actions { display: flex; gap: 4px; height: 34px; }
+.news-reader-actions button { display: flex; align-items: center; justify-content: center; width: 32px; min-height: 34px; padding: 4px; font-size: 11px; border: 0; border-radius: 5px; background: transparent; color: #174169; font-weight: 700; }
+.news-reader-actions .reader-play { color: white; background: #0878ee; }
+.reader-status:empty { display: none; }
+.reader-status { position: absolute; bottom: 46px; right: 0; width: 230px; padding: 9px; border-radius: 7px; background: #f9fcff; font-size: 11px; line-height: 1.4; box-shadow: 0 2px 10px #061c3b30; }
+.reader-notice-sr { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.reader-transcript { position: absolute; right: 0; bottom: 46px; width: min(300px,calc(100vw - 90px)); box-sizing: border-box; padding: 12px; max-height: 240px; overflow-y: auto; border: 1px solid #c8def0; border-radius: 9px; background: #f9fcfff7; font-size: 12px; line-height: 1.5; box-shadow: 0 4px 15px #061c3b30; }
+.reader-transcript p { margin: 10px 0; }
+.reader-transcript strong, .reader-transcript small { display: block; }
+.reader-transcript small { color: #536c83; font-size: 10px; }
+.news-reader-controls button:focus-visible, .reader-transcript:focus-visible { outline: 3px solid #ffb224; outline-offset: 2px; }
+@media (max-width: 700px) {
+  .news-reader { height: 300px; }
+  .news-reader-video, .news-reader-label { display: none; }
+  .news-reader-controls { right: 60px; bottom: 16px; }
+  .reader-transcript { max-height: 160px; }
+}
+
+/* Keep both controls on one baseline, clear of the legal attribution strip. */
+.regional-map .gm-fullscreen-control { margin-bottom: 16px !important; }
+@media (prefers-reduced-motion: reduce) { .news-reader-video, .news-reader-label { visibility: hidden; } }
+
+.reader-subtitles { position:absolute; left:27%; right:28.5%; bottom:24px; box-sizing:border-box; height:36px; padding:2px 8px; display:flex; align-items:center; justify-content:center; border-radius:7px; background:#102d42ed; color:#fff; text-align:center; text-wrap:balance; font-weight:500; line-height:1.2; text-shadow:0 1px 2px #000; }
+.reader-subtitles > span { display:block; width:100%; min-width:0; margin:0; text-align:center; overflow-wrap:anywhere; }
+@media(prefers-reduced-motion:reduce) { .reader-subtitles { opacity:1 !important; } }
+.regional-map .news-reader-actions .reader-language[aria-pressed="true"] { background:#20506c; border-color:#a6dfff; box-shadow:inset 0 -3px #a6dfff; }
+@media(max-width:700px) { .reader-subtitles { left:12px; right:12px; bottom:72px; font-size:15px; } }
+
+.reader-language-controls { position:absolute; left:16px; bottom:24px; pointer-events:auto; }
+@media(max-width:700px) { .reader-language-controls { left:12px; } }
+@media(max-width:360px) { .reader-language-controls { bottom:68px; } .reader-subtitles { bottom:116px; } }
+
+.regional-map .news-reader-controls, .regional-map .map-expand { bottom:24px; }
+
+.reader-disclosure { position:absolute; bottom:var(--reader-credit-bottom,0px); left:auto; right:var(--reader-credit-right,390px); width:max-content; max-width:calc(60% - 80px); height:var(--reader-credit-height,14px); box-sizing:border-box; display:flex; align-items:center; padding:0 4px; background:#f5f5f5b3; color:#111; font-family:inherit; font-size:10px; font-weight:400; line-height:14px; }
+@media(max-width:700px) { .reader-disclosure { top:300px; bottom:auto; left:12px; right:auto; max-width:calc(100% - 24px); height:28px; } .regional-app .map-top-toolbar { padding-top:38px; } }
+
+/* Admin preview of a bulletin: extra marks on the real reader (AEG-NEWS-005). */
+.news-reader .news-preview-banner { position:absolute; top:50%; right:12px; transform:translateY(-50%); z-index:12; width:118px; padding:6px 8px; border-radius:6px; background:#b45309; color:#fff; font-size:11px; font-weight:600; letter-spacing:.03em; text-align:center; line-height:1.3; pointer-events:none; }
+.news-reader .news-preview-note { position:absolute; left:3%; bottom:88px; max-width:34%; color:#fff; font-size:11px; line-height:1.3; text-shadow:0 1px 3px #000; pointer-events:none; }
+.news-reader .news-preview-lower { position:absolute; left:3%; right:36%; bottom:56px; padding:5px 10px; border-left:4px solid #3b82c4; background:#102d42ed; color:#fff; font-size:12px; line-height:1.25; border-radius:4px; pointer-events:none; }
+.news-preview-error { position:absolute; top:48px; left:50%; transform:translateX(-50%); padding:8px 14px; border-radius:6px; background:#7f1d1d; color:#fff; font-size:13px; pointer-events:auto; }
+
+/* Latest news button, next to the map layers (owner request 2026-10-17) */
+.regional-app .map-top-toolbar .map-news-button { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 5px 12px; border: 1px solid #6c9bad44; border-radius: 8px; background: #0b2638e8; color: #e6f1fb; font-size: 11px; font-weight: 800; box-shadow: 0 4px 18px #00112022; cursor: pointer; white-space: nowrap; }
+.regional-app .map-top-toolbar .map-news-button:hover { background: #12405c; }
+.regional-app .map-top-toolbar .map-news-button:focus-visible { outline: 2px solid #a6dfff; outline-offset: 2px; }
+
+/* Right rail above the fullscreen button; playback stays below the presenter. */
+.regional-map .reader-language-controls { left:auto; right:16px; bottom:112px; height:auto; flex-direction:column; gap:6px; }
+.regional-map .reader-visibility-control { position:absolute; right:16px; bottom:68px; height:36px; pointer-events:auto; }
+.regional-map .reader-standard-player { left:var(--reader-presenter-left,64%); right:64px; bottom:24px; height:36px; padding:0 4px; border:1px solid #789bad55; border-radius:7px; background:#123248ed; color:white; }
+.reader-standard-player .news-reader-actions { align-items:center; gap:5px; }
+.regional-map .reader-standard-player button { flex:none; border:0; background:transparent; box-shadow:none; width:28px; }
+.reader-standard-player .reader-seek { box-sizing:border-box; width:0; height:18px; min-height:0; flex:1; min-width:25px; margin:0; padding:0; border:0; border-radius:0; appearance:none; background:linear-gradient(to right,#a6dfff 0%,#a6dfff var(--reader-progress,0%),#66849a var(--reader-progress,0%),#66849a 100%) center / calc(100% - 14px) 4px no-repeat; cursor:pointer; }
+.reader-standard-player .reader-seek::-webkit-slider-runnable-track { height:4px; background:transparent; }
+.reader-standard-player .reader-seek::-moz-range-track { height:4px; background:transparent; }
+.reader-standard-player .reader-seek::-webkit-slider-thumb { width:14px; height:14px; margin-top:-5px; border:2px solid #eaf7ff; border-radius:50%; appearance:none; background:#a6dfff; cursor:pointer; }
+.reader-standard-player .reader-seek::-moz-range-thumb { width:10px; height:10px; border:2px solid #eaf7ff; border-radius:50%; background:#a6dfff; cursor:pointer; }
+.reader-standard-player .reader-seek:focus-visible { outline:2px solid #a6dfff; outline-offset:2px; }
+.reader-standard-player .reader-time { white-space:nowrap; font-size:9px; font-variant-numeric:tabular-nums; }
+@media(max-width:700px){ .regional-map .reader-standard-player { left:12px; right:64px; bottom:24px; } .regional-map .reader-language-controls { right:16px; bottom:112px; left:auto; } }
+
+/* Compact transport: one third of the former under-presenter span. */
+.regional-map .reader-standard-player { left:auto; right:64px; width:calc((100% - var(--reader-presenter-left,64%) - 64px) / 3); min-width:104px; }
+.reader-standard-player .reader-time { display:none; }
+.regional-map .reader-standard-player button { width:24px; }
+.reader-standard-player .news-reader-actions { gap:2px; }
+.reader-standard-player .reader-seek { min-width:20px; }
+@media(max-width:700px) { .regional-map .reader-standard-player { left:auto; right:64px; width:calc((100% - 76px) / 3); min-width:104px; } }
+
+.reader-disclosure { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:block; }

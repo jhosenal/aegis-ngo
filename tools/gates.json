@@ -1,0 +1,360 @@
+{
+  "TSK-000": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/engine/canonical.ts",
+      "src/audit/chain-core.ts",
+      "src/registry/formulations/resource-shortfall.ts",
+      "src/providers/budget-ledger.ts",
+      "migrations/001_init.sql",
+      "docs/06-engineering/AEG-ADR-005_installed-versions.md",
+      "docs/06-engineering/AEG-LOG-002_build-log.md"
+    ],
+    "limitations": "Golden vectors only; no application behaviour yet."
+  },
+  "TSK-001": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/unit/config.test.ts tests/unit/clockIds.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/config/config.ts",
+      "src/engine/clock.ts",
+      "src/engine/ids.ts",
+      "tests/unit/config.test.ts",
+      "tests/unit/clockIds.test.ts"
+    ],
+    "limitations": "Configuration and injected time/ids only."
+  },
+  "TSK-002": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/unit/db.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/data/db.ts",
+      "src/data/migrate.ts",
+      "src/data/migrate-cli.ts",
+      "tests/unit/db.test.ts"
+    ],
+    "limitations": "SQLite file DB tested on this machine only."
+  },
+  "TSK-003": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/unit/lexicon.test.ts tests/integration/registry.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/registry/lexicon.ts",
+      "src/registry/formulations.ts",
+      "tests/unit/lexicon.test.ts",
+      "tests/integration/registry.test.ts"
+    ],
+    "limitations": "Lexicon is project-defined; not an external standard."
+  },
+  "TSK-004": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/audit.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/audit/chainStore.ts",
+      "tools/verify-audit.ts",
+      "tests/integration/audit.test.ts"
+    ],
+    "limitations": "Hash chain: tail truncation and full rewrite need an external checkpoint. Not a Merkle proof."
+  },
+  "TSK-005": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/unit/normalize.test.ts tests/integration/evidence.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/sources/normalize.ts",
+      "src/sources/fixtureAdapter.ts",
+      "src/sources/evidenceView.ts",
+      "src/data/repos/evidence.ts",
+      "src/services/incidentCards.ts",
+      "src/services/seed.ts",
+      "src/services/seed-cli.ts",
+      "tests/unit/normalize.test.ts",
+      "tests/integration/evidence.test.ts"
+    ],
+    "limitations": "Synthetic fixtures only; no live feed."
+  },
+  "TSK-006": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/workflow.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/registry/routes.ts",
+      "src/registry/workflows.ts",
+      "src/services/workflowEngine.ts",
+      "tests/integration/workflow.test.ts"
+    ],
+    "limitations": "Synchronous atomic workflows; no background worker or outbox."
+  },
+  "TSK-007": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/cards.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/data/repos/cards.ts",
+      "src/data/repos/pins.ts",
+      "src/services/cardService.ts",
+      "tests/integration/cards.test.ts"
+    ],
+    "limitations": "Service level only."
+  },
+  "TSK-008": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/assessment.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/services/workflows/resourceAssessment.ts",
+      "tests/integration/assessment.test.ts"
+    ],
+    "limitations": "Workflow level; synthetic data; no models."
+  },
+  "TSK-009": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/api-auth.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/api/server.ts",
+      "src/api/auth.ts",
+      "src/api/errors.ts",
+      "src/api/main.ts",
+      "tests/integration/api-auth.test.ts"
+    ],
+    "limitations": "Demo authentication is not production authentication."
+  },
+  "TSK-010": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/api-workflow.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/api/routes/workflows.ts",
+      "src/api/routes/audit.ts",
+      "src/api/routes/budget.ts",
+      "tests/integration/api-workflow.test.ts"
+    ],
+    "limitations": "Fixture-tested through in-process HTTP."
+  },
+  "TSK-011": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/gateway.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/providers/stubs.ts",
+      "src/providers/gateway.ts",
+      "src/providers/circuit.ts",
+      "src/providers/pricing.ts",
+      "tests/integration/gateway.test.ts"
+    ],
+    "limitations": "Stub providers only. Nothing here is live-tested."
+  },
+  "TSK-012": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/unit/router.test.ts tests/integration/chat.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/chat/router.ts",
+      "src/chat/chatService.ts",
+      "src/roles/manager.ts",
+      "src/roles/validate.ts",
+      "src/api/routes/chat.ts",
+      "tests/unit/router.test.ts",
+      "tests/integration/chat.test.ts"
+    ],
+    "limitations": "Stub providers only. Nothing here is live-tested."
+  },
+  "TSK-013": {
+    "commands": [
+      "npm run typecheck",
+      "npm run build:ui",
+      "npm run test -- tests/integration/static-ui.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "ui/index.html",
+      "ui/vite.config.ts",
+      "ui/src/main.tsx",
+      "ui/src/App.tsx",
+      "src/api/staticUi.ts",
+      "tests/integration/static-ui.test.ts"
+    ],
+    "limitations": "Build and static serving only."
+  },
+  "TSK-014": {
+    "commands": [
+      "npm run typecheck",
+      "npm run build:ui",
+      "npm run test -- tests/unit/ui-render.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "ui/src/format.ts",
+      "ui/src/components/CardView.tsx",
+      "ui/src/components/ChatPanel.tsx",
+      "ui/src/components/AssessmentForm.tsx",
+      "tests/unit/ui-render.test.ts"
+    ],
+    "limitations": "Pure helper tests plus build; browser behaviour is TSK-015."
+  },
+  "TSK-015": {
+    "commands": [
+      "npm run typecheck",
+      "npm run build:ui",
+      "npm run test:browser",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "playwright.config.ts",
+      "records/screenshots/desktop-workspace.png",
+      "records/screenshots/mobile-chat.png",
+      "records/screenshots/mobile-sheet.png"
+    ],
+    "limitations": "Not an accessibility audit. Chromium only."
+  },
+  "TSK-016": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/unit/safeFetch.test.ts tests/integration/security.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/sources/safeFetch.ts",
+      "tests/unit/safeFetch.test.ts",
+      "tests/integration/security.test.ts"
+    ],
+    "limitations": "Injected resolvers and fake fetch only; no real network."
+  },
+  "TSK-017": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/evaluation.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/services/evaluation.ts",
+      "tests/integration/evaluation.test.ts"
+    ],
+    "limitations": "Router alias candidate only."
+  },
+  "TSK-018": {
+    "commands": [
+      "npm run typecheck",
+      "npm run trace",
+      "npm run test -- tests/unit/trace.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "tools/trace.ts",
+      "tools/trace-map.json",
+      "tests/unit/trace.test.ts"
+    ],
+    "limitations": "Traceability reflects fixture-tested evidence only."
+  },
+  "TSK-019": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/google-adapter.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/providers/google.ts",
+      "tests/integration/google-adapter.test.ts"
+    ],
+    "limitations": "Unit tests with fake fetch. live-tested only with separate live evidence."
+  },
+  "TSK-020": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/cloud-config.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "Dockerfile",
+      "deploy/README-deploy.md",
+      "tests/integration/cloud-config.test.ts"
+    ],
+    "limitations": "Files prepared only. Not deployed. Storage is ephemeral."
+  },
+  "TSK-021": {
+    "commands": [
+      "npm run typecheck",
+      "npm run test -- tests/integration/reapi-adapter.test.ts",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "src/providers/reapi.ts",
+      "tests/integration/reapi-adapter.test.ts"
+    ],
+    "limitations": "Unit tests with fake fetch only."
+  },
+  "TSK-022": {
+    "commands": [
+      "npm run typecheck",
+      "npm run build:ui",
+      "npm run test -- tests/unit/projection.test.ts",
+      "npm run test:browser",
+      "npm run test",
+      "npm run verify:docs"
+    ],
+    "requiredFiles": [
+      "ui/src/scene/projection.ts",
+      "ui/src/scene/SceneBackground.tsx",
+      "ui/src/scene/sceneRuntime.ts",
+      "tests/unit/projection.test.ts",
+      "tests/browser/scene.spec.ts",
+      "records/screenshots/scene-desktop.png",
+      "records/screenshots/scene-mobile.png"
+    ],
+    "limitations": "Screenshots are not an accessibility audit. Chromium only. Visual quality is judged by the engineer."
+  }
+}

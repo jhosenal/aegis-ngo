@@ -1,0 +1,20 @@
+{
+  "AEG-REQ-001": { "implementation": ["src/api/auth.ts", "src/data/repos/apiAuth.ts", "migrations/001_init.sql"], "tests": ["tests/integration/api-auth.test.ts", "tests/integration/security.test.ts"], "gateTasks": ["TSK-009", "TSK-016"] },
+  "AEG-REQ-002": { "implementation": ["src/registry/formulations.ts", "src/registry/lexicon.ts", "src/registry/formulations/resource-shortfall.ts"], "tests": ["tests/integration/registry.test.ts", "tests/unit/lexicon.test.ts", "tests/unit/golden.test.ts"], "gateTasks": ["TSK-003"] },
+  "AEG-REQ-003": { "implementation": ["src/registry/routes.ts", "src/registry/workflows.ts", "src/roles/validate.ts", "src/chat/router.ts"], "tests": ["tests/integration/workflow.test.ts", "tests/unit/router.test.ts", "tests/integration/chat.test.ts"], "gateTasks": ["TSK-006", "TSK-012"] },
+  "AEG-REQ-004": { "implementation": ["src/services/workflowEngine.ts", "src/services/workflows/resourceAssessment.ts"], "tests": ["tests/integration/assessment.test.ts", "tests/integration/workflow.test.ts"], "gateTasks": ["TSK-008"] },
+  "AEG-REQ-005": { "implementation": ["src/sources/normalize.ts", "src/sources/fixtureAdapter.ts", "src/sources/evidenceView.ts", "src/data/repos/evidence.ts"], "tests": ["tests/unit/normalize.test.ts", "tests/integration/evidence.test.ts"], "gateTasks": ["TSK-005"] },
+  "AEG-REQ-006": { "implementation": ["src/data/repos/cards.ts", "src/data/repos/pins.ts", "src/services/cardService.ts"], "tests": ["tests/integration/cards.test.ts", "tests/browser/aegis.spec.ts"], "gateTasks": ["TSK-007", "TSK-015"] },
+  "AEG-REQ-007": { "implementation": ["ui/src/App.tsx", "ui/src/components/CardView.tsx", "ui/src/components/ChatPanel.tsx"], "tests": ["tests/browser/aegis.spec.ts", "tests/unit/ui-render.test.ts"], "gateTasks": ["TSK-013", "TSK-014", "TSK-015"] },
+  "AEG-REQ-008": { "implementation": ["src/providers/gateway.ts", "src/providers/stubs.ts", "src/providers/circuit.ts", "src/roles/manager.ts"], "tests": ["tests/integration/gateway.test.ts"], "gateTasks": ["TSK-011", "TSK-019", "TSK-021"] },
+  "AEG-REQ-009": { "implementation": ["src/providers/budget-ledger.ts", "src/providers/pricing.ts"], "tests": ["tests/integration/gateway.test.ts"], "gateTasks": ["TSK-011"] },
+  "AEG-REQ-010": { "implementation": ["src/registry/formulations/resource-shortfall.ts", "src/services/workflows/resourceAssessment.ts"], "tests": ["tests/integration/assessment.test.ts", "tests/unit/golden.test.ts"], "gateTasks": ["TSK-008"] },
+  "AEG-REQ-011": { "implementation": ["src/services/workflowEngine.ts", "src/api/routes/workflows.ts"], "tests": ["tests/integration/workflow.test.ts", "tests/integration/api-workflow.test.ts"], "gateTasks": ["TSK-006", "TSK-010"] },
+  "AEG-REQ-012": { "implementation": ["src/audit/chain-core.ts", "src/audit/chainStore.ts", "tools/verify-audit.ts"], "tests": ["tests/integration/audit.test.ts"], "gateTasks": ["TSK-004"] },
+  "AEG-REQ-013": { "implementation": ["src/api/auth.ts", "src/api/routes/pins.ts", "src/api/routes/chat.ts", "src/data/repos/pins.ts"], "tests": ["tests/integration/security.test.ts", "tests/integration/api-auth.test.ts"], "gateTasks": ["TSK-009", "TSK-016"] },
+  "AEG-REQ-014": { "implementation": ["src/services/evaluation.ts"], "tests": ["tests/integration/evaluation.test.ts"], "gateTasks": ["TSK-017"] },
+  "AEG-REQ-015": { "implementation": ["src/sources/safeFetch.ts", "src/sources/normalize.ts"], "tests": ["tests/unit/safeFetch.test.ts", "tests/unit/normalize.test.ts"], "gateTasks": ["TSK-016"] },
+  "AEG-REQ-016": { "implementation": ["src/data/db.ts", "Dockerfile", "deploy/service.yaml"], "tests": ["tests/unit/db.test.ts", "tests/integration/cloud-config.test.ts"], "gateTasks": [] },
+  "AEG-REQ-017": { "implementation": ["tools/trace.ts", "tools/run-gate.mjs"], "tests": ["tests/unit/trace.test.ts"], "gateTasks": ["TSK-018"] },
+  "AEG-REQ-018": { "implementation": ["src/providers/gateway.ts", "src/providers/google.ts", "src/providers/reapi.ts"], "tests": ["tests/integration/gateway.test.ts", "tests/integration/google-adapter.test.ts", "tests/integration/reapi-adapter.test.ts", "tests/live/google.live.test.ts"], "gateTasks": [] }
+}

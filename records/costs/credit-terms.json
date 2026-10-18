@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "source": {
+    "publisher": "Google Cloud",
+    "title": "Free Google Cloud features and trial offer | Google Cloud Free Program",
+    "url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+    "lastUpdatedByPublisher": "2026-10-13",
+    "accessed": "2026-10-14",
+    "savedFilePrefix": "0018_",
+    "savedFileNote": "Owner-supplied saved copy in docs/99-inbox (read-only evidence). Every quote below must be found in it by the test suite."
+  },
+  "creditValidDays": 90,
+  "rules": [
+    { "id": "CT-1", "meaning": "The welcome credit is 300 USD, spent over 90 days.", "quote": "The Free Trial gets you a $300 Welcome credit to spend over 90 days on various Google Cloud products and you won't be billed." },
+    { "id": "CT-2", "meaning": "The credit pays for products covered by the Free Trial, including usage beyond the Free Tier limits.", "quote": "You can spend your $300 credit on products and services covered by the Free Trial, including on usage beyond the Free Tier limits." },
+    { "id": "CT-3", "meaning": "The credit cannot pay for Gemini API in AI Studio; that is funded by the Gemini prepay balance.", "quote": "The $300 credit can't pay for Gemini API in AI Studio costs." },
+    { "id": "CT-4", "meaning": "The credit cannot pay for a generative AI partner model offered as a managed API.", "quote": "You can't access or use the $300 credit for a generative AI partner model that is offered as a managed API" },
+    { "id": "CT-5", "meaning": "After an upgrade to a paid account the unused credit is kept until it expires 90 days from signup.", "quote": "you keep any unused credit until it expires 90 days from the Free Trial signup" },
+    { "id": "CT-6", "meaning": "Only credit-covered products inside the 90 days use the credit.", "quote": "Your remaining credit is available for use on products and services covered by the Free Trial, but they must be consumed within the original 90 days period from your sign-up date." },
+    { "id": "CT-7", "meaning": "Usage beyond the remaining credit, or on products that are not part of the Free Trial, is billed to the owner's card.", "quote": "You'll only be billed for usage that exceeds your remaining credit or for usage on products that aren't part of the Free Trial program." },
+    { "id": "CT-8", "meaning": "On a paid account the payment method is charged for usage beyond the credit, the Free Tier limits, or products outside the Free Trial.", "quote": "Your payment method is charged for any usage that exceeds your remaining credit, the Free Tier limits, or usage on products that aren't part of the Free Trial." }
+  ],
+  "coverageClasses": {
+    "COVERED_OBSERVED": "A billing report showed the credit applied to this service. The credit is expected to pay for it.",
+    "COVERED_ASSUMED": "The service is a Google Cloud product that the Free Trial rule (CT-2) is expected to cover, but the list of covered products is on a page we have not saved and no billing report has confirmed it yet. Planning uses the credit and reports the amount that would reach the card if the assumption is wrong.",
+    "EXCLUDED_GEMINI_AI_STUDIO": "Gemini API in AI Studio: the credit cannot pay (CT-3). The Gemini prepay balance pays, and anything beyond it reaches the card.",
+    "EXCLUDED_PARTNER_MODEL": "A generative AI partner model offered as a managed API: the credit cannot pay (CT-4). All of it reaches the card.",
+    "NOT_COVERED": "Not a Google Cloud Free Trial product at all (for example a third-party model service). All of it reaches the card unless the owner funds it from another source.",
+    "UNCLASSIFIED": "Coverage is not known. Treated as reaching the card and flagged; never assumed covered."
+  },
+  "services": [
+    { "service": "Vertex AI", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product (first-party Gemini on Vertex AI is not a partner model); CT-2 and not CT-4. Not yet seen in a billing report." },
+    { "service": "Cloud Text-to-Speech", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Cloud Translation", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Cloud Run", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Artifact Registry", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Cloud Build", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Artifact Analysis scanning", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. The scanning API is kept off, so this should stay at zero." },
+    { "service": "Network egress", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Secret Manager", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Cloud Logging", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Cloud Scheduler", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Firebase Hosting", "coverage": "COVERED_ASSUMED", "basis": "Billed through the Cloud Billing account; CT-2. Not yet seen in a billing report." },
+    { "service": "Cloud CDN", "coverage": "COVERED_ASSUMED", "basis": "Google Cloud product; CT-2. Not yet seen in a billing report." },
+    { "service": "Gemini API (AI Studio)", "coverage": "EXCLUDED_GEMINI_AI_STUDIO", "basis": "CT-3." },
+    { "service": "Third-party model API (reAPI)", "coverage": "NOT_COVERED", "basis": "Not a Google Cloud product; the owner funds it separately (funding OTHER)." }
+  ]
+}

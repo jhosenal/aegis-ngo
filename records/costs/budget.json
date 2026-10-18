@@ -1,0 +1,42 @@
+{
+  "period": "2026-10",
+  "monthlyBudgetUsd": "15.00",
+  "autoApproveUsd": "5.00",
+  "capEnforced": false,
+  "funding": {
+    "GCP_CREDIT": {
+      "balanceUsd": "300.00",
+      "expires": "2026-12-17",
+      "note": "One-time GCP Free Credit shown in the billing console on 2026-10-14: 300.00 USD available, 17 Sep to 17 Dec 2026, net pricing, usage scope 'certain usage'. It covers only products covered by the Free Trial, so coverage of each service is ASSUMED until a billing report shows the Credits column applied. The engine also applies Google's 90-day rule (credit-terms.json): the credit is counted only up to the earlier of the console end date and start + 90 days (2026-12-16).",
+      "starts": "2026-09-17"
+    },
+    "GEMINI_PREPAY": {
+      "balanceUsd": "5.00",
+      "expires": "2027-09-17",
+      "note": "AI Studio prepaid balance (5.00 USD added 17 Sep 2026; credits expire a year after purchase). At 0 USD the API keys of the billing account stop working. The GCP credit cannot pay for Gemini API in AI Studio."
+    },
+    "OTHER": {
+      "balanceUsd": "2.00",
+      "note": "Owner allocated 1.00 USD on 2026-10-14 and raised it to 2.00 USD on 2026-10-15 for the reAPI backup model only (live Gemini failover, S0036). Anything else funded here is still STOP until the owner allocates more. The reAPI backup model is gpt-6-luna (0.08 in / 0.40 out USD per million tokens)."
+    }
+  },
+  "note": "2026-10-16: owner had the engineer raise the monthly budget from 3.00 to 10.00 USD (chat instruction) for the full-site deploy, render trials and judging window; per-action auto-approve stays 0.50 USD. 2026-10-14: owner set about 3 USD and 0.50 USD per action. Set capEnforced true when the console shows an enforced cap. Console caps for Cloud Run, Gemini API and Vertex AI are 50.00 USD per month (owner, 2026-10-14); the engine limit above is tighter and is the one agents obey.",
+  "changes": [
+    {
+      "at": "2026-10-18T03:27:55.676Z",
+      "by": "DEV-ADMIN",
+      "field": "monthlyBudgetUsd",
+      "from": "10.00",
+      "to": "15.00",
+      "reason": "\"presenter render approvals, owner decision"
+    },
+    {
+      "at": "2026-10-18T03:33:31.470Z",
+      "by": "DEV-ADMIN",
+      "field": "autoApproveUsd",
+      "from": "0.50",
+      "to": "5.00",
+      "reason": "Final Push"
+    }
+  ]
+}

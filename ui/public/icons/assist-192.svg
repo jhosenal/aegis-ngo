@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Aegis Assist">
+  <rect width="192" height="192" rx="42" fill="#f3f5f2"/>
+  <path d="M96 27 157 49v42c0 39-24 61-61 73-37-12-61-34-61-73V49z" fill="#155e52"/>
+  <path d="M96 54v77M57 92h78" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="15"/>
+</svg>

@@ -1,0 +1,20 @@
+# Cloud Build config for the Aegis image with the Google Maps BROWSER key baked into the UI bundle (a public key by design).
+# The key comes from Secret Manager and never appears on a command line or in the build log. Run (the operations agent, after the cost gate):
+#   gcloud builds submit --region REGION --config deploy/cloudbuild.yaml --substitutions _IMAGE=REGION-docker.pkg.dev/PROJECT_ID/aegis/aegis-demo:TAG,_MAPS_MAP_ID=MAP_ID .
+# The Cloud Build service account needs roles/secretmanager.secretAccessor on the secret aegis-maps-browser-key.
+substitutions:
+  _IMAGE: ''
+  _MAPS_MAP_ID: ''
+availableSecrets:
+  secretManager:
+    - versionName: projects/$PROJECT_ID/secrets/aegis-maps-browser-key/versions/latest
+      env: MAPS_KEY
+steps:
+  - name: gcr.io/cloud-builders/docker
+    entrypoint: bash
+    secretEnv: ['MAPS_KEY']
+    args:
+      - -c
+      - docker build --build-arg VITE_GOOGLE_MAPS_API_KEY=$$MAPS_KEY --build-arg VITE_GOOGLE_MAPS_MAP_ID=${_MAPS_MAP_ID} -t ${_IMAGE} .
+images:
+  - ${_IMAGE}

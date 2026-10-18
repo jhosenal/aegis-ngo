@@ -1,0 +1,1193 @@
+{
+ "version": "2026-10-16-draft-2",
+ "builtAt": "2026-10-15T17:14:05Z",
+ "adapterVersion": "backfill-build-1",
+ "remark": "Notable past incidents shown for context on each hazard domain. Entries marked SOURCED carry the source, its licence status, the time we retrieved it and a hash of the saved raw file. Entries marked UNSOURCED give only name, date and place from general knowledge, with no figures, and must be checked against a primary source before they are relied on or published beyond the pilot. Casualty and damage figures are not stated on any card.",
+ "incidents": [
+  {
+   "id": "BF-1-01",
+   "domain": 1,
+   "status": "SOURCED",
+   "hazardType": "EARTHQUAKE",
+   "title": "M 9.1 - 2004 Sumatra - Andaman Islands Earthquake",
+   "eventStart": "2004-12-26T00:58:53.450Z",
+   "eventEnd": null,
+   "place": "2004 Sumatra - Andaman Islands Earthquake",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": "USGS PAGER",
+    "note": "USGS gave no PAGER alert for this event record"
+   },
+   "location": {
+    "latE6": 3295000,
+    "lonE6": 95982000,
+    "basis": "epicentre (USGS)",
+    "depthKm": 30
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "magnitude",
+     "label": "Magnitude",
+     "value": 9.1,
+     "unit": "mw"
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.USGS.FDSN",
+    "sourceName": "USGS Earthquake Hazards Program, FDSN event web service",
+    "publisher": "U.S. Geological Survey",
+    "licence": {
+     "status": "STATED_BY_PUBLISHER",
+     "text": "USGS copyrights and credits page (read 2026-10-16): \"USGS-authored or produced data and information are considered to be in the U.S. Public Domain.\" Proper credit is requested: \"U.S. Geological Survey\".",
+     "attribution": "Credit: U.S. Geological Survey"
+    },
+    "sourcePage": "https://earthquake.usgs.gov/earthquakes/eventpage/official20041226005853450_30",
+    "apiUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2004-12-26&endtime=2004-12-27&minmagnitude=8.5&orderby=magnitude",
+    "sourceRecordId": "official20041226005853450_30",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2026-06-05T15:16:14.192Z",
+    "retrievedAt": "2026-10-15T17:08:16Z",
+    "rawFile": "docs/99-inbox/R0220_usgs-fdsn-2004-12-26-sumatra.json",
+    "rawSha256": "de27d6ae437122f0dd1a218987b41ff5bf1c3275ac755f1fcdb02c36f83c50fe",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:USGS",
+    "domain:1",
+    "hazard:earthquake",
+    "status:sourced",
+    "location:epicentre",
+    "affected:unknown",
+    "licence:public-domain-stated"
+   ]
+  },
+  {
+   "id": "BF-1-02",
+   "domain": 1,
+   "status": "SOURCED",
+   "hazardType": "EARTHQUAKE",
+   "title": "M 7.5 - 72 km N of Palu, Indonesia",
+   "eventStart": "2018-09-28T10:02:45.250Z",
+   "eventEnd": null,
+   "place": "72 km N of Palu, Indonesia",
+   "countries": [],
+   "alertLevel": {
+    "value": "RED",
+    "scale": "USGS PAGER",
+    "note": "as published by USGS"
+   },
+   "location": {
+    "latE6": -255900,
+    "lonE6": 119846200,
+    "basis": "epicentre (USGS)",
+    "depthKm": 20
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "magnitude",
+     "label": "Magnitude",
+     "value": 7.5,
+     "unit": "mww"
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.USGS.FDSN",
+    "sourceName": "USGS Earthquake Hazards Program, FDSN event web service",
+    "publisher": "U.S. Geological Survey",
+    "licence": {
+     "status": "STATED_BY_PUBLISHER",
+     "text": "USGS copyrights and credits page (read 2026-10-16): \"USGS-authored or produced data and information are considered to be in the U.S. Public Domain.\" Proper credit is requested: \"U.S. Geological Survey\".",
+     "attribution": "Credit: U.S. Geological Survey"
+    },
+    "sourcePage": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000h3p4",
+    "apiUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2018-09-28&endtime=2018-09-29&minmagnitude=7.0&orderby=magnitude",
+    "sourceRecordId": "us1000h3p4",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2026-06-08T04:53:31.212Z",
+    "retrievedAt": "2026-10-15T17:08:16Z",
+    "rawFile": "docs/99-inbox/R0221_usgs-fdsn-2018-09-28-palu.json",
+    "rawSha256": "fe2f1ca626d33b9dbb15c7a50337dc196b36dd85ca4453cc88e6e2b117e9ccc5",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:USGS",
+    "domain:1",
+    "hazard:earthquake",
+    "status:sourced",
+    "location:epicentre",
+    "affected:unknown",
+    "licence:public-domain-stated"
+   ]
+  },
+  {
+   "id": "BF-1-03",
+   "domain": 1,
+   "status": "SOURCED",
+   "hazardType": "EARTHQUAKE",
+   "title": "M 6 - 14 km WNW of Ranau, Malaysia",
+   "eventStart": "2015-06-04T23:15:43.910Z",
+   "eventEnd": null,
+   "place": "14 km WNW of Ranau, Malaysia",
+   "countries": [],
+   "alertLevel": {
+    "value": "GREEN",
+    "scale": "USGS PAGER",
+    "note": "as published by USGS"
+   },
+   "location": {
+    "latE6": 5986700,
+    "lonE6": 116540900,
+    "basis": "epicentre (USGS)",
+    "depthKm": 10
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "magnitude",
+     "label": "Magnitude",
+     "value": 6,
+     "unit": "mww"
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.USGS.FDSN",
+    "sourceName": "USGS Earthquake Hazards Program, FDSN event web service",
+    "publisher": "U.S. Geological Survey",
+    "licence": {
+     "status": "STATED_BY_PUBLISHER",
+     "text": "USGS copyrights and credits page (read 2026-10-16): \"USGS-authored or produced data and information are considered to be in the U.S. Public Domain.\" Proper credit is requested: \"U.S. Geological Survey\".",
+     "attribution": "Credit: U.S. Geological Survey"
+    },
+    "sourcePage": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002m5s",
+    "apiUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2015-06-04&endtime=2015-06-07&minmagnitude=5.0&orderby=magnitude&minlatitude=3&maxlatitude=8&minlongitude=114&maxlongitude=119",
+    "sourceRecordId": "us20002m5s",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2024-05-23T16:44:30.547Z",
+    "retrievedAt": "2026-10-15T17:09:11Z",
+    "rawFile": "docs/99-inbox/R0222_usgs-fdsn-2015-06-05-ranau.json",
+    "rawSha256": "38c0b7a8b29cdc7e71fd5a7a3727474f773cac748481b3433aac206667a1f9dc",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:USGS",
+    "domain:1",
+    "hazard:earthquake",
+    "status:sourced",
+    "location:epicentre",
+    "affected:unknown",
+    "licence:public-domain-stated"
+   ]
+  },
+  {
+   "id": "BF-2-01",
+   "domain": 2,
+   "status": "SOURCED",
+   "hazardType": "FLOOD",
+   "title": "Flood in Thailand (GDACS FL 3850)",
+   "eventStart": "2011-08-05T00:00:00Z",
+   "eventEnd": "2012-01-09T23:59:59Z",
+   "place": "Thailand",
+   "countries": [
+    "Thailand"
+   ],
+   "alertLevel": {
+    "value": "ORANGE",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": 17038000,
+    "lonE6": 102822000,
+    "basis": "event centroid (GDACS)",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "gdacsMagnitude",
+     "label": "GDACS flood magnitude (dimensionless index as published)",
+     "value": 7.49,
+     "unit": null
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=3850&episodeid=249&eventtype=FL",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=FL&fromdate=2011-07-01&todate=2011-12-31&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "FL-3850",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2012-01-09T23:59:59Z",
+    "retrievedAt": "2026-10-15T17:08:25Z",
+    "rawFile": "docs/99-inbox/R0226_gdacs-fl-2011-07-to-12-thailand.json",
+    "rawSha256": "04e604ab72e4972447f341a3b149f8671db0a17ea3182c0af1a3fcdecdfdde06",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:2",
+    "hazard:flood",
+    "status:sourced",
+    "location:centroid",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-2-02",
+   "domain": 2,
+   "status": "SOURCED",
+   "hazardType": "FLOOD",
+   "title": "Flood in Malaysia (GDACS FL 4216)",
+   "eventStart": "2014-12-20T00:00:00Z",
+   "eventEnd": "2015-01-01T23:59:59Z",
+   "place": "Malaysia",
+   "countries": [
+    "Malaysia"
+   ],
+   "alertLevel": {
+    "value": "ORANGE",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": 4725000,
+    "lonE6": 102164000,
+    "basis": "event centroid (GDACS)",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "gdacsMagnitude",
+     "label": "GDACS flood magnitude (dimensionless index as published)",
+     "value": 6.37,
+     "unit": null
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=4216&episodeid=4&eventtype=FL",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=FL&fromdate=2014-12-15&todate=2015-01-15&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "FL-4216",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2015-01-01T23:59:59Z",
+    "retrievedAt": "2026-10-15T17:08:26Z",
+    "rawFile": "docs/99-inbox/R0227_gdacs-fl-2014-12-to-2015-01-malaysia.json",
+    "rawSha256": "8b9fdb5a84c071ac7d8f0ab152c4566d3a4a8f801621d50f52b5fb15c8efdbbc",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:2",
+    "hazard:flood",
+    "status:sourced",
+    "location:centroid",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-2-03",
+   "domain": 2,
+   "status": "SOURCED",
+   "hazardType": "FLOOD",
+   "title": "Malaysia (GDACS FL 1101219)",
+   "eventStart": "2021-12-17T01:00:00Z",
+   "eventEnd": "2021-12-19T01:00:00Z",
+   "place": "Malaysia",
+   "countries": [
+    "Malaysia"
+   ],
+   "alertLevel": {
+    "value": "ORANGE",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": 4812200,
+    "lonE6": 100979800,
+    "basis": "event centroid (GDACS)",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=1101219&episodeid=1&eventtype=FL",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=FL&fromdate=2021-12-10&todate=2021-12-25&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "FL-1101219",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2021-12-28T23:07:02Z",
+    "retrievedAt": "2026-10-15T17:08:28Z",
+    "rawFile": "docs/99-inbox/R0228_gdacs-fl-2021-12-malaysia.json",
+    "rawSha256": "05389b1c17cc1e20438ee11cae6054470eebcf687505cd92c4aa01efe06180de",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON",
+    "notes": "GDACS severity is 0 or absent for this record; it is not a measurement, so no magnitude is shown."
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:2",
+    "hazard:flood",
+    "status:sourced",
+    "location:centroid",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-3-01",
+   "domain": 3,
+   "status": "SOURCED",
+   "hazardType": "STORM",
+   "title": "NARGIS-08 (GDACS TC 10238)",
+   "eventStart": "2008-04-28T06:00:00Z",
+   "eventEnd": "2008-05-03T12:00:00Z",
+   "place": null,
+   "countries": [],
+   "alertLevel": {
+    "value": "RED",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown: GDACS gives a track point for a cyclone, which is not the impact location",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "maxWind",
+     "label": "Maximum wind speed as reported by GDACS",
+     "value": 74,
+     "unit": "km/h"
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=10238&episodeid=25&eventtype=TC",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=TC&fromdate=2008-04-25&todate=2008-05-10&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "TC-10238",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2012-03-14T11:42:34Z",
+    "retrievedAt": "2026-10-15T17:08:20Z",
+    "rawFile": "docs/99-inbox/R0224_gdacs-tc-2008-05-nargis.json",
+    "rawSha256": "b95f42332d88ff57acf22bd4f56ddff7cfc0448fc7041e500414492122aecac3",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:3",
+    "hazard:storm",
+    "status:sourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-3-02",
+   "domain": 3,
+   "status": "SOURCED",
+   "hazardType": "STORM",
+   "title": "HAIYAN-13 (GDACS TC 41058)",
+   "eventStart": "2013-11-04T00:00:00Z",
+   "eventEnd": "2013-11-11T00:00:00Z",
+   "place": "China, Viet Nam, Philippines, Palau",
+   "countries": [
+    "China",
+    "Viet Nam",
+    "Philippines",
+    "Palau"
+   ],
+   "alertLevel": {
+    "value": "RED",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown: GDACS gives a track point for a cyclone, which is not the impact location",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "maxWind",
+     "label": "Maximum wind speed as reported by GDACS",
+     "value": 315,
+     "unit": "km/h"
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=41058&episodeid=32&eventtype=TC",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=TC&fromdate=2013-11-01&todate=2013-11-15&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "TC-41058",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2024-05-13T13:23:03.857Z",
+    "retrievedAt": "2026-10-15T17:08:19Z",
+    "rawFile": "docs/99-inbox/R0223_gdacs-tc-2013-11-haiyan.json",
+    "rawSha256": "b8d7b946ecba3bb2c57277f0feec075dbcb98c2d2b2c7e48d87ba0daa56c7e7b",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:3",
+    "hazard:storm",
+    "status:sourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-3-03",
+   "domain": 3,
+   "status": "SOURCED",
+   "hazardType": "STORM",
+   "title": "RAI-21 (GDACS TC 1000853)",
+   "eventStart": "2021-12-13T00:00:00Z",
+   "eventEnd": "2021-12-20T18:00:00Z",
+   "place": "Philippines",
+   "countries": [
+    "Philippines"
+   ],
+   "alertLevel": {
+    "value": "RED",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown: GDACS gives a track point for a cyclone, which is not the impact location",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [
+    {
+     "key": "maxWind",
+     "label": "Maximum wind speed as reported by GDACS",
+     "value": 259,
+     "unit": "km/h"
+    }
+   ],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=1000853&episodeid=32&eventtype=TC",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=TC&fromdate=2021-12-10&todate=2021-12-22&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "TC-1000853",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2022-07-08T03:10:25Z",
+    "retrievedAt": "2026-10-15T17:08:22Z",
+    "rawFile": "docs/99-inbox/R0225_gdacs-tc-2021-12-rai.json",
+    "rawSha256": "b4abda4da315fa60774849c66249ea9d3b850d59d0b31d22778c47f982a07aec",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:3",
+    "hazard:storm",
+    "status:sourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-7-01",
+   "domain": 7,
+   "status": "SOURCED",
+   "hazardType": "VOLCANO",
+   "title": "Taal (GDACS VO 273070)",
+   "eventStart": "2020-01-12T00:00:00Z",
+   "eventEnd": "2020-01-22T00:00:00Z",
+   "place": "Philippines",
+   "countries": [
+    "Philippines"
+   ],
+   "alertLevel": {
+    "value": "ORANGE",
+    "scale": "GDACS",
+    "note": "as published by GDACS"
+   },
+   "location": {
+    "latE6": 14002000,
+    "lonE6": 120993000,
+    "basis": "event centroid (GDACS)",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": "SRC.GDACS.API",
+    "sourceName": "GDACS (Global Disaster Alert and Coordination System), event list API",
+    "publisher": "GDACS (European Commission JRC / UN OCHA)",
+    "licence": {
+     "status": "STATED_ON_RSS_FEED",
+     "text": "Items on the GDACS RSS feed state \"European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given\". The GDACS disclaimer page (read 2026-10-16) adds: \"this information is purely indicative and should not be used for any decision making without alternate sources of information\". No separate API terms page was found.",
+     "attribution": "Source: GDACS (https://www.gdacs.org), CC BY 4.0 as stated on its feed. Indicative only; not for decision making without alternate sources."
+    },
+    "sourcePage": "https://www.gdacs.org/report.aspx?eventid=273070&episodeid=3&eventtype=VO",
+    "apiUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=VO&fromdate=2020-01-08&todate=2020-01-20&alertlevel=Green;Orange;Red",
+    "sourceRecordId": "VO-273070",
+    "publishedAt": null,
+    "sourceUpdatedAt": "2022-07-06T07:55:52Z",
+    "retrievedAt": "2026-10-15T17:08:31Z",
+    "rawFile": "docs/99-inbox/R0229_gdacs-vo-2020-01-taal.json",
+    "rawSha256": "ec524817e23736f693bde70145ccf93ca3112df32e7198de427ac903e898a8d7",
+    "adapterVersion": "backfill-build-1",
+    "method": "HTTP GET, GeoJSON"
+   },
+   "tags": [
+    "source:GDACS",
+    "domain:7",
+    "hazard:volcano",
+    "status:sourced",
+    "location:centroid",
+    "affected:unknown",
+    "licence:cc-by-4.0-stated-on-feed"
+   ]
+  },
+  {
+   "id": "BF-4-01",
+   "domain": 4,
+   "status": "UNSOURCED",
+   "hazardType": "WILDFIRE",
+   "title": "1997 Southeast Asian haze",
+   "eventStart": "1997-09",
+   "eventEnd": null,
+   "place": "Indonesia, affecting Malaysia and Singapore",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:4",
+    "hazard:wildfire",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-4-02",
+   "domain": 4,
+   "status": "UNSOURCED",
+   "hazardType": "WILDFIRE",
+   "title": "2015 Southeast Asian haze",
+   "eventStart": "2015-09",
+   "eventEnd": null,
+   "place": "Sumatra and Kalimantan, Indonesia, affecting Malaysia and Singapore",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:4",
+    "hazard:wildfire",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-4-03",
+   "domain": 4,
+   "status": "UNSOURCED",
+   "hazardType": "WILDFIRE",
+   "title": "2019 Southeast Asian haze",
+   "eventStart": "2019-09",
+   "eventEnd": null,
+   "place": "Sumatra and Kalimantan, Indonesia, affecting Malaysia and Singapore",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:4",
+    "hazard:wildfire",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-5-01",
+   "domain": 5,
+   "status": "UNSOURCED",
+   "hazardType": "OUTBREAK",
+   "title": "Nipah virus outbreak",
+   "eventStart": "1998",
+   "eventEnd": null,
+   "place": "Peninsular Malaysia",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:5",
+    "hazard:outbreak",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-5-02",
+   "domain": 5,
+   "status": "UNSOURCED",
+   "hazardType": "OUTBREAK",
+   "title": "SARS outbreak",
+   "eventStart": "2003",
+   "eventEnd": null,
+   "place": "Several countries including Singapore and Vietnam",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:5",
+    "hazard:outbreak",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-5-03",
+   "domain": 5,
+   "status": "UNSOURCED",
+   "hazardType": "OUTBREAK",
+   "title": "COVID-19 pandemic",
+   "eventStart": "2020-03-11",
+   "eventEnd": null,
+   "place": "Worldwide, including all ASEAN states",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:5",
+    "hazard:outbreak",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-6-01",
+   "domain": 6,
+   "status": "UNSOURCED",
+   "hazardType": "DISPLACEMENT",
+   "title": "Zamboanga City crisis",
+   "eventStart": "2013-09",
+   "eventEnd": null,
+   "place": "Zamboanga City, Philippines",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:6",
+    "hazard:displacement",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-6-02",
+   "domain": 6,
+   "status": "UNSOURCED",
+   "hazardType": "DISPLACEMENT",
+   "title": "Marawi siege",
+   "eventStart": "2017-05",
+   "eventEnd": null,
+   "place": "Marawi City, Philippines",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:6",
+    "hazard:displacement",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-6-03",
+   "domain": 6,
+   "status": "UNSOURCED",
+   "hazardType": "DISPLACEMENT",
+   "title": "Rohingya displacement from Rakhine State",
+   "eventStart": "2017-08",
+   "eventEnd": null,
+   "place": "Rakhine State, Myanmar, and neighbouring countries",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:6",
+    "hazard:displacement",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-7-02",
+   "domain": 7,
+   "status": "UNSOURCED",
+   "hazardType": "VOLCANO",
+   "title": "1991 eruption of Mount Pinatubo",
+   "eventStart": "1991-06-15",
+   "eventEnd": null,
+   "place": "Luzon, Philippines",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:7",
+    "hazard:volcano",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  },
+  {
+   "id": "BF-7-03",
+   "domain": 7,
+   "status": "UNSOURCED",
+   "hazardType": "VOLCANO",
+   "title": "2010 eruption of Mount Merapi",
+   "eventStart": "2010-10",
+   "eventEnd": null,
+   "place": "Central Java and Yogyakarta, Indonesia",
+   "countries": [],
+   "alertLevel": {
+    "value": null,
+    "scale": null,
+    "note": "not stated"
+   },
+   "location": {
+    "latE6": null,
+    "lonE6": null,
+    "basis": "unknown",
+    "depthKm": null
+   },
+   "affectedPeopleEstimate": null,
+   "measurements": [],
+   "provenance": {
+    "sourceId": null,
+    "sourceName": null,
+    "publisher": null,
+    "licence": {
+     "status": "NONE",
+     "text": "No source saved.",
+     "attribution": null
+    },
+    "sourcePage": null,
+    "apiUrl": null,
+    "sourceRecordId": null,
+    "publishedAt": null,
+    "sourceUpdatedAt": null,
+    "retrievedAt": null,
+    "rawFile": null,
+    "rawSha256": null,
+    "adapterVersion": "backfill-build-1",
+    "method": "general knowledge; not retrieved from a source",
+    "notes": "Name, date and place only. Must be checked against a primary source before it is relied on."
+   },
+   "tags": [
+    "domain:7",
+    "hazard:volcano",
+    "status:unsourced",
+    "location:unknown",
+    "affected:unknown",
+    "licence:none"
+   ]
+  }
+ ]
+}

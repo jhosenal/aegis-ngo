@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "mode": "isolated browser component with synthetic photos; incident-photo API integration remains pending",
+  "errors": [],
+  "checks": [
+    "empty hidden",
+    "one photo has no arrows",
+    "two photos have arrows and count",
+    "caption/source/date change with image",
+    "broken image keeps credits and navigation",
+    "keyboard previous and wrap",
+    "next wraps",
+    "phone no overflow"
+  ]
+}

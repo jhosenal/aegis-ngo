@@ -1,0 +1,108 @@
+# Cloud Run service for the Aegis hosted demo. Replace PROJECT_ID, REGION and TAG, then:
+#   gcloud run services replace deploy/service.yaml --region REGION
+# LIVE variant (S0036, owner decision O3): live Gemini primary, reAPI gpt-6-luna backup, hard budget caps.
+# Keys come from Secret Manager (secret references only, no values here). Kill switch: set AEGIS_MODELS_ENABLED=false.
+# Provider caps CONFIRMED by the owner's statement on 2026-10-15, no screenshot sighted (records/costs/provider-caps.json); before that this file was NOT DEPLOYABLE (S0038 finding 2): the hosted database is temporary, so the runtime ledger
+# restarts empty on every restart or revision. The cap that actually bounds spend is the one set at each provider, named below.
+# Then: the cost gate and the owner's approval.
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: aegis-demo
+  labels:
+    app: aegis
+    purpose: hosted-demo
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "0"
+        autoscaling.knative.dev/maxScale: "1"
+        run.googleapis.com/startup-cpu-boost: "true"
+    spec:
+      serviceAccountName: aegis-demo-run@PROJECT_ID.iam.gserviceaccount.com
+      containerConcurrency: 20
+      timeoutSeconds: 60
+      containers:
+        - image: REGION-docker.pkg.dev/PROJECT_ID/aegis/aegis-demo:TAG
+          ports:
+            - containerPort: 8080
+          resources:
+            limits:
+              cpu: "1"
+              memory: 512Mi
+          env:
+            - name: AEGIS_ENV
+              value: cloud
+            - name: AEGIS_STORAGE_MODE
+              value: sqlite-ephemeral-demo
+            - name: AEGIS_PROVIDER_MODE
+              value: live
+            - name: AEGIS_MODELS_ENABLED
+              value: "true"
+            - name: AEGIS_PRIMARY_PROVIDER
+              value: google
+            - name: AEGIS_GOOGLE_MODEL
+              value: gemini-3.5-flash-lite
+            - name: AEGIS_GOOGLE_MIN_INTERVAL_MS
+              value: "1500"
+            - name: AEGIS_GOOGLE_DAILY_REQUEST_CAP
+              value: "300"
+            - name: AEGIS_GOOGLE_ALLOWED_DATA_CLASSES
+              value: public,tenant_private
+            - name: AEGIS_REAPI_BASE_URL
+              value: https://reapi.ai
+            - name: AEGIS_REAPI_MODEL
+              value: gpt-6-luna
+            - name: AEGIS_PRICE_SNAPSHOT_ID
+              value: R0080
+            - name: AEGIS_PRICE_CAPTURED_AT
+              value: "2026-10-14"
+            - name: AEGIS_PRICE_SOURCE
+              value: https://ai.google.dev/gemini-api/docs/pricing
+            - name: AEGIS_PRICE_INPUT_MICRO_PER_MTOK
+              value: "300000"
+            - name: AEGIS_PRICE_OUTPUT_MICRO_PER_MTOK
+              value: "2500000"
+            - name: AEGIS_BUDGET_ACCOUNT_MICRO
+              value: "2000000"
+            - name: AEGIS_BUDGET_DAY_MICRO
+              value: "1000000"
+            - name: AEGIS_BUDGET_TASK_MICRO
+              value: "20000"
+            # Per-funding allowances enforced by the gateway before every attempt (reAPI is refused when this is 0).
+            - name: AEGIS_BUDGET_GOOGLE_MICRO
+              value: "2000000"
+            - name: AEGIS_BUDGET_REAPI_MICRO
+              value: "2000000"
+            # The real limit across restarts: caps the owner set at the providers (ATTESTATION; evidence in records/costs/provider-caps.json).
+            - name: AEGIS_SPEND_AUTHORITY
+              value: provider-caps
+            - name: AEGIS_PROVIDER_CAP_GOOGLE_MICRO
+              value: "2000000"
+            - name: AEGIS_PROVIDER_CAP_REAPI_MICRO
+              value: "2000000"
+            - name: AEGIS_GOOGLE_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: AEGIS_GOOGLE_API_KEY
+                  key: latest
+            - name: AEGIS_REAPI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: AEGIS_REAPI_API_KEY
+                  key: latest
+            # Public Assist (AEG-PLN-003): served only as a private PREVIEW with an "under review" banner until the release record approves the exact content.
+            - name: AEGIS_ASSIST_ENABLED
+              value: "true"
+            - name: AEGIS_ASSIST_PREVIEW
+              value: "true"
+          startupProbe:
+            httpGet:
+              path: /api/health
+            periodSeconds: 3
+            failureThreshold: 20
+          livenessProbe:
+            httpGet:
+              path: /api/health
+            periodSeconds: 30

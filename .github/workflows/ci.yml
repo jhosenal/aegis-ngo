@@ -1,0 +1,10 @@
+# Every change, including a one-file patch, uses the same complete source gate.
+name: ci
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    uses: ./.github/workflows/release-qc.yml

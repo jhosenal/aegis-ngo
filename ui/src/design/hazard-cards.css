@@ -1,0 +1,42 @@
+.hazard-artwork { display: block; position: relative; overflow: hidden; isolation: isolate; background: linear-gradient(135deg,#0c3558,#226d86); color: white; }
+.hazard-theme-seismic { --hazard-accent: #f57c00; --hazard-text: #b45309; }
+.hazard-theme-hydrological { --hazard-accent: #087ee6; --hazard-text: #076ac1; }
+.hazard-theme-meteorological { --hazard-accent: #4a68ac; --hazard-text: #415b98; }
+.hazard-theme-wildfire { --hazard-accent: #f04420; --hazard-text: #c43115; }
+.hazard-theme-biological { --hazard-accent: #852bb6; --hazard-text: #7725a7; }
+.hazard-theme-displacement { --hazard-accent: #b65d60; --hazard-text: #99494c; }
+.hazard-theme-volcanic { --hazard-accent: #ce2026; --hazard-text: #bd1821; }
+.hazard-theme-haze { --hazard-accent: #68778f; --hazard-text: #53657d; }
+.hazard-theme-unknown { --hazard-accent: #274668; --hazard-text: #274668; }
+.hazard-artwork-image { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; z-index: -2; }
+.hazard-artwork::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg,#031a300a 45%,#031a3066); z-index: -1; pointer-events: none; }
+.hazard-artwork-icon { position: absolute; left: 13px; top: 13px; display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid #ffffffa3; border-radius: 12px; color: white; background: var(--hazard-accent,#274668); box-shadow: 0 3px 12px #00162c38; }
+.hazard-artwork-badge { position: absolute; top: 12px; right: 12px; }
+.hazard-artwork-caption { position: absolute; right: 12px; bottom: 12px; font-size: 9px; font-weight: 600; color: white; background: #08243ed9; padding: 4px 7px; border-radius: 4px; }
+.hazard-artwork.symbol-only { background-image: radial-gradient(circle at 80% 20%,#49b6cc44,transparent 60%),linear-gradient(130deg,#123b64,#246b80); }
+.hazard-detail-art { height: 168px; border-radius: 12px; margin-bottom: 20px; }
+.card-view:has(.hazard-detail-art) .card-header h2 { font-weight: 800; line-height: 1.35; }
+.card-view:has(.hazard-detail-art) .card-fields { border: 1px solid #dce7f1; border-radius: 12px; overflow: hidden; padding: 0 14px; }
+.card-view:has(.hazard-detail-art) .card-field dt { color: #536b84; font-weight: 600; }
+.card-view:has(.hazard-detail-art) .card-field dd { font-weight: 650; }
+@media (max-width: 760px) {
+  .visual-cards .hazard-artwork-badge { right: 32px; }
+}
+
+.incident-illustration { margin:18px 0; padding-top:12px; border-top:1px solid var(--aeg-border,#dce6f2); }
+.incident-illustration h3 { margin:0 0 10px; font-size:14px; }
+.incident-illustration .hazard-detail-art { margin-bottom:8px; }
+.incident-illustration p { margin:0; color:#60758d; font-size:11px; line-height:1.5; }
+
+.incident-photo-gallery { margin:18px 0; padding-top:12px; border-top:1px solid var(--aeg-border,#dce6f2); }
+.incident-photo-gallery h3 { margin:0 0 10px; font-size:14px; }
+.incident-photo-gallery figure { margin:0; }
+.incident-photo-gallery img,.incident-photo-fallback { display:block; width:100%; height:220px; object-fit:contain; background:#f1f6fc; border:1px solid #dce6f2; border-radius:10px; }
+.incident-photo-fallback { display:grid; place-items:center; padding:16px; box-sizing:border-box; color:#60758d; }
+.incident-photo-gallery figcaption { font-size:11px; line-height:1.5; color:#536b84; }
+.incident-photo-gallery figcaption p { margin:6px 0; }
+.incident-gallery-controls { display:flex; align-items:center; justify-content:center; gap:18px; margin-top:10px; }
+.incident-gallery-controls button { display:grid; place-items:center; min-width:44px; min-height:44px; border:1px solid #b9d0e5; border-radius:50%; background:#f5f9ff; color:#193955; font-size:18px; }
+.incident-gallery-controls button:hover { background:#dceeff; }
+.incident-gallery-controls button:focus-visible { outline:3px solid #147ef4; outline-offset:2px; }
+.incident-gallery-controls [role=status] { font-size:12px; font-variant-numeric:tabular-nums; }

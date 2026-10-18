@@ -1,0 +1,63 @@
+{
+  "version": "2026-10-18-draft-7",
+  "status": "DRAFT for the contest demo, modelled on the Sonic (Walking With AI) terms, privacy and disclaimer pages. Not reviewed by a lawyer.",
+  "title": "Terms of use, privacy notice and disclaimer",
+  "sections": [
+    {
+      "heading": "1. Who runs Aegis",
+      "text": "Aegis is a demonstration (MVP) built for the AI Builder Cup 2026 by Jhosen Choong (Malaysia). Contact: jhosen@gmail.com. By creating an account or using the workspace you agree to these terms. If you do not agree, do not use it."
+    },
+    {
+      "heading": "2. What Aegis is, and is not",
+      "text": "Aegis helps NGOs and the public read public hazard information. It is an unfinished demonstration, not an emergency service and not an operational system. We may change, suspend or stop any feature at any time."
+    },
+    {
+      "heading": "3. Emergencies and health",
+      "text": "If you or someone near you is in danger or unwell, call your local emergency number first. Aegis guidance is general information from public sources. It is not medical, legal or professional advice and does not replace a doctor or the authorities."
+    },
+    {
+      "heading": "4. Your account",
+      "text": "You sign in with Google. You must be at least 13 years old. Give a real display name that does not impersonate anyone. You are responsible for what happens under your account; tell us if you think someone else has used it. Do not share your session. We may suspend or close an account that breaks these terms or harms the service or other users."
+    },
+    {
+      "heading": "5. Plans and administrators",
+      "text": "Accounts are Standard by default. Standard accounts can view public information and use AI chat, subject to usage limits. Dropping pins (including sample pins), checking custom locations, saving places, using credits and other operational tools require Pro or administrator access granted by the Aegis team. Administrative controls remain administrator-only. Signing up does not purchase or automatically unlock Pro access. We may grant or revoke access. Pro access carries no promise of availability and does not bypass service limits, spending controls or publication approval."
+    },
+    {
+      "heading": "6. Acceptable use",
+      "text": "Do not try to break into the service, overload it, scrape it, or use it to harm anyone. Do not enter real personal, medical or confidential information; it is a demo."
+    },
+    {
+      "heading": "7. AI features",
+      "text": "Some replies in the NGO workspace may use an AI model (Google Gemini; reAPI is the backup provider). The model may help phrase a reply and may propose which registered action to run. Code checks every proposed route and calculates every number, so the model does not decide results by itself. What you type in the workspace chat is sent to the model provider. AI output can be wrong, out of date or invented. The public Assist page does not use AI."
+    },
+    {
+      "heading": "8. What we collect and why (privacy)",
+      "text": "From Google we receive your name, email address and Google account identifier. We store them with the time you accepted these terms and the version you accepted, to create and secure your account. We also keep your workspace data and chat messages while the demo runs. Servers record technical logs (time, address, browser) for security. We have not added advertising or analytics trackers to the app, and we do not sell your information."
+    },
+    {
+      "heading": "9. Cookies and storage",
+      "text": "While you sign in with Google we set one short-lived security cookie that lasts at most 10 minutes. Your session token is kept in this browser tab's sessionStorage so refreshing or moving between Aegis pages does not sign you out. The server validates the session and permissions; sessions expire after 8 hours. Tab storage normally clears when you close the tab. The public Assist page remembers your chosen country and audience in your browser storage (localStorage) on your own device; it is not sent to us. We do not use advertising cookies."
+    },
+    {
+      "heading": "10. Who we share it with",
+      "text": "Infrastructure providers that run the demo (Google Cloud, in Singapore) and the AI model providers named above (Google Gemini, and reAPI as the backup), for the chat only. Aegis does not automatically attach your name or email to chat requests; anything you type yourself, including a name or an email, is sent. We share information if the law requires it."
+    },
+    {
+      "heading": "11. Demo storage and keeping data",
+      "text": "The hosted demo uses temporary storage. Accounts and anything you enter can be erased when the demo is restarted or updated. We keep account details only for as long as the demo or the contest evaluation needs them."
+    },
+    {
+      "heading": "12. Your choices and rights",
+      "text": "You may ask to see, correct or delete your information (for example under the Malaysian Personal Data Protection Act 2010 or the privacy law where you live) by writing to jhosen@gmail.com. Deletion is a manual step by the Aegis team and is not automated yet; it removes the stored name, email and sign-in identifier."
+    },
+    {
+      "heading": "13. No warranty and limit of liability",
+      "text": "The demo is provided as it is and as available, without warranty of any kind, including accuracy, availability or fitness for a purpose. To the fullest extent the law allows, the Aegis team is not liable for any loss arising from using or relying on the demo, including AI output or guidance."
+    },
+    {
+      "heading": "14. Changes",
+      "text": "We may update these terms. The version you accepted is recorded with your account. When the version changes, you are asked to accept the new one at your next sign-in before you continue."
+    }
+  ]
+}

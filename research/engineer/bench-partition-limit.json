@@ -1,0 +1,206 @@
+{
+  "node": "v22.19.0",
+  "platform": "win32",
+  "cpu": "x64",
+  "when": "2026-10-14T02:32:10.651Z",
+  "runs": [
+    {
+      "label": "clean, 2 fields",
+      "run": 1,
+      "cells": 0,
+      "status": "INVALID_TABLE",
+      "analysisComplete": false,
+      "ms": 2,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 2 fields",
+      "run": 2,
+      "cells": 0,
+      "status": "INVALID_TABLE",
+      "analysisComplete": false,
+      "ms": 0,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 2 fields",
+      "run": 3,
+      "cells": 0,
+      "status": "INVALID_TABLE",
+      "analysisComplete": false,
+      "ms": 0,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 3 fields",
+      "run": 1,
+      "cells": 912673,
+      "status": "ACCEPTED",
+      "analysisComplete": true,
+      "ms": 2686,
+      "heapGrowthMb": 1,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 3 fields",
+      "run": 2,
+      "cells": 912673,
+      "status": "ACCEPTED",
+      "analysisComplete": true,
+      "ms": 2820,
+      "heapGrowthMb": 3,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 3 fields",
+      "run": 3,
+      "cells": 912673,
+      "status": "ACCEPTED",
+      "analysisComplete": true,
+      "ms": 2951,
+      "heapGrowthMb": 3,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 4 fields",
+      "run": 1,
+      "cells": 707281,
+      "status": "ACCEPTED",
+      "analysisComplete": true,
+      "ms": 1799,
+      "heapGrowthMb": 1,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 4 fields",
+      "run": 2,
+      "cells": 707281,
+      "status": "ACCEPTED",
+      "analysisComplete": true,
+      "ms": 3753,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "clean, 4 fields",
+      "run": 3,
+      "cells": 707281,
+      "status": "ACCEPTED",
+      "analysisComplete": true,
+      "ms": 1922,
+      "heapGrowthMb": 2,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 2 fields",
+      "run": 1,
+      "cells": 0,
+      "status": "INVALID_TABLE",
+      "analysisComplete": false,
+      "ms": 0,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 2 fields",
+      "run": 2,
+      "cells": 0,
+      "status": "INVALID_TABLE",
+      "analysisComplete": false,
+      "ms": 1,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 2 fields",
+      "run": 3,
+      "cells": 0,
+      "status": "INVALID_TABLE",
+      "analysisComplete": false,
+      "ms": 1,
+      "heapGrowthMb": 0,
+      "ambiguities": 0,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 3 fields",
+      "run": 1,
+      "cells": 950309,
+      "status": "REJECTED_AMBIGUITY",
+      "analysisComplete": true,
+      "ms": 7790,
+      "heapGrowthMb": 259,
+      "ambiguities": 922082,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 3 fields",
+      "run": 2,
+      "cells": 950309,
+      "status": "REJECTED_AMBIGUITY",
+      "analysisComplete": true,
+      "ms": 8848,
+      "heapGrowthMb": 257,
+      "ambiguities": 922082,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 3 fields",
+      "run": 3,
+      "cells": 950309,
+      "status": "REJECTED_AMBIGUITY",
+      "analysisComplete": true,
+      "ms": 9365,
+      "heapGrowthMb": 256,
+      "ambiguities": 922082,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 4 fields",
+      "run": 1,
+      "cells": 804837,
+      "status": "REJECTED_AMBIGUITY",
+      "analysisComplete": true,
+      "ms": 6378,
+      "heapGrowthMb": 226,
+      "ambiguities": 731670,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 4 fields",
+      "run": 2,
+      "cells": 804837,
+      "status": "REJECTED_AMBIGUITY",
+      "analysisComplete": true,
+      "ms": 5732,
+      "heapGrowthMb": 230,
+      "ambiguities": 731670,
+      "gaps": 0
+    },
+    {
+      "label": "all ambiguous, 4 fields",
+      "run": 3,
+      "cells": 804837,
+      "status": "REJECTED_AMBIGUITY",
+      "analysisComplete": true,
+      "ms": 4906,
+      "heapGrowthMb": 229,
+      "ambiguities": 731670,
+      "gaps": 0
+    }
+  ]
+}

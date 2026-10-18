@@ -1,0 +1,436 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "bbox": [
+    117.1462,
+    -8.7893,
+    117.1462,
+    -8.7893
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.1462,
+     -8.7893
+    ]
+   },
+   "properties": {
+    "eventtype": "FL",
+    "eventid": 1103633,
+    "episodeid": 19,
+    "eventname": "",
+    "glide": "FL-2025-000217-IDN",
+    "name": "Flood in Indonesia",
+    "description": "Flood in Indonesia",
+    "htmldescription": "Orange Flood in Indonesia from: 17 Nov 2025 01 to: 03 Jan 2026 01.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/FL.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1103633&episodeid=19",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1103633"
+    },
+    "alertlevel": "Orange",
+    "alertscore": 2,
+    "episodealertlevel": "Green",
+    "episodealertscore": 0.5,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Indonesia",
+    "fromdate": "2025-11-17T01:00:00",
+    "todate": "2026-01-03T01:00:00",
+    "datemodified": "2026-02-11T12:10:14.497",
+    "iso3": "IDN",
+    "source": "GLOFAS",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+     {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "countryname": "Indonesia"
+     }
+    ],
+    "severitydata": {
+     "severity": 0.0,
+     "severitytext": "Magnitude 0 ",
+     "severityunit": ""
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    123.132,
+    10.412,
+    123.132,
+    10.412
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.132,
+     10.412
+    ]
+   },
+   "properties": {
+    "eventtype": "VO",
+    "eventid": 1000152,
+    "episodeid": 1,
+    "eventname": "Kanlaon",
+    "glide": "VO-2026-000190-PHL",
+    "name": "Eruption  Kanlaon",
+    "description": "Eruption  Kanlaon",
+    "htmldescription": "Orange Eruption Kanlaon in Philippines at: 10 Oct 2026 05:58.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/VO.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/VO.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=VO&eventid=1000152&episodeid=1",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1000152&episodeid=1&eventtype=VO",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=VO&eventid=1000152"
+    },
+    "alertlevel": "Orange",
+    "alertscore": 2,
+    "episodealertlevel": "Orange",
+    "episodealertscore": 1.5,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Philippines",
+    "fromdate": "2026-10-10T05:58:00",
+    "todate": "2026-10-10T05:58:00",
+    "datemodified": "2026-10-12T06:02:40",
+    "iso3": "PHL",
+    "source": "TOKYO",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+     {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "countryname": "Philippines"
+     }
+    ],
+    "severitydata": {
+     "severity": 0.0,
+     "severitytext": "",
+     "severityunit": ""
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    121.3517,
+    -8.3101,
+    121.3517,
+    -8.3101
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.3517,
+     -8.3101
+    ]
+   },
+   "properties": {
+    "eventtype": "EQ",
+    "eventid": 1558059,
+    "episodeid": 1725109,
+    "eventname": "",
+    "glide": "",
+    "name": "Earthquake in Indonesia",
+    "description": "Earthquake in Indonesia",
+    "htmldescription": "Red M 7.7 Earthquake in Indonesia at: 14 Aug 2026 21:58:21.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1558059&episodeid=1725109",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1558059&episodeid=1725109&eventtype=EQ",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1558059"
+    },
+    "alertlevel": "Red",
+    "alertscore": 3,
+    "episodealertlevel": "Red",
+    "episodealertscore": 2.14589742473401,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Indonesia",
+    "fromdate": "2026-08-14T21:58:21",
+    "todate": "2026-08-14T21:58:21",
+    "datemodified": "2026-09-30T09:40:22",
+    "iso3": "IDN",
+    "source": "NEIC",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+     {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "countryname": "Indonesia"
+     }
+    ],
+    "severitydata": {
+     "severity": 7.7,
+     "severitytext": "Magnitude 7.7M, Depth:10km",
+     "severityunit": "M"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    128.3,
+    26.3,
+    128.3,
+    26.3
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     128.3,
+     26.3
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001234,
+    "episodeid": 38,
+    "eventname": "FUNG-WONG-25",
+    "glide": "",
+    "name": "Tropical Cyclone FUNG-WONG-25",
+    "description": "Tropical Cyclone FUNG-WONG-25",
+    "htmldescription": "Red Tropical Cyclone FUNG-WONG-25 in Philippines, China, Japan from: 04 Nov 2025  to: 13 Nov 2025 .",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Red/TC.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001234&episodeid=38",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001234&episodeid=38&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001234"
+    },
+    "alertlevel": "Red",
+    "alertscore": 3,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Philippines, China, Japan",
+    "fromdate": "2025-11-04T06:00:00",
+    "todate": "2025-11-13T12:00:00",
+    "datemodified": "2026-02-11T15:18:59.037",
+    "iso3": "PHL",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "countryname": "Philippines"
+     },
+     {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "countryname": "China"
+     },
+     {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "countryname": "Japan"
+     }
+    ],
+    "severitydata": {
+     "severity": 212.9616,
+     "severitytext": "Tropical Depression (maximum wind speed of 213 km/h)",
+     "severityunit": "km/h"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -80.769,
+    7.5868,
+    -80.769,
+    7.5868
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.769,
+     7.5868
+    ]
+   },
+   "properties": {
+    "eventtype": "EQ",
+    "eventid": 1570339,
+    "episodeid": 1738684,
+    "eventname": "",
+    "glide": "",
+    "name": "Earthquake in Panama",
+    "description": "Earthquake in Panama",
+    "htmldescription": "Orange M 7.7 Earthquake in Panama at: 09 Oct 2026 17:56:06.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1570339&episodeid=1738684",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1570339"
+    },
+    "alertlevel": "Orange",
+    "alertscore": 2,
+    "episodealertlevel": "Orange",
+    "episodealertscore": 1.045,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Panama",
+    "fromdate": "2026-10-09T17:56:06",
+    "todate": "2026-10-09T17:56:06",
+    "datemodified": "2026-10-15T08:39:43",
+    "iso3": "PAN",
+    "source": "NEIC",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+     {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "countryname": "Panama"
+     }
+    ],
+    "severitydata": {
+     "severity": 7.7,
+     "severitytext": "Magnitude 7.7M, Depth:12.647km",
+     "severityunit": "M"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    21.1671,
+    44.8678,
+    21.1671,
+    44.8678
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.1671,
+     44.8678
+    ]
+   },
+   "properties": {
+    "eventtype": "WF",
+    "eventid": 1030252,
+    "episodeid": 40,
+    "eventname": "",
+    "glide": "WF-2026-000156-SRB",
+    "name": "Forest fires in Serbia",
+    "description": "Forest fires in Serbia",
+    "htmldescription": "Orange Forest fires in Serbia from: 05 Aug 2026 to: 25 Aug 2026.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/WF.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/WF.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=WF&eventid=1030252&episodeid=40",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=WF&eventid=1030252"
+    },
+    "alertlevel": "Orange",
+    "alertscore": 2,
+    "episodealertlevel": "Orange",
+    "episodealertscore": 1.5,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Serbia",
+    "fromdate": "2026-08-05T00:00:00",
+    "todate": "2026-08-25T00:00:00",
+    "datemodified": "2026-09-30T09:40:21",
+    "iso3": "SRB",
+    "source": "GWIS",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+     {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "countryname": "Serbia"
+     }
+    ],
+    "severitydata": {
+     "severity": 18310.0,
+     "severitytext": "Orange impact for forestfire in 18310 ha",
+     "severityunit": "ha"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    117.1462,
+    -8.7893,
+    117.1462,
+    -8.7893
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.1462,
+     -8.7893
+    ]
+   },
+   "properties": {
+    "eventtype": "DR",
+    "eventid": 999001,
+    "episodeid": 19,
+    "eventname": "",
+    "glide": "FL-2025-000217-IDN",
+    "name": "Flood in Indonesia",
+    "description": "Flood in Indonesia",
+    "htmldescription": "Orange Flood in Indonesia from: 17 Nov 2025 01 to: 03 Jan 2026 01.",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+    "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/FL.png",
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1103633&episodeid=19",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1103633"
+    },
+    "alertlevel": "Orange",
+    "alertscore": 2,
+    "episodealertlevel": "Green",
+    "episodealertscore": 0.5,
+    "istemporary": "false",
+    "iscurrent": "false",
+    "country": "Indonesia",
+    "fromdate": "2025-11-17T01:00:00",
+    "todate": "2026-01-03T01:00:00",
+    "datemodified": "2026-02-11T12:10:14.497",
+    "iso3": "IDN",
+    "source": "GLOFAS",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "affectedcountries": [
+     {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "countryname": "Indonesia"
+     }
+    ],
+    "severitydata": {
+     "severity": 0.0,
+     "severitytext": "Magnitude 0 ",
+     "severityunit": ""
+    }
+   }
+  }
+ ]
+}

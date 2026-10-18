@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "checkedAt": "2026-10-17",
+  "note": "What the public should do in a hazard, QUOTED from official pages of Singapore, Malaysia and Brunei that were read on 2026-10-17. Every line is a short exact quotation of the official text (ms lines are the official Malay; their English is OUR translation, marked, for the human reviewer). Nothing here is written by a model or by us as advice. Where no official public guidance was found the status is UNSOURCED and the bulletin says so instead of inventing any. Licence status of the quoted pages is UNVERIFIED (copyright lines only, no reuse notice); quotations are short and attributed. Haze guidance for Singapore and Malaysia and Malaysian flood guidance come from the released Assist cards (content/assist), not from this file.",
+  "emergencyNumbers": {
+    "SGP": { "text": "In Singapore, call 995 for the ambulance and fire service, or 999 for the police.", "numbers": ["995", "999"], "source": { "name": "Building and Construction Authority (BCA), Singapore", "title": "Precautions to take during earth tremors", "url": "https://www1.bca.gov.sg/public/safety-resources/precautions-to-take-during-earth-tremors" } },
+    "BRN": { "text": "In Brunei, call 991 for the ambulance, 995 for fire and rescue, or 993 for the police.", "numbers": ["991", "995", "993"], "source": { "name": "National Disaster Management Centre (NDMC), Brunei", "title": "Pusat Pengurusan Bencana Kebangsaan, Negara Brunei Darussalam (home page, emergency numbers)", "url": "https://www.ndmc.gov.bn/" } }
+  },
+  "hazards": {
+    "EARTHQUAKE": {
+      "SGP": {
+        "status": "SOURCED", "agency": "BCA", "agencyName": "Building and Construction Authority",
+        "sources": [{ "title": "Precautions to take during earth tremors", "url": "https://www1.bca.gov.sg/public/safety-resources/precautions-to-take-during-earth-tremors", "sourceUpdated": "2026-10-15", "licence": "UNVERIFIED: copyright Government of Singapore, no reuse notice on the page" }],
+        "lines": [
+          { "text": "Indoors: Take cover under a table.", "language": "en" },
+          { "text": "Do not use a naked flame.", "language": "en" },
+          { "text": "Do not use the lift.", "language": "en" },
+          { "text": "Outdoors: Remain in the open until the tremor stops; this will keep you safe from the risk of falling debris.", "language": "en" },
+          { "text": "Stay away from buildings.", "language": "en" }
+        ]
+      },
+      "MYS": {
+        "status": "SOURCED", "agency": "NADMA", "agencyName": "National Disaster Management Agency",
+        "sources": [
+          { "title": "LANGKAH KESELAMATAN KETIKA GEMPA BUMI (NADMA)", "url": "https://www.nadma.gov.my/bi/media-en/gallery/6876-langkah-keselamatan-ketika-gempa-bumi", "sourceUpdated": "2026-08-11", "licence": "UNVERIFIED: Hakcipta NADMA, no reuse notice on the page" },
+          { "title": "METMalaysia - Gempa Bumi", "url": "https://www.met.gov.my/pendidikan/gempa-bumi/", "sourceUpdated": null, "licence": "UNVERIFIED: copyright MET Malaysia, no reuse notice on the page" }
+        ],
+        "lines": [
+          { "text": "Kekal tenang, amalkan prinsip Drop, Cover, Hold On (Tunduk, Lindung, Pegang), jauhi tingkap dan objek yang boleh tumbang.", "language": "ms", "en": "Stay calm and follow Drop, Cover, Hold On, and stay away from windows and objects that could fall." },
+          { "text": "Jangan gunakan lif kerana bekalan kuasa mungkin terputus.", "language": "ms", "en": "Do not use the lift because the power supply may be cut off." },
+          { "text": "Selepas gegaran berhenti, keluar melalui tangga ke kawasan terbuka dan ikuti arahan pihak berkuasa.", "language": "ms", "en": "After the shaking stops, leave by the stairs to an open area and follow the instructions of the authorities." }
+        ]
+      },
+      "BRN": { "status": "UNSOURCED", "reason": "No public earthquake guidance was found on the NDMC site on 2026-10-17." }
+    },
+    "FLOOD": {
+      "SGP": {
+        "status": "SOURCED", "agency": "PUB", "agencyName": "PUB, Singapore's National Water Agency",
+        "sources": [{ "title": "Flood Safety Tips", "url": "https://www.pub.gov.sg/Public/KeyInitiatives/Get-Flood-Wise/Flood-Safety-Tips", "sourceUpdated": "2026-03-03", "licence": "UNVERIFIED: copyright Government of Singapore, no reuse notice on the page" }],
+        "lines": [
+          { "text": "Do not walk through moving water that is above ankle height, as it can cause you to fall.", "language": "en" },
+          { "text": "Do not touch electric switches or appliances if you are wet or standing in water.", "language": "en" }
+        ]
+      },
+      "BRN": { "status": "UNSOURCED", "reason": "NDMC has a page 'Tindakan Menghadapi Banjir' but its steps could not be read on 2026-10-17." }
+    },
+    "STORM": {
+      "MYS": {
+        "status": "SOURCED", "agency": "MetMalaysia", "agencyName": "Malaysian Meteorological Department",
+        "sources": [{ "title": "METMalaysia - Fenomena Cuaca", "url": "https://www.met.gov.my/pendidikan/fenomena-cuaca/", "sourceUpdated": null, "licence": "UNVERIFIED: copyright MET Malaysia, no reuse notice on the page" }],
+        "lines": [
+          { "text": "Sentiasa mendengar siaran radio, televisyen atau media sosial untuk amaran angin kencang dan laut bergelora.", "language": "ms", "en": "Always listen to radio, television or social media for warnings of strong winds and rough seas." },
+          { "text": "Elakkan daripada pergi ke laut dengan menggunakan kapal atau bot kecil.", "language": "ms", "en": "Avoid going to sea in a small ship or boat." },
+          { "text": "Ikut arahan pihak berkuasa pengurusan bencana tempatan.", "language": "ms", "en": "Follow the instructions of the local disaster management authorities." }
+        ]
+      },
+      "SGP": { "status": "UNSOURCED", "reason": "No official public tropical-cyclone guidance for Singapore was found on 2026-10-17." },
+      "BRN": { "status": "UNSOURCED", "reason": "No official public tropical-cyclone guidance for Brunei was found on 2026-10-17." }
+    },
+    "VOLCANO": {
+      "SGP": { "status": "UNSOURCED", "reason": "No official public volcano guidance for Singapore was found on 2026-10-17." },
+      "MYS": { "status": "UNSOURCED", "reason": "No official public volcano guidance for Malaysia was found on 2026-10-17." },
+      "BRN": { "status": "UNSOURCED", "reason": "No official public volcano guidance for Brunei was found on 2026-10-17." }
+    }
+  }
+}

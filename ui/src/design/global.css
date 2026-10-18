@@ -1,0 +1,97 @@
+@import './tokens.css';
+
+/* Shared foundation for AEGIS pages, forms, cards and application chrome. */
+:root {
+  --line: var(--aeg-border);
+  --surface: var(--aeg-surface);
+  --accent: var(--aeg-primary-text);
+  --ui-space-1: 4px;
+  --ui-space-2: 8px;
+  --ui-space-3: 12px;
+  --ui-space-4: 16px;
+  --ui-space-6: 24px;
+  --ui-space-8: 32px;
+  font-family: var(--aeg-font);
+  color: var(--aeg-ink);
+  background: var(--aeg-page-bg);
+  color-scheme: light;
+}
+button, input, textarea, select { font: inherit; }
+button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
+button, select, input { min-height: 44px; }
+button { transition: background .15s, border-color .15s, box-shadow .15s; }
+button:disabled { cursor: not-allowed; opacity: .55; }
+input, textarea, select { color: var(--aeg-ink); background: var(--aeg-surface); border: 1px solid var(--aeg-border); border-radius: var(--aeg-radius-control); padding: 10px 12px; }
+textarea { width: 100%; resize: vertical; }
+:focus-visible { outline: var(--aeg-focus); outline-offset: 3px; }
+a { color: var(--aeg-primary-text); }
+.ui-button { display: inline-flex; gap: 8px; align-items: center; justify-content: center; padding: 10px 16px; border-radius: var(--aeg-radius-control); border: 1px solid var(--aeg-border); text-decoration: none; font-size: 13px; font-weight: 600; min-height: 44px; }
+.ui-button-primary { color: white; background: var(--aeg-primary-action); border-color: var(--aeg-primary-action); }
+.ui-button-primary:hover { background: var(--aeg-brand-navy); }
+.ui-icon-button { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 10px; flex-shrink: 0; background: transparent; border: 1px solid transparent; }
+.ui-icon-button:hover { background: var(--aeg-tile-bg); }
+.site-header { min-height: 88px; display: flex; align-items: center; gap: 24px; padding: 14px 28px; border-bottom: 1px solid var(--aeg-border); background: white; }
+.site-brand { flex: 0 0 172px; display: flex; flex-direction: column; gap: 5px; text-decoration: none; }
+.site-brand img { width: 124px; height: 44px; object-fit: contain; }
+.site-brand span { font-size: 8px; letter-spacing: 1.4px; font-weight: 700; color: var(--aeg-ink-muted); }
+.site-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid var(--aeg-border); background: white; padding: 20px 28px; font-size: 11px; color: var(--aeg-ink-muted); }
+.site-footer strong { letter-spacing: 1px; color: var(--aeg-brand-navy); }
+.site-footer nav { display: flex; gap: 20px; flex-wrap: wrap; }
+.site-footer a { text-decoration: none; }
+.footer-separator { margin: 0 12px; color: var(--aeg-border); }
+.footer-brand-copy { display: grid; gap: 4px; }
+.footer-slogan { font-size: 10px; font-weight: 800; letter-spacing: .04em; }
+.footer-subheader { font-size: 9px; letter-spacing: .03em; }
+.mobile-menu { display: none; }
+.chat-panel { border-radius: var(--aeg-radius-card); border-color: var(--aeg-border); color: var(--aeg-ink); }
+.chat-panel .panel-heading h2 { font-size: 15px; }
+.chat-panel textarea { border-color: var(--aeg-border); background: #f8fbff; }
+.chat-panel form > button { background: var(--aeg-primary-action); color: white; border-color: transparent; min-width: 80px; }
+.chat-panel .chat-messages { line-height: 1.65; font-size: 13px; }
+.chat-panel .chat-messages article { padding: 12px; margin: 8px 0; border: 1px solid var(--aeg-border); border-radius: 12px; }
+.chat-panel .chat-messages article[data-role="user"] { background: var(--aeg-user-bubble-bg); margin-left: 20px; }
+.chat-message-label { text-transform: uppercase; font-size: 9px; letter-spacing: 1px; color: var(--aeg-ink-muted); }
+.chat-prompts { display: grid; gap: 8px; margin: 10px 0; }
+.chat-prompts button { text-align: left; font-size: 12px; color: var(--aeg-primary-text); background: #f5faff; border-color: var(--aeg-border); }
+.chat-panel .mode-picker { border: 0; padding: 8px 0; margin: 0; }
+.chat-panel .mode-note { font-size: 10px; line-height: 1.5; }
+.chat-panel .mode-option { font-size: 11px; }
+.chat-panel label { font-size: 12px; }
+.chat-panel input[type="radio"] { min-height: 16px; }
+.card-view { border-color: var(--aeg-border); border-radius: var(--aeg-radius-card); color: var(--aeg-ink); }
+.card-action-button { background: white; border-color: var(--aeg-border); color: var(--aeg-brand-navy); gap: 7px; font-size: 12px; }
+.card-action-button[aria-pressed="true"] { background: var(--aeg-info-chip-bg); border-color: #8eb8eb; }
+.card-revision-control { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; }
+.card-revision-control select { min-width: 56px; height: 44px; padding: 8px; background: white; }
+.card-dialog-footer { position: sticky; bottom: 0; z-index: 1; display: flex; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px 18px; border-top: 1px solid var(--aeg-border); background: white; box-shadow: 0 -4px 14px #16365d05; }
+.card-dialog-footer .card-actions { margin: 0; gap: 8px; }
+.card-footer-next { margin-left: auto; }
+.card-dialog-feedback { flex-basis: 100%; }
+.card-dialog-feedback .card-feedback { margin: 0 !important; }
+.card-dialog-footer-actions { flex-wrap: nowrap; gap: 8px; padding: 10px 14px; }
+.card-dialog-footer-actions .card-actions { flex: 0 1 auto; min-width: 0; flex-wrap: nowrap; gap: 5px; white-space: nowrap; }
+.card-dialog-footer-actions .card-revision-control { gap: 4px; font-size: 11px; }
+.card-dialog-footer-actions .card-revision-control select { min-width: 48px; height: 36px; padding: 5px; }
+.card-dialog-footer-actions .card-action-button,
+.card-dialog-footer-actions .card-footer-next .ui-button { min-height: 36px; padding: 7px 8px; gap: 4px; font-size: 11px; white-space: nowrap; }
+.card-dialog-footer-actions .card-footer-next { flex: 0 0 auto; margin-left: auto; }
+@media (max-width: 560px) {
+  .card-dialog-footer { gap: 10px; padding: 12px; }
+  .card-dialog-footer .card-actions { width: 100%; gap: 6px; }
+  .card-dialog-footer .ui-button { padding: 8px 10px; font-size: 11px; }
+  .card-dialog-footer-actions { gap: 6px; padding: 8px; }
+  .card-dialog-footer-actions .card-actions { width: auto; flex: 1 1 auto; gap: 4px; }
+  .card-dialog-footer-actions .card-revision-control { gap: 3px; font-size: 10px; }
+  .card-dialog-footer-actions .card-revision-control select { min-width: 38px; padding: 4px; }
+  .card-dialog-footer-actions .card-action-button,
+  .card-dialog-footer-actions .card-footer-next .ui-button { min-height: 34px; padding: 6px; gap: 3px; font-size: 10px; }
+}
+@media (max-width: 760px) {
+  .site-header { padding: 12px 16px; min-height: 76px; gap: 12px; flex-wrap: wrap; }
+  .site-brand { flex-basis: auto; margin-right: auto; }
+  .site-brand img { width: 100px; height: 35px; }
+  .site-brand span { display: none; }
+  .mobile-menu { display: inline-flex; }
+  .site-footer { padding: 20px 16px; line-height: 1.8; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

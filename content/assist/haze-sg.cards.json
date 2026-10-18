@@ -1,0 +1,183 @@
+[
+  {
+    "id": "HAZE-SG-EN-01",
+    "language": "en",
+    "country": "SG",
+    "hazard": "haze",
+    "severity": "moderate",
+    "title": "Haze emergency contact and PSI guidance - Singapore",
+    "region": "Singapore",
+    "synthetic": false,
+    "lines": [
+      {
+        "id": "HAZE-SG-CONTACT",
+        "kind": "contact",
+        "text": "SCDF Ambulance and Fire Service 995",
+        "sourceId": "SRC-SG-CONTACT"
+      },
+      {
+        "id": "HAZE-SG-PSI-HEALTHY-01",
+        "kind": "do",
+        "text": "PSI 0-50 (Good), healthy persons: Normal activities",
+        "sourceId": "SRC-SG-PSI-HEALTHY",
+        "condition": "HEALTHY PERSONS"
+      },
+      {
+        "id": "HAZE-SG-PSI-HEALTHY-02",
+        "kind": "do",
+        "text": "PSI 51-100 (Moderate), healthy persons: Normal activities",
+        "sourceId": "SRC-SG-PSI-HEALTHY",
+        "condition": "HEALTHY PERSONS"
+      },
+      {
+        "id": "HAZE-SG-PSI-HEALTHY-03",
+        "kind": "do",
+        "text": "PSI 101-200 (Unhealthy), healthy persons: Reduce prolonged or strenuous outdoor physical exertion",
+        "sourceId": "SRC-SG-PSI-HEALTHY",
+        "condition": "HEALTHY PERSONS"
+      },
+      {
+        "id": "HAZE-SG-PSI-HEALTHY-04",
+        "kind": "dont",
+        "text": "PSI 201-300 (Very Unhealthy), healthy persons: Avoid prolonged or strenuous outdoor physical exertion",
+        "sourceId": "SRC-SG-PSI-HEALTHY",
+        "condition": "HEALTHY PERSONS"
+      },
+      {
+        "id": "HAZE-SG-PSI-HEALTHY-05",
+        "kind": "do",
+        "text": "PSI >300 (Hazardous), healthy persons: Minimise outdoor activity",
+        "sourceId": "SRC-SG-PSI-HEALTHY",
+        "condition": "HEALTHY PERSONS"
+      },
+      {
+        "id": "HAZE-SG-PSI-VULNERABLE-01",
+        "kind": "do",
+        "text": "PSI 0-50 (Good), elderly, pregnant women, children: Normal activities",
+        "sourceId": "SRC-SG-PSI-VULNERABLE",
+        "condition": "ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "HAZE-SG-PSI-VULNERABLE-02",
+        "kind": "do",
+        "text": "PSI 51-100 (Moderate), elderly, pregnant women, children: Normal activities",
+        "sourceId": "SRC-SG-PSI-VULNERABLE",
+        "condition": "ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "HAZE-SG-PSI-VULNERABLE-03",
+        "kind": "do",
+        "text": "PSI 101-200 (Unhealthy), elderly, pregnant women, children: Minimise prolonged or strenuous outdoor physical exertion",
+        "sourceId": "SRC-SG-PSI-VULNERABLE",
+        "condition": "ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "HAZE-SG-PSI-VULNERABLE-04",
+        "kind": "do",
+        "text": "PSI 201-300 (Very Unhealthy), elderly, pregnant women, children: Minimise outdoor activity",
+        "sourceId": "SRC-SG-PSI-VULNERABLE",
+        "condition": "ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "HAZE-SG-PSI-VULNERABLE-05",
+        "kind": "dont",
+        "text": "PSI >300 (Hazardous), elderly, pregnant women, children: Avoid outdoor activity",
+        "sourceId": "SRC-SG-PSI-VULNERABLE",
+        "condition": "ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "HAZE-SG-PSI-CHRONIC-01",
+        "kind": "do",
+        "text": "PSI 0-50 (Good), persons with chronic lung disease, heart disease: Normal activities",
+        "sourceId": "SRC-SG-PSI-CHRONIC",
+        "condition": "PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "HAZE-SG-PSI-CHRONIC-02",
+        "kind": "do",
+        "text": "PSI 51-100 (Moderate), persons with chronic lung disease, heart disease: Normal activities",
+        "sourceId": "SRC-SG-PSI-CHRONIC",
+        "condition": "PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "HAZE-SG-PSI-CHRONIC-03",
+        "kind": "dont",
+        "text": "PSI 101-200 (Unhealthy), persons with chronic lung disease, heart disease: Avoid prolonged or strenuous outdoor physical exertion",
+        "sourceId": "SRC-SG-PSI-CHRONIC",
+        "condition": "PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "HAZE-SG-PSI-CHRONIC-04",
+        "kind": "dont",
+        "text": "PSI 201-300 (Very Unhealthy), persons with chronic lung disease, heart disease: Avoid outdoor activity",
+        "sourceId": "SRC-SG-PSI-CHRONIC",
+        "condition": "PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "HAZE-SG-PSI-CHRONIC-05",
+        "kind": "dont",
+        "text": "PSI >300 (Hazardous), persons with chronic lung disease, heart disease: Avoid outdoor activity",
+        "sourceId": "SRC-SG-PSI-CHRONIC",
+        "condition": "PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "HAZE-SG-HYDRATION-01",
+        "kind": "do",
+        "text": "Drink plenty of water to stay hydrated",
+        "sourceId": "SRC-SG-HYDRATION",
+        "condition": "PUBLIC"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-SG-CONTACT",
+        "publisher": "Government of Singapore",
+        "url": "https://www.gov.sg/contact-us/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "SCDF Ambulance and Fire Service 995"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-BANDS",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "24-hour PSI Descriptor 0-50 Good 51-100 Moderate 101-200 Unhealthy 201-300 Very Unhealthy >300 Hazardous"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-HEALTHY",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "HEALTHY PERSONS Normal activities Normal activities Reduce prolonged or strenuous outdoor physical exertion Avoid prolonged or strenuous outdoor physical exertion Minimise outdoor activity"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-VULNERABLE",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "ELDERLY, PREGNANT WOMEN, CHILDREN Normal activities Normal activities Minimise prolonged or strenuous outdoor physical exertion Minimise outdoor activity Avoid outdoor activity"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-CHRONIC",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE Normal activities Normal activities Avoid prolonged or strenuous outdoor physical exertion Avoid outdoor activity Avoid outdoor activity"
+      },
+      {
+        "sourceId": "SRC-SG-HYDRATION",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/media/news/news/index/singapore-government-agencies-implement-measures-to-mitigate-impact-of-haze-Aug2026",
+        "accessed": "2026-10-16",
+        "status": "SOURCED",
+        "passage": "The public is advised to drink plenty of water to stay hydrated.",
+        "savedFile": "R0230_nea-haze-measures-release-2026-09.html"
+      }
+    ]
+  }
+]

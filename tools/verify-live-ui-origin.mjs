@@ -1,0 +1,58 @@
+import { chromium, expect } from '@playwright/test';
+import { mkdirSync, writeFileSync } from 'node:fs';
+const origin = 'http://127.0.0.1:8787';
+const shots = 'records/screenshots/live-ui-2026-10-16';
+mkdirSync(shots, { recursive: true });
+const browser = await chromium.launch({ headless: true });
+const receipt = { origin, date: '2026-10-16', mode: 'actual local service, synthetic login, real stored feed cards; no provider invocation', errors: [], checks: {} };
+try {
+  const page = await browser.newPage({ viewport: { width: 1680, height: 1080 } });
+  page.on('pageerror', e => receipt.errors.push(e.message));
+  await page.goto(origin);
+  await expect(page.getByRole('link', { name: 'Data sources and pilot notice', exact: true })).toBeVisible();
+  await expect(page.locator('[data-testid="news-reader"] video')).toHaveAttribute('src', '/media/aegis-presenter-welcome.webm');
+  await page.getByRole('button', { name: 'Play introduction', exact: true }).click();
+  await expect.poll(() => page.locator('[data-testid="news-reader"] video').evaluate(v => v.currentTime)).toBeGreaterThan(.1);
+  await page.getByRole('button', { name: 'Stop introduction', exact: true }).click();
+  receipt.checks.videoPlayback = true;
+  await page.getByRole('button', { name: 'Guest preview' }).click();
+  await page.getByTestId('dev-login-USER-A-COORD').click();
+  const green = page.getByRole('button', { name: /Include GREEN/ });
+  await expect(green).toHaveAttribute('aria-pressed', 'false');
+  receipt.checks.greenFilter = await green.innerText();
+  await expect(page.locator('.regional-map')).toHaveAttribute('data-map-provider', 'google', { timeout: 30000 });
+  receipt.checks.mapProvider = 'google';
+  await page.screenshot({ path: `${shots}/actual-map-desktop.png`, fullPage: true });
+  const summary = await (await page.request.get(origin + '/public/hazards/summary')).json();
+  receipt.checks.summary = summary.domains.map(d => ({name:d.name, activeCount:d.activeCount}));
+  await page.locator('.featured-hazard-card[href$="hazard=meteorological"]').click();
+  const cyclone = page.locator('.live-incident-card').filter({hasText:'CHAMPI'}).first();
+  await cyclone.click();
+  await expect(page.getByRole('dialog').getByText(/Storm position \(GDACS\).*not an impact location/)).toBeVisible();
+  receipt.checks.cyclonePosition = true;
+  await page.keyboard.press('Escape');
+  await page.locator('.dashboard-sidebar').getByRole('button', { name: /^Incidents/ }).click();
+  await expect(page.locator('.live-incident-card').first()).toBeVisible();
+  await expect(page.locator('.incident-pagination')).toBeVisible();
+  receipt.checks.firstPage = await page.locator('.incident-pagination').innerText();
+  await page.locator('.live-incident-card').first().click();
+  await expect(page.getByRole('dialog').locator('.live-source-credit').first()).toBeVisible();
+  await expect(page.getByRole('dialog').getByRole('link', { name: 'Open source' }).first()).toBeVisible();
+  receipt.checks.sourceCredit = await page.getByRole('dialog').locator('.live-source-credit').first().innerText();
+  await page.keyboard.press('Escape');
+  await page.screenshot({ path: `${shots}/actual-cards-desktop.png`, fullPage: true });
+  await page.setViewportSize({ width:390, height:844 });
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.screenshot({ path: `${shots}/actual-cards-mobile.png`, fullPage: true });
+  await page.goto(origin + '/legal/data-sources');
+  await expect(page.getByRole('heading', { level:2 })).toHaveCount(9);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  receipt.checks.legalNotice = true;
+  expect(receipt.errors).toEqual([]);
+  receipt.status = 'PASS';
+} catch (error) { receipt.status = 'FAIL'; receipt.failure = error.message; process.exitCode = 1; }
+finally {
+  await browser.close();
+  writeFileSync('records/reviews/AEG-LIVE-UI-001_2026-10-16_origin.json', JSON.stringify(receipt, null, 2) + '\n');
+  console.log(JSON.stringify({ status: receipt.status, errors: receipt.errors, failure: receipt.failure }));
+}

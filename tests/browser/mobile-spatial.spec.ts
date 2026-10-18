@@ -1,0 +1,23 @@
+import {expect,test} from '@playwright/test';
+for(const width of [360,390,767])test(`mobile overlays at ${width}px preserve the map and three sheet states`,async({page})=>{
+ await page.setViewportSize({width,height:844});
+ await page.goto('/');
+ const map=page.locator('.regional-map'),sheet=page.locator('.dashboard-assist');
+ await expect(map).toBeVisible();await expect(sheet).toHaveAttribute('data-sheet-state','peek');
+ expect((await map.boundingBox())!.height).toBe(844);expect((await sheet.boundingBox())!.height).toBe(60);
+ await page.evaluate(()=>{(window as any).originalMobileMap=document.querySelector('.regional-map');(window as any).originalMobileVideo=document.querySelector('video');});
+ await page.getByRole('button',{name:'Ask AEGIS...',exact:true}).click();
+ await expect(sheet).toHaveAttribute('data-sheet-state','half');
+ await expect.poll(async()=>Math.round((await sheet.boundingBox())!.height)).toBe(422);
+ const grip=page.getByRole('button',{name:'Resize AEGIS Assist sheet'});await grip.focus();await page.keyboard.press('ArrowUp');
+ await expect(sheet).toHaveAttribute('data-sheet-state','full');await expect.poll(async()=>Math.round((await sheet.boundingBox())!.height)).toBe(760);
+ await page.keyboard.press('Escape');await expect(sheet).toHaveAttribute('data-sheet-state','peek');
+ const handle=(await grip.boundingBox())!;await page.mouse.move(handle.x+handle.width/2,handle.y+9);await page.mouse.down();await page.mouse.move(handle.x+handle.width/2,handle.y-100,{steps:8});await page.mouse.up();await expect(sheet).toHaveAttribute('data-sheet-state','half');
+ await page.getByRole('button',{name:'Collapse Assist',exact:true}).click();await expect(sheet).toHaveAttribute('data-sheet-state','peek');
+ await page.getByRole('button',{name:'Open navigation',exact:true}).click();
+ const drawer=page.getByRole('complementary',{name:'Main navigation'});await expect(drawer).toBeVisible();expect(Math.round((await drawer.boundingBox())!.width)).toBe(Math.round(width*.8));
+ await page.getByRole('button',{name:'Close navigation',exact:true}).click({position:{x:width*.9,y:400}}).catch(async()=>{await page.keyboard.press('Escape');});
+ await expect(drawer).toBeHidden();
+ expect(await page.evaluate(()=>({map:(window as any).originalMobileMap===document.querySelector('.regional-map'),video:(window as any).originalMobileVideo===document.querySelector('video'),overflow:document.documentElement.scrollWidth>innerWidth}))).toEqual({map:true,video:true,overflow:false});
+ const carousel=page.locator('.featured-hazard-grid');expect(await carousel.evaluate(e=>e.scrollWidth>e.clientWidth)).toBe(true);
+});

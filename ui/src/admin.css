@@ -1,0 +1,466 @@
+/* Admin Desk (AEG-ADMIN-001): structure only, built on the dashboard card tokens. SOL restyles later. */
+.admin-shell .admin-desk { max-width: none; margin: 0; padding: 0 0 56px; overflow-y: auto; }
+.admin-shell .admin-desk > :not(.news-approval-framebox) { margin-left: 24px; margin-right: 24px; }
+.admin-shell .admin-desk > .dashboard-page-heading { margin-top: 22px; }
+.admin-shell .admin-desk > .dashboard-page-heading:first-child { margin-top: 22px; }
+.admin-shell .dashboard-page-heading { margin-bottom: 16px; }
+.admin-shell .dashboard-page-heading p { margin: 4px 0 0; color: #b9c8dc; font-size: 13px; max-width: 70ch; }
+.admin-heading h1 { margin: 2px 0 6px; font-size: 26px; color: #213653; }
+.admin-heading p { margin: 0 0 20px; color: #5a6c85; font-size: 13px; max-width: 70ch; }
+.admin-grid { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.admin-grid > [data-card-id="admin:spend"], .admin-grid > [data-card-id="admin:feeds"], .admin-grid > [data-card-id="admin:broadcast"], .admin-grid > [data-card-id="admin:remarks"] { grid-column: 1 / -1; }
+.admin-desk .module-card-body { padding: 0 18px 18px; }
+.admin-stats { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin-bottom: 12px; }
+.admin-stat { display: flex; flex-direction: column; gap: 3px; padding: 12px; border: 1px solid #e0e7f0; border-radius: 10px; background: #f8fafd; }
+.admin-stat span, .admin-subcard .eyebrow { font-size: 9px; letter-spacing: 1.2px; color: #547194; text-transform: uppercase; }
+.admin-stat strong { font-size: 18px; color: #213653; }
+.admin-stat small, .admin-subcard small, .admin-languages small { color: #6b7890; font-size: 11px; line-height: 1.5; }
+.admin-subcards { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); margin: 10px 0 14px; }
+.admin-subcard { display: flex; flex-direction: column; gap: 4px; padding: 12px; border: 1px solid #e0e7f0; border-radius: 10px; background: white; box-shadow: 0 1px 3px #193b6410; }
+.admin-subcard strong { font-size: 16px; color: #213653; }
+.admin-desk .module-card .module-card { margin-top: 12px; background: #fbfcfe; }
+.admin-list { margin: 8px 0 0; padding-left: 18px; font-size: 12px; line-height: 1.7; color: #3a4d68; }
+.admin-languages { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.admin-languages li { display: grid; grid-template-columns: 22px auto auto 1fr; gap: 8px; align-items: center; font-size: 13px; }
+.admin-languages li.is-locked { opacity: .8; }
+.admin-languages small { grid-column: 2 / -1; }
+.admin-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.admin-table th, .admin-table td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #e8eef6; }
+.admin-table th { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #547194; }
+.admin-badge { display: inline-block; font-size: 9px; padding: 4px 7px; border-radius: 5px; line-height: 1.2; white-space: nowrap; }
+.admin-ok { color: #1c6b46; background: #e6f6ee; }
+.admin-warn { color: #8a631d; background: #fff6e2; }
+.admin-off { color: #61758b; background: #f0f4f9; }
+@media (max-width: 760px) { .admin-grid { grid-template-columns: 1fr; } .admin-desk { padding: 20px 16px 40px; } .admin-languages li { grid-template-columns: 22px 1fr; } }
+.admin-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; border-bottom: 1px solid #d8e0ec; }
+.admin-tabs button { appearance: none; border: 0; background: transparent; padding: 9px 16px; font: inherit; font-size: 14px; color: #5a6c85; border-bottom: 3px solid transparent; cursor: pointer; }
+.admin-tabs button:hover { color: #213653; }
+.admin-tabs button.is-active { color: #213653; font-weight: 600; border-bottom-color: #213653; }
+.admin-tab-badge { display: inline-block; margin-left: 7px; min-width: 18px; padding: 0 6px; border-radius: 999px; background: #d9480f; color: #fff; font-size: 12px; font-weight: 700; line-height: 18px; text-align: center; }
+.admin-tabs button:focus-visible { outline: 2px solid #3b82c4; outline-offset: 2px; }
+.admin-grid > [data-card-id="admin:screening"] { grid-column: 1 / -1; }
+.news-approval { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.news-approval-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.news-approval-list button { min-width: 190px; }
+.news-approval-list button { display: grid; gap: 2px; text-align: left; padding: 8px 10px; border: 1px solid #d8e0ec; border-radius: 8px; background: #fff; font: inherit; cursor: pointer; }
+.news-approval-list button.is-active { border-color: #213653; box-shadow: 0 0 0 2px #21365322; }
+.news-approval-list small { color: #5a6c85; font-size: 11px; }
+.news-approval-decision { margin-bottom: 8px; }
+.news-approval-decision button { font: inherit; padding: 4px 12px; border-radius: 6px; border: 1px solid #213653; background: #213653; color: #fff; cursor: pointer; }
+.news-approval-decision button:disabled { opacity: .45; cursor: not-allowed; }
+.news-approval-sizes { display: flex; gap: 6px; margin: 0 0 8px; }
+.news-approval-sizes button { font: inherit; font-size: 12px; padding: 3px 10px; border: 1px solid #d8e0ec; border-radius: 6px; background: #fff; cursor: pointer; }
+.news-approval-sizes button[aria-pressed="true"] { background: #213653; color: #fff; border-color: #213653; }
+.news-approval-framebox { position: relative; width: 100%; overflow: hidden; background: #102d42; }
+.job-wallet { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; padding: 12px 14px; border: 1px solid #d8e0ec; border-radius: 10px; background: #f4f8fd; }
+.job-wallet-main { display: grid; } .job-wallet-main strong { font-size: 26px; color: #123248; } .job-wallet dl { display: flex; gap: 18px; margin: 0; } .job-wallet dt { font-size: 11px; color: #5a6c85; } .job-wallet dd { margin: 0; font-weight: 600; }
+.job-toolbar { margin: 10px 0 4px; } .job-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; margin-top: 8px; }
+.job-card { display: grid; gap: 4px; padding: 10px 12px; border: 1px solid #d8e0ec; border-radius: 10px; background: #fff; }
+.job-card header { display: flex; gap: 6px; align-items: center; } .job-kind { font-size: 11px; letter-spacing: .06em; font-weight: 700; color: #1b6fb8; }
+.job-uuid { font-size: 11px; word-break: break-all; color: #34495e; } .job-money { display: flex; gap: 14px; font-size: 13px; }
+.render-speed { border: 1px solid #d8e0ec; border-radius: 10px; margin: 8px 0; padding: 8px 12px; } .render-speed [role="radiogroup"] { display: grid; gap: 6px; margin: 6px 0; }
+.render-option { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 6px 10px; border: 1px solid #d8e0ec; border-radius: 8px; cursor: pointer; } .render-option.is-on { border-color: #1b6fb8; background: #eef6fd; } .render-option.is-off { opacity: .55; cursor: not-allowed; }
+.review-suggestion { margin: 6px 0 10px; padding: 8px 12px; border-left: 4px solid #1b6fb8; background: #eef6fd; border-radius: 6px; }
+.review-desk h3 { margin: 14px 0 6px; font-size: 14px; }
+.review-segments { margin: 0; padding-left: 20px; } .review-segments li { margin-bottom: 8px; }
+.review-segments textarea { display: block; width: 100%; box-sizing: border-box; font: inherit; padding: 8px; }
+.review-translation { border: 1px solid #d8e0ec; border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
+.review-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; } .review-pair p { margin: 2px 0; }
+@media (max-width: 800px) { .review-pair { grid-template-columns: 1fr; } }
+.news-approval-lock { position: absolute; z-index: 5; top: 16px; right: 17px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; width: 36px; min-width: 36px; max-width: 36px; height: 36px; min-height: 36px; max-height: 36px; aspect-ratio: 1 / 1; flex: none; padding: 0; border-radius: 50%; border: 1px solid #a6dfff; background: rgba(6,18,29,.88); color: #fff; font-size: 18px; line-height: 1; cursor: pointer; }
+.news-approval-lock[aria-pressed="true"] { background: #1b6fb8; }
+.news-approval-frame { display: block; border: 0; transform-origin: top left; }
+@media (max-width: 900px) { .news-approval { grid-template-columns: 1fr; } }
+.admin-shell .dashboard-sidebar { flex: 0 0 220px; width: 220px; max-width: 220px; }
+.admin-shell .dashboard-content-layout { flex: 1 1 0; min-width: 0; }
+.admin-shell .dashboard-sidebar nav a, .admin-shell .dashboard-sidebar nav button { max-width: 100%; }
+.admin-shell .admin-desk { display: block !important; }
+.admin-shell .admin-desk > .news-approval-framebox { display: block; width: 100%; margin: 0; }
+.admin-shell .admin-desk > * + * { margin-top: 16px; }
+.admin-grid.is-approval { display: block; }
+.admin-shell .admin-desk > .admin-grid.is-approval { margin-left: 0; margin-right: 0; }
+.admin-grid.is-approval > * + * { margin-top: 16px; }
+.admin-grid.is-approval > :not(.news-approval-framebox) { margin-left: 24px; margin-right: 24px; }
+
+/* Data control (AEG-DATA-001) */
+.admin-grid.is-wide { display: block; }
+.admin-grid.is-wide > * + * { margin-top: 16px; }
+.admin-grid.is-wide > * { margin-left: 24px; margin-right: 24px; }
+.data-ticks { border: 1px solid #d8e0ec; border-radius: 8px; margin: 0 0 10px; padding: 8px 12px; display: grid; gap: 4px; }
+.data-ticks legend { font-size: 11px; color: #5a6c85; padding: 0 4px; }
+.data-warn { background: #fff7ed; border: 1px solid #fdba74; border-radius: 8px; padding: 8px 12px; }
+.data-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; align-items: end; margin-bottom: 8px; }
+.data-form label, .data-filters label { display: grid; gap: 3px; font-size: 12px; color: #43546d; }
+.data-form input, .data-form select, .data-filters input, .data-filters select { font: inherit; padding: 5px 8px; border: 1px solid #c9d4e3; border-radius: 6px; background: #fff; }
+.data-inline { display: flex !important; align-items: center; gap: 6px; }
+.data-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin-bottom: 10px; }
+.data-tablewrap { overflow: auto; max-height: 520px; border: 1px solid #e0e7f0; border-radius: 8px; }
+.data-pins th { position: sticky; top: 0; background: #f4f7fb; z-index: 1; }
+.data-pins td { vertical-align: top; }
+.data-actions { white-space: nowrap; }
+[data-card-id^="admin:data-"] button { font: inherit; cursor: pointer; padding: 4px 10px; border-radius: 6px; border: 1px solid #213653; background: #213653; color: #fff; }
+[data-card-id^="admin:data-"] button:disabled { opacity: .45; cursor: not-allowed; }
+[data-card-id^="admin:data-"] .data-pins button, [data-card-id^="admin:data-"] .data-filters button { background: #fff; color: #213653; padding: 2px 8px; font-size: 12px; }
+.data-ticks label { display: flex; gap: 8px; align-items: center; }
+
+/* News pipeline: scenario, output, timing against targets (AEG-NEWS-007) */
+.news-pipeline { margin: 10px 0; padding: 10px 12px; border: 1px solid #c3d3e8; border-radius: 10px; background: #f7faff; display: grid; gap: 8px; }
+.news-pipeline h4 { margin: 0; display: flex; align-items: center; gap: 8px; }
+.news-pipeline-output { display: flex; flex-wrap: wrap; gap: 4px 16px; border: 0; padding: 0; margin: 0; }
+.news-pipeline-output legend { font-weight: 600; font-size: 12px; padding: 0; margin-bottom: 2px; }
+.news-pipeline-kpi { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.news-pipeline-kpi li { display: grid; grid-template-columns: 84px 1fr; gap: 2px 8px; align-items: baseline; font-size: 13px; }
+.news-pipeline-kpi li small { grid-column: 2; color: #5a6c85; }
+.kpi-chip { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: #e8eef7; color: #213653; text-align: center; }
+.kpi-ok .kpi-chip { background: #dcfce7; color: #166534; }
+.kpi-late .kpi-chip { background: #fde2e2; color: #991b1b; }
+.kpi-at_risk .kpi-chip { background: #fff3c4; color: #7a5200; }
+.kpi-not_applicable { opacity: .6; }
+.news-pipeline-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.news-emergency { margin: 8px 0; padding: 8px 12px; border: 1px solid #e3a3a3; border-radius: 10px; background: #fff7f7; }
+.news-emergency summary { font-weight: 700; cursor: pointer; color: #8f2020; }
+
+/* Languages of a bulletin: ticked chips and a + to add others (AEG-NEWS-007). Selectors are specific because the admin shell styles every button. */
+.news-pipeline label, .news-emergency label { display: inline-flex; align-items: center; gap: 6px; }
+.news-pipeline .news-languages, .news-pipeline .news-languages-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; position: relative; }
+.news-pipeline .news-languages > small { flex: 1 0 100%; color: #5a6c85; }
+.news-pipeline .news-languages .news-lang { font: inherit; font-size: 12px; font-weight: 600; padding: 4px 11px; border-radius: 999px; border: 1px solid #3b82c4; background: #e3edfa; color: #14304f; cursor: pointer; min-height: 0; }
+.news-pipeline .news-languages .news-lang.is-stub { border-style: dashed; background: #f1f4f9; color: #3d4d63; }
+.news-pipeline .news-languages .news-lang:disabled { cursor: default; opacity: 1; background: #d3e4fb; color: #14304f; }
+.news-pipeline .news-languages .news-lang small { color: #5d6d83; font-weight: 400; }
+.news-pipeline .news-languages .news-lang-add { font: inherit; font-weight: 700; width: 28px; height: 28px; min-height: 0; padding: 0; border-radius: 50%; border: 1px solid #3b82c4; background: #fff; color: #14304f; cursor: pointer; }
+.news-pipeline .news-lang-menu { position: absolute; z-index: 5; top: 100%; left: 0; margin-top: 4px; padding: 8px; display: grid; gap: 4px; min-width: 240px; max-height: 280px; overflow: auto; border: 1px solid #c3d3e8; border-radius: 10px; background: #fff; box-shadow: 0 6px 18px #0003; }
+.news-pipeline .news-lang-menu > div { display: grid; gap: 3px; }
+.news-pipeline .news-lang-menu > div > small { color: #5a6c85; font-weight: 700; }
+.news-pipeline .news-lang-menu button { font: inherit; font-size: 12px; text-align: left; padding: 5px 8px; min-height: 0; border-radius: 6px; border: 1px solid #d6e0ee; background: #f7faff; color: #14304f; cursor: pointer; }
+.news-pipeline .news-lang-menu button small { color: #5d6d83; }
+.news-pipeline .news-lang-menu button:hover { background: #e3edfa; }
+
+/* News approval: the six-step workflow strip and the preview toggle. */
+.workflow-strip { margin: 0 0 14px; padding: 14px 16px 16px; border: 1px solid #d9e6f5; border-radius: 12px; background: #fff; }
+.workflow-strip header { margin-bottom: 12px; }
+.workflow-strip-eyebrow { display: block; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1b6fb8; }
+.workflow-strip h2 { margin: 2px 0 4px; font-size: 18px; color: #0d2a4a; }
+.workflow-strip header p { margin: 0; font-size: 12px; color: #55708f; }
+.workflow-strip > ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+.workflow-step { display: flex; flex-direction: column; gap: 3px; padding: 10px; border: 1px solid #dbe7f4; border-radius: 10px; background: #f7fbff; min-width: 0; }
+.workflow-step-n { font-size: 11px; font-weight: 700; color: #1b6fb8; }
+.workflow-step strong { font-size: 13px; line-height: 1.25; color: #0d2a4a; }
+.workflow-step small { font-size: 11px; line-height: 1.3; color: #61758b; }
+.workflow-step.is-gate { border-width: 2px; }
+.workflow-step.is-gate.tone-warn { border-color: #d9921f; background: #fff7e8; }
+.workflow-step.is-gate.tone-warn small { color: #8a5a00; font-weight: 600; }
+.workflow-step.is-gate.tone-ok { border-color: #2f9e5f; background: #eefaf2; }
+.workflow-step.is-gate.tone-ok small { color: #1f6f42; font-weight: 600; }
+.workflow-step.is-gate.tone-off { border-color: #b8c2cf; background: #f1f4f8; }
+.news-approval-previewbar { display: flex; justify-content: flex-end; margin: 0 0 8px; }
+.news-approval-previewbar button { border: 1px solid #c9d9ec; border-radius: 999px; background: #fff; color: #1b4f9c; font-size: 12px; padding: 4px 12px; cursor: pointer; }
+@media (max-width: 1100px) { .workflow-strip > ol { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .workflow-strip > ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Workflow steps as tabs, with a detail panel. */
+.workflow-strip .workflow-tabs { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+.workflow-strip button.workflow-step { text-align: left; cursor: pointer; font: inherit; }
+.workflow-strip button.workflow-step:hover { border-color: #9cc3ea; }
+.workflow-strip button.workflow-step.is-active { box-shadow: 0 0 0 2px #1b6fb8 inset; background: #eef6ff; }
+.workflow-strip button.workflow-step.is-gate.is-active { box-shadow: 0 0 0 2px #0d2a4a inset; }
+.workflow-panel { margin-top: 12px; padding: 12px 14px; border: 1px solid #dbe7f4; border-radius: 10px; background: #fbfdff; }
+.workflow-panel h3 { margin: 0 0 6px; font-size: 14px; color: #0d2a4a; }
+.workflow-panel p { margin: 0 0 8px; font-size: 13px; line-height: 1.5; color: #35506f; }
+.workflow-panel ul { margin: 0; padding-left: 18px; font-size: 12.5px; line-height: 1.55; color: #35506f; }
+@media (max-width: 1100px) { .workflow-strip .workflow-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .workflow-strip .workflow-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.workflow-touch { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; padding-top: 10px; border-top: 1px dashed #d3e1f1; }
+.workflow-touch h4 { margin: 0 0 4px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #1b6fb8; }
+.workflow-touch ul { margin: 0; padding-left: 18px; font-size: 12.5px; line-height: 1.5; color: #35506f; }
+@media (max-width: 760px) { .workflow-touch { grid-template-columns: 1fr; } }
+
+/* Admin Desk: the page card's own heading ("AEGIS WORKSPACE / Admin Desk") is hidden from view (kept for screen readers); the tabs come first. */
+.shell-page-card:has(.admin-desk) > .dashboard-card-heading { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Admin Desk: column 1 already shows Admin, so the thin page-name bar is hidden on desktop (the phone keeps it for the menu button), like the landing page, which has no such bar. */
+@media (min-width: 761px) { .workspace-shell:has(.admin-desk) > .site-header { display: none; } .regional-app.workspace-shell:has(.admin-desk) { grid-template-rows: minmax(0, 1fr); } .workspace-shell:has(.admin-desk) .shell-content-layout { grid-row: 1; padding-top: 8px; } }
+
+/* Landing page preview in a dialog. */
+.news-preview-overlay { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; padding: 24px; background: rgba(8, 20, 38, .6); }
+.news-preview-dialog { width: min(1100px, 100%); max-height: calc(100dvh - 48px); overflow: auto; border-radius: 14px; background: #fff; box-shadow: 0 20px 60px rgba(0, 0, 0, .35); padding: 12px 14px 14px; }
+.news-preview-dialog > header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.news-preview-dialog > header strong { color: #0d2a4a; }
+.news-preview-dialog > header span { flex: 1; font-size: 12px; color: #55708f; }
+.news-preview-dialog > header button { border: 1px solid #c9d9ec; border-radius: 999px; background: #fff; color: #1b4f9c; padding: 4px 14px; cursor: pointer; }
+
+/* Script review: each segment is a card with its actions aligned in a footer; Edit and Suggest open in a dialog. */
+.review-segments { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.review-segments li.review-card { margin: 0; padding: 12px 14px; border: 1px solid #dbe7f4; border-radius: 12px; background: #fff; display: flex; flex-direction: column; gap: 6px; }
+.review-card > header { display: flex; align-items: baseline; gap: 10px; }
+.review-card > header strong { color: #0d2a4a; }
+.review-card > header small { color: #61758b; }
+.review-card-text { margin: 0; font-size: 13px; line-height: 1.55; color: #26405d; }
+.review-card-actions { display: flex; justify-content: flex-end; gap: 8px; padding-top: 8px; border-top: 1px solid #edf2f8; }
+.review-card-actions button, .review-dialog-actions button { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 5px 12px; font: inherit; font-size: 12.5px; cursor: pointer; }
+.review-card-actions button:hover:not(:disabled), .review-dialog-actions button:hover:not(:disabled) { background: #eef6ff; }
+.review-card-actions button:disabled, .review-dialog-actions button:disabled { opacity: .5; cursor: default; }
+.review-dialog-overlay { position: fixed; inset: 0; z-index: 210; display: flex; align-items: center; justify-content: center; padding: 24px; background: rgba(8, 20, 38, .55); }
+.review-dialog { width: min(640px, 100%); max-height: calc(100dvh - 48px); overflow: auto; border-radius: 14px; background: #fff; box-shadow: 0 20px 60px rgba(0, 0, 0, .35); padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 10px; }
+.review-dialog > header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.review-dialog > header strong { color: #0d2a4a; }
+.review-dialog > header button { border: 1px solid #c9d9ec; border-radius: 999px; background: #fff; color: #1b4f9c; padding: 3px 12px; cursor: pointer; }
+.review-dialog textarea { width: 100%; box-sizing: border-box; font: inherit; padding: 8px; }
+.review-dialog input[type="text"] { width: 100%; box-sizing: border-box; padding: 6px 8px; font: inherit; }
+.review-dialog-actions { display: flex; justify-content: flex-end; gap: 8px; }
+
+/* News approval: sticky decision bar, grouped bulletin list with filter chips, test runs folded away, media pipeline in a drawer. */
+.news-approval-actionbar { position: sticky; top: 0; z-index: 5; margin: 0 0 10px; padding: 8px 10px; border: 1px solid #dbe7f4; border-radius: 10px; background: #fff; box-shadow: 0 2px 8px rgba(13, 42, 74, .08); }
+.news-approval-actionbar p { margin: 0; }
+.news-approval-actionbar button { margin-right: 6px; }
+.news-approval-filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 6px; }
+.news-approval-filters button { border: 1px solid #c9d9ec; border-radius: 999px; background: #fff; color: #1b4f9c; font-size: 11.5px; padding: 3px 10px; cursor: pointer; }
+.news-approval-filters button.is-on { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.news-approval-group h4 { margin: 10px 0 4px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #61758b; }
+.news-approval-tests { margin-top: 10px; } .news-approval-tests > summary { cursor: pointer; font-size: 12px; color: #61758b; }
+.news-pipeline-drawer { margin: 12px 0; border: 1px solid #dbe7f4; border-radius: 10px; background: #fbfdff; padding: 8px 12px; }
+.news-pipeline-drawer > summary { cursor: pointer; font-weight: 600; color: #0d2a4a; }
+
+/* The list is a wrapping flex row: chips, group headings and the test-run fold take a full row; the chips keep their small pill style. */
+.news-approval-list > .news-approval-filters, .news-approval-list > .news-approval-tests { flex: 1 1 100%; }
+.news-approval-list > .news-approval-group { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; }
+.news-approval-list > .news-approval-group > h4 { flex: 1 1 100%; margin: 6px 0 0; }
+.news-approval-list .news-approval-filters button { display: inline-block; min-width: 0; height: auto; padding: 3px 10px; border-radius: 999px; font-size: 11.5px; line-height: 1.4; }
+.news-approval-list .news-approval-filters button.is-on { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.news-approval-list .news-approval-tests { display: block; }
+.news-approval-list .news-approval-tests > button { margin: 6px 8px 0 0; }
+
+/* New emergency bulletin: a button, and a dialog with Real incident or Exercise. */
+.news-emergency-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 8px 0 12px; padding: 8px 12px; border: 1px solid #efc2c2; border-radius: 10px; background: #fff7f7; }
+.news-emergency-bar small { flex: 1 1 220px; color: #7a4a4a; }
+.news-emergency-msg { flex: 1 1 100%; margin: 0; font-size: 12.5px; color: #35506f; }
+.news-emergency-open { border: 1px solid #b42318; border-radius: 8px; background: #fff; color: #b42318; font: inherit; font-weight: 700; padding: 6px 14px; cursor: pointer; }
+.news-emergency-open:hover { background: #fdecea; }
+.news-emergency-dialog { width: min(560px, 100%); }
+.ne-seg { display: flex; gap: 8px; }
+.ne-seg label { flex: 1; text-align: center; padding: 8px 10px; border: 1px solid #c9d9ec; border-radius: 10px; cursor: pointer; color: #1b4f9c; font-size: 13px; }
+.ne-seg label.is-on { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.ne-seg input { position: absolute; opacity: 0; pointer-events: none; }
+.ne-section { display: flex; flex-direction: column; gap: 8px; }
+.ne-note { margin: 0; font-size: 12.5px; color: #55708f; }
+.ne-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.ne-field { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #35506f; }
+.ne-field select, .ne-field input { padding: 6px 8px; font: inherit; font-size: 13px; border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; }
+.ne-choice { margin: 0; padding: 8px 10px; border: 1px solid #dbe7f4; border-radius: 10px; display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
+.ne-choice legend { padding: 0 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #61758b; }
+.ne-error { margin: 0; color: #b42318; font-size: 12.5px; }
+.review-dialog-actions button.ne-primary { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.review-dialog-actions button.ne-primary:disabled { background: #9db8d4; border-color: #9db8d4; }
+.ne-choice label { display: flex; align-items: center; gap: 8px; margin: 0; }
+.ne-choice input[type="radio"] { margin: 0; }
+
+/* The six step tabs are the workspace: the controls of the step first, the explanation folded below. */
+.workflow-work { margin: 4px 0 12px; }
+.workflow-about { margin-top: 10px; padding-top: 8px; border-top: 1px dashed #d3e1f1; }
+.workflow-about > summary { cursor: pointer; font-size: 12px; color: #61758b; margin-bottom: 6px; }
+.workflow-panel .review-desk h3 { margin-top: 4px; }
+.news-approval { margin-bottom: 12px; }
+
+/* Compact queue: one line per bulletin in a scrolling box, so the six step tabs stay on the first screen. */
+.news-approval-list { flex-direction: column; flex-wrap: nowrap; gap: 4px; max-height: 290px; overflow: auto; padding: 8px; border: 1px solid #dbe7f4; border-radius: 10px; background: #fbfdff; }
+.news-approval-list > button, .news-approval-list .news-approval-group > button, .news-approval-list .news-approval-tests > button { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; align-items: center; gap: 10px; min-width: 0; width: 100%; padding: 5px 10px; border-radius: 8px; }
+.news-approval-list > button strong, .news-approval-list .news-approval-group > button strong, .news-approval-list .news-approval-tests > button strong { font-size: 13px; }
+.news-approval-list > button small, .news-approval-list .news-approval-group > button small, .news-approval-list .news-approval-tests > button small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.news-approval-list .admin-badge { margin: 0; white-space: nowrap; }
+.news-approval-list > .news-approval-group { flex: 0 0 auto; flex-direction: column; flex-wrap: nowrap; gap: 4px; }
+.news-approval-list .news-approval-tests > button { margin: 4px 0 0; }
+.news-approval-list > .news-approval-filters { position: sticky; top: -8px; z-index: 1; background: #fbfdff; padding: 4px 0; }
+
+/* The four daily slots sit in one row (two on narrow screens) instead of three plus one. */
+.admin-subcards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) { .admin-subcards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.review-dialog-actions button.ne-danger { background: #b42318; border-color: #b42318; color: #fff; }
+.review-dialog-actions button.ne-danger:disabled { background: #d9a7a2; border-color: #d9a7a2; }
+
+/* To approve: numbered chips, one per waiting bulletin, so the operator works through them in order. */
+.news-waiting-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 12px; padding: 8px 12px; border: 1px solid #f0d49b; border-radius: 10px; background: #fff8e8; }
+.news-waiting-bar.is-clear { border-color: #bfe3cd; background: #eefaf2; color: #1f6f42; }
+.news-waiting-bar > strong { color: #8a5a00; margin-right: 4px; }
+.news-waiting-bar > button { display: inline-flex; align-items: center; gap: 6px; border: 1px solid #e3c17a; border-radius: 999px; background: #fff; color: #6b4600; font: inherit; font-size: 12.5px; padding: 3px 12px 3px 4px; cursor: pointer; }
+.news-waiting-bar > button > span { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 50%; background: #f2c14e; color: #3a2800; font-weight: 700; font-size: 11px; }
+.news-waiting-bar > button.is-on { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.news-waiting-bar > button.is-on > span { background: #fff; color: #1b6fb8; }
+.news-waiting-bar > button.news-waiting-next { margin-left: auto; padding: 3px 12px; border-color: #1b6fb8; color: #1b4f9c; }
+
+/* The waiting bar stays at the top while the script is read, and carries the decision for the selected bulletin. */
+.news-waiting-bar { position: sticky; top: 0; z-index: 6; box-shadow: 0 3px 10px rgba(13, 42, 74, .08); }
+.news-waiting-bar.is-clear { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.news-waiting-bar.is-clear p { margin: 0; }
+.news-waiting-actions { flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding-top: 8px; border-top: 1px dashed #e3c17a; font-size: 13px; color: #5a4300; }
+.news-waiting-actions > span { margin-right: auto; }
+.news-waiting-bar > button.ne-approve, .news-waiting-bar .news-waiting-actions > button.ne-approve { background: #1b6fb8; border: 1px solid #1b6fb8; color: #fff; border-radius: 8px; padding: 6px 16px; font: inherit; font-weight: 700; cursor: pointer; }
+.news-waiting-actions > button.ne-reject { background: #fff; border: 1px solid #b42318; color: #b42318; border-radius: 8px; padding: 6px 16px; font: inherit; font-weight: 700; cursor: pointer; }
+.news-waiting-actions > button:disabled { opacity: .5; cursor: default; }
+.ne-read { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #26405d; }
+.news-waiting-actions.is-expired { color: #61758b; }
+
+/* Read the script right under the decision buttons (show or hide), before the step tabs. */
+.news-read { margin: 0 0 12px; border: 1px solid #dbe7f4; border-radius: 10px; background: #fff; }
+.news-read-toggle { display: flex; align-items: baseline; gap: 8px; width: 100%; padding: 9px 12px; border: 0; border-radius: 10px; background: transparent; font: inherit; font-weight: 600; color: #0d2a4a; cursor: pointer; text-align: left; }
+.news-read-toggle small { font-weight: 400; color: #61758b; }
+.news-read-body { padding: 2px 14px 12px; border-top: 1px solid #edf2f8; }
+.news-read-part { padding: 8px 0; border-bottom: 1px solid #f1f5fa; } .news-read-part:last-child { border-bottom: 0; }
+.news-read-part h4 { margin: 0 0 3px; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: #1b6fb8; }
+.news-read-part p { margin: 0; font-size: 13.5px; line-height: 1.55; color: #26405d; }
+
+/* The script opens in a popup (Read the script), with the decision at its foot. */
+.news-read-dialog { width: min(720px, 100%); }
+.news-read-dialog > header { display: flex; align-items: baseline; gap: 12px; }
+.news-read-dialog .news-read-body { border-top: 1px solid #edf2f8; padding: 4px 2px; max-height: 55vh; overflow: auto; }
+.news-waiting-actions > button.ne-read-btn { background: #fff; border: 1px solid #1b6fb8; color: #1b4f9c; border-radius: 8px; padding: 6px 14px; font: inherit; font-weight: 600; cursor: pointer; }
+.review-dialog-actions button.ne-danger { background: #b42318; border-color: #b42318; color: #fff; }
+
+.news-read-part textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 13.5px; padding: 8px; margin-top: 4px; }
+.news-read-part input[type="text"] { width: 100%; box-sizing: border-box; padding: 6px 8px; font: inherit; font-size: 13px; margin-top: 6px; }
+.news-read-edit-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px; }
+.news-read-edit-actions button, button.news-read-edit { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 4px 12px; font: inherit; font-size: 12.5px; cursor: pointer; }
+.news-read-edit-actions button.ne-primary { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.news-read-edit-actions button:disabled, button.news-read-edit:disabled { opacity: .5; cursor: default; }
+button.news-read-edit { margin-top: 6px; }
+.news-read-part h4 small { text-transform: none; letter-spacing: 0; font-weight: 400; color: #61758b; }
+
+.news-read-tools { display: flex; gap: 8px; margin-top: 6px; } .news-read-tools button.news-read-edit { margin-top: 0; }
+.news-read-ai { margin-top: 8px; padding: 8px 12px; border-left: 4px solid #1b6fb8; background: #eef6fd; border-radius: 6px; }
+.news-read-ai p { margin: 0 0 6px; font-size: 13.5px; }
+
+.news-read-vibe { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; align-items: center; }
+.news-read-vibe input[type="text"] { flex: 1 1 260px; margin-top: 0; }
+.news-read-vibe button { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 5px 12px; font: inherit; font-size: 12.5px; cursor: pointer; }
+.news-read-vibe button.ne-ai { background: #1b6fb8; border-color: #1b6fb8; color: #fff; font-weight: 600; }
+.news-read-vibe button:disabled { opacity: .5; cursor: default; }
+
+/* Read the script popup: parts are plain editable text; AEGIS Assist sits at the bottom left beside Back. */
+.news-read-part textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 13.5px; line-height: 1.55; padding: 8px 10px; border: 1px solid #dbe7f4; border-radius: 8px; background: #fbfdff; resize: vertical; }
+.news-read-part textarea:focus { outline: 2px solid #1b6fb8; background: #fff; }
+.news-read-footer { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 6px; border-top: 1px solid #edf2f8; }
+.news-read-footer > button, .news-read-footer .news-read-ask > button { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 6px 14px; font: inherit; font-size: 13px; cursor: pointer; }
+.news-read-footer > button.ne-primary { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.news-read-footer > button.ne-danger { background: #b42318; border-color: #b42318; color: #fff; }
+.news-read-footer button:disabled { opacity: .5; cursor: default; }
+.news-read-spacer { flex: 1 1 0; }
+.news-read-ask { flex: 1 1 320px; display: flex; align-items: center; gap: 8px; padding: 3px 4px 3px 10px; border: 1px solid #b9d3f5; border-radius: 999px; background: #f3f8ff; min-width: 0; }
+.news-read-brand { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 700; color: #1b4f9c; white-space: nowrap; }
+.news-read-ask input[type="text"] { flex: 1; min-width: 0; border: 0; background: transparent; font: inherit; font-size: 13px; padding: 5px 4px; outline: none; }
+.news-read-ask > button.ne-ai { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; background: #1b6fb8; border-color: #1b6fb8; color: #fff; font-weight: 600; }
+
+/* Wider popup so Back, the AEGIS Assist box and the decision buttons share one row; the model picker opens above the box. */
+.news-read-dialog { width: min(880px, 100%); }
+.news-read-decide { display: inline-flex; gap: 8px; align-items: center; flex: 0 0 auto; margin-left: auto; }
+.news-read-decide > button { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 6px 14px; font: inherit; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.news-read-decide > button.ne-primary { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.news-read-decide > button.ne-danger { background: #b42318; border-color: #b42318; color: #fff; }
+.news-read-decide > button:disabled { opacity: .5; cursor: default; }
+.news-read-ask { flex: 1 1 240px; }
+.news-read-model { position: relative; }
+.news-read-model-btn { display: inline-flex; align-items: center; gap: 5px; border: 1px solid #b9d3f5; border-radius: 999px; background: #fff; color: #1b4f9c; font: inherit; font-size: 12px; padding: 3px 10px; cursor: pointer; }
+.news-read-model-pop { position: absolute; left: 0; bottom: calc(100% + 10px); z-index: 20; width: 340px; padding: 10px; border: 1px solid #c9d9ec; border-radius: 12px; background: #fff; box-shadow: 0 12px 32px rgba(13, 42, 74, .22); }
+
+/* One height for every control in the popup footer (Back, AEGIS Assist box, Save, Reject, Approve); same blue as the chat. */
+.news-read-footer { align-items: center; }
+.news-read-footer > button, .news-read-decide > button, .news-read-ask { height: 38px; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; padding-top: 0; padding-bottom: 0; line-height: 1; }
+.news-read-ask { padding: 0 4px 0 12px; border-radius: 999px; }
+.news-read-ask > button.ne-ai, .news-read-model-btn { height: 30px; box-sizing: border-box; padding-top: 0; padding-bottom: 0; line-height: 1; }
+.news-read-ask input[type="text"] { height: 30px; box-sizing: border-box; padding-top: 0; padding-bottom: 0; }
+
+/* Final heights: every footer control is 44px (the app's tap size); the pieces inside the AEGIS Assist box are 34px. */
+.news-read-footer > button, .news-read-decide > button, .news-read-ask { height: 44px; min-height: 44px; }
+.news-read-ask > button.ne-ai, .news-read-model-btn, .news-read-ask input[type="text"] { height: 34px; min-height: 34px; }
+.news-read-model-pop .google-model-option[aria-disabled="true"] { opacity: .5; cursor: not-allowed; }
+
+/* News approval: the card heading only repeats the tab, so it is hidden from view (kept for screen readers). */
+[data-card-id="admin:screening"] > .dashboard-card-heading { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Governance and costs: two stacked columns, so the second card of a column sits right under the first (no gap beside a taller card). */
+.admin-grid > .admin-cols { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.admin-cols > .admin-col { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+@media (max-width: 900px) { .admin-grid > .admin-cols { grid-template-columns: 1fr; } }
+
+/* Edit limits: one button; click it and the two limits become fields in the card. */
+.spend-edit { margin: 0 0 12px; }
+.spend-edit > button, .spend-edit-actions button { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 6px 14px; font: inherit; font-size: 13px; cursor: pointer; }
+.spend-edit-actions button.ne-primary { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.spend-edit-actions button:disabled { opacity: .5; cursor: default; }
+.spend-edit.is-editing { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 14px; padding: 12px; border: 1px solid #b9d3f5; border-radius: 10px; background: #f3f8ff; }
+.spend-edit.is-editing label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #35506f; }
+.spend-edit.is-editing input { padding: 7px 9px; font: inherit; font-size: 14px; border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; }
+.spend-edit-reason, .spend-edit-actions, .spend-edit.is-editing > small, .spend-edit.is-editing > p { grid-column: 1 / -1; }
+.spend-edit-actions { display: flex; gap: 8px; }
+.spend-edit.is-editing > small { color: #61758b; }
+
+/* The editable limits: a small pin beside the number; click the pin or the number and it becomes a field. */
+.spend-value { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: transparent; font: inherit; font-size: inherit; font-weight: inherit; color: inherit; cursor: pointer; text-align: left; }
+.spend-value:hover .spend-pin, .spend-value:focus-visible .spend-pin { opacity: 1; color: #1b6fb8; }
+.spend-pin { display: inline-flex; opacity: .55; color: #61758b; }
+.spend-stat.is-editing { border-color: #1b6fb8; background: #f3f8ff; }
+.spend-stat-value input { width: 7.5em; padding: 3px 6px; font: inherit; font-size: inherit; font-weight: inherit; border: 1px solid #b9d3f5; border-radius: 6px; background: #fff; }
+.spend-edit.is-editing { grid-template-columns: 1fr; }
+.spend-stat-value { white-space: nowrap; }
+.spend-stat-value input { width: 5.6em; }
+
+/* Spend card: the period picker, the note for months with no figures, and the small "i" beside the three explanatory lines. */
+.spend-period { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 12px; font-size: 12px; color: #547194; text-transform: uppercase; letter-spacing: 1.2px; }
+.spend-period select { padding: 5px 10px; font: inherit; font-size: 13px; letter-spacing: 0; text-transform: none; color: #213653; border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; }
+.spend-none { margin: 4px 0 8px; padding: 12px 14px; border: 1px dashed #c9d9ec; border-radius: 10px; background: #f8fafd; color: #547194; font-size: 13px; }
+.info-tip { position: relative; display: inline-block; margin-left: 8px; vertical-align: middle; }
+.info-tip-btn { width: 17px; height: 17px; min-width: 17px; min-height: 17px; padding: 0; border: 1px solid #8aa5c6; border-radius: 50%; background: #fff; color: #4a6f9c; font: inherit; font-size: 11px; font-weight: 700; font-style: italic; line-height: 1; cursor: help; display: inline-flex; align-items: center; justify-content: center; }
+.info-tip-btn:hover, .info-tip-btn:focus-visible { background: #1b6fb8; border-color: #1b6fb8; color: #fff; }
+.info-tip-pop { display: none; position: absolute; left: 0; top: calc(100% + 8px); z-index: 40; width: min(360px, 80vw); padding: 10px 12px; border-radius: 8px; background: rgba(15, 23, 42, .96); color: #f1f5f9; font-size: 12px; font-style: normal; font-weight: 400; line-height: 1.55; text-transform: none; letter-spacing: 0; box-shadow: 0 8px 24px rgba(13, 42, 74, .3); }
+.info-tip:hover .info-tip-pop, .info-tip:focus-within .info-tip-pop { display: block; }
+.info-tip-pop strong { color: #fff; }
+
+/* Pen beside an editable limit; in edit mode the number gets a field, a short Why box, OK and Cancel inside its own box. */
+.spend-pen { display: inline-flex; opacity: .6; color: #61758b; }
+.spend-value:hover .spend-pen, .spend-value:focus-visible .spend-pen { opacity: 1; color: #1b6fb8; }
+.spend-inline { display: flex; flex-direction: column; gap: 6px; margin-top: 2px; }
+.spend-inline-row { display: flex; align-items: center; gap: 6px; font-size: 18px; color: #213653; }
+.spend-inline-row input { width: 5.6em; }
+.spend-inline .spend-why { width: 100%; box-sizing: border-box; padding: 6px 8px; font: inherit; font-size: 12.5px; border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; }
+.spend-inline-actions { display: flex; gap: 6px; }
+.spend-inline-actions button { height: 34px; min-height: 34px; padding: 0 14px; border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; font: inherit; font-size: 13px; cursor: pointer; }
+.spend-inline-actions button.spend-ok { background: #1b6fb8; border-color: #1b6fb8; color: #fff; font-weight: 700; min-width: 56px; }
+.spend-inline-actions button:disabled { opacity: .5; cursor: default; }
+.spend-inline small { color: #61758b; font-size: 11px; line-height: 1.4; }
+
+/* API status tab: a summary, then one card per group with a row per service. */
+.admin-grid > [data-card-id="admin:apis"], .admin-grid > [data-card-id^="admin:apis-"] { grid-column: 1 / -1; }
+.api-refresh { border: 1px solid #c9d9ec; border-radius: 8px; background: #fff; color: #1b4f9c; padding: 6px 14px; font: inherit; font-size: 13px; cursor: pointer; }
+.api-refresh:disabled { opacity: .6; cursor: default; }
+.api-summary { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 10px; }
+.api-summary small { color: #61758b; margin-left: auto; }
+.api-chip { padding: 4px 12px; border-radius: 999px; font-size: 12.5px; border: 1px solid #dbe7f4; background: #f8fafd; color: #35506f; }
+.api-chip b { font-size: 14px; }
+.api-chip.is-working { background: #eefaf2; border-color: #bfe3cd; color: #1f6f42; } .api-chip.is-configured { background: #eef6ff; border-color: #b9d3f5; color: #1b4f9c; }
+.api-chip.is-problem { background: #fdecea; border-color: #f0b8b3; color: #b42318; } .api-chip.is-off { background: #f1f4f8; border-color: #d3dbe6; color: #61758b; }
+.api-rows { display: flex; flex-direction: column; }
+.api-row { display: grid; grid-template-columns: 104px minmax(0, 1.3fr) 108px minmax(0, 1.5fr); gap: 6px 14px; align-items: start; padding: 11px 0; border-top: 1px solid #edf2f8; }
+.api-row:first-child { border-top: 0; }
+.api-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; } .api-main strong { color: #0d2a4a; font-size: 14px; } .api-main small { color: #61758b; font-size: 12px; line-height: 1.45; }
+.api-meta { display: flex; flex-direction: column; gap: 2px; font-size: 12.5px; color: #35506f; min-width: 0; } .api-meta small { color: #61758b; font-size: 11.5px; line-height: 1.45; } .api-switch { font-family: ui-monospace, Consolas, monospace; font-size: 11px !important; }
+.api-bad { color: #b42318; }
+.api-state, .api-cost { display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 11.5px; font-weight: 700; text-align: center; width: fit-content; }
+.api-state.is-working { background: #e3f5ea; color: #1f6f42; } .api-state.is-configured { background: #e4f0ff; color: #1b4f9c; } .api-state.is-problem { background: #fbe1de; color: #b42318; }
+.api-state.is-off, .api-state.is-not-set, .api-state.is-unknown { background: #eceff4; color: #61758b; }
+.api-cost { background: #f8fafd; color: #61758b; border: 1px solid #e3eaf3; font-weight: 600; } .api-cost.is-billed { background: #fff6e2; color: #8a631d; border-color: #f0dfb4; }
+@media (max-width: 900px) { .api-row { grid-template-columns: 96px minmax(0, 1fr); } .api-cost { grid-column: 2; } .api-meta { grid-column: 1 / -1; } }
+
+/* API status: the state badge with its on/off switch under it. */
+.api-left { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.api-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 2px 10px 2px 3px; min-height: 28px; border: 1px solid #c9d3df; border-radius: 999px; background: #eceff4; color: #61758b; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; }
+.api-toggle-knob { width: 20px; height: 20px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(13, 42, 74, .3); }
+.api-toggle.is-on { background: #1b6fb8; border-color: #1b6fb8; color: #fff; flex-direction: row-reverse; padding: 2px 3px 2px 10px; }
+.api-toggle:disabled { opacity: .6; cursor: default; }
+
+.api-preview { display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
+.api-preview small { color: #8a631d; font-size: 11px; line-height: 1.3; }
+.api-toggle.is-preview { opacity: .6; cursor: not-allowed; }
+
+/* A locked switch: the service is always on (set by the server), so the switch is grey and disabled, with the same size and spacing as an active switch. */
+.api-locked { display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
+.api-locked small { color: #61758b; font-size: 11px; line-height: 1.3; }
+.api-toggle.is-locked { background: #aab6c4; border-color: #aab6c4; color: #fff; opacity: 1; cursor: not-allowed; }

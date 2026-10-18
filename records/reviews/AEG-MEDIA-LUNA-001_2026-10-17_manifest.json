@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "documentId": "AEG-MEDIA-LUNA-001",
+  "date": "2026-10-17",
+  "status": "LOCAL_DELIVERY_SNAPSHOT",
+  "scope": "125-pin media audit, Wikimedia resolver fallback, file provenance, focused tests and API handback",
+  "predecessor": "records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_manifest.json",
+  "files": [
+    {
+      "path": "HANDOVER.md",
+      "bytes": 70060,
+      "sha256": "571b96dc86730384076ac8a64e808cb425a6a9c1cc8a45cfea9ec4a1dc23acda"
+    },
+    {
+      "path": "content/places/place-media.json",
+      "bytes": 96947,
+      "sha256": "bc3ec9c356e9507deb6f23778ce7744bc4a5ae3a2081e4685cce00258523daf0"
+    },
+    {
+      "path": "data/place-media.pre-AEG-MEDIA-LUNA-001.json",
+      "bytes": 86057,
+      "sha256": "d24416b5263a4c0a0743f5ae459333d52a6f88855c80d2b6013627913316e65b"
+    },
+    {
+      "path": "docs/00-governance/AEG-REG-001_document-register.csv",
+      "bytes": 3916,
+      "sha256": "6d0b6dd94b9e930b2138f8382d88161a0cdd9a1eecfff02cf45baa8851f417ba"
+    },
+    {
+      "path": "docs/03-delivery/AEG-LOG-001_work-log.md",
+      "bytes": 142442,
+      "sha256": "d266f7ed0d2bf412a8daafeaa4b1cc4eee5ee6cb0f082c860e19631d1b180f60"
+    },
+    {
+      "path": "docs/06-engineering/AEG-LOG-002_build-log.md",
+      "bytes": 129954,
+      "sha256": "de636dead8a7b74f6f1887c2908d0c918dd8a472396c0aea548d998948debda9"
+    },
+    {
+      "path": "docs/06-engineering/AEG-REG-002_engineering-register.csv",
+      "bytes": 4480,
+      "sha256": "3b9c45660187343fc2ad9fcdec41182d7a3e6f94777d58f936a71d330cd73507"
+    },
+    {
+      "path": "docs/99-inbox/C0017_luna-to-snet_media-catalogue-refresh.md",
+      "bytes": 2294,
+      "sha256": "18bb9924345efb2c3bb18bee7c9beb4bc8344eaa16238646b8ddc0697f8e3255"
+    },
+    {
+      "path": "records/baselines/AEG-BAS-002_2026-10-13_expected-changes.json",
+      "bytes": 3810,
+      "sha256": "0c633a10a82ffa02c7de48c1f676e15ba892af5c07840f9107d220341d9f6981"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_api.json",
+      "bytes": 1790,
+      "sha256": "b1d8381c809a61053001260855f9264ee24be1715d48492405c5280e134b2838"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_candidates.json",
+      "bytes": 2806,
+      "sha256": "aa45b6ff06743fd8f77277b8e9e2f0cf107ec22666c441f58457bec6acec0bc0"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_identity.json",
+      "bytes": 54411,
+      "sha256": "fc9d6859b7c88eec1ecbefc2c8a688e404adb80ce30fd31d03acff95bbd3f346"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_pins.csv",
+      "bytes": 133597,
+      "sha256": "fc11a982fae5ed0dfc8a869e88fd6fd815dd082bbaa98613886235817a05e447"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_review.md",
+      "bytes": 9214,
+      "sha256": "9e94932c9fcf1eb39e1b3c01ab25a1820652f0f0a56a3e30b4e523e5672f98a2"
+    },
+    {
+      "path": "src/sources/wikiMedia.ts",
+      "bytes": 16893,
+      "sha256": "c78214b0d9685eceda43d986ba4bc6b7395f8b457eadc998b6f021a6c3a7d266"
+    },
+    {
+      "path": "tests/unit/place-media-catalogue.test.ts",
+      "bytes": 2329,
+      "sha256": "463b2e2dadcee06daf74288de71da4582adeb2d022ec79009d13b5040323546d"
+    },
+    {
+      "path": "tests/unit/place-media-route.test.ts",
+      "bytes": 2092,
+      "sha256": "918a368b84e040da09884a1ee301040c56fb59f3da79104aa80db93d552e1d0a"
+    },
+    {
+      "path": "tests/unit/wiki-media.test.ts",
+      "bytes": 11049,
+      "sha256": "962a2d3b69179ee47ea36cbd493e40ee46332b9563c746368ac7d625e6e97c76"
+    },
+    {
+      "path": "tools/audit-place-media-identity.ts",
+      "bytes": 2563,
+      "sha256": "f07ddc7dbe0fc75ff7225f604ae95fadb265ec53fe6b2f8f2464aa1092f4fca6"
+    },
+    {
+      "path": "tools/export-place-media-review.ts",
+      "bytes": 4952,
+      "sha256": "43066591141700e04e93c8bcd091ba69dc786ad63f43bd57379cab2b50d8d92f"
+    },
+    {
+      "path": "tools/fetch-place-media.ts",
+      "bytes": 4552,
+      "sha256": "a89b6d9d42700a1062ffbc3c7ec99e484dacecde0ecc60fd108debedde5426e7"
+    }
+  ],
+  "combinedDnaRoot": "0xdc83e55e996aabad3e1e88996a3ab1b96f5c1314b35852cc3cef86a875fa7b07",
+  "pathBoundRoot": "0x809a9c65348fc674ac0cdc7de38b0ad617f03000a54023bbc22e964913452c4c"
+}

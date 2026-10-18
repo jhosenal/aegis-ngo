@@ -1,0 +1,205 @@
+{
+ "builtAt": "2026-10-15T18:42:54.342Z",
+ "files": [
+  {
+   "page": 0,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=0",
+   "httpStatus": 200,
+   "file": "page-000.json",
+   "items": 100,
+   "bytes": 521122,
+   "sha256": "ba69e65453b3dabf5f815a1f651f2afc00523f386460b5cfd88944568e7939db",
+   "retrievedAt": "2026-10-15T18:41:55.772Z"
+  },
+  {
+   "page": 1,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=100",
+   "httpStatus": 200,
+   "file": "page-001.json",
+   "items": 100,
+   "bytes": 647796,
+   "sha256": "66544be6547a6f4e504a5f13b189943b21604d6bb046f359cebd1ab23f74e71c",
+   "retrievedAt": "2026-10-15T18:41:59.364Z"
+  },
+  {
+   "page": 2,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=200",
+   "httpStatus": 200,
+   "file": "page-002.json",
+   "items": 100,
+   "bytes": 981809,
+   "sha256": "9c16df7309b818cc04257cd264043bbb0f9d6333d23825097d68791c86a8b591",
+   "retrievedAt": "2026-10-15T18:42:01.617Z"
+  },
+  {
+   "page": 3,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=300",
+   "httpStatus": 200,
+   "file": "page-003.json",
+   "items": 100,
+   "bytes": 913791,
+   "sha256": "6c62b5e88479b8075ce0cfd88616d0bbbca5521c4703d85fcd52025c88a09120",
+   "retrievedAt": "2026-10-15T18:42:05.658Z"
+  },
+  {
+   "page": 4,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=400",
+   "httpStatus": 200,
+   "file": "page-004.json",
+   "items": 100,
+   "bytes": 866792,
+   "sha256": "2320110b3b5e00a7b0fddc4096569e366d925c1da2d27b875e8ac53e907590bf",
+   "retrievedAt": "2026-10-15T18:42:08.769Z"
+  },
+  {
+   "page": 5,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=500",
+   "httpStatus": 200,
+   "file": "page-005.json",
+   "items": 100,
+   "bytes": 1108017,
+   "sha256": "b555c626f14490ee9d10c7e9dff504c16e78cca01b08eed92d4735f68b7a400d",
+   "retrievedAt": "2026-10-15T18:42:10.848Z"
+  },
+  {
+   "page": 6,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=600",
+   "httpStatus": 200,
+   "file": "page-006.json",
+   "items": 100,
+   "bytes": 546895,
+   "sha256": "17b25de0c726e4f4c43525c8f5623915b41847bb05248c8291cd374e95a0671c",
+   "retrievedAt": "2026-10-15T18:42:13.458Z"
+  },
+  {
+   "page": 7,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=700",
+   "httpStatus": 200,
+   "file": "page-007.json",
+   "items": 100,
+   "bytes": 183819,
+   "sha256": "06307a7dff70584170346aac97e0f092b8855b6430212022af34c45c31fab0aa",
+   "retrievedAt": "2026-10-15T18:42:15.874Z"
+  },
+  {
+   "page": 8,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=800",
+   "httpStatus": 200,
+   "file": "page-008.json",
+   "items": 100,
+   "bytes": 201332,
+   "sha256": "8aa9271add8a7e31d4fc63bfc4bf56c16f5d70ab54d5e98a0400c15d9d4a67c1",
+   "retrievedAt": "2026-10-15T18:42:18.116Z"
+  },
+  {
+   "page": 9,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=900",
+   "httpStatus": 200,
+   "file": "page-009.json",
+   "items": 100,
+   "bytes": 180626,
+   "sha256": "8da451bc9062980fe7b0f5d430de2892c7fb51ca7f69e724ef71c61dd2a7b748",
+   "retrievedAt": "2026-10-15T18:42:20.615Z"
+  },
+  {
+   "page": 10,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1000",
+   "httpStatus": 200,
+   "file": "page-010.json",
+   "items": 100,
+   "bytes": 192414,
+   "sha256": "8ea6182a3ba51b12d30d1a9e80f1204bdf8d1bcde9758b066eb59ec8b5b3ed53",
+   "retrievedAt": "2026-10-15T18:42:23.216Z"
+  },
+  {
+   "page": 11,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1100",
+   "httpStatus": 200,
+   "file": "page-011.json",
+   "items": 100,
+   "bytes": 207924,
+   "sha256": "67849f77eaace2044cf453ee7b609b241b8ca4f63a7ef195ac8c8f318546f972",
+   "retrievedAt": "2026-10-15T18:42:25.224Z"
+  },
+  {
+   "page": 12,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1200",
+   "httpStatus": 200,
+   "file": "page-012.json",
+   "items": 100,
+   "bytes": 194094,
+   "sha256": "a2feea76b03e2932cd3cdcf27a5fad73baa576306587a78fdc0e04874d03f047",
+   "retrievedAt": "2026-10-15T18:42:29.277Z"
+  },
+  {
+   "page": 13,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1300",
+   "httpStatus": 200,
+   "file": "page-013.json",
+   "items": 100,
+   "bytes": 362830,
+   "sha256": "15990e6cb6a8777e570e9bd43d84b416c1be2b09d1cecf385fc077dd81a5f19a",
+   "retrievedAt": "2026-10-15T18:42:31.290Z"
+  },
+  {
+   "page": 14,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1400",
+   "httpStatus": 200,
+   "file": "page-014.json",
+   "items": 100,
+   "bytes": 1383164,
+   "sha256": "bdbb19f145500169133444f8100f2ab876a9e08d62ca78f196ded36d243d4ee1",
+   "retrievedAt": "2026-10-15T18:42:35.752Z"
+  },
+  {
+   "page": 15,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1500",
+   "httpStatus": 200,
+   "file": "page-015.json",
+   "items": 100,
+   "bytes": 1531014,
+   "sha256": "6449cb8eafb4b3a342eef41235351ae3915d9d70c717d3a22c74535d2e0db309",
+   "retrievedAt": "2026-10-15T18:42:42.396Z"
+  },
+  {
+   "page": 16,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1600",
+   "httpStatus": 200,
+   "file": "page-016.json",
+   "items": 100,
+   "bytes": 662986,
+   "sha256": "5357f9097bc9833a232575dd985f8b9219ba986536b04087509a5c16b005999a",
+   "retrievedAt": "2026-10-15T18:42:45.559Z"
+  },
+  {
+   "page": 17,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1700",
+   "httpStatus": 200,
+   "file": "page-017.json",
+   "items": 100,
+   "bytes": 192249,
+   "sha256": "36a9732b56c0cef79fd80974feff14a84e2c2eb9f96b65934aa8b2e2d6b172bc",
+   "retrievedAt": "2026-10-15T18:42:47.423Z"
+  },
+  {
+   "page": 18,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1800",
+   "httpStatus": 200,
+   "file": "page-018.json",
+   "items": 100,
+   "bytes": 1670447,
+   "sha256": "09a5fff6030af7a92884bcbc945d90954fb304d7490ee420ba0394d2a00192c9",
+   "retrievedAt": "2026-10-15T18:42:51.306Z"
+  },
+  {
+   "page": 19,
+   "apiUrl": "https://www.who.int/api/news/diseaseoutbreaknews?$filter=PublicationDate%20ge%202016-01-01T00%3A00%3A00Z&$orderby=PublicationDate%20asc&$top=100&$skip=1900",
+   "httpStatus": 200,
+   "file": "page-019.json",
+   "items": 60,
+   "bytes": 1607295,
+   "sha256": "fcbb823c7a74ac1dd216b6decb6d158f16d56e99dc8eb4e94576c48befa2e432",
+   "retrievedAt": "2026-10-15T18:42:54.342Z"
+  }
+ ]
+}

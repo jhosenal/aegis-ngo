@@ -1,0 +1,2345 @@
+{
+  "schemaVersion": 1,
+  "registryId": "AEG-ENV-PINS",
+  "tool": "tools/fetch-place-media.ts",
+  "updatedAt": "2026-10-16T17:29:39.807Z",
+  "counts": {
+    "matched": 70,
+    "name_mismatch": 42,
+    "error": 9,
+    "no_article": 4
+  },
+  "rules": "Image and link come from the English Wikipedia article whose title agrees with the place name. Only CC0, public domain, CC BY and CC BY-SA images are accepted; a thumbnail is verified to load. Never narrated; shown with its credit line. A place with no match or no free image shows no photo, never a guess.",
+  "entries": {
+    "sg-01": {
+      "pinId": "sg-01",
+      "checkedAt": "2026-10-16T16:37:48.937Z",
+      "article": {
+        "title": "Orchard Road",
+        "url": "https://en.wikipedia.org/wiki/Orchard_Road",
+        "distanceM": 5
+      },
+      "image": {
+        "fileTitle": "File:Presenting..._the_real_ION_(8200217734).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Presenting..._the_real_ION_(8200217734).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Presenting..._the_real_ION_%288200217734%29.jpg/250px-Presenting..._the_real_ION_%288200217734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Presenting..._the_real_ION_%288200217734%29.jpg/500px-Presenting..._the_real_ION_%288200217734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 5144,
+        "originalHeight": 3430,
+        "creator": "Erwin Soo from Singapore, Singapore",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "credit": "Photo: Erwin Soo from Singapore, Singapore, CC BY 2.0, via Wikimedia Commons",
+        "description": "ION Orchard Shopping Mall at Orchard Road, Singapore",
+        "thumbVerifiedAt": "2026-10-16T16:37:48.937Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-02": {
+      "pinId": "sg-02",
+      "checkedAt": "2026-10-16T16:37:55.151Z",
+      "article": {
+        "title": "Marina Bay Sands",
+        "url": "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
+        "distanceM": 127
+      },
+      "image": {
+        "fileTitle": "File:Marina_Bay_Sands_(I).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_(I).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/250px-Marina_Bay_Sands_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/500px-Marina_Bay_Sands_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6366,
+        "originalHeight": 4244,
+        "creator": "This Photo was taken by Supanut Arunoprayote. Feel free to use any of my images, but please mention me as the author and",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "credit": "Photo: This Photo was taken by Supanut Arunoprayote. Feel free to use any of my images, but please mention me as the author and, CC BY 4.0, via Wikimedia Commons",
+        "description": "The elevation view from the west of Marina Bay Sands, Singapore",
+        "thumbVerifiedAt": "2026-10-16T16:37:55.151Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-03": {
+      "pinId": "sg-03",
+      "checkedAt": "2026-10-16T16:38:07.057Z",
+      "article": {
+        "title": "Raffles Place",
+        "url": "https://en.wikipedia.org/wiki/Raffles_Place",
+        "distanceM": 99
+      },
+      "image": {
+        "fileTitle": "File:Marina_Bay_Singapore-3499.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Singapore-3499.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Marina_Bay_Singapore-3499.jpg/250px-Marina_Bay_Singapore-3499.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Marina_Bay_Singapore-3499.jpg/500px-Marina_Bay_Singapore-3499.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6131,
+        "originalHeight": 4087,
+        "creator": "Bijay Chaurasia",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Bijay Chaurasia, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Skyline of the Central Business District of Singapore, Marina Bay Singapore",
+        "thumbVerifiedAt": "2026-10-16T16:38:07.057Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-04": {
+      "pinId": "sg-04",
+      "checkedAt": "2026-10-16T16:38:14.503Z",
+      "article": {
+        "title": "Chinatown, Singapore",
+        "url": "https://en.wikipedia.org/wiki/Chinatown%2C_Singapore",
+        "distanceM": 71
+      },
+      "image": {
+        "fileTitle": "File:Aerial_perspective_of_Singapore's_Chinatown.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Aerial_perspective_of_Singapore%27s_Chinatown.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Aerial_perspective_of_Singapore%27s_Chinatown.jpg/250px-Aerial_perspective_of_Singapore%27s_Chinatown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Aerial_perspective_of_Singapore%27s_Chinatown.jpg/500px-Aerial_perspective_of_Singapore%27s_Chinatown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 3992,
+        "originalHeight": 2992,
+        "creator": "Bob Tan",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Bob Tan, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Aerial perspective of Singapore's Chinatown",
+        "thumbVerifiedAt": "2026-10-16T16:38:14.503Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-05": {
+      "pinId": "sg-05",
+      "checkedAt": "2026-10-16T16:15:36.717Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Newton MRT station, Newton Food Centre, Scotts Road) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "sg-06": {
+      "pinId": "sg-06",
+      "checkedAt": "2026-10-16T16:38:22.140Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Woodlands Checkpoint\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "sg-07": {
+      "pinId": "sg-07",
+      "checkedAt": "2026-10-16T16:38:25.533Z",
+      "article": {
+        "title": "Yishun",
+        "url": "https://en.wikipedia.org/wiki/Yishun",
+        "distanceM": 67
+      },
+      "image": {
+        "fileTitle": "File:KhatibHDB.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:KhatibHDB.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/KhatibHDB.JPG/250px-KhatibHDB.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/KhatibHDB.JPG/500px-KhatibHDB.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2592,
+        "originalHeight": 1944,
+        "creator": "mailer_diablo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: mailer_diablo, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "HDB Estate at Khatib, Singapore.",
+        "thumbVerifiedAt": "2026-10-16T16:38:25.533Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-08": {
+      "pinId": "sg-08",
+      "checkedAt": "2026-10-16T16:38:32.550Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Sembawang\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "sg-09": {
+      "pinId": "sg-09",
+      "checkedAt": "2026-10-16T16:39:03.030Z",
+      "article": {
+        "title": "Ang Mo Kio",
+        "url": "https://en.wikipedia.org/wiki/Ang_Mo_Kio",
+        "distanceM": 102
+      },
+      "image": {
+        "fileTitle": "File:NYPcampus.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:NYPcampus.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/NYPcampus.JPG/250px-NYPcampus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/NYPcampus.JPG/500px-NYPcampus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2592,
+        "originalHeight": 1944,
+        "creator": "mailer_diablo",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: mailer_diablo, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "Campus of Nanyang Polytechnic.",
+        "thumbVerifiedAt": "2026-10-16T16:39:03.030Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-10": {
+      "pinId": "sg-10",
+      "checkedAt": "2026-10-16T16:39:10.347Z",
+      "article": {
+        "title": "Sentosa",
+        "url": "https://en.wikipedia.org/wiki/Sentosa",
+        "distanceM": 159
+      },
+      "image": {
+        "fileTitle": "File:1_sentosa_aerial_2016.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:1_sentosa_aerial_2016.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/1_sentosa_aerial_2016.jpg/250px-1_sentosa_aerial_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/1_sentosa_aerial_2016.jpg/500px-1_sentosa_aerial_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 220,
+        "originalWidth": 6976,
+        "originalHeight": 3071,
+        "creator": "Chensiyuan",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Chensiyuan, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "sentosa island aerial shot",
+        "thumbVerifiedAt": "2026-10-16T16:39:10.347Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-11": {
+      "pinId": "sg-11",
+      "checkedAt": "2026-10-16T16:39:17.890Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Telok Blangah\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "sg-12": {
+      "pinId": "sg-12",
+      "checkedAt": "2026-10-16T16:15:49.079Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Pasir Panjang MRT station, Reflections at Bukit Chandu, Bukit Chandu) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "sg-13": {
+      "pinId": "sg-13",
+      "status": "matched",
+      "checkedAt": "2026-10-16T16:52:36.577Z",
+      "article": {
+        "title": "Changi Airport",
+        "url": "https://en.wikipedia.org/wiki/Changi_Airport",
+        "distanceM": 625
+      },
+      "image": {
+        "fileTitle": "File:Changi Airport Terminal 3 entrance Singapore May 2026.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg/250px-Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg/500px-Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 4080,
+        "originalHeight": 3060,
+        "creator": "Heidi Meudt",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "credit": "Photo: Heidi Meudt, CC BY 4.0, via Wikimedia Commons",
+        "description": "Changi Airport Terminal 3 entrance Singapore May 2026",
+        "thumbVerifiedAt": "2026-10-16T16:52:36.577Z"
+      },
+      "note": null
+    },
+    "sg-14": {
+      "pinId": "sg-14",
+      "checkedAt": "2026-10-16T16:16:07.425Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Tampines Mall, Century Square, Tampines MRT station) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "sg-15": {
+      "pinId": "sg-15",
+      "checkedAt": "2026-10-16T16:39:21.340Z",
+      "article": {
+        "title": "Bedok Reservoir",
+        "url": "https://en.wikipedia.org/wiki/Bedok_Reservoir",
+        "distanceM": 1019
+      },
+      "image": {
+        "fileTitle": "File:1_bedok_reservoir_panorama_2010.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:1_bedok_reservoir_panorama_2010.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/1_bedok_reservoir_panorama_2010.jpg/250px-1_bedok_reservoir_panorama_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/1_bedok_reservoir_panorama_2010.jpg/500px-1_bedok_reservoir_panorama_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 200,
+        "originalWidth": 3666,
+        "originalHeight": 1467,
+        "creator": "chensiyuan",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: chensiyuan, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Bedok Reservoir aerial panorama 2010",
+        "thumbVerifiedAt": "2026-10-16T16:39:21.340Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-16": {
+      "pinId": "sg-16",
+      "checkedAt": "2026-10-16T16:39:28.466Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Pasir Ris\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "sg-17": {
+      "pinId": "sg-17",
+      "checkedAt": "2026-10-16T16:40:05.133Z",
+      "article": {
+        "title": "Jurong East",
+        "url": "https://en.wikipedia.org/wiki/Jurong_East",
+        "distanceM": 604
+      },
+      "image": {
+        "fileTitle": "File:Chinese_Garden.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Garden.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Chinese_Garden.JPG/250px-Chinese_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Chinese_Garden.JPG/500px-Chinese_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6229,
+        "originalHeight": 4153,
+        "creator": "Brhb25",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Brhb25, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Tea Pavilion and Cloud Pagoda in Chinese Garden, Singapore",
+        "thumbVerifiedAt": "2026-10-16T16:40:05.133Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-18": {
+      "pinId": "sg-18",
+      "checkedAt": "2026-10-16T16:17:09.466Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Tuas West Road MRT station, Tuas Crescent MRT station, Tuas Depot) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "sg-19": {
+      "pinId": "sg-19",
+      "checkedAt": "2026-10-16T16:40:12.540Z",
+      "article": {
+        "title": "Boon Lay",
+        "url": "https://en.wikipedia.org/wiki/Boon_Lay",
+        "distanceM": 1180
+      },
+      "image": {
+        "fileTitle": "File:HDB_flats_at_Boon_Lay_Place.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:HDB_flats_at_Boon_Lay_Place.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/HDB_flats_at_Boon_Lay_Place.jpg/250px-HDB_flats_at_Boon_Lay_Place.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/HDB_flats_at_Boon_Lay_Place.jpg/500px-HDB_flats_at_Boon_Lay_Place.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 5416,
+        "originalHeight": 4062,
+        "creator": "Brhb25",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Brhb25, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "View of HDB flats at Boon Lay Place, taken from Block 210.",
+        "thumbVerifiedAt": "2026-10-16T16:40:12.540Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "sg-20": {
+      "pinId": "sg-20",
+      "checkedAt": "2026-10-16T16:40:20.003Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Clementi, Singapore\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "bn-01": {
+      "pinId": "bn-01",
+      "checkedAt": "2026-10-16T16:41:05.513Z",
+      "article": {
+        "title": "Bandar Seri Begawan",
+        "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+        "distanceM": 202
+      },
+      "image": {
+        "fileTitle": "File:Brunei_Fireworks_&_Drone_Light_Show_2024_12.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg/250px-Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg/500px-Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6783,
+        "originalHeight": 4522,
+        "creator": "Pangalau",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Pangalau, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Brunei Fireworks & Drone Light Show on 9 March 2024.",
+        "thumbVerifiedAt": "2026-10-16T16:41:05.513Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "bn-02": {
+      "pinId": "bn-02",
+      "checkedAt": "2026-10-16T16:41:12.839Z",
+      "article": {
+        "title": "Muara Port",
+        "url": "https://en.wikipedia.org/wiki/Muara_Port",
+        "distanceM": 518
+      },
+      "image": {
+        "fileTitle": "File:BN-muara-hafen.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:BN-muara-hafen.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BN-muara-hafen.jpg/250px-BN-muara-hafen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BN-muara-hafen.jpg/500px-BN-muara-hafen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 4362,
+        "originalHeight": 2908,
+        "creator": "Balou46",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: Balou46, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "Hafen von Muara, Brunei",
+        "thumbVerifiedAt": "2026-10-16T16:41:12.839Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "bn-03": {
+      "pinId": "bn-03",
+      "checkedAt": "2026-10-16T16:18:04.020Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Jerudong Park Amphitheatre, Jerudong Park, Mukim Sengkurong) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-04": {
+      "pinId": "bn-04",
+      "checkedAt": "2026-10-16T16:18:08.653Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kampong Anggerek Desa, Kampong Pancha Delima, Girl Guides Association of Brunei Darussalam) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-05": {
+      "pinId": "bn-05",
+      "checkedAt": "2026-10-16T16:18:13.297Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Sengkurong Library, Prisons Department (Brunei), Kampong Tanjong Nangka) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-06": {
+      "pinId": "bn-06",
+      "checkedAt": "2026-10-16T16:19:02.981Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Gadong, Brunei, Sultan Sharif Ali Islamic University, Duli Pengiran Muda Al-Muhtadee Billah College) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-07": {
+      "pinId": "bn-07",
+      "checkedAt": "2026-10-16T16:41:20.396Z",
+      "article": {
+        "title": "Kuala Belait",
+        "url": "https://en.wikipedia.org/wiki/Kuala_Belait",
+        "distanceM": 4602
+      },
+      "image": {
+        "fileTitle": "File:Kuala_Belait_at_Night_(18623608099).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kuala_Belait_at_Night_(18623608099).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Kuala_Belait_at_Night_%2818623608099%29.jpg/250px-Kuala_Belait_at_Night_%2818623608099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Kuala_Belait_at_Night_%2818623608099%29.jpg/500px-Kuala_Belait_at_Night_%2818623608099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 3872,
+        "originalHeight": 2581,
+        "creator": "IQRemix from Canada",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "credit": "Photo: IQRemix from Canada, CC BY-SA 2.0, via Wikimedia Commons",
+        "description": "Kuala Belait, Brunei Darussalam",
+        "thumbVerifiedAt": "2026-10-16T16:41:20.396Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "bn-08": {
+      "pinId": "bn-08",
+      "checkedAt": "2026-10-16T16:19:17.677Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (British Army Jungle Warfare Training School, Anthony Abell College, Seria Library) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-09": {
+      "pinId": "bn-09",
+      "checkedAt": "2026-10-16T16:20:02.772Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kampong Sungai Liang, Brunei Fertilizer Industries, Brunei Methanol Company) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-10": {
+      "pinId": "bn-10",
+      "checkedAt": "2026-10-16T16:20:07.293Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Mukim Labi) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-11": {
+      "pinId": "bn-11",
+      "checkedAt": "2026-10-16T16:42:07.172Z",
+      "article": {
+        "title": "Tutong (town)",
+        "url": "https://en.wikipedia.org/wiki/Tutong_(town)",
+        "distanceM": 1258
+      },
+      "image": {
+        "fileTitle": "File:Tutong_Town_21_December_2024_11.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tutong_Town_21_December_2024_11.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Tutong_Town_21_December_2024_11.jpg/250px-Tutong_Town_21_December_2024_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Tutong_Town_21_December_2024_11.jpg/500px-Tutong_Town_21_December_2024_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6960,
+        "originalHeight": 4640,
+        "creator": "Pangalau",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Pangalau, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Tutong Town on 21 December 2024.",
+        "thumbVerifiedAt": "2026-10-16T16:42:07.172Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "bn-12": {
+      "pinId": "bn-12",
+      "checkedAt": "2026-10-16T16:20:11.807Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Mukim Kiudang, Mukim Lamunin) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-13": {
+      "pinId": "bn-13",
+      "checkedAt": "2026-10-16T16:21:01.557Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Tutong Sixth Form Centre, Sayyidina 'Othman Secondary School, Kampong Bukit Beruang, Brunei) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-14": {
+      "pinId": "bn-14",
+      "checkedAt": "2026-10-16T16:42:14.723Z",
+      "article": {
+        "title": "Bangar, Brunei",
+        "url": "https://en.wikipedia.org/wiki/Bangar%2C_Brunei",
+        "distanceM": 351
+      },
+      "image": {
+        "fileTitle": "File:Temburong_27_July_2023_37.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Temburong_27_July_2023_37.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Temburong_27_July_2023_37.jpg/250px-Temburong_27_July_2023_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Temburong_27_July_2023_37.jpg/500px-Temburong_27_July_2023_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6960,
+        "originalHeight": 4640,
+        "creator": "Pangalau",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Pangalau, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Temburong on 27 July 2023.",
+        "thumbVerifiedAt": "2026-10-16T16:42:14.723Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "bn-15": {
+      "pinId": "bn-15",
+      "checkedAt": "2026-10-16T16:21:06.131Z",
+      "article": null,
+      "image": null,
+      "note": "no matching article found by exact title or title search for Batu Apoi National Park",
+      "status": "no_article"
+    },
+    "my-01": {
+      "pinId": "my-01",
+      "checkedAt": "2026-10-16T16:42:22.282Z",
+      "article": {
+        "title": "Kuala Lumpur City Centre",
+        "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Centre",
+        "distanceM": 366
+      },
+      "image": {
+        "fileTitle": "File:Sky_Deck_at_Kuala_Lumpur_Tower_(Menara_KL),_Malaysia_on_28_July_2020_at_172828.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Sky_Deck_at_Kuala_Lumpur_Tower_(Menara_KL),_Malaysia_on_28_July_2020_at_172828.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Sky_Deck_at_Kuala_Lumpur_Tower_%28Menara_KL%29%2C_Malaysia_on_28_July_2020_at_172828.jpg/250px-Sky_Deck_at_Kuala_Lumpur_Tower_%28Menara_KL%29%2C_Malaysia_on_28_July_2020_at_172828.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Sky_Deck_at_Kuala_Lumpur_Tower_%28Menara_KL%29%2C_Malaysia_on_28_July_2020_at_172828.jpg/500px-Sky_Deck_at_Kuala_Lumpur_Tower_%28Menara_KL%29%2C_Malaysia_on_28_July_2020_at_172828.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 371,
+        "originalWidth": 4208,
+        "originalHeight": 3120,
+        "creator": "Frostpolar",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Frostpolar, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Image taken by Frostpolar at KL Tower in July 2020.",
+        "thumbVerifiedAt": "2026-10-16T16:42:22.282Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-02": {
+      "pinId": "my-02",
+      "checkedAt": "2026-10-16T16:42:29.834Z",
+      "article": {
+        "title": "Bangsar",
+        "url": "https://en.wikipedia.org/wiki/Bangsar",
+        "distanceM": 1011
+      },
+      "image": {
+        "fileTitle": "File:Bangsar.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bangsar.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Bangsar.JPG/250px-Bangsar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Bangsar.JPG/500px-Bangsar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 1024,
+        "originalHeight": 768,
+        "creator": "Melancholia i at en.wikipedia",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "credit": "Photo: Melancholia i at en.wikipedia, Public domain, via Wikimedia Commons",
+        "description": "View of Bangsar, Kuala Lumpur.",
+        "thumbVerifiedAt": "2026-10-16T16:42:29.834Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-03": {
+      "pinId": "my-03",
+      "checkedAt": "2026-10-16T16:43:05.588Z",
+      "article": {
+        "title": "Cheras, Kuala Lumpur",
+        "url": "https://en.wikipedia.org/wiki/Cheras%2C_Kuala_Lumpur",
+        "distanceM": 1046
+      },
+      "image": {
+        "fileTitle": "File:Cheras_Indah_Street_View.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Cheras_Indah_Street_View.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Cheras_Indah_Street_View.jpg/250px-Cheras_Indah_Street_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Cheras_Indah_Street_View.jpg/500px-Cheras_Indah_Street_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 951,
+        "originalHeight": 713,
+        "creator": "Brownc",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Brownc, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "​典型馬來西亞社區街景",
+        "thumbVerifiedAt": "2026-10-16T16:43:05.588Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-04": {
+      "pinId": "my-04",
+      "checkedAt": "2026-10-16T16:43:13.134Z",
+      "article": {
+        "title": "Kepong",
+        "url": "https://en.wikipedia.org/wiki/Kepong",
+        "distanceM": 422
+      },
+      "image": {
+        "fileTitle": "File:Central_Park,_Desa_Parkcity_(221113)_2.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Central_Park,_Desa_Parkcity_(221113)_2.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Central_Park%2C_Desa_Parkcity_%28221113%29_2.jpg/250px-Central_Park%2C_Desa_Parkcity_%28221113%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Central_Park%2C_Desa_Parkcity_%28221113%29_2.jpg/500px-Central_Park%2C_Desa_Parkcity_%28221113%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 4160,
+        "originalHeight": 3120,
+        "creator": "Wiki Farazi",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "Photo: Wiki Farazi, CC0, via Wikimedia Commons",
+        "description": "Permandangan sekitar Central Park (Taman Sentral) di Desa Parkcity, dari pintu masuk dekat Persiaran Residen.",
+        "thumbVerifiedAt": "2026-10-16T16:43:13.134Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-05": {
+      "pinId": "my-05",
+      "checkedAt": "2026-10-16T16:43:20.673Z",
+      "article": {
+        "title": "Setapak",
+        "url": "https://en.wikipedia.org/wiki/Setapak",
+        "distanceM": 2624
+      },
+      "image": {
+        "fileTitle": "File:Sri_Thirumurugan_Temple,_Taman_Danau_Kota_(221022).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Sri_Thirumurugan_Temple,_Taman_Danau_Kota_(221022).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Sri_Thirumurugan_Temple%2C_Taman_Danau_Kota_%28221022%29.jpg/250px-Sri_Thirumurugan_Temple%2C_Taman_Danau_Kota_%28221022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Sri_Thirumurugan_Temple%2C_Taman_Danau_Kota_%28221022%29.jpg/500px-Sri_Thirumurugan_Temple%2C_Taman_Danau_Kota_%28221022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 12000,
+        "originalHeight": 9000,
+        "creator": "*angys*",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: *angys*, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Sri Thirumurugan Temple",
+        "thumbVerifiedAt": "2026-10-16T16:43:20.673Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-06": {
+      "pinId": "my-06",
+      "checkedAt": "2026-10-16T16:43:28.243Z",
+      "article": {
+        "title": "Wangsa Maju",
+        "url": "https://en.wikipedia.org/wiki/Wangsa_Maju",
+        "distanceM": 450
+      },
+      "image": {
+        "fileTitle": "File:Wangsa_Maju_cityscape_(211031).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Wangsa_Maju_cityscape_(211031).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Wangsa_Maju_cityscape_%28211031%29.jpg/250px-Wangsa_Maju_cityscape_%28211031%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Wangsa_Maju_cityscape_%28211031%29.jpg/500px-Wangsa_Maju_cityscape_%28211031%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 166,
+        "originalWidth": 7192,
+        "originalHeight": 2381,
+        "creator": "*angys*",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: *angys*, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Wangsa Maju LRT Station",
+        "thumbVerifiedAt": "2026-10-16T16:43:28.243Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-07": {
+      "pinId": "my-07",
+      "checkedAt": "2026-10-16T16:43:35.758Z",
+      "article": {
+        "title": "Petaling Jaya",
+        "url": "https://en.wikipedia.org/wiki/Petaling_Jaya",
+        "distanceM": 442
+      },
+      "image": {
+        "fileTitle": "File:Section_17_PJ_4.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Section_17_PJ_4.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Section_17_PJ_4.jpg/250px-Section_17_PJ_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Section_17_PJ_4.jpg/500px-Section_17_PJ_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 281,
+        "originalWidth": 3716,
+        "originalHeight": 2090,
+        "creator": "Slleong",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "Photo: Slleong, CC0, via Wikimedia Commons",
+        "description": "Skyline of Section 17, Damansara Uptown and the other neighbourhoods of northern Petaling Jaya at sunrise.",
+        "thumbVerifiedAt": "2026-10-16T16:43:35.758Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-08": {
+      "pinId": "my-08",
+      "checkedAt": "2026-10-16T16:44:06.530Z",
+      "article": {
+        "title": "Shah Alam",
+        "url": "https://en.wikipedia.org/wiki/Shah_Alam",
+        "distanceM": 252
+      },
+      "image": {
+        "fileTitle": "File:Shah_Alam_Blue_mosque_at_night.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Shah_Alam_Blue_mosque_at_night.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Shah_Alam_Blue_mosque_at_night.jpg/250px-Shah_Alam_Blue_mosque_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Shah_Alam_Blue_mosque_at_night.jpg/500px-Shah_Alam_Blue_mosque_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 1890,
+        "originalHeight": 1260,
+        "creator": "Ezry Abdul Rahman from Petaling Jaya, Selangor, Malaysia",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "credit": "Photo: Ezry Abdul Rahman from Petaling Jaya, Selangor, Malaysia, CC BY 2.0, via Wikimedia Commons",
+        "description": "Sultan Salahuddin Abdul Aziz Shah mosque night view.",
+        "thumbVerifiedAt": "2026-10-16T16:44:06.530Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-09": {
+      "pinId": "my-09",
+      "checkedAt": "2026-10-16T16:44:14.105Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Puchong Jaya\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "my-10": {
+      "pinId": "my-10",
+      "checkedAt": "2026-10-16T16:44:17.352Z",
+      "article": {
+        "title": "Port Klang",
+        "url": "https://en.wikipedia.org/wiki/Port_Klang",
+        "distanceM": 0
+      },
+      "image": {
+        "fileTitle": "File:Northport_Malaysia_Wharve.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Northport_Malaysia_Wharve.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Northport_Malaysia_Wharve.JPG/250px-Northport_Malaysia_Wharve.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Northport_Malaysia_Wharve.JPG/500px-Northport_Malaysia_Wharve.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 250,
+        "originalWidth": 1650,
+        "originalHeight": 825,
+        "creator": "Hafiz343",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Hafiz343, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Northport (Port Klang), Malaysia.",
+        "thumbVerifiedAt": "2026-10-16T16:44:17.352Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-11": {
+      "pinId": "my-11",
+      "checkedAt": "2026-10-16T16:44:24.677Z",
+      "article": {
+        "title": "Subang Jaya",
+        "url": "https://en.wikipedia.org/wiki/Subang_Jaya",
+        "distanceM": 1279
+      },
+      "image": {
+        "fileTitle": "File:Subang_Jaya_at_Dusk.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Subang_Jaya_at_Dusk.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Subang_Jaya_at_Dusk.jpg/250px-Subang_Jaya_at_Dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Subang_Jaya_at_Dusk.jpg/500px-Subang_Jaya_at_Dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 750,
+        "originalHeight": 500,
+        "creator": "Gohweiyang",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: Gohweiyang, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "The commercial center of Subang Jaya at dusk.",
+        "thumbVerifiedAt": "2026-10-16T16:44:24.677Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-12": {
+      "pinId": "my-12",
+      "checkedAt": "2026-10-16T16:44:32.223Z",
+      "article": {
+        "title": "Kajang",
+        "url": "https://en.wikipedia.org/wiki/Kajang",
+        "distanceM": 173
+      },
+      "image": {
+        "fileTitle": "File:Bandar_Kajang,_Hulu_Langat_District_20230618_120509.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bandar_Kajang,_Hulu_Langat_District_20230618_120509.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandar_Kajang%2C_Hulu_Langat_District_20230618_120509.jpg/250px-Bandar_Kajang%2C_Hulu_Langat_District_20230618_120509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandar_Kajang%2C_Hulu_Langat_District_20230618_120509.jpg/500px-Bandar_Kajang%2C_Hulu_Langat_District_20230618_120509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 281,
+        "originalWidth": 4160,
+        "originalHeight": 2340,
+        "creator": "Wiki Farazi",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "Photo: Wiki Farazi, CC0, via Wikimedia Commons",
+        "description": "View of Kajang in Hulu Langat District, Selangor",
+        "thumbVerifiedAt": "2026-10-16T16:44:32.223Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-13": {
+      "pinId": "my-13",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:29:39.807Z",
+      "article": {
+        "title": "Wisma Putra",
+        "url": "https://en.wikipedia.org/wiki/Wisma_Putra",
+        "distanceM": 373
+      },
+      "image": {
+        "fileTitle": "File:Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg/250px-Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg/500px-Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 2000,
+        "originalHeight": 1333,
+        "creator": "CEphoto, Uwe Aranas",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "Putrajaya, Malaysia: Kementerian Luar Negeri (Ministry of Foreign Affairs; KLN)",
+        "thumbVerifiedAt": "2026-10-16T17:29:39.807Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Wisma Putra, Ministry of Foreign Affairs complex. Association: Wisma Putra is the Malaysian Ministry of Foreign Affairs complex in the federal administrative centre of Putrajaya; the article coordinate is 373 m from the unchanged monitoring pin. Monitoring coordinates remain 2.9264, 101.6964. Article coordinates 2.92611111, 101.69305556; computed distance 373 m. No current incident is represented."
+    },
+    "my-14": {
+      "pinId": "my-14",
+      "checkedAt": "2026-10-16T16:22:06.798Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Larkin Sentral, Tan Sri Dato' Haji Hassan Yunos Stadium, Tun Hussein Onn Jamek Mosque) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-15": {
+      "pinId": "my-15",
+      "checkedAt": "2026-10-16T16:45:06.987Z",
+      "article": {
+        "title": "Muar (town)",
+        "url": "https://en.wikipedia.org/wiki/Muar_(town)",
+        "distanceM": 691
+      },
+      "image": {
+        "fileTitle": "File:MUAR_2005.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:MUAR_2005.jpg",
+        "thumb250": "https://upload.wikimedia.org/wikipedia/commons/a/ae/MUAR_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumb500": "https://upload.wikimedia.org/wikipedia/commons/a/ae/MUAR_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 409,
+        "originalHeight": 307,
+        "creator": "林添宝 at Chinese Wikipedia",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "credit": "Photo: 林添宝 at Chinese Wikipedia, Public domain, via Wikimedia Commons",
+        "description": "​DESCRIPTION: MUAR SEA VIEW SOURCE:OWN DATE: 2005 TAKEN BY LIM THIAM POH",
+        "thumbVerifiedAt": "2026-10-16T16:45:06.987Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-16": {
+      "pinId": "my-16",
+      "checkedAt": "2026-10-16T16:45:14.553Z",
+      "article": {
+        "title": "Batu Pahat (town)",
+        "url": "https://en.wikipedia.org/wiki/Batu_Pahat_(town)",
+        "distanceM": 598
+      },
+      "image": {
+        "fileTitle": "File:View_north_of_Taman_Bahagian_and_Taman_Mewah_from_6th_floor_of_Sultanah_Nora_Ismail_Hospital_(Block_B)_in_Taman_Soga,_Johor_20250212_163821.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:View_north_of_Taman_Bahagian_and_Taman_Mewah_from_6th_floor_of_Sultanah_Nora_Ismail_Hospital_(Block_B)_in_Taman_Soga,_Johor_20250212_163821.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/View_north_of_Taman_Bahagian_and_Taman_Mewah_from_6th_floor_of_Sultanah_Nora_Ismail_Hospital_%28Block_B%29_in_Taman_Soga%2C_Johor_20250212_163821.jpg/250px-View_north_of_Taman_Bahagian_and_Taman_Mewah_from_6th_floor_of_Sultanah_Nora_Ismail_Hospital_%28Block_B%29_in_Taman_Soga%2C_Johor_20250212_163821.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/View_north_of_Taman_Bahagian_and_Taman_Mewah_from_6th_floor_of_Sultanah_Nora_Ismail_Hospital_%28Block_B%29_in_Taman_Soga%2C_Johor_20250212_163821.jpg/500px-View_north_of_Taman_Bahagian_and_Taman_Mewah_from_6th_floor_of_Sultanah_Nora_Ismail_Hospital_%28Block_B%29_in_Taman_Soga%2C_Johor_20250212_163821.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 4160,
+        "originalHeight": 3120,
+        "creator": "Wiki Farazi",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "Photo: Wiki Farazi, CC0, via Wikimedia Commons",
+        "description": "Pandangan utara Taman Bahagia dan Taman Mewah daripada aras ke-6 Blok B bagi Hospital Sultanah Nora Ismail di Taman Soga, Daerah Batu Pahat, Johor, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T16:45:14.553Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-17": {
+      "pinId": "my-17",
+      "checkedAt": "2026-10-16T16:45:22.090Z",
+      "article": {
+        "title": "Kluang District",
+        "url": "https://en.wikipedia.org/wiki/Kluang_District",
+        "distanceM": 427
+      },
+      "image": {
+        "fileTitle": "File:Kluang_highlighted_in_Johor,_Malaysia.svg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kluang_highlighted_in_Johor,_Malaysia.svg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kluang_highlighted_in_Johor%2C_Malaysia.svg/250px-Kluang_highlighted_in_Johor%2C_Malaysia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kluang_highlighted_in_Johor%2C_Malaysia.svg/500px-Kluang_highlighted_in_Johor%2C_Malaysia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 476,
+        "originalWidth": 1035,
+        "originalHeight": 986,
+        "creator": "Goran tek-en, following request by :en:*angys* (talk | contribs)",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Goran tek-en, following request by :en:*angys* (talk | contribs), CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Kluang district, Selangor, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T16:45:22.090Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-18": {
+      "pinId": "my-18",
+      "checkedAt": "2026-10-16T16:45:29.652Z",
+      "article": {
+        "title": "Pasir Gudang",
+        "url": "https://en.wikipedia.org/wiki/Pasir_Gudang",
+        "distanceM": 6836
+      },
+      "image": {
+        "fileTitle": "File:Lamp_post_in_Pasir_Gudang.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Lamp_post_in_Pasir_Gudang.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lamp_post_in_Pasir_Gudang.jpg/250px-Lamp_post_in_Pasir_Gudang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lamp_post_in_Pasir_Gudang.jpg/500px-Lamp_post_in_Pasir_Gudang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 3940,
+        "originalHeight": 2955,
+        "creator": "Wee Hong",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Wee Hong, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "A lamp post on Jalan Bandar, Pasir Gudang",
+        "thumbVerifiedAt": "2026-10-16T16:45:29.652Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-19": {
+      "pinId": "my-19",
+      "checkedAt": "2026-10-16T16:46:06.895Z",
+      "article": {
+        "title": "Skudai",
+        "url": "https://en.wikipedia.org/wiki/Skudai",
+        "distanceM": 699
+      },
+      "image": {
+        "fileTitle": "File:Iskandar_Puteri_City_Council.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Iskandar_Puteri_City_Council.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Iskandar_Puteri_City_Council.jpg/250px-Iskandar_Puteri_City_Council.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Iskandar_Puteri_City_Council.jpg/500px-Iskandar_Puteri_City_Council.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2438,
+        "originalHeight": 1829,
+        "creator": "Chongkian",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Chongkian, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Iskandar Puteri City Council, Skudai, Iskandar Puteri, Johor, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T16:46:06.895Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-20": {
+      "pinId": "my-20",
+      "checkedAt": "2026-10-16T16:46:14.503Z",
+      "article": {
+        "title": "Iskandar Puteri",
+        "url": "https://en.wikipedia.org/wiki/Iskandar_Puteri",
+        "distanceM": 1892
+      },
+      "image": {
+        "fileTitle": "File:Entrance_Legoland_Malaysia.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Entrance_Legoland_Malaysia.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Entrance_Legoland_Malaysia.jpg/250px-Entrance_Legoland_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Entrance_Legoland_Malaysia.jpg/500px-Entrance_Legoland_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 4608,
+        "originalHeight": 3456,
+        "creator": "milst1",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "credit": "Photo: milst1, CC BY-SA 2.0, via Wikimedia Commons",
+        "description": "Entrance of Legoland Malaysia",
+        "thumbVerifiedAt": "2026-10-16T16:46:14.503Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-21": {
+      "pinId": "my-21",
+      "checkedAt": "2026-10-16T16:46:22.541Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Pontian\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "my-22": {
+      "pinId": "my-22",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "George Town, Penang",
+        "url": "https://en.wikipedia.org/wiki/George_Town,_Penang",
+        "distanceM": 448
+      },
+      "image": {
+        "fileTitle": "File:Skyline_of_George_Town,_Penang_at_night_Nov2024-29-17.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_George_Town,_Penang_at_night_Nov2024-29-17.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Skyline_of_George_Town%2C_Penang_at_night_Nov2024-29-17.jpg/250px-Skyline_of_George_Town%2C_Penang_at_night_Nov2024-29-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Skyline_of_George_Town%2C_Penang_at_night_Nov2024-29-17.jpg/500px-Skyline_of_George_Town%2C_Penang_at_night_Nov2024-29-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 281,
+        "originalWidth": 7994,
+        "originalHeight": 4496,
+        "creator": "HundenvonPenang",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: HundenvonPenang, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Drone photo of the skyline in George Town as of November 2024, taken with DJI Air 3S",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: George Town skyline at night. Association: George Town Heritage is represented by a skyline within the same city; page coordinate is 448 m from the unchanged monitoring pin. Monitoring coordinates remain 5.4164, 100.3327. Article coordinates 5.41444444, 100.32916667; computed distance 448 m. No current incident is represented."
+    },
+    "my-23": {
+      "pinId": "my-23",
+      "checkedAt": "2026-10-16T16:46:25.072Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Bayan Lepas\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    },
+    "my-24": {
+      "pinId": "my-24",
+      "checkedAt": "2026-10-16T16:23:18.724Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Bagan Luar, Sultan Abdul Halim ferry terminal bridge collapse, Sultan Abdul Halim Ferry Terminal) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-25": {
+      "pinId": "my-25",
+      "checkedAt": "2026-10-16T16:47:04.353Z",
+      "article": {
+        "title": "Jelutong, Penang",
+        "url": "https://en.wikipedia.org/wiki/Jelutong%2C_Penang",
+        "distanceM": 351
+      },
+      "image": {
+        "fileTitle": "File:Jelutong,_George_Town,_Penang.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Jelutong,_George_Town,_Penang.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Jelutong%2C_George_Town%2C_Penang.jpg/250px-Jelutong%2C_George_Town%2C_Penang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Jelutong%2C_George_Town%2C_Penang.jpg/500px-Jelutong%2C_George_Town%2C_Penang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 8064,
+        "originalHeight": 6048,
+        "creator": "HundenvonPenang",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: HundenvonPenang, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Skyline of Jelutong, a suburb of George Town in Penang, in October 2023",
+        "thumbVerifiedAt": "2026-10-16T16:47:04.353Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-26": {
+      "pinId": "my-26",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:28:53.741Z",
+      "article": {
+        "title": "Tanjong Bungah",
+        "url": "https://en.wikipedia.org/wiki/Tanjong_Bungah",
+        "distanceM": 923
+      },
+      "image": {
+        "fileTitle": "File:Tanjong_Bungah,_George_Town,_Penang_2023.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tanjong_Bungah,_George_Town,_Penang_2023.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tanjong_Bungah%2C_George_Town%2C_Penang_2023.jpg/250px-Tanjong_Bungah%2C_George_Town%2C_Penang_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tanjong_Bungah%2C_George_Town%2C_Penang_2023.jpg/500px-Tanjong_Bungah%2C_George_Town%2C_Penang_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 8064,
+        "originalHeight": 6048,
+        "creator": "HundenvonPenang",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: HundenvonPenang, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Skyline of Tanjung Bungah, a suburb in George Town, taken by a drone in December 2023",
+        "thumbVerifiedAt": "2026-10-16T17:28:53.741Z"
+      },
+      "note": "Reviewed local place/landmark illustration. Subject: Tanjung Bungah, George Town, Penang skyline. Association: Tanjong Bungah is the established English article spelling of registry locality Tanjung Bungah. Monitoring coordinates remain 5.4628, 100.2796. Article coordinates 5.46861111, 100.28555556; computed distance 923 m. No current incident is represented."
+    },
+    "my-27": {
+      "pinId": "my-27",
+      "checkedAt": "2026-10-16T16:47:11.338Z",
+      "article": {
+        "title": "Ipoh",
+        "url": "https://en.wikipedia.org/wiki/Ipoh",
+        "distanceM": 1674
+      },
+      "image": {
+        "fileTitle": "File:Ipoh_skyline_24-2.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ipoh_skyline_24-2.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Ipoh_skyline_24-2.jpg/250px-Ipoh_skyline_24-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Ipoh_skyline_24-2.jpg/500px-Ipoh_skyline_24-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 8192,
+        "originalHeight": 6144,
+        "creator": "HundenvonPenang",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: HundenvonPenang, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Skyline of downtown Ipoh in November 2024",
+        "thumbVerifiedAt": "2026-10-16T16:47:11.338Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-28": {
+      "pinId": "my-28",
+      "checkedAt": "2026-10-16T16:47:21.890Z",
+      "article": {
+        "title": "Taiping, Perak",
+        "url": "https://en.wikipedia.org/wiki/Taiping%2C_Perak",
+        "distanceM": 4
+      },
+      "image": {
+        "fileTitle": "File:TaipingKotaRoad.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:TaipingKotaRoad.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/TaipingKotaRoad.jpg/250px-TaipingKotaRoad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/TaipingKotaRoad.jpg/500px-TaipingKotaRoad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 1600,
+        "originalHeight": 1067,
+        "creator": "Gohweiyang",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: Gohweiyang, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "A view of Kota Road in the town of Taiping at night. To the right is the iconic clock tower built by the British that has been standing for generations.",
+        "thumbVerifiedAt": "2026-10-16T16:47:21.890Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-29": {
+      "pinId": "my-29",
+      "checkedAt": "2026-10-16T16:48:06.650Z",
+      "article": {
+        "title": "Alor Setar",
+        "url": "https://en.wikipedia.org/wiki/Alor_Setar",
+        "distanceM": 742
+      },
+      "image": {
+        "fileTitle": "File:AlorSetarSkyline.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:AlorSetarSkyline.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AlorSetarSkyline.jpg/250px-AlorSetarSkyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AlorSetarSkyline.jpg/500px-AlorSetarSkyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 231,
+        "originalWidth": 1000,
+        "originalHeight": 462,
+        "creator": "Sedorana2345",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Sedorana2345, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Alor Setar at sunset.",
+        "thumbVerifiedAt": "2026-10-16T16:48:06.650Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-30": {
+      "pinId": "my-30",
+      "checkedAt": "2026-10-16T16:48:14.210Z",
+      "article": {
+        "title": "Sungai Petani",
+        "url": "https://en.wikipedia.org/wiki/Sungai_Petani",
+        "distanceM": 1401
+      },
+      "image": {
+        "fileTitle": "File:Jalan_Pengkalan_intersection,_Sungai_Petani_(221001).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Jalan_Pengkalan_intersection,_Sungai_Petani_(221001).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jalan_Pengkalan_intersection%2C_Sungai_Petani_%28221001%29.jpg/250px-Jalan_Pengkalan_intersection%2C_Sungai_Petani_%28221001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jalan_Pengkalan_intersection%2C_Sungai_Petani_%28221001%29.jpg/500px-Jalan_Pengkalan_intersection%2C_Sungai_Petani_%28221001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 12000,
+        "originalHeight": 9000,
+        "creator": "*angys*",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: *angys*, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Sungai Petani",
+        "thumbVerifiedAt": "2026-10-16T16:48:14.210Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-31": {
+      "pinId": "my-31",
+      "checkedAt": "2026-10-16T16:24:19.327Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kuah, Mahsuri National Secondary School, Langkawi Stadium) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-32": {
+      "pinId": "my-32",
+      "checkedAt": "2026-10-16T16:48:21.728Z",
+      "article": {
+        "title": "Kuantan",
+        "url": "https://en.wikipedia.org/wiki/Kuantan",
+        "distanceM": 1287
+      },
+      "image": {
+        "fileTitle": "File:Kuantan_-_view_from_Menara_188_at_blue_hour_-_May_2024.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kuantan_-_view_from_Menara_188_at_blue_hour_-_May_2024.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kuantan_-_view_from_Menara_188_at_blue_hour_-_May_2024.jpg/250px-Kuantan_-_view_from_Menara_188_at_blue_hour_-_May_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kuantan_-_view_from_Menara_188_at_blue_hour_-_May_2024.jpg/500px-Kuantan_-_view_from_Menara_188_at_blue_hour_-_May_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 5809,
+        "originalHeight": 3873,
+        "creator": "Dominic Nelson",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Dominic Nelson, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "View northwards from the observation deck of the Menara Kuantan 188 tower at blue hour",
+        "thumbVerifiedAt": "2026-10-16T16:48:21.728Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-33": {
+      "pinId": "my-33",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Temerloh",
+        "url": "https://en.wikipedia.org/wiki/Temerloh",
+        "distanceM": 280
+      },
+      "image": {
+        "fileTitle": "File:Temerloh.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Temerloh.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Temerloh.JPG/250px-Temerloh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Temerloh.JPG/500px-Temerloh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 1984,
+        "originalHeight": 1488,
+        "creator": "Chongkian",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Chongkian, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Temerloh, Pahang, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Temerloh town. Association: The Commons description identifies Temerloh, Pahang; its article page coordinate is 280 m from the unchanged river-basin monitoring pin. Monitoring coordinates remain 3.4475, 102.417. Article coordinates 3.45, 102.41666667; computed distance 280 m. No current incident is represented."
+    },
+    "my-34": {
+      "pinId": "my-34",
+      "checkedAt": "2026-10-16T16:48:29.293Z",
+      "article": {
+        "title": "Bentong",
+        "url": "https://en.wikipedia.org/wiki/Bentong",
+        "distanceM": 1050
+      },
+      "image": {
+        "fileTitle": "File:Bentong_2.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Bentong_2.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Bentong_2.jpg/250px-Bentong_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Bentong_2.jpg/500px-Bentong_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 281,
+        "originalWidth": 4013,
+        "originalHeight": 2257,
+        "creator": "Slleong",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "Photo: Slleong, CC0, via Wikimedia Commons",
+        "description": "Jalan Loke Yew in Bentong Town, Pahang, which is part of Federal Route 8, looking south.",
+        "thumbVerifiedAt": "2026-10-16T16:48:29.293Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-35": {
+      "pinId": "my-35",
+      "checkedAt": "2026-10-16T16:48:36.835Z",
+      "article": {
+        "title": "Cameron Highlands",
+        "url": "https://en.wikipedia.org/wiki/Cameron_Highlands",
+        "distanceM": 14113
+      },
+      "image": {
+        "fileTitle": "File:Tea_fields_(Will_Ellis).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tea_fields_(Will_Ellis).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/250px-Tea_fields_%28Will_Ellis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/500px-Tea_fields_%28Will_Ellis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2816,
+        "originalHeight": 2112,
+        "creator": "Will Ellis from Reading, England",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "credit": "Photo: Will Ellis from Reading, England, CC BY 2.0, via Wikimedia Commons",
+        "description": "A view of Fields and fields of...... Tea in Cameron Highlands, Malaysia.",
+        "thumbVerifiedAt": "2026-10-16T16:48:36.835Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-36": {
+      "pinId": "my-36",
+      "checkedAt": "2026-10-16T16:49:06.589Z",
+      "article": {
+        "title": "Kuala Terengganu",
+        "url": "https://en.wikipedia.org/wiki/Kuala_Terengganu",
+        "distanceM": 532
+      },
+      "image": {
+        "fileTitle": "File:Kuala_Terengganu_skyline.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kuala_Terengganu_skyline.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Kuala_Terengganu_skyline.jpg/250px-Kuala_Terengganu_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Kuala_Terengganu_skyline.jpg/500px-Kuala_Terengganu_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 4533,
+        "originalHeight": 3022,
+        "creator": "PenangLion",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: PenangLion, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Skyline of Kuala Terengganu, Terengganu",
+        "thumbVerifiedAt": "2026-10-16T16:49:06.589Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-37": {
+      "pinId": "my-37",
+      "checkedAt": "2026-10-16T16:49:14.124Z",
+      "article": {
+        "title": "Chukai",
+        "url": "https://en.wikipedia.org/wiki/Chukai",
+        "distanceM": 1857
+      },
+      "image": {
+        "fileTitle": "File:Chukai_Town.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chukai_Town.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Chukai_Town.jpg/250px-Chukai_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Chukai_Town.jpg/500px-Chukai_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2816,
+        "originalHeight": 2112,
+        "creator": "Chongkian",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Chongkian, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Chukai, Kemaman, Terengganu, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T16:49:14.124Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-38": {
+      "pinId": "my-38",
+      "checkedAt": "2026-10-16T16:49:21.658Z",
+      "article": {
+        "title": "Kota Bharu",
+        "url": "https://en.wikipedia.org/wiki/Kota_Bharu",
+        "distanceM": 1584
+      },
+      "image": {
+        "fileTitle": "File:Kelantan_Royal_Palace_Gate_-_panoramio.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kelantan_Royal_Palace_Gate_-_panoramio.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kelantan_Royal_Palace_Gate_-_panoramio.jpg/250px-Kelantan_Royal_Palace_Gate_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kelantan_Royal_Palace_Gate_-_panoramio.jpg/500px-Kelantan_Royal_Palace_Gate_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 359,
+        "originalWidth": 3582,
+        "originalHeight": 2574,
+        "creator": "CK Tan",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "credit": "Photo: CK Tan, CC BY 3.0, via Wikimedia Commons",
+        "description": "Kelantan Royal Palace Gate",
+        "thumbVerifiedAt": "2026-10-16T16:49:21.658Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-39": {
+      "pinId": "my-39",
+      "checkedAt": "2026-10-16T16:49:29.280Z",
+      "article": {
+        "title": "Pasir Mas District",
+        "url": "https://en.wikipedia.org/wiki/Pasir_Mas_District",
+        "distanceM": 1251
+      },
+      "image": {
+        "fileTitle": "File:Pasir_Mas_highlighted_in_Kelantan,_Malaysia.svg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Pasir_Mas_highlighted_in_Kelantan,_Malaysia.svg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Pasir_Mas_highlighted_in_Kelantan%2C_Malaysia.svg/250px-Pasir_Mas_highlighted_in_Kelantan%2C_Malaysia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Pasir_Mas_highlighted_in_Kelantan%2C_Malaysia.svg/500px-Pasir_Mas_highlighted_in_Kelantan%2C_Malaysia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 425,
+        "originalWidth": 767,
+        "originalHeight": 652,
+        "creator": "Zh9567",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Zh9567, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Pasir Mas district, Kelantan, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T16:49:29.280Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-40": {
+      "pinId": "my-40",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Kuching",
+        "url": "https://en.wikipedia.org/wiki/Kuching",
+        "distanceM": 1765
+      },
+      "image": {
+        "fileTitle": "File:Kuching_Skyline.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kuching_Skyline.jpg",
+        "thumb250": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kuching_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumb500": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kuching_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width500": 500,
+        "height500": 285,
+        "originalWidth": 491,
+        "originalHeight": 280,
+        "creator": "Mike86 at English Wikipedia",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "credit": "Photo: Mike86 at English Wikipedia, Public domain, via Wikimedia Commons",
+        "description": "Mike",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Kuching city skyline. Association: Kuching City Centre is represented by a city skyline from its own capital-city article; image/article location is 1,765 m from the unchanged monitoring pin. Monitoring coordinates remain 1.5533, 110.3592. Article coordinates 1.5575, 110.34388889; computed distance 1765 m. No current incident is represented."
+    },
+    "my-41": {
+      "pinId": "my-41",
+      "checkedAt": "2026-10-16T16:50:07.060Z",
+      "article": {
+        "title": "Miri",
+        "url": "https://en.wikipedia.org/wiki/Miri",
+        "distanceM": 975
+      },
+      "image": {
+        "fileTitle": "File:Miri_City_Council_3.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Miri_City_Council_3.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Miri_City_Council_3.jpg/250px-Miri_City_Council_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Miri_City_Council_3.jpg/500px-Miri_City_Council_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 4160,
+        "originalHeight": 3120,
+        "creator": "Mx. Granger",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "Photo: Mx. Granger, CC0, via Wikimedia Commons",
+        "description": "The Miri City Council (Majlis Bandaraya Miri) building in Miri, Sarawak, Malaysia.",
+        "thumbVerifiedAt": "2026-10-16T16:50:07.060Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-42": {
+      "pinId": "my-42",
+      "checkedAt": "2026-10-16T16:50:14.548Z",
+      "article": {
+        "title": "Sibu",
+        "url": "https://en.wikipedia.org/wiki/Sibu",
+        "distanceM": 2077
+      },
+      "image": {
+        "fileTitle": "File:Sibu_composite_image.png",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Sibu_composite_image.png",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sibu_composite_image.png/250px-Sibu_composite_image.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sibu_composite_image.png/500px-Sibu_composite_image.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 400,
+        "originalWidth": 1599,
+        "originalHeight": 1280,
+        "creator": "Various. Compiled by Cerevisae",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Various. Compiled by Cerevisae, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "A composite image of major attractions in the city of Sibu. Clockwise from top right: Wong Nai Siong Memorial Garden, Jade Dragon Temple, An-Nur Mosque, Masland Methodist church, Tua Pek Kong Temple, Wisma Sanyan, and swan statue.",
+        "thumbVerifiedAt": "2026-10-16T16:50:14.548Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-43": {
+      "pinId": "my-43",
+      "checkedAt": "2026-10-16T16:26:03.929Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Bintulu, The Spring Bintulu, Kemena River) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-44": {
+      "pinId": "my-44",
+      "checkedAt": "2026-10-16T16:50:22.060Z",
+      "article": {
+        "title": "Kota Samarahan",
+        "url": "https://en.wikipedia.org/wiki/Kota_Samarahan",
+        "distanceM": 201
+      },
+      "image": {
+        "fileTitle": "File:Chancellory_Universiti_Malaysia_Sarawak.JPG",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chancellory_Universiti_Malaysia_Sarawak.JPG",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Chancellory_Universiti_Malaysia_Sarawak.JPG/250px-Chancellory_Universiti_Malaysia_Sarawak.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Chancellory_Universiti_Malaysia_Sarawak.JPG/500px-Chancellory_Universiti_Malaysia_Sarawak.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2816,
+        "originalHeight": 2112,
+        "creator": "Tabdulla (talk) (Uploads)",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "credit": "Photo: Tabdulla (talk) (Uploads), CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "User:TabdullaTabdulla 12:29, 13 January 2007 (UTC) Summary Tabdulla 12:29, 13 January 2007 (UTC)",
+        "thumbVerifiedAt": "2026-10-16T16:50:22.060Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-45": {
+      "pinId": "my-45",
+      "checkedAt": "2026-10-16T16:26:08.407Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kampong Kuala Lurah, Kampong Batang Perhentian, IBTE Agro-Technology Campus) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-46": {
+      "pinId": "my-46",
+      "checkedAt": "2026-10-16T16:50:29.602Z",
+      "article": {
+        "title": "Limbang",
+        "url": "https://en.wikipedia.org/wiki/Limbang",
+        "distanceM": 1259
+      },
+      "image": {
+        "fileTitle": "File:Limbang_plaza.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Limbang_plaza.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Limbang_plaza.jpg/250px-Limbang_plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Limbang_plaza.jpg/500px-Limbang_plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2048,
+        "originalHeight": 1536,
+        "creator": "Arifen",
+        "licence": "CC BY 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+        "credit": "Photo: Arifen, CC BY 2.5, via Wikimedia Commons",
+        "description": "Limbang plaza",
+        "thumbVerifiedAt": "2026-10-16T16:50:29.602Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-47": {
+      "pinId": "my-47",
+      "checkedAt": "2026-10-16T16:26:13.030Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kampong Bukit Belalong) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-48": {
+      "pinId": "my-48",
+      "checkedAt": "2026-10-16T16:50:37.154Z",
+      "article": {
+        "title": "Serian District",
+        "url": "https://en.wikipedia.org/wiki/Serian_District",
+        "distanceM": 421
+      },
+      "image": {
+        "fileTitle": "File:Map_of_Serian_District,_Sarawak.svg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Serian_District,_Sarawak.svg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Map_of_Serian_District%2C_Sarawak.svg/250px-Map_of_Serian_District%2C_Sarawak.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Map_of_Serian_District%2C_Sarawak.svg/500px-Map_of_Serian_District%2C_Sarawak.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 456,
+        "originalWidth": 677,
+        "originalHeight": 617,
+        "creator": "Zh9567",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Zh9567, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Map of Serian District, Sarawak",
+        "thumbVerifiedAt": "2026-10-16T16:50:37.154Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-49": {
+      "pinId": "my-49",
+      "checkedAt": "2026-10-16T16:51:06.919Z",
+      "article": {
+        "title": "Sarikei",
+        "url": "https://en.wikipedia.org/wiki/Sarikei",
+        "distanceM": 1144
+      },
+      "image": {
+        "fileTitle": "File:Symbol_of_Sarikei_Town_(6728282471).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Symbol_of_Sarikei_Town_(6728282471).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Symbol_of_Sarikei_Town_%286728282471%29.jpg/250px-Symbol_of_Sarikei_Town_%286728282471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Symbol_of_Sarikei_Town_%286728282471%29.jpg/500px-Symbol_of_Sarikei_Town_%286728282471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 355,
+        "originalWidth": 1024,
+        "originalHeight": 728,
+        "creator": "John Ragai from Petaling Jaya, Malaysia",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "credit": "Photo: John Ragai from Petaling Jaya, Malaysia, CC BY 2.0, via Wikimedia Commons",
+        "description": "This pineapple will start my candid and street photography of Sarikei.",
+        "thumbVerifiedAt": "2026-10-16T16:51:06.919Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-50": {
+      "pinId": "my-50",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:28:53.741Z",
+      "article": {
+        "title": "Simanggang",
+        "url": "https://en.wikipedia.org/wiki/Simanggang",
+        "distanceM": 402
+      },
+      "image": {
+        "fileTitle": "File:Aerial_view_of_Sri_Aman,_Sarawak,_Malaysia_(3).jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Sri_Aman,_Sarawak,_Malaysia_(3).jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Aerial_view_of_Sri_Aman%2C_Sarawak%2C_Malaysia_%283%29.jpg/250px-Aerial_view_of_Sri_Aman%2C_Sarawak%2C_Malaysia_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Aerial_view_of_Sri_Aman%2C_Sarawak%2C_Malaysia_%283%29.jpg/500px-Aerial_view_of_Sri_Aman%2C_Sarawak%2C_Malaysia_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 325,
+        "originalWidth": 1280,
+        "originalHeight": 831,
+        "creator": "Lawrence Tham",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "credit": "Photo: Lawrence Tham, CC BY 3.0, via Wikimedia Commons",
+        "description": "Sri Aman means \"town of peace\" in the Malay language. Located on the Lupar River, it is 193 kilometers, a three-hour drive, from Kuching, the capital of Sarawak, Malaysia.",
+        "thumbVerifiedAt": "2026-10-16T17:28:53.741Z"
+      },
+      "note": "Reviewed local place/landmark illustration. Subject: Aerial view of Sri Aman. Association: Simanggang is a historic name for Sri Aman; article and Commons file identify the monitored town. Monitoring coordinates remain 1.2333, 111.4667. Article coordinates 1.23527778, 111.46972222; computed distance 402 m. No current incident is represented."
+    },
+    "my-51": {
+      "pinId": "my-51",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:28:53.741Z",
+      "article": {
+        "title": "Lawas",
+        "url": "https://en.wikipedia.org/wiki/Lawas",
+        "distanceM": 2606
+      },
+      "image": {
+        "fileTitle": "File:Lawas_-_The_Border_Town.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Lawas_-_The_Border_Town.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lawas_-_The_Border_Town.jpg/250px-Lawas_-_The_Border_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lawas_-_The_Border_Town.jpg/500px-Lawas_-_The_Border_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 6000,
+        "originalHeight": 4000,
+        "creator": "Adznee Abas",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "credit": "Photo: Adznee Abas, CC BY 2.0, via Wikimedia Commons",
+        "description": "Lawas is a small town and the capital of Lawas District, Limbang Division, Sarawak. Lawas, by virtue of its geographical location, is cut off from the rest of Sarawak's road network. It is however linked by the main road to Sabah and Brunei's Temburong district. There is a good local road network around Lawas district which is relatively free of traffic jams. Traveling to or from Lawas by road requires undergoing immigration checks. Travelling to the rest of Sarawak requires a passport. Two road border crossings are located in Lawas district: Sabah (Merapok) and Brunei (Mengkalap of Temburong District).",
+        "thumbVerifiedAt": "2026-10-16T17:28:53.741Z"
+      },
+      "note": "Reviewed local place/landmark illustration. Subject: Lawas border town. Association: The article describes Lawas as a border town and Commons file describes the town and its road links to Sabah and Brunei. Monitoring coordinates remain 4.8561, 115.4056. Article coordinates 4.83333333, 115.4; computed distance 2606 m. No current incident is represented."
+    },
+    "my-52": {
+      "pinId": "my-52",
+      "checkedAt": "2026-10-16T16:51:14.454Z",
+      "article": {
+        "title": "Kota Kinabalu",
+        "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+        "distanceM": 611
+      },
+      "image": {
+        "fileTitle": "File:Panoramic_view_of_Kota_Kinabalu_City.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Kota_Kinabalu_City.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Panoramic_view_of_Kota_Kinabalu_City.jpg/250px-Panoramic_view_of_Kota_Kinabalu_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Panoramic_view_of_Kota_Kinabalu_City.jpg/500px-Panoramic_view_of_Kota_Kinabalu_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 281,
+        "originalWidth": 2048,
+        "originalHeight": 1153,
+        "creator": "FILMR Production",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "credit": "Photo: FILMR Production, CC BY 3.0, via Wikimedia Commons",
+        "description": "Aerial view of Kota Kinabalu City during daytime",
+        "thumbVerifiedAt": "2026-10-16T16:51:14.454Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-53": {
+      "pinId": "my-53",
+      "checkedAt": "2026-10-16T16:51:22.030Z",
+      "article": {
+        "title": "Penampang",
+        "url": "https://en.wikipedia.org/wiki/Penampang",
+        "distanceM": 1789
+      },
+      "image": {
+        "fileTitle": "File:Penampang_Sabah_TownView-03.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Penampang_Sabah_TownView-03.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Penampang_Sabah_TownView-03.jpg/250px-Penampang_Sabah_TownView-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Penampang_Sabah_TownView-03.jpg/500px-Penampang_Sabah_TownView-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 1800,
+        "originalHeight": 1200,
+        "creator": "CEphoto, Uwe Aranas",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "Penampang, Sabah: Buhavan Square Donggongon",
+        "thumbVerifiedAt": "2026-10-16T16:51:22.030Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-54": {
+      "pinId": "my-54",
+      "checkedAt": "2026-10-16T16:51:29.565Z",
+      "article": {
+        "title": "Tuaran District",
+        "url": "https://en.wikipedia.org/wiki/Tuaran_District",
+        "distanceM": 633
+      },
+      "image": {
+        "fileTitle": "File:Tuaran_Sabah_PejabatDaerahTuaran-1.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tuaran_Sabah_PejabatDaerahTuaran-1.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Tuaran_Sabah_PejabatDaerahTuaran-1.jpg/250px-Tuaran_Sabah_PejabatDaerahTuaran-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Tuaran_Sabah_PejabatDaerahTuaran-1.jpg/500px-Tuaran_Sabah_PejabatDaerahTuaran-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 1800,
+        "originalHeight": 1200,
+        "creator": "CEphoto, Uwe Aranas",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "District Office Tuaran (Pejabat Daerah Tuaran) - Office of the District Officer",
+        "thumbVerifiedAt": "2026-10-16T16:51:29.565Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-55": {
+      "pinId": "my-55",
+      "checkedAt": "2026-10-16T16:51:37.086Z",
+      "article": {
+        "title": "Ranau",
+        "url": "https://en.wikipedia.org/wiki/Ranau",
+        "distanceM": 2564
+      },
+      "image": {
+        "fileTitle": "File:Ranau_Sabah_Ranau-Plain-from-Kompleks-Sukan-01.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Ranau_Sabah_Ranau-Plain-from-Kompleks-Sukan-01.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ranau_Sabah_Ranau-Plain-from-Kompleks-Sukan-01.jpg/250px-Ranau_Sabah_Ranau-Plain-from-Kompleks-Sukan-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ranau_Sabah_Ranau-Plain-from-Kompleks-Sukan-01.jpg/500px-Ranau_Sabah_Ranau-Plain-from-Kompleks-Sukan-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 333,
+        "originalWidth": 4963,
+        "originalHeight": 3309,
+        "creator": "CEphoto, Uwe Aranas",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
+        "description": "Ranau, Sabah: View over the Ranau Plain from Sports Complex Ranau)",
+        "thumbVerifiedAt": "2026-10-16T16:51:37.086Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-56": {
+      "pinId": "my-56",
+      "checkedAt": "2026-10-16T16:27:11.834Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Keningau, Keningau Oath Stone, Diocese of Keningau) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-57": {
+      "pinId": "my-57",
+      "checkedAt": "2026-10-16T16:28:01.543Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Sandakan Municipal Council, William Pryer Monument, Sandakan War Monument) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-58": {
+      "pinId": "my-58",
+      "checkedAt": "2026-10-16T16:28:06.075Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Sandakan District Mosque, Sandakan, Sandakan Japanese Cemetery) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-59": {
+      "pinId": "my-59",
+      "checkedAt": "2026-10-16T16:28:10.655Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Bandar Indah Jaya, Gilwell Scouts Nature Park Sandakan, Duchess of Kent Hospital) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-60": {
+      "pinId": "my-60",
+      "checkedAt": "2026-10-16T16:28:15.055Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Bandar Indah Jaya, Gilwell Scouts Nature Park Sandakan, Sandakan Memorial Park) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-61": {
+      "pinId": "my-61",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Tawau",
+        "url": "https://en.wikipedia.org/wiki/Tawau",
+        "distanceM": 1558
+      },
+      "image": {
+        "fileTitle": "File:Tawau_Sabah_Malaysia.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tawau_Sabah_Malaysia.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tawau_Sabah_Malaysia.jpg/250px-Tawau_Sabah_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tawau_Sabah_Malaysia.jpg/500px-Tawau_Sabah_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 5184,
+        "originalHeight": 3888,
+        "creator": "LDyou2",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: LDyou2, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Tawau, Sabah, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Tawau town view. Association: The file description identifies Tawau, Sabah; its article page coordinate is 1,558 m from the unchanged town-centre monitoring pin. Monitoring coordinates remain 4.2447, 117.8912. Article coordinates 4.25833333, 117.89444444; computed distance 1558 m. No current incident is represented."
+    },
+    "my-62": {
+      "pinId": "my-62",
+      "checkedAt": "2026-10-16T16:29:08.369Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kalabakan, Kalabakan District, Raid on Kalabakan) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-63": {
+      "pinId": "my-63",
+      "checkedAt": "2026-10-16T16:52:06.891Z",
+      "article": {
+        "title": "Lahad Datu",
+        "url": "https://en.wikipedia.org/wiki/Lahad_Datu",
+        "distanceM": 1483
+      },
+      "image": {
+        "fileTitle": "File:Lahad_Datu_panorama.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Lahad_Datu_panorama.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lahad_Datu_panorama.jpg/250px-Lahad_Datu_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lahad_Datu_panorama.jpg/500px-Lahad_Datu_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 300,
+        "originalWidth": 3968,
+        "originalHeight": 2381,
+        "creator": "LDyou2",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: LDyou2, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Bandar Lahad Datu",
+        "thumbVerifiedAt": "2026-10-16T16:52:06.891Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "my-64": {
+      "pinId": "my-64",
+      "checkedAt": "2026-10-16T16:29:12.871Z",
+      "article": null,
+      "image": null,
+      "note": "no matching article found by exact title or title search for Lahad Datu - Felda Sahabat Coastal",
+      "status": "no_article"
+    },
+    "my-65": {
+      "pinId": "my-65",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Semporna",
+        "url": "https://en.wikipedia.org/wiki/Semporna",
+        "distanceM": 643
+      },
+      "image": {
+        "fileTitle": "File:Semporna_Waterfront,_Sabah,_Malaysia.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Semporna_Waterfront,_Sabah,_Malaysia.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Semporna_Waterfront%2C_Sabah%2C_Malaysia.jpg/250px-Semporna_Waterfront%2C_Sabah%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Semporna_Waterfront%2C_Sabah%2C_Malaysia.jpg/500px-Semporna_Waterfront%2C_Sabah%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 281,
+        "originalWidth": 4608,
+        "originalHeight": 2592,
+        "creator": "Fabio Achilli from Milano, Italy",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "credit": "Photo: Fabio Achilli from Milano, Italy, CC BY 2.0, via Wikimedia Commons",
+        "description": "Semporna Waterfront, Sabah, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Semporna waterfront. Association: The file description explicitly identifies the Semporna Waterfront, the named monitoring locality; page coordinate is 643 m from the unchanged monitoring pin. Monitoring coordinates remain 4.4817, 118.6111. Article coordinates 4.48333333, 118.61666667; computed distance 643 m. No current incident is represented."
+    },
+    "bn-dis-01": {
+      "pinId": "bn-dis-01",
+      "checkedAt": "2026-10-16T16:30:07.197Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Brunei Darussalam International Defence Exhibition, Kampong Jerudong, Jerudong Park) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-dis-02": {
+      "pinId": "bn-dis-02",
+      "checkedAt": "2026-10-16T16:52:14.440Z",
+      "article": {
+        "title": "Kampong Ayer",
+        "url": "https://en.wikipedia.org/wiki/Kampong_Ayer",
+        "distanceM": 45
+      },
+      "image": {
+        "fileTitle": "File:Kampong_Ayer_Brunei_Darussalam.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kampong_Ayer_Brunei_Darussalam.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kampong_Ayer_Brunei_Darussalam.jpg/250px-Kampong_Ayer_Brunei_Darussalam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kampong_Ayer_Brunei_Darussalam.jpg/500px-Kampong_Ayer_Brunei_Darussalam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 364,
+        "originalWidth": 1208,
+        "originalHeight": 880,
+        "creator": "the Tourism Development Department of Brunei",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "credit": "Photo: the Tourism Development Department of Brunei, CC BY 4.0, via Wikimedia Commons",
+        "description": "Kampong Ayer is the historic heart of Brunei, where vibrant water-village life thrives gracefully upon the Brunei River.",
+        "thumbVerifiedAt": "2026-10-16T16:52:14.440Z"
+      },
+      "note": null,
+      "status": "matched"
+    },
+    "bn-dis-03": {
+      "pinId": "bn-dis-03",
+      "checkedAt": "2026-10-16T16:30:11.660Z",
+      "article": null,
+      "image": null,
+      "note": "no matching article found by exact title or title search for Badas Peat Swamp Forest",
+      "status": "no_article"
+    },
+    "bn-dis-04": {
+      "pinId": "bn-dis-04",
+      "checkedAt": "2026-10-16T16:31:01.506Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Pengiran Anak Puteri Hajah Rashidah Sa'adatul Bolkiah Secondary School, Lumut, Brunei, Mukim Liang) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-dis-05": {
+      "pinId": "bn-dis-05",
+      "checkedAt": "2026-10-16T16:31:06.039Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Bukit Bendera, Brunei, Tutong (town), Tutong District Library) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "bn-dis-06": {
+      "pinId": "bn-dis-06",
+      "checkedAt": "2026-10-16T16:31:10.545Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Suri Seri Begawan Hospital, Belait Beach, IBTE Jefri Bolkiah Campus) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-02": {
+      "pinId": "my-dis-02",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Limbang",
+        "url": "https://en.wikipedia.org/wiki/Limbang",
+        "distanceM": 623
+      },
+      "image": {
+        "fileTitle": "File:Limbang_plaza.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Limbang_plaza.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Limbang_plaza.jpg/250px-Limbang_plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Limbang_plaza.jpg/500px-Limbang_plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2048,
+        "originalHeight": 1536,
+        "creator": "Arifen",
+        "licence": "CC BY 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+        "credit": "Photo: Arifen, CC BY 2.5, via Wikimedia Commons",
+        "description": "Limbang plaza",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Limbang Plaza. Association: Limbang Plaza is a named town landmark within the Pekan Limbang monitoring area; page coordinate is 623 m from the unchanged monitoring pin. Monitoring coordinates remain 4.7551, 115.0028. Article coordinates 4.75916667, 115.00666667; computed distance 623 m. No current incident is represented."
+    },
+    "my-dis-03": {
+      "pinId": "my-dis-03",
+      "checkedAt": "2026-10-16T16:32:04.177Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Miri Crocodile Farm cum Mini Zoo, Baram River) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-04": {
+      "pinId": "my-dis-04",
+      "checkedAt": "2026-10-16T16:32:08.399Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Batu Niah) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-05": {
+      "pinId": "my-dis-05",
+      "checkedAt": "2026-10-16T16:32:13.842Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kundasang Valley, Kundasang War Memorial, Desa Dairy Farm) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-07": {
+      "pinId": "my-dis-07",
+      "checkedAt": "2026-10-16T16:33:02.601Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Battle of Tawau, Operation Khas, Sabah Chinese High School) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-08": {
+      "pinId": "my-dis-08",
+      "checkedAt": "2026-10-16T16:33:07.124Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Starcevich Monument, Beaufort District, Battle of Beaufort (1945)) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-09": {
+      "pinId": "my-dis-09",
+      "checkedAt": "2026-10-16T16:33:11.659Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Jamek Mosque, Masjid Jamek LRT station, Former Supreme Court, Kuala Lumpur) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-10": {
+      "pinId": "my-dis-10",
+      "checkedAt": "2026-10-16T16:34:01.472Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (TTDI Jaya, Tengku Ampuan Jemaah Mosque, Saujana Golf and Country Club) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-11": {
+      "pinId": "my-dis-11",
+      "checkedAt": "2026-10-16T16:34:05.978Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Johan Setia LRT station, Bandar Botanic, ÆON Bukit Tinggi Shopping Centre) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-12": {
+      "pinId": "my-dis-12",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Batu Ferringhi",
+        "url": "https://en.wikipedia.org/wiki/Batu_Ferringhi",
+        "distanceM": 332
+      },
+      "image": {
+        "fileTitle": "File:Batu_Ferringhi,_George_Town,_Penang_2023.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Batu_Ferringhi,_George_Town,_Penang_2023.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Batu_Ferringhi%2C_George_Town%2C_Penang_2023.jpg/250px-Batu_Ferringhi%2C_George_Town%2C_Penang_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Batu_Ferringhi%2C_George_Town%2C_Penang_2023.jpg/500px-Batu_Ferringhi%2C_George_Town%2C_Penang_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 8064,
+        "originalHeight": 6048,
+        "creator": "HundenvonPenang",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: HundenvonPenang, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Skyline of Batu Ferringhi, a suburb in George Town, taken by a drone in December 2023",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Batu Ferringhi skyline. Association: The file description and article identify Batu Ferringhi, the named locality of this corridor; page coordinate is 332 m from the unchanged monitoring pin. Monitoring coordinates remain 5.4682, 100.245. Article coordinates 5.4683, 100.242; computed distance 332 m. No current incident is represented."
+    },
+    "my-dis-13": {
+      "pinId": "my-dis-13",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Kota Tinggi",
+        "url": "https://en.wikipedia.org/wiki/Kota_Tinggi",
+        "distanceM": 262
+      },
+      "image": {
+        "fileTitle": "File:Jalan_Jaafar,_Kota_Tinggi.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Jalan_Jaafar,_Kota_Tinggi.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jalan_Jaafar%2C_Kota_Tinggi.jpg/250px-Jalan_Jaafar%2C_Kota_Tinggi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jalan_Jaafar%2C_Kota_Tinggi.jpg/500px-Jalan_Jaafar%2C_Kota_Tinggi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 4000,
+        "originalHeight": 3000,
+        "creator": "Wee Hong",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Wee Hong, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "The street of Kota Tinggi",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Jalan Jaafar, Kota Tinggi. Association: The Commons description identifies a street in Kota Tinggi, within the named river-basin locality; page coordinate is 262 m from the unchanged monitoring pin. Monitoring coordinates remain 1.7312, 103.899. Article coordinates 1.73333333, 103.9; computed distance 262 m. No current incident is represented."
+    },
+    "my-dis-14": {
+      "pinId": "my-dis-14",
+      "checkedAt": "2026-10-16T16:35:04.822Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Kuala Krai (town)) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-15": {
+      "pinId": "my-dis-15",
+      "checkedAt": "2026-10-16T16:35:09.335Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Lanchang) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-16": {
+      "pinId": "my-dis-16",
+      "checkedAt": "2026-10-16T16:35:13.701Z",
+      "article": null,
+      "image": null,
+      "note": "no matching article found by exact title or title search for Simpang Pulai Quarry Corridor",
+      "status": "no_article"
+    },
+    "my-dis-17": {
+      "pinId": "my-dis-17",
+      "checkedAt": "2026-10-16T16:36:02.522Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Selangor State Park) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "my-dis-18": {
+      "pinId": "my-dis-18",
+      "status": "matched",
+      "checkedAt": "2026-10-16T17:25:11.279Z",
+      "article": {
+        "title": "Genting Highlands",
+        "url": "https://en.wikipedia.org/wiki/Genting_Highlands",
+        "distanceM": 67
+      },
+      "image": {
+        "fileTitle": "File:Genting_SkyWorlds_Theme_Park.jpg",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:Genting_SkyWorlds_Theme_Park.jpg",
+        "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Genting_SkyWorlds_Theme_Park.jpg/250px-Genting_SkyWorlds_Theme_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Genting_SkyWorlds_Theme_Park.jpg/500px-Genting_SkyWorlds_Theme_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width500": 500,
+        "height500": 375,
+        "originalWidth": 2816,
+        "originalHeight": 2112,
+        "creator": "Chongkian",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Photo: Chongkian, CC BY-SA 4.0, via Wikimedia Commons",
+        "description": "Genting SkyWorlds Theme Park, Genting Highlands, Bentong, Pahang, Malaysia",
+        "thumbVerifiedAt": "2026-10-16T17:25:11.279Z"
+      },
+      "note": "Reviewed local landmark/location illustration. Subject: Genting SkyWorlds Theme Park. Association: The landmark is in Genting Highlands and its page coordinate is 67 m from the unchanged summit/slope monitoring pin. Monitoring coordinates remain 3.4239, 101.7928. Article coordinates 3.42361111, 101.79333333; computed distance 67 m. No current incident is represented."
+    },
+    "sg-dis-01": {
+      "pinId": "sg-dis-01",
+      "checkedAt": "2026-10-16T16:36:11.571Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (Botanic Gardens MRT station, East Asian Institute (Singapore), The Garage (Singapore)) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "sg-dis-02": {
+      "pinId": "sg-dis-02",
+      "checkedAt": "2026-10-16T16:37:01.933Z",
+      "article": null,
+      "image": null,
+      "note": "nearby articles (I12 Katong, Church of the Holy Family, Singapore, Marine Parade MRT station) and title search candidates do not agree with the place name",
+      "status": "name_mismatch"
+    },
+    "sg-dis-03": {
+      "pinId": "sg-dis-03",
+      "checkedAt": "2026-10-16T16:52:21.979Z",
+      "article": null,
+      "image": null,
+      "note": "article \"Sungei Kadut\" has no coordinates; storage contract cannot represent an unknown distance without inventing one",
+      "status": "error"
+    }
+  }
+}

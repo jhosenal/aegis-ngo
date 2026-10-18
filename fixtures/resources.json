@@ -1,0 +1,9 @@
+{
+  "_note": "SYNTHETIC tenant-private stock records. They do NOT represent any real shelter, warehouse or stocked supply. Every card showing them must display the label.",
+  "resources": [
+    { "resourceId": "RES-A-1", "tenantId": "TENANT-A", "regionId": "REGION.DEMO_A", "unitId": "UNIT.WATER_KIT", "availableUnits": 85, "reserveUnits": 5,  "asOf": "2026-10-13T00:00:00Z", "synthetic": true, "label": "SYNTHETIC DEMO DATA - not a real stock record" },
+    { "resourceId": "RES-A-2", "tenantId": "TENANT-A", "regionId": "REGION.DEMO_A", "unitId": "UNIT.TENT",      "availableUnits": 40, "reserveUnits": 10, "asOf": "2026-10-13T00:00:00Z", "synthetic": true, "label": "SYNTHETIC DEMO DATA - not a real stock record" },
+    { "resourceId": "RES-A-3", "tenantId": "TENANT-A", "regionId": "REGION.DEMO_C", "unitId": "UNIT.WATER_KIT", "availableUnits": 15, "reserveUnits": 2,  "asOf": "2026-10-01T00:00:00Z", "synthetic": true, "label": "SYNTHETIC DEMO DATA - stale on purpose" },
+    { "resourceId": "RES-B-1", "tenantId": "TENANT-B", "regionId": "REGION.DEMO_A", "unitId": "UNIT.WATER_KIT", "availableUnits": 300, "reserveUnits": 20, "asOf": "2026-10-13T00:00:00Z", "synthetic": true, "label": "SYNTHETIC DEMO DATA - belongs to the OTHER tenant" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_note": "SYNTHETIC. Each poll simulates one fetch of one source, applied IN ORDER by the fixture adapter. Coordinates are decimal STRINGS (canonical JSON forbids floats); the adapter converts them to integer micro-degrees latE6/lonE6. Nothing here describes a real event.",
+  "polls": [
+    {
+      "pollId": "POLL-01", "sourceId": "SRC.SYNTH_FEED_A", "fetchedAt": "2026-10-13T00:00:00Z", "outcome": "OK",
+      "records": [
+        { "sourceRecordId": "SYN-FLOOD-0001", "incidentKey": "INCIDENT.DEMO_A_FLOOD_2026_10_12", "title": "Synthetic flood event, Demo Region A", "hazardType": "FLOOD", "alertLevel": "ORANGE", "eventTime": "2026-10-12T06:00:00Z", "publishedAt": "2026-10-12T07:30:00Z", "regionId": "REGION.DEMO_A", "lat": "4.5000", "lon": "101.1000", "affectedPeopleEstimate": 12000, "sourceUrl": "https://example.invalid/synthetic/SYN-FLOOD-0001" },
+        { "sourceRecordId": "SYN-STALE-0002", "incidentKey": "INCIDENT.DEMO_B_STORM_2026_09_20", "title": "Synthetic storm event, Demo Region B (old)", "hazardType": "STORM", "alertLevel": "GREEN", "eventTime": "2026-09-20T05:00:00Z", "publishedAt": "2026-09-20T08:00:00Z", "regionId": "REGION.DEMO_B", "lat": "-2.2500", "lon": "110.4000", "affectedPeopleEstimate": 800, "sourceUrl": "https://example.invalid/synthetic/SYN-STALE-0002" },
+        { "sourceRecordId": "SYN-BADCOORD-0003", "incidentKey": "INCIDENT.DEMO_C_QUAKE_2026_10_11", "title": "Synthetic earthquake event, Demo Region C (bad coordinates)", "hazardType": "EARTHQUAKE", "alertLevel": "ORANGE", "eventTime": "2026-10-11T22:00:00Z", "publishedAt": "2026-10-11T23:00:00Z", "regionId": "REGION.DEMO_C", "lat": "123.4000", "lon": "10.0000", "affectedPeopleEstimate": 3000, "sourceUrl": "https://example.invalid/synthetic/SYN-BADCOORD-0003" }
+      ]
+    },
+    {
+      "pollId": "POLL-02-DUPLICATE", "sourceId": "SRC.SYNTH_FEED_A", "fetchedAt": "2026-10-13T00:15:00Z", "outcome": "OK",
+      "records": [
+        { "sourceRecordId": "SYN-FLOOD-0001", "incidentKey": "INCIDENT.DEMO_A_FLOOD_2026_10_12", "title": "Synthetic flood event, Demo Region A", "hazardType": "FLOOD", "alertLevel": "ORANGE", "eventTime": "2026-10-12T06:00:00Z", "publishedAt": "2026-10-12T07:30:00Z", "regionId": "REGION.DEMO_A", "lat": "4.5000", "lon": "101.1000", "affectedPeopleEstimate": 12000, "sourceUrl": "https://example.invalid/synthetic/SYN-FLOOD-0001" }
+      ]
+    },
+    {
+      "pollId": "POLL-03-CHANGED", "sourceId": "SRC.SYNTH_FEED_A", "fetchedAt": "2026-10-13T00:30:00Z", "outcome": "OK",
+      "records": [
+        { "sourceRecordId": "SYN-FLOOD-0001", "incidentKey": "INCIDENT.DEMO_A_FLOOD_2026_10_12", "title": "Synthetic flood event, Demo Region A", "hazardType": "FLOOD", "alertLevel": "RED", "eventTime": "2026-10-12T06:00:00Z", "publishedAt": "2026-10-13T00:20:00Z", "regionId": "REGION.DEMO_A", "lat": "4.5000", "lon": "101.1000", "affectedPeopleEstimate": 18000, "sourceUrl": "https://example.invalid/synthetic/SYN-FLOOD-0001" }
+      ]
+    },
+    {
+      "pollId": "POLL-04-CONFLICT", "sourceId": "SRC.SYNTH_FEED_B", "fetchedAt": "2026-10-13T00:35:00Z", "outcome": "OK",
+      "records": [
+        { "sourceRecordId": "SYN-B-7781", "incidentKey": "INCIDENT.DEMO_A_FLOOD_2026_10_12", "title": "Synthetic flood report (feed B), Demo Region A", "hazardType": "FLOOD", "alertLevel": "ORANGE", "eventTime": "2026-10-12T06:10:00Z", "publishedAt": "2026-10-12T09:00:00Z", "regionId": "REGION.DEMO_A", "lat": "4.5100", "lon": "101.1100", "affectedPeopleEstimate": 5000, "sourceUrl": "https://example.invalid/synthetic/SYN-B-7781" }
+      ]
+    },
+    { "pollId": "POLL-05-UNAVAILABLE", "sourceId": "SRC.SYNTH_FEED_B", "fetchedAt": "2026-10-13T00:45:00Z", "outcome": "UNAVAILABLE", "detail": "Simulated HTTP 503", "records": [] },
+    { "pollId": "POLL-06-MALFORMED",   "sourceId": "SRC.SYNTH_FEED_B", "fetchedAt": "2026-10-13T00:50:00Z", "outcome": "MALFORMED",   "detail": "Simulated unparseable body", "rawText": "<<<not valid feed content>>>", "records": [] }
+  ]
+}

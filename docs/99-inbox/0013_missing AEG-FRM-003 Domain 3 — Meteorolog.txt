@@ -1,0 +1,114 @@
+# AEG-FRM-003: Domain 3 — Meteorological & Wind Hazard Events (Tropical Cyclones, Typhoons & Severe Storms) Formulation & SOP Specification
+
+**Document Reference:** AEG-FRM-003  
+**Classification:** Formulation & SOP Specification / Open Autonomous Governance (OAG)  
+**Status:** Approved  
+**Author:** Systems Architect / CTO Office  
+**Target Engine:** Aegis NGO Deterministic Formulation Engine (`src/registry/formulations/meteorological.ts`)  
+
+---
+
+### 1. Executive Summary
+
+Domain 3 governs meteorological hazard events, focusing on extreme wind dynamics, atmospheric pressure deficits, tropical cyclone/typhoon tracks, and secondary severe weather impacts (such as localized wind damage and storm surge pressure dynamics).
+
+This specification defines the exact deterministic mathematical formulas, data normalization rules from **NOAA / GDACS Meteorological Feeds**, Sphere Project humanitarian standards, and deterministic Standard Operating Procedure (SOP) state gates executed by the Aegis NGO engine.
+
+---
+
+### 2. Normalized Data Variable Register
+
+All incoming variables are ingested from zero-cost open public feeds, parsed, and mapped into canonical Aegis data structures before evaluation.
+
+| Symbol | Parameter Description | Source Feed | Canonical Unit |
+| :--- | :--- | :--- | :--- |
+| $v_{\text{wind}}$ | Maximum Sustained Wind Speed (10-min average) | NOAA / GDACS / JTWC | Meters per second ($\text{m/s}$) |
+| $v_{\text{gust}}$ | Peak Wind Gust Velocity | Regional Met Office Telemetry | Meters per second ($\text{m/s}$) |
+| $P_{\text{min}}$ | Minimum Central Barometric Pressure | Barometric Telemetry / GDACS | Hectopascals ($\text{hPa}$) |
+| $R_{\text{max}}$ | Radius of Maximum Winds | Meteorological Satellite Telemetry | Kilometers ($\text{km}$) |
+| $S_{\text{surge}}$ | Estimated Coastal Storm Surge Height | NOAA Surge Model / GDACS | Meters ($\text{m}$) |
+| $P_0$ | Baseline Population in Cyclone Track Vector | UN OCHA / HDX Spatial Layer | Count |
+
+---
+
+### 3. Core Mathematical Formulations
+
+#### 3.1 Dynamic Wind Pressure Load ($q_{\text{wind}}$)
+Wind destruction scales quadratically with velocity ($v^2$). The kinetic pressure load exerted on temporary structures and roofs is calculated as:
+
+$$q_{\text{wind}} = \frac{1}{2} \cdot \rho_{\text{air}} \cdot v_{\text{gust}}^2 \quad [\text{Pascals (Pa)}]$$
+
+*(Where standard air density $\rho_{\text{air}} = 1.225 \, \text{kg/m}^3$ at standard temperature and pressure).*
+
+---
+
+#### 3.2 Saffir-Simpson Equivalent Category Index ($CAT_{\text{met}}$)
+Determined deterministically from maximum sustained wind speed $v_{\text{wind}}$ in knots ($1\,\text{m/s} \approx 1.94384\,\text{kts}$):
+
+$$v_{\text{kts}} = v_{\text{wind}} \cdot 1.94384$$
+
+$$\text{Category } = \begin{cases} 0 & v_{\text{kts}} < 64 \quad (\text{Tropical Storm / Sub-cyclone}) \\ 1 & 64 \le v_{\text{kts}} < 83 \\ 2 & 83 \le v_{\text{kts}} < 96 \\ 3 & 96 \le v_{\text{kts}} < 113 \\ 4 & 113 \le v_{\text{kts}} < 137 \\ 5 & v_{\text{kts}} \ge 137 \quad (\text{Super Typhoon / Cat 5 Cyclone}) \end{cases}$$
+
+---
+
+#### 3.3 Severe Damage Radius Footprint ($R_{\text{damage}}$)
+$$R_{\text{damage}} = R_{\text{max}} \cdot \left(1.0 + 0.15 \cdot CAT_{\text{met}}\right) \quad [\text{Kilometers}]$$
+
+---
+
+#### 3.4 Sphere Standard Emergency Shortfalls ($\Delta R$)
+
+1. **Reinforced Tarpaulin & Roof Tie-Down Kits ($\Delta R_{\text{tarp}}$):**
+   *(Sphere Standard: Minimum 2 heavy-duty tarpaulins per displaced household of 5)*
+   $$\Delta R_{\text{tarp}} = \left\lceil \frac{P_0}{5.0} \right\rceil \cdot 2 \quad [\text{Tarpaulin Units}]$$
+
+2. **High-Calorie Ready-to-Eat (RTE) Rations ($\Delta R_{\text{food}}$):**
+   *(Sphere Standard: $2,100\,\text{kcal}$ per person per day for 7 days post-impact)*
+   $$\Delta R_{\text{food}} = P_0 \cdot 7 \quad [\text{Daily RTE Ration Sets}]$$
+
+3. **Emergency Solar Radio & Multi-Band Weather Transceivers ($\Delta R_{\text{comm}}$):**
+   $$\Delta R_{\text{comm}} = \left\lceil \frac{P_0}{50.0} \right\rceil \quad [\text{Comm Units}]$$
+
+4. **Coastal Storm Surge Evacuation Kits ($\Delta R_{\text{surge}}$):**
+   $$\text{If } S_{\text{surge}} \ge 2.0\text{m}, \quad \Delta R_{\text{surge}} = \left\lceil P_0 \cdot 0.35 \right\rceil \quad \text{Else } \Delta R_{\text{surge}} = 0$$
+
+---
+
+### 4. Deterministic SOP State Machine & Threshold Gates
+
+The engine evaluates state transitions without LLM intervention based on computed hurricane category and wind pressure metrics:
+
+              [ Ingest NOAA / GDACS Met Telemetry ]
+                           │
+                           ▼
+           Calculate q_wind, CAT_met & R_damage
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+    CAT < 1             1 ≤ CAT ≤ 2        CAT ≥ 3 or S_surge ≥ 2.5m
+   (LEVEL 0)             (LEVEL 1)         (LEVEL 2/3)
+        │                  │                  │
+        ▼                  ▼                  ▼
+  METEOROLOGICAL     TROPICAL STORM     MAJOR CYCLONE /
+     ADVISORY             WATCH         CATASYSTROPHIC SURGE
+
+#### SOP Action Matrix
+
+| State Level | Trigger Condition | Deterministic Engine Action | Automated Governance Output |
+| :--- | :--- | :--- | :--- |
+| **LEVEL 0: METEOROLOGICAL ADVISORY** | $CAT_{\text{met}} = 0 \text{ AND } v_{\text{gust}} < 25\text{m/s}$ | Log barometric trend; suppress active emergency alerts. | Internal audit log entry only. |
+| **LEVEL 1: TROPICAL STORM WATCH** | $1 \le CAT_{\text{met}} \le 2 \text{ OR } 25\text{m/s} \le v_{\text{gust}} < 40\text{m/s}$ | Open storm track tracking workspace; poll regional tarpaulin stocks. | Open `CARD_MET_WATCH` |
+| **LEVEL 2: MAJOR CYCLONE WARNING** | $3 \le CAT_{\text{met}} \le 4 \text{ OR } S_{\text{surge}} \ge 2.0\text{m}$ | Lock emergency food & shelter distribution; calculate shortfall metrics ($\Delta R$). | Open `CARD_DISPATCH_SHELTER_FOOD` |
+| **LEVEL 3: CATASTROPHIC SUPER TYPHOON** | $CAT_{\text{met}} = 5 \text{ OR } S_{\text{surge}} \ge 4.0\text{m} \text{ OR } P_{\text{min}} < 920\text{hPa}$ | Trigger automated coastal evacuation override; issue cross-agency aid dispatch. | Execute `WORKFLOW_OAG_CYCLONE_ALERT` |
+
+---
+
+### 5. Formal Mathematical Proof of Determinism
+
+**Theorem:** Given identical meteorological telemetry $(v_{\text{wind}}, v_{\text{gust}}, P_{\text{min}}, R_{\text{max}}, S_{\text{surge}})$ and baseline population $P_0$, the Aegis formulation engine shall produce bit-identical output vectors $(\Delta R_{\text{tarp}}, \Delta R_{\text{food}}, \Delta R_{\text{comm}}, \Delta R_{\text{surge}}, \text{SOP State})$ across all compute nodes.
+
+**Proof:**
+1. All calculations ($q_{\text{wind}}$, knot conversions, category conditionals, and ceiling functions) rely entirely on deterministic arithmetic, step-function mapping, and IEEE 754 floating-point standards.
+2. No stochastic elements, random sampling, or unseeded parameters exist within `src/registry/formulations/meteorological.ts`.
+3. LLM reasoning layers are strictly isolated from mathematical shortfalls and gate triggers; text generation occurs exclusively downstream for report rendering.
+4. Therefore, $\forall x \in \text{Inputs}, \, f(x) \equiv f(x)$ across all distributed worker nodes, preserving cryptographic audit chain integrity. Q.E.D.

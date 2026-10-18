@@ -1,0 +1,1308 @@
+{
+ "builtAt": "2026-10-15T18:46:36.456Z",
+ "source": "data.gov.sg PSI v1",
+ "months": [
+  {
+   "month": "2016-01",
+   "file": "psi-2016-01.json",
+   "sha256": "57ec6baef39ae9db2412dbbebde34f830617dda6253636a7614cc459cd367164",
+   "bytes": 6049,
+   "retrievedAt": "2026-10-15T18:40:14.639Z",
+   "daysOk": 30,
+   "daysTotal": 31,
+   "daysMissing": [
+    "2016-01-01:0"
+   ]
+  },
+  {
+   "month": "2016-02",
+   "file": "psi-2016-02.json",
+   "sha256": "79956e7738b5f4e0bc9cae161e027835d5a9d03bd93eb9aae5014e3e7a40e241",
+   "bytes": 33549,
+   "retrievedAt": "2026-10-15T18:40:17.553Z",
+   "daysOk": 29,
+   "daysTotal": 29,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-03",
+   "file": "psi-2016-03.json",
+   "sha256": "718af59138ba76705955a44c1f8884df86f1ae43d4cb63c8c768aad2f0d538f7",
+   "bytes": 55099,
+   "retrievedAt": "2026-10-15T18:40:20.542Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-04",
+   "file": "psi-2016-04.json",
+   "sha256": "3c98916a69e3ea1c8d6bd0488f6ef71fd4b9fb3484f37347cda389bb3ee20e2a",
+   "bytes": 50381,
+   "retrievedAt": "2026-10-15T18:40:23.144Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-05",
+   "file": "psi-2016-05.json",
+   "sha256": "6e00a8f0eb22cb824c068cc5b0736953c91711f94a594a9bd24aeb8c0ccc06e2",
+   "bytes": 55707,
+   "retrievedAt": "2026-10-15T18:40:25.717Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-06",
+   "file": "psi-2016-06.json",
+   "sha256": "3319bea5945ce4006bce3815a849378e2bef948148c6602109f09af2c7c32c5b",
+   "bytes": 55520,
+   "retrievedAt": "2026-10-15T18:40:28.655Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-07",
+   "file": "psi-2016-07.json",
+   "sha256": "4f22e71b611f6eefb1a4094db0b89d4e65b3611dfe4c01875a015902d61fed8f",
+   "bytes": 59128,
+   "retrievedAt": "2026-10-15T18:40:31.568Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-08",
+   "file": "psi-2016-08.json",
+   "sha256": "827a0e0ef79ef037480d3672807fad13dce626b2975a2127c04ecf4197ea23ae",
+   "bytes": 59244,
+   "retrievedAt": "2026-10-15T18:40:34.470Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-09",
+   "file": "psi-2016-09.json",
+   "sha256": "fdd46a33f9632cb7415a37823d167af79a6397ead1db555795ff0fd373b1f7f4",
+   "bytes": 57270,
+   "retrievedAt": "2026-10-15T18:40:37.643Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-10",
+   "file": "psi-2016-10.json",
+   "sha256": "5aa37b99c7b0bb491670264241046d634b91901fd8f79001bff4159ca4785a8b",
+   "bytes": 59143,
+   "retrievedAt": "2026-10-15T18:40:40.217Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-11",
+   "file": "psi-2016-11.json",
+   "sha256": "e7b77ceae8351fa24839c54999de75b2c00b95db12fb0a3d12fcd28a384763c5",
+   "bytes": 57107,
+   "retrievedAt": "2026-10-15T18:40:42.976Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2016-12",
+   "file": "psi-2016-12.json",
+   "sha256": "2abd07a561f471989bb9c7961a9fa82b721c25d88596a86c4dacbb0d3a8561b6",
+   "bytes": 58927,
+   "retrievedAt": "2026-10-15T18:40:45.867Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-01",
+   "file": "psi-2017-01.json",
+   "sha256": "a1143f7e4927358ea30cbb248babeb457a12374ba6c99d3d469f770c913a9be9",
+   "bytes": 58935,
+   "retrievedAt": "2026-10-15T18:40:48.692Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-02",
+   "file": "psi-2017-02.json",
+   "sha256": "e5a173b56f470141853e305b4185d3f75a62077e60cb0a816007c0c6baec7d40",
+   "bytes": 49826,
+   "retrievedAt": "2026-10-15T18:40:51.408Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-03",
+   "file": "psi-2017-03.json",
+   "sha256": "707cf51168bc246d827047a8f42d9dd5309bc2ea7fa118820f58a56dba76720e",
+   "bytes": 57722,
+   "retrievedAt": "2026-10-15T18:40:54.001Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-04",
+   "file": "psi-2017-04.json",
+   "sha256": "28ef96daa505d204b98f640a3fdfa8852b5e2809e69220d3a5999b89fc1f3743",
+   "bytes": 52910,
+   "retrievedAt": "2026-10-15T18:40:56.678Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-05",
+   "file": "psi-2017-05.json",
+   "sha256": "213cdf7187df69816d05ee310ec2e487d53aee310681b42f1320d80f73025d35",
+   "bytes": 56384,
+   "retrievedAt": "2026-10-15T18:40:59.554Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-06",
+   "file": "psi-2017-06.json",
+   "sha256": "b3f6fa6d608ec2b4de16feb88981bd41855c69c5b340c86c8580f62317bce420",
+   "bytes": 54571,
+   "retrievedAt": "2026-10-15T18:41:02.404Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-07",
+   "file": "psi-2017-07.json",
+   "sha256": "1ade3a0e16c43b7b34a5d425e72da902957b2579609a247ee9782145d0b8c337",
+   "bytes": 56336,
+   "retrievedAt": "2026-10-15T18:41:04.969Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-08",
+   "file": "psi-2017-08.json",
+   "sha256": "c0a9f81b1922a1f5789c7abde8e56a588611b066de39e2a601d56e716fc8290a",
+   "bytes": 56293,
+   "retrievedAt": "2026-10-15T18:41:08.318Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-09",
+   "file": "psi-2017-09.json",
+   "sha256": "16aa5636fe31578cf8b24f67727524447cf01b9859452e6cb421b04c56a7603e",
+   "bytes": 54540,
+   "retrievedAt": "2026-10-15T18:41:11.292Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-10",
+   "file": "psi-2017-10.json",
+   "sha256": "5fc187ec5c665ca66b4aba2866a0fa160ddcc36d5348e35471f3708d3d4a9e5a",
+   "bytes": 56418,
+   "retrievedAt": "2026-10-15T18:41:13.955Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-11",
+   "file": "psi-2017-11.json",
+   "sha256": "dc2ddc53715d49284d340407bee3be48b880d49f616c96ee59ba09c51ba44209",
+   "bytes": 54441,
+   "retrievedAt": "2026-10-15T18:41:17.249Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2017-12",
+   "file": "psi-2017-12.json",
+   "sha256": "51e25f8d9a2aeb2fb24f90a9619b7cb13fbd252c2c624e785cc60eebc2969e53",
+   "bytes": 56248,
+   "retrievedAt": "2026-10-15T18:41:19.909Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-01",
+   "file": "psi-2018-01.json",
+   "sha256": "512ce6df38a50ecc44d16d7a91059494c08c6b096ff1ba05de184141abbc565c",
+   "bytes": 56103,
+   "retrievedAt": "2026-10-15T18:41:22.751Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-02",
+   "file": "psi-2018-02.json",
+   "sha256": "7642364cfc01ca7baa4e8b7250b9c3225a50b1be4f9fdc232d31e3a02ed056e7",
+   "bytes": 50797,
+   "retrievedAt": "2026-10-15T18:41:25.040Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-03",
+   "file": "psi-2018-03.json",
+   "sha256": "a3c03b93c670cbc7fe5388b51f3d75b1f2d9cc829cd241ec235955ef2006a30d",
+   "bytes": 56217,
+   "retrievedAt": "2026-10-15T18:41:30.358Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-04",
+   "file": "psi-2018-04.json",
+   "sha256": "8017d322ed96b881b60780b5b2c8ebae72ebe89038ac3235c6d4291713756dd8",
+   "bytes": 54444,
+   "retrievedAt": "2026-10-15T18:41:32.944Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-05",
+   "file": "psi-2018-05.json",
+   "sha256": "c73f4c8fc6641b209c81ffca6a6869d8cc5e4dd3044327da181bd3c42ec8ea46",
+   "bytes": 56307,
+   "retrievedAt": "2026-10-15T18:41:36.086Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-06",
+   "file": "psi-2018-06.json",
+   "sha256": "7e24cfe8d90aa42117a1c7b36e1ce025a596c2f85a393b14082d7c99673245f4",
+   "bytes": 54458,
+   "retrievedAt": "2026-10-15T18:41:38.944Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-07",
+   "file": "psi-2018-07.json",
+   "sha256": "bce45590a7bd698fab7207515d6273badf13e9ee09c9c15baadedbd960e9b122",
+   "bytes": 54710,
+   "retrievedAt": "2026-10-15T18:41:41.839Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-08",
+   "file": "psi-2018-08.json",
+   "sha256": "05265b57276d116d1774c4f206721a5147b4d96238643e7c3d4d71055546911e",
+   "bytes": 56385,
+   "retrievedAt": "2026-10-15T18:41:44.402Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-09",
+   "file": "psi-2018-09.json",
+   "sha256": "55ba7c513b429b407b6c56a143055e768a9e31517a49d69972e7cee51f798e83",
+   "bytes": 54545,
+   "retrievedAt": "2026-10-15T18:41:47.739Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-10",
+   "file": "psi-2018-10.json",
+   "sha256": "a94ea395bc0666a02b56ca1cdd9e84e4b308b2a16af14e81e9593ffbc72b492f",
+   "bytes": 56239,
+   "retrievedAt": "2026-10-15T18:41:50.889Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-11",
+   "file": "psi-2018-11.json",
+   "sha256": "1394eaffaf271f32dc7ddfe6b0a530e81a76de907ebb51754b81553207cf0de9",
+   "bytes": 54378,
+   "retrievedAt": "2026-10-15T18:41:54.160Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2018-12",
+   "file": "psi-2018-12.json",
+   "sha256": "62024a7282948602878a132f287b95b76fab635584ea591ea2fe964289659ffe",
+   "bytes": 56092,
+   "retrievedAt": "2026-10-15T18:41:57.136Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-01",
+   "file": "psi-2019-01.json",
+   "sha256": "0b10c9b9d788493a7b94d547c3d8f5f7c59b3f96888acc05ef38c6a85edc529a",
+   "bytes": 56152,
+   "retrievedAt": "2026-10-15T18:42:00.019Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-02",
+   "file": "psi-2019-02.json",
+   "sha256": "e30152c455c322bfcdb60f2b7b1600142f787756e5c94aba72e9fad4844e75e6",
+   "bytes": 50684,
+   "retrievedAt": "2026-10-15T18:42:02.573Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-03",
+   "file": "psi-2019-03.json",
+   "sha256": "e2783356a44c09172d31a7f9edf7e3f690f03c441a6a856cee187944621bf895",
+   "bytes": 56212,
+   "retrievedAt": "2026-10-15T18:42:05.126Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-04",
+   "file": "psi-2019-04.json",
+   "sha256": "5fa164d3942ac6cb3926d95eb3b363ccdfec0705a540e10a75bc0eef8f1f995f",
+   "bytes": 54362,
+   "retrievedAt": "2026-10-15T18:42:07.929Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-05",
+   "file": "psi-2019-05.json",
+   "sha256": "459656493cdd21b9fd7da9fd0a1c1cc2067a3da5f8174ab9a47d341f3d1d4fe0",
+   "bytes": 56231,
+   "retrievedAt": "2026-10-15T18:42:10.494Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-06",
+   "file": "psi-2019-06.json",
+   "sha256": "4248b6043ec019a6d5d0f51ab977536b7cb515ac62f3852ca7fb14bab441a4ab",
+   "bytes": 54349,
+   "retrievedAt": "2026-10-15T18:42:13.676Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-07",
+   "file": "psi-2019-07.json",
+   "sha256": "c987d8ec9fad917541b2fc33bb4b6ba6e96f2d9fc5cd0d0d6e3d318e426ce073",
+   "bytes": 56313,
+   "retrievedAt": "2026-10-15T18:42:16.227Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-08",
+   "file": "psi-2019-08.json",
+   "sha256": "cd657c022822d674e3955992384a9af445499c4752c26bcdcd8e6df06ea8f6b8",
+   "bytes": 56392,
+   "retrievedAt": "2026-10-15T18:42:19.115Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-09",
+   "file": "psi-2019-09.json",
+   "sha256": "1b854a696236bc39e052ae6e9495a217cfec2905e0a20e0f2e4cd9139bfaa048",
+   "bytes": 54670,
+   "retrievedAt": "2026-10-15T18:42:22.115Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-10",
+   "file": "psi-2019-10.json",
+   "sha256": "2a230761c7c3e299b0e1f0a8f708dea798a0704ad72aca6145deb56fa7dcfc4b",
+   "bytes": 56258,
+   "retrievedAt": "2026-10-15T18:42:24.780Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-11",
+   "file": "psi-2019-11.json",
+   "sha256": "ff126f5176c90d7eb7542a26b0adec6b96e640d04486f94ddbe5ed790849ba5c",
+   "bytes": 54484,
+   "retrievedAt": "2026-10-15T18:42:27.418Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2019-12",
+   "file": "psi-2019-12.json",
+   "sha256": "26f1b8e2c8aaa14832d97ebec473d22ac9c3c037419f863c4245e87d99d2e09f",
+   "bytes": 52845,
+   "retrievedAt": "2026-10-15T18:42:30.263Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-01",
+   "file": "psi-2020-01.json",
+   "sha256": "5739fc50999966da2f59e825f6c96f4be2060d15f6e7a11d820c0baf7eb0555a",
+   "bytes": 56096,
+   "retrievedAt": "2026-10-15T18:42:33.608Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-02",
+   "file": "psi-2020-02.json",
+   "sha256": "913f59af3fb41dbd8a3fd715b6f23eeac6f50508b49fa2173ce4f3e1286e1714",
+   "bytes": 52513,
+   "retrievedAt": "2026-10-15T18:42:36.486Z",
+   "daysOk": 29,
+   "daysTotal": 29,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-03",
+   "file": "psi-2020-03.json",
+   "sha256": "89dd557251a58095a36d1d5f5673d2e3aabf858545bb3c9153b87de1b28236a3",
+   "bytes": 56100,
+   "retrievedAt": "2026-10-15T18:42:39.073Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-04",
+   "file": "psi-2020-04.json",
+   "sha256": "11ad0178035b2e70987e381edbc10d47dceefe643ab32a6058e48e76ccbee6e9",
+   "bytes": 54245,
+   "retrievedAt": "2026-10-15T18:42:42.183Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-05",
+   "file": "psi-2020-05.json",
+   "sha256": "273bb18142b43e7d7ae36ffa6ba1a0961d76775ee5bf287c76a292ab00a2fd67",
+   "bytes": 56068,
+   "retrievedAt": "2026-10-15T18:42:44.933Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-06",
+   "file": "psi-2020-06.json",
+   "sha256": "879bfea2f8859ece8b70de1baffb112fc5fabcd7beba93321096e27a354a4a55",
+   "bytes": 54211,
+   "retrievedAt": "2026-10-15T18:42:47.665Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-07",
+   "file": "psi-2020-07.json",
+   "sha256": "1c6df3aedc0662a9553d095604860105eda6c631e0ab70fb3e06d042781ebfd2",
+   "bytes": 55984,
+   "retrievedAt": "2026-10-15T18:42:51.831Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-08",
+   "file": "psi-2020-08.json",
+   "sha256": "d0c470f71d662894967b2cb8000145888ca7ed36d0bbddf348c1010bc7a07382",
+   "bytes": 56155,
+   "retrievedAt": "2026-10-15T18:42:54.382Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-09",
+   "file": "psi-2020-09.json",
+   "sha256": "67a136fb2ba934f3f744f3f4e0ea04583672f1c14ad449c26d5b5af66b27d288",
+   "bytes": 54308,
+   "retrievedAt": "2026-10-15T18:42:56.853Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-10",
+   "file": "psi-2020-10.json",
+   "sha256": "dce6cd9384a92fe7be0db2bf7c795dab07e173592ccedd5379eb13ed47b32bf2",
+   "bytes": 56137,
+   "retrievedAt": "2026-10-15T18:43:00.486Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-11",
+   "file": "psi-2020-11.json",
+   "sha256": "53b40aef322cfb69dbaf90db75f36e7e0e89ce802fec65d0b9e903973da69ba1",
+   "bytes": 54256,
+   "retrievedAt": "2026-10-15T18:43:03.348Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2020-12",
+   "file": "psi-2020-12.json",
+   "sha256": "4eb717f0a75800856f79acae0e5db0eedb821723c334d968386068f168628c9a",
+   "bytes": 49705,
+   "retrievedAt": "2026-10-15T18:43:06.189Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-01",
+   "file": "psi-2021-01.json",
+   "sha256": "e25dffb2c61331fce1e3af17667ef6be42f5036d92367fc0061127633ce22581",
+   "bytes": 49674,
+   "retrievedAt": "2026-10-15T18:43:08.729Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-02",
+   "file": "psi-2021-02.json",
+   "sha256": "0db31d0eaf240b7f6d3e27dd15167372eba3509d8404550e10963419aaaacf6f",
+   "bytes": 50785,
+   "retrievedAt": "2026-10-15T18:43:11.395Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-03",
+   "file": "psi-2021-03.json",
+   "sha256": "2b6555bb92b7ea9decf42bc3d779dfdaa906d343ccbec91069ada18e9db977ce",
+   "bytes": 56087,
+   "retrievedAt": "2026-10-15T18:43:14.151Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-04",
+   "file": "psi-2021-04.json",
+   "sha256": "b58dae211cf759dd0349184e083bd9b800b56b0b5438f9d04933dc741ecc1e90",
+   "bytes": 54383,
+   "retrievedAt": "2026-10-15T18:43:16.674Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-05",
+   "file": "psi-2021-05.json",
+   "sha256": "d7fbcc7f1e106734f9501bbdb2ac5fde12f792366314c32f43082a0382b40501",
+   "bytes": 56093,
+   "retrievedAt": "2026-10-15T18:43:19.484Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-06",
+   "file": "psi-2021-06.json",
+   "sha256": "208558f577a7ca00a2d93ed00a19a54fdb9c2d46770c9ea1e8054f1fefc29a95",
+   "bytes": 54356,
+   "retrievedAt": "2026-10-15T18:43:23.217Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-07",
+   "file": "psi-2021-07.json",
+   "sha256": "35ef672579f192d97c12e240c559f88f45afef88b412ce0b2ed366d5ccd0aab3",
+   "bytes": 56148,
+   "retrievedAt": "2026-10-15T18:43:25.821Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-08",
+   "file": "psi-2021-08.json",
+   "sha256": "6ebf35d62e84bf08feff2ffad83b00323cc909d0bc3d857d833ae98e10aa1fb2",
+   "bytes": 56025,
+   "retrievedAt": "2026-10-15T18:43:28.443Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-09",
+   "file": "psi-2021-09.json",
+   "sha256": "bf3c373fb5a8efb22fb9e24ee28906cae510d8c544b694213fec5b34b994c946",
+   "bytes": 54284,
+   "retrievedAt": "2026-10-15T18:43:30.943Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-10",
+   "file": "psi-2021-10.json",
+   "sha256": "40904e1efb25e79ec71a1274cc77a6696868997260f0524cf63f401a3f100593",
+   "bytes": 46469,
+   "retrievedAt": "2026-10-15T18:43:33.651Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-11",
+   "file": "psi-2021-11.json",
+   "sha256": "23922ad834dc6b1bdcbb9d0e5b43b10271e57d8952f06377663c870c943be164",
+   "bytes": 54280,
+   "retrievedAt": "2026-10-15T18:43:36.195Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2021-12",
+   "file": "psi-2021-12.json",
+   "sha256": "df8d92d8f0fe54daa7829d6465fb1677be569f6dc6aa130ae5a329a8bef21d3b",
+   "bytes": 56162,
+   "retrievedAt": "2026-10-15T18:43:56.601Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-01",
+   "file": "psi-2022-01.json",
+   "sha256": "5f968fe8c46e27a075c4d0a0537cc1dc8bbf6f3c24fa2fb065ab5a89fda88ce8",
+   "bytes": 56110,
+   "retrievedAt": "2026-10-15T18:44:00.712Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-02",
+   "file": "psi-2022-02.json",
+   "sha256": "714f2010e8140d55196053e47458fa9b4835bc5f0b7786bd7bec8fd3985c991f",
+   "bytes": 50554,
+   "retrievedAt": "2026-10-15T18:44:02.987Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-03",
+   "file": "psi-2022-03.json",
+   "sha256": "cc30a422136bb9671cc27658c2b87c1ecc669a29333dc975940ea11e1522356a",
+   "bytes": 56075,
+   "retrievedAt": "2026-10-15T18:44:05.722Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-04",
+   "file": "psi-2022-04.json",
+   "sha256": "58d97ace7ff871e57271844f80bd104cc3749b4f42a4253af7da4508745d1eff",
+   "bytes": 54396,
+   "retrievedAt": "2026-10-15T18:44:08.466Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-05",
+   "file": "psi-2022-05.json",
+   "sha256": "d4d341f043ea785cb28e241b435e8f74d0ca69aaaddf65c96a9988112c34bb66",
+   "bytes": 56126,
+   "retrievedAt": "2026-10-15T18:44:11.226Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-06",
+   "file": "psi-2022-06.json",
+   "sha256": "72782a74268aa155896c7969fb7533a667974a228d9dc3c498fc5de59f54a7d5",
+   "bytes": 54320,
+   "retrievedAt": "2026-10-15T18:44:13.979Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-07",
+   "file": "psi-2022-07.json",
+   "sha256": "c18247a59d871f3126bd6502c806259610b6f4e4c0c7b350e0444ad54d7b5b28",
+   "bytes": 56086,
+   "retrievedAt": "2026-10-15T18:44:16.877Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-08",
+   "file": "psi-2022-08.json",
+   "sha256": "de53374584997d7898ed01dd37ef2bfd785918a32faee4ed49c9718cf998cc67",
+   "bytes": 56094,
+   "retrievedAt": "2026-10-15T18:44:19.479Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-09",
+   "file": "psi-2022-09.json",
+   "sha256": "5e7b3481f05da5bb69a0ccf702972b41194e1272a4a29faf17a4078157d7cc74",
+   "bytes": 54311,
+   "retrievedAt": "2026-10-15T18:44:22.017Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-10",
+   "file": "psi-2022-10.json",
+   "sha256": "967b8e48e5af04f53e175c61f913ecfd04a0dcd3777b336d1d6a4842b012becb",
+   "bytes": 56065,
+   "retrievedAt": "2026-10-15T18:44:24.644Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-11",
+   "file": "psi-2022-11.json",
+   "sha256": "c0626ba574ce8b55d9c6f2a690fa9dddf1b433e73c9f8eb57068d8dc0f8d8b82",
+   "bytes": 52613,
+   "retrievedAt": "2026-10-15T18:44:29.565Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2022-12",
+   "file": "psi-2022-12.json",
+   "sha256": "30c2f40969d3c58e42f586be4a3a913d51ec6e17d31a6005189a28bd984f7aa5",
+   "bytes": 56019,
+   "retrievedAt": "2026-10-15T18:44:32.138Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-01",
+   "file": "psi-2023-01.json",
+   "sha256": "7042c9b305325fcd669d46831cfe753eff77da89e0c170ecd747a374c1dc6c6d",
+   "bytes": 43148,
+   "retrievedAt": "2026-10-15T18:44:34.666Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-02",
+   "file": "psi-2023-02.json",
+   "sha256": "016add8bf5a50b2a8cc48eb808cfa335afd46640c16d48dff68fc5d6995c970a",
+   "bytes": 50617,
+   "retrievedAt": "2026-10-15T18:44:37.380Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-03",
+   "file": "psi-2023-03.json",
+   "sha256": "ab2cba725ad2989420fd8202124099e94e893f66d10bfe380dc41ce71e0664f0",
+   "bytes": 56012,
+   "retrievedAt": "2026-10-15T18:44:40.464Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-04",
+   "file": "psi-2023-04.json",
+   "sha256": "b942bb385a5fc0103e6a513a01a388454d22fb2404d05961d7ab2223816407e2",
+   "bytes": 46224,
+   "retrievedAt": "2026-10-15T18:44:43.349Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-05",
+   "file": "psi-2023-05.json",
+   "sha256": "284ad50c5e6a417f1edd6e5237275dc6db43c86b2bdff136ee0d93258244edd3",
+   "bytes": 49651,
+   "retrievedAt": "2026-10-15T18:44:45.917Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-06",
+   "file": "psi-2023-06.json",
+   "sha256": "4e4d58c2486dff6be966959f53e4b9ffe64d2e2a030a56f45006abe57e2e5889",
+   "bytes": 54223,
+   "retrievedAt": "2026-10-15T18:44:48.651Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-07",
+   "file": "psi-2023-07.json",
+   "sha256": "ea5688f7f8afd31a215a7f2e719e7e805a8639421b2e3ecd3a1a003218ea3a20",
+   "bytes": 56036,
+   "retrievedAt": "2026-10-15T18:44:51.175Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-08",
+   "file": "psi-2023-08.json",
+   "sha256": "27e7d7f739f4d2707156afbb08b51c50b114f8c19c05b54e2a176b308a17e6f9",
+   "bytes": 56140,
+   "retrievedAt": "2026-10-15T18:44:53.694Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-09",
+   "file": "psi-2023-09.json",
+   "sha256": "6b1562afc047062a42226d9b70af2912a745998e584b27b9b7c258aeca14fd13",
+   "bytes": 54347,
+   "retrievedAt": "2026-10-15T18:44:56.216Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-10",
+   "file": "psi-2023-10.json",
+   "sha256": "8de11cd2238549442181e0bdd4d1b3bdb80a7fcd14df99ff190a764272c1f270",
+   "bytes": 56164,
+   "retrievedAt": "2026-10-15T18:45:05.993Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-11",
+   "file": "psi-2023-11.json",
+   "sha256": "2811d82c046ffccd112d94622f3492abd38e8a6ee198b65ab19945ff84a45509",
+   "bytes": 45584,
+   "retrievedAt": "2026-10-15T18:45:08.487Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2023-12",
+   "file": "psi-2023-12.json",
+   "sha256": "bac59441ff3d40f397a70f55730bdd719f53d1796510d9b1b6eef391f235c876",
+   "bytes": 48366,
+   "retrievedAt": "2026-10-15T18:45:11.020Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-01",
+   "file": "psi-2024-01.json",
+   "sha256": "de1d44bacf8667039cfffd6ecfab9737d9bab7a8c6d0e20c3a7cf2d87303b43c",
+   "bytes": 48332,
+   "retrievedAt": "2026-10-15T18:45:14.143Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-02",
+   "file": "psi-2024-02.json",
+   "sha256": "a9385629e140ace45b76702a68096a73999003af2c9adc279967b8b33493098d",
+   "bytes": 44902,
+   "retrievedAt": "2026-10-15T18:45:16.651Z",
+   "daysOk": 29,
+   "daysTotal": 29,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-03",
+   "file": "psi-2024-03.json",
+   "sha256": "3fc2132de67632d95bd31a1bba560e52bd0cf22698605c361033369ab49eb1a0",
+   "bytes": 48420,
+   "retrievedAt": "2026-10-15T18:45:19.133Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-04",
+   "file": "psi-2024-04.json",
+   "sha256": "b3fdcc5ad7faea1813fd86aa95bc3b11cae3e3706f6e55a5e3b5f873ae592bd8",
+   "bytes": 46812,
+   "retrievedAt": "2026-10-15T18:45:21.779Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-05",
+   "file": "psi-2024-05.json",
+   "sha256": "32c1732e73cb3b62add9f2d3f7e74efd250c601c29d3b290a854f2809072b6b8",
+   "bytes": 48358,
+   "retrievedAt": "2026-10-15T18:45:24.309Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-06",
+   "file": "psi-2024-06.json",
+   "sha256": "57f5da4e2af9f1693516669bab56d20d0fc6db040152b3fad9f0858a59678de5",
+   "bytes": 46800,
+   "retrievedAt": "2026-10-15T18:45:26.943Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-07",
+   "file": "psi-2024-07.json",
+   "sha256": "7c7f0853bee0da173977f80e84444d3e585f5db61bf5ca4ad05cf5812e079fbc",
+   "bytes": 48470,
+   "retrievedAt": "2026-10-15T18:45:29.561Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-08",
+   "file": "psi-2024-08.json",
+   "sha256": "d8418a2af39ff7551b56912fff7cde2d6cd81f97095acb60c8334003d3249f7e",
+   "bytes": 48399,
+   "retrievedAt": "2026-10-15T18:45:32.292Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-09",
+   "file": "psi-2024-09.json",
+   "sha256": "0723c6367dfc5f0a2975e6344314b63acd02896bab14d94d29fa662c918ae9ce",
+   "bytes": 46855,
+   "retrievedAt": "2026-10-15T18:45:34.987Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-10",
+   "file": "psi-2024-10.json",
+   "sha256": "6bc76e7b8d5d4c73afa60ad33423843f040d43c3a9995d7a461dfb8fcd4a25ec",
+   "bytes": 48439,
+   "retrievedAt": "2026-10-15T18:45:37.523Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-11",
+   "file": "psi-2024-11.json",
+   "sha256": "ab8a1b09233531e22a1b6decef8e1e176e556cebead268431147e32fa79f38b7",
+   "bytes": 46809,
+   "retrievedAt": "2026-10-15T18:45:40.139Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2024-12",
+   "file": "psi-2024-12.json",
+   "sha256": "1c06665d8232590d0c5cf7af5af87421aa7338effd94d5ffecd25b748659d0f7",
+   "bytes": 48409,
+   "retrievedAt": "2026-10-15T18:45:42.708Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-01",
+   "file": "psi-2025-01.json",
+   "sha256": "94761d349295752e6bd6f641a04ccadb6ebf5f5ccd067fe680b9b52f0c66c645",
+   "bytes": 48446,
+   "retrievedAt": "2026-10-15T18:45:45.220Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-02",
+   "file": "psi-2025-02.json",
+   "sha256": "15160a6f6ac75d9f2ce38241e85a279fd5697afe78669d212ead6a36a654aebc",
+   "bytes": 43784,
+   "retrievedAt": "2026-10-15T18:45:47.538Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-03",
+   "file": "psi-2025-03.json",
+   "sha256": "e599a81eced58815eb1f80331817348fabbc39d64fdb797d14c65e164988535e",
+   "bytes": 48437,
+   "retrievedAt": "2026-10-15T18:45:50.070Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-04",
+   "file": "psi-2025-04.json",
+   "sha256": "478e72c2301fa6c0edd9947b44de28248837fa9acadb30a7cb2b355a4a238a65",
+   "bytes": 46824,
+   "retrievedAt": "2026-10-15T18:45:52.567Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-05",
+   "file": "psi-2025-05.json",
+   "sha256": "fa38147a2ecce896192b2c51987836ef4ef16d5c7af5e60a7b92c933b00ea918",
+   "bytes": 48458,
+   "retrievedAt": "2026-10-15T18:45:55.077Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-06",
+   "file": "psi-2025-06.json",
+   "sha256": "ffdf51447d8459cefcc9f7eb19881d3fc16d578c8fd4498c6424146d214dd631",
+   "bytes": 46874,
+   "retrievedAt": "2026-10-15T18:45:57.577Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-07",
+   "file": "psi-2025-07.json",
+   "sha256": "03f6f4a31387f4f5dea7788db7f9757cf73c3cbb704e4b99ec804831f4f417a0",
+   "bytes": 48462,
+   "retrievedAt": "2026-10-15T18:46:00.101Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-08",
+   "file": "psi-2025-08.json",
+   "sha256": "e8c6ad502df22598a7d9ab2e0c6747c362e874909339d3269b3a60446e654c14",
+   "bytes": 48435,
+   "retrievedAt": "2026-10-15T18:46:02.611Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-09",
+   "file": "psi-2025-09.json",
+   "sha256": "20e2ea351d59892762330c0ea871a584a1185c985811c8b8ae28fb9bed0ba932",
+   "bytes": 46854,
+   "retrievedAt": "2026-10-15T18:46:05.074Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-10",
+   "file": "psi-2025-10.json",
+   "sha256": "038dc9b4baf93e5872a70c960607f0d5d30a85f30c050015ba3a91dfd37a0e8f",
+   "bytes": 48426,
+   "retrievedAt": "2026-10-15T18:46:07.643Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-11",
+   "file": "psi-2025-11.json",
+   "sha256": "28f3d6d99aa1419d22df59cc3d6489fba98e2513298a0045dcc96cba50ad8527",
+   "bytes": 46890,
+   "retrievedAt": "2026-10-15T18:46:10.148Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2025-12",
+   "file": "psi-2025-12.json",
+   "sha256": "d9a9477dedaa3439532af9721c8fc17d675c03e2c656a4e0d788ba5d62b4798a",
+   "bytes": 48396,
+   "retrievedAt": "2026-10-15T18:46:12.639Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-01",
+   "file": "psi-2026-01.json",
+   "sha256": "3bf02a1b470f38fefd720da80a2c6b39837f144ba1544bc1fcf96343163bc3b5",
+   "bytes": 48519,
+   "retrievedAt": "2026-10-15T18:46:15.184Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-02",
+   "file": "psi-2026-02.json",
+   "sha256": "0b6cec5238d0d377156ebb4b5a0a6348cb32600dc6086a6b214f3404fb803152",
+   "bytes": 43709,
+   "retrievedAt": "2026-10-15T18:46:17.353Z",
+   "daysOk": 28,
+   "daysTotal": 28,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-03",
+   "file": "psi-2026-03.json",
+   "sha256": "b2ed8224d870760a836d28b35633bea72b3f54317988de2558b3c236f12fc8e2",
+   "bytes": 48451,
+   "retrievedAt": "2026-10-15T18:46:19.833Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-04",
+   "file": "psi-2026-04.json",
+   "sha256": "fc17ccc74c58ef89b125a75c9a4b489c665b5c39d3e48c5c7f64a73cca4d5dcb",
+   "bytes": 46867,
+   "retrievedAt": "2026-10-15T18:46:22.329Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-05",
+   "file": "psi-2026-05.json",
+   "sha256": "f1f57c021fba2c422ea297cd6c4fb310a02e3fdc457933c4dc3e140994e38270",
+   "bytes": 48418,
+   "retrievedAt": "2026-10-15T18:46:25.121Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-06",
+   "file": "psi-2026-06.json",
+   "sha256": "1ea3a0968b59e7e87fc67ff81c8438cbc021abf59aadb231ef2c005b0c2e572c",
+   "bytes": 46867,
+   "retrievedAt": "2026-10-15T18:46:27.590Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-07",
+   "file": "psi-2026-07.json",
+   "sha256": "004942ae1dd40191e4c6f2e9fdb363821aece1102b6a1003907a452d88ce3fe4",
+   "bytes": 48549,
+   "retrievedAt": "2026-10-15T18:46:30.151Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-08",
+   "file": "psi-2026-08.json",
+   "sha256": "ca5d9bf379d6749cddcedd833dde3c2e2f81c9065d2662e09c6fab2ec25cc6df",
+   "bytes": 48591,
+   "retrievedAt": "2026-10-15T18:46:32.723Z",
+   "daysOk": 31,
+   "daysTotal": 31,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-09",
+   "file": "psi-2026-09.json",
+   "sha256": "7ecfe1935e0b9537c71e8108dd32b20cc4ce75d649a52bfbade63f9da62b906e",
+   "bytes": 47083,
+   "retrievedAt": "2026-10-15T18:46:35.221Z",
+   "daysOk": 30,
+   "daysTotal": 30,
+   "daysMissing": []
+  },
+  {
+   "month": "2026-10",
+   "file": "psi-2026-10.json",
+   "sha256": "70ed9b65d5254f888ebf256cef5d823f11195180a42f9b2a93f9b135c72eac8f",
+   "bytes": 23749,
+   "retrievedAt": "2026-10-15T18:46:36.450Z",
+   "daysOk": 15,
+   "daysTotal": 15,
+   "daysMissing": []
+  }
+ ]
+}

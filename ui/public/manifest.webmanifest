@@ -1,0 +1,25 @@
+{
+  "id": "/assist",
+  "name": "Aegis Assist",
+  "short_name": "Assist",
+  "description": "Public emergency guidance cards from Aegis Assist.",
+  "start_url": "/assist",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f5f2",
+  "theme_color": "#f3f5f2",
+  "icons": [
+    {
+      "src": "/icons/assist-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/assist-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

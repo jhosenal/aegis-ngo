@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "documentId": "AEG-MEDIA-HANDOFF-026",
+  "date": "2026-10-16",
+  "status": "LOCAL_DELIVERY_SNAPSHOT",
+  "scope": "Luna media research SOW/SOP, inventory and ready-to-paste handoff; documentation only",
+  "predecessor": "records/reviews/AEG-MAP-UI-025_2026-10-16_manifest.json",
+  "files": [
+    {
+      "path": "HANDOVER.md",
+      "bytes": 66893,
+      "sha256": "c0fbb2ed36ddea5554b94c0cb6c2f51c2773bbf9035e94d537515c0b2ace030a"
+    },
+    {
+      "path": "docs/00-governance/AEG-REG-001_document-register.csv",
+      "bytes": 3804,
+      "sha256": "ebaa7870edaa5bbcbe3d07868103a9f861b0c05845cbe578fcb8c2bcb887b6a9"
+    },
+    {
+      "path": "docs/03-delivery/AEG-LOG-001_work-log.md",
+      "bytes": 129977,
+      "sha256": "ae9d5191c703c0a90b92046b4efe104d2abd041be184fd88e2cddc5763b2c81c"
+    },
+    {
+      "path": "docs/03-delivery/AEG-SOP-005_place-image-research-and-verification.md",
+      "bytes": 8719,
+      "sha256": "d43f587d81c06abe784fb285be8e41ae870e8648917c6081289aecf605e23d8e"
+    },
+    {
+      "path": "docs/03-delivery/AEG-SOW-001_luna-monitoring-place-images.md",
+      "bytes": 6874,
+      "sha256": "e9f5d477add03178093d6557d698997cd736f173b271b5246c37ff77f8eebd7e"
+    },
+    {
+      "path": "docs/06-engineering/AEG-LOG-002_build-log.md",
+      "bytes": 126811,
+      "sha256": "7de31003efa206578ee6ccba273919ee03d33fffcc8243fbe45cf97edf2fda32"
+    },
+    {
+      "path": "docs/99-inbox/L0001_sol-to-luna_monitoring-place-images.md",
+      "bytes": 1401,
+      "sha256": "567b111acad6cbd4273c5721c30cc599c45597976932c3010352e6a700620a7e"
+    },
+    {
+      "path": "records/baselines/AEG-BAS-002_2026-10-13_expected-changes.json",
+      "bytes": 12364,
+      "sha256": "2d05de8c7261a02c447a8f1d16b00627e3dc8f43e848ff3b37c6f948904349fb"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_handover-check.json",
+      "bytes": 12626,
+      "sha256": "f96725aa8cabf2a2e9ec4ef66f9d437e4c7f0a5ff414a6055af29141f2d03914"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_inventory.csv",
+      "bytes": 28210,
+      "sha256": "0c2745a4435637358d203edf9083f5008bacd43610fb98a6f70187c75c98f97f"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_review.md",
+      "bytes": 793,
+      "sha256": "f9c2312ad4befb08437ef38fc0cc529950c2890d4bb3c568ade193b2227ecc28"
+    }
+  ],
+  "combinedDnaRoot": "0x9fa9f395d73cad6cf9c409114e6f646263577aa2fe33c6a28a2b8c4baf777330",
+  "pathBoundRoot": "0x8c2e9bf4d60c935952575157f39a2d63dcbadfce99f577034e515ee12db9e084"
+}

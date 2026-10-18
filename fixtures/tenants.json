@@ -1,0 +1,12 @@
+{
+  "_note": "SYNTHETIC identities for local/demo auth only.",
+  "tenants": [
+    { "tenantId": "TENANT-A", "productId": "AEG", "name": "Demo NGO Alpha (synthetic)" },
+    { "tenantId": "TENANT-B", "productId": "AEG", "name": "Demo NGO Beta (synthetic)" }
+  ],
+  "users": [
+    { "userId": "USER-A-COORD", "tenantId": "TENANT-A", "role": "coordinator", "displayName": "Alex Coordinator (synthetic)" },
+    { "userId": "USER-A-VIEW",  "tenantId": "TENANT-A", "role": "viewer",      "displayName": "Vic Viewer (synthetic)" },
+    { "userId": "USER-B-COORD", "tenantId": "TENANT-B", "role": "coordinator", "displayName": "Bo Coordinator (synthetic)" }
+  ]
+}

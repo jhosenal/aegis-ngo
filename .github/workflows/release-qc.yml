@@ -1,0 +1,40 @@
+name: release-qc
+on:
+  workflow_call:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: release-qc-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  source-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Reject private files and credentials
+        run: |
+          node tools/check-public-files.mjs
+          node tools/scan-secrets.mjs
+      - run: npm ci
+      - run: node --test tests/release/public-files.test.mjs
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: node node_modules/@playwright/test/cli.js install --with-deps chromium
+      - name: Full source QC
+        run: node tools/release-engine.mjs precheck --production
+      - name: Seal exact checked source
+        run: |
+          receipt=$(find data/release-qc -name qc.json -type f | sort | tail -n 1)
+          node tools/release-engine.mjs seal --receipt "$receipt"
+      - name: Retain QC evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: release-qc-${{ github.sha }}
+          path: data/release-qc/
+          retention-days: 7

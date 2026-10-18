@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "note": "Languages an administrator can tick for a bulletin. Only English has a reviewed script and voice today; every other language is a locked stub: ticking it records the request and nothing more. Machine translation of a hazard bulletin needs a reviewer who reads the language before it can be switched on.",
+  "languages": [
+    { "code": "en", "label": "English", "native": "English", "group": "pilot", "state": "active" },
+    { "code": "ms", "label": "Malay", "native": "Bahasa Melayu", "group": "pilot", "state": "locked" },
+    { "code": "zh", "label": "Mandarin (Simplified)", "native": "中文", "group": "pilot", "state": "locked" },
+    { "code": "ta", "label": "Tamil", "native": "தமிழ்", "group": "pilot", "state": "locked" },
+    { "code": "id", "label": "Indonesian", "native": "Bahasa Indonesia", "group": "asean", "state": "locked" },
+    { "code": "th", "label": "Thai", "native": "ไทย", "group": "asean", "state": "locked" },
+    { "code": "vi", "label": "Vietnamese", "native": "Tiếng Việt", "group": "asean", "state": "locked" },
+    { "code": "tl", "label": "Filipino (Tagalog)", "native": "Filipino", "group": "asean", "state": "locked" },
+    { "code": "my", "label": "Burmese", "native": "မြန်မာဘာသာ", "group": "asean", "state": "locked" },
+    { "code": "km", "label": "Khmer", "native": "ភាសាខ្មែរ", "group": "asean", "state": "locked" },
+    { "code": "lo", "label": "Lao", "native": "ລາວ", "group": "asean", "state": "locked" }
+  ]
+}

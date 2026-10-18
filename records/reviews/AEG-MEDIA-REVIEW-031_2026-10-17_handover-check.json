@@ -1,0 +1,75 @@
+{
+  "mode": "working-tree",
+  "snapshot": "AEG-BAS-002",
+  "files": 32,
+  "errors": [],
+  "baselineMatches": [
+    ".agents/skills/aegis-oag-governance/SKILL.md",
+    ".agents/skills/aegis-qzeex-workers/SKILL.md",
+    ".agents/skills/aegis-storyboard-learning/SKILL.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "docs/00-governance/AEG-DEC-001_decisions-and-open-items.md",
+    "docs/00-governance/AEG-GOV-001_document-control.md",
+    "docs/01-product/AEG-CHR-001_product-charter.md",
+    "docs/01-product/AEG-REQ-001_requirements-and-acceptance.md",
+    "docs/01-product/AEG-UXD-001_card-workspace.md",
+    "docs/02-architecture/AEG-ARC-001_system-blueprint.md",
+    "docs/02-architecture/AEG-CON-001_engine-contracts.md",
+    "docs/02-architecture/AEG-CON-002_workers-and-provider-failover.md",
+    "docs/02-architecture/AEG-DAT-001_data-and-provenance-plan.md",
+    "docs/03-delivery/AEG-SOP-001_sdlc-and-agent-working.md",
+    "docs/03-delivery/AEG-TPL-001_work-and-evidence-templates.md",
+    "docs/03-delivery/AEG-WO-001_first-vertical-slice.md",
+    "docs/04-assurance/AEG-AUD-001_integrity-and-release-evidence.md",
+    "docs/04-assurance/AEG-RSK-001_risks-and-limitations.md",
+    "docs/04-assurance/AEG-VVP-001_verification-plan.md",
+    "docs/05-references/AEG-REF-001_cross-project-methods.md",
+    "docs/05-references/AEG-REF-002_external-verification-and-submission.md",
+    "docs/05-references/AEG-SRC-001_local-reference-snapshot.json",
+    "records/verification/AEG-VER-001_handover-verification.md"
+  ],
+  "expectedWorkingChanges": [
+    {
+      "path": ".gitignore",
+      "reason": "Ignore data/secrets (Google OAuth client file); no tracked content removed",
+      "evidence": "AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "AGENTS.md",
+      "reason": "Bytes differ from the snapshot; edit not authored in this session, author not recorded. Author to be confirmed by the owner; content not reviewed by SNET",
+      "evidence": "AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "HANDOVER.md",
+      "reason": "Append-only Luna AEG-MEDIA-LUNA-001 completion and current handback state; existing history preserved. | SOL AEG-MEDIA-REVIEW-031 follow-up handback and SOW/SOP revision",
+      "evidence": "AEG-LOG-002 media completion; records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_review.md; C0017 SNET coordination.; records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_review.md"
+    },
+    {
+      "path": "README.md",
+      "reason": "Status table and wording corrected after the S0038 audit (finding 9): hosted private revision stated, status vocabulary extended, repository data wording, sign-in and live-Gemini rows, disabled live-test entry point | 2026-10-16: Bytes differ from the earlier declaration; edit not authored in this session, author not recorded. Author to be confirmed by the owner; content not reviewed by SNET",
+      "evidence": "S0038 finding 9 (docs/99-inbox/S0038_astra-findings.md); AEG-LOG-002 entry \"S0038 answer\" 2026-10-15; AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "docs/00-governance/AEG-PRV-001_provenance-and-reuse.md",
+      "reason": "Reuse-log entries for sources added by SNET backend (history, WHO, USGS, GDACS, IDMC, EM-DAT decision)",
+      "evidence": "AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "docs/00-governance/AEG-REG-001_document-register.csv",
+      "reason": "Register the Luna media audit review record. | SOL AEG-MEDIA-REVIEW-031 follow-up handback and SOW/SOP revision",
+      "evidence": "AEG-MEDIA-LUNA-001 report and 125-row evidence.; records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_review.md"
+    },
+    {
+      "path": "docs/03-delivery/AEG-LOG-001_work-log.md",
+      "reason": "Append-only Luna AEG-MEDIA-LUNA-001 claim, completion, verification and release; existing agent entries preserved. | SOL AEG-MEDIA-REVIEW-031 follow-up handback and SOW/SOP revision",
+      "evidence": "AEG-MEDIA-LUNA-001 review, API evidence and C0017 coordination note.; records/reviews/AEG-MEDIA-REVIEW-031_2026-10-17_review.md"
+    },
+    {
+      "path": "tools/verify-handover.mjs",
+      "reason": "Verifier reports snapshot matches, declared working changes and unexplained drift separately; strict mode; record validation",
+      "evidence": "A0005 D5; AEG-LOG-002 entry \"A0005 reply\" 2026-10-13"
+    }
+  ],
+  "unexplainedDrift": []
+}

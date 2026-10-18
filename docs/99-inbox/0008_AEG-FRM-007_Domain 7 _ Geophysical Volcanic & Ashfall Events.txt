@@ -1,0 +1,106 @@
+# AEG-FRM-007: Domain 7 — Geophysical Volcanic & Ashfall Events (Eruptions, Pyroclastic & Ash Loading) Formulation & SOP Specification
+
+**Document Reference:** AEG-FRM-007  
+**Classification:** Formulation & SOP Specification / Open Autonomous Governance (OAG)  
+**Status:** Approved  
+**Author:** Systems Architect / CTO Office  
+**Target Engine:** Aegis NGO Deterministic Formulation Engine (`src/registry/formulations/volcanic.ts`)  
+
+---
+
+### 1. Executive Summary
+
+Domain 7 governs sudden-onset geophysical volcanic eruptions, explosive ashfall dispersion, and secondary lahar/pyroclastic hazards. Unlike meteorological storms or seismic ground shaking, volcanic events present unique structural collapse risks from heavy ash accumulation on roofs, severe respiratory hazards from fine silicate glass particulates, and broad agricultural contamination.
+
+This specification defines the exact deterministic mathematical formulas, data normalization rules from **Global Volcanism Program (Smithsonian / GVP)** and **VAAC (Volcanic Ash Advisory Centers)**, Sphere Project survival shortfalls, and deterministic Standard Operating Procedure (SOP) state gates executed by the Aegis NGO engine.
+
+---
+
+### 2. Normalized Data Variable Register
+
+All incoming variables are ingested from zero-cost open public feeds, parsed, and mapped into canonical Aegis data structures before evaluation.
+
+| Symbol | Parameter Description | Source Feed | Canonical Unit |
+| :--- | :--- | :--- | :--- |
+| $VEI$ | Volcanic Explosivity Index | Smithsonian GVP / VAAC | Scalar ($0 \text{ to } 8$) |
+| $h_{\text{ash}}$ | Ashfall Accumulation Thickness | Ground Sensor / Satellite Telemetry | Millimeters ($\text{mm}$) |
+| $\rho_{\text{ash}}$ | Bulk Density of Settled Ash | Volcanological Baseline Index | Kilograms per cubic meter ($\text{kg/m}^3$) |
+| $D_{\text{vent}}$ | Euclidian Distance from Active Vent | GIS Volcanic Mapping Engine | Kilometers ($\text{km}$) |
+| $v_{\text{wind}}$ | Upper-Level Wind Speed Vector | NOAA / Meteorological Feed | Kilometers per hour ($\text{km/h}$) |
+| $P_0$ | Baseline Settlement Population in Ash Zone | UN OCHA / HDX Grid | Count |
+
+---
+
+### 3. Core Mathematical Formulations
+
+#### 3.1 Roof Ash Load ($M_{\text{load}}$)
+Structural roof collapse risk scales directly with the weight of accumulated wet or dry ash per square meter:
+
+$$M_{\text{load}} = h_{\text{ash}} \cdot \left(\frac{\rho_{\text{ash}}}{1000.0}\right) \quad [\text{kg/m}^2]$$
+
+*Engineering Threshold:* Flat residential roofs risk structural failure when $M_{\text{load}} \ge 100 \, \text{kg/m}^2$ (equivalent to approx. $100\,\text{mm}$ of dry ash or $50\,\text{mm}$ of wet rain-soaked ash).
+
+---
+
+#### 3.2 Plume Dispersion & Respiratory Hazard Footprint ($R_{\text{plume}}$)
+The downwind hazard radius affected by hazardous $PM_{10}$ and $PM_{2.5}$ volcanic glass aerosols:
+
+$$R_{\text{plume}}(VEI, v_{\text{wind}}) = 15.0 \cdot (VEI + 1.0) \cdot \left(1.0 + 0.02 \cdot v_{\text{wind}}\right) \quad [\text{Kilometers}]$$
+
+---
+
+#### 3.3 Affected Population Exposure ($P_{\text{aff}}$)
+$$\text{If } D_{\text{vent}} \le R_{\text{plume}}, \quad P_{\text{aff}} = P_0 \cdot \left(1.0 - \frac{D_{\text{vent}}}{R_{\text{plume}} + 1}\right) \quad \text{Else } P_{\text{aff}} = 0$$
+
+---
+
+#### 3.4 Sphere Standard Emergency Shortfalls ($\Delta R$)
+
+1. **Heavy-Duty Particulate Masks (N95 / P100 Silicate Rated):**
+   $$\Delta R_{\text{masks}} = P_{\text{aff}} \cdot 4.0 \quad [\text{Mask Units}]$$
+2. **Emergency Eye Saline Wash & Protective Goggles:**
+   $$\Delta R_{\text{eyewash}} = \left\lceil P_{\text{aff}} \cdot 0.2 \right\rceil \quad [\text{Units}]$$
+3. **Roof Shoveling & Structural Clearing Kits:**
+   $$\Delta R_{\text{shovels}} = \left\lceil \frac{P_{\text{aff}}}{25.0} \right\rceil \quad [\text{Heavy-Duty Shoveling \& PPE Kits}]$$
+4. **Potable Water Reservoir Sealing & Tank Covers:**
+   $$\Delta R_{\text{tank\_covers}} = \left\lceil \frac{P_{\text{aff}}}{10.0} \right\rceil \quad [\text{WASH Sealing Kits}]$$
+
+---
+
+### 4. Deterministic SOP State Machine & Threshold Gates
+
+The engine evaluates state transitions without LLM intervention based on computed $VEI$, ash thickness, and roof load metrics:
+
+              [ Ingest VAAC / GVP Volcanic Event ]
+                           │
+                           ▼
+            Calculate M_load, R_plume & P_aff
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+    VEI ≤ 1          2 ≤ VEI ≤ 3        VEI ≥ 4 or M_load ≥ 100
+   (LEVEL 0)         (LEVEL 1)         (LEVEL 2/3)
+        │                  │                  │
+        ▼                  ▼                  ▼
+  VOLCANIC UNREST    ASHFALL ADVISORY   STRUCTURAL COLLAPSE
+
+#### SOP Action Matrix
+
+| State Level | Trigger Condition | Deterministic Engine Action | Automated Governance Output |
+| :--- | :--- | :--- | :--- |
+| **LEVEL 0: VOLCANIC UNREST** | $VEI \le 1 \text{ AND } h_{\text{ash}} < 5\text{mm}$ | Log seismic/degassing telemetry; suppress active emergency alerts. | Internal audit log entry only. |
+| **LEVEL 1: ASHFALL ADVISORY** | $2 \le VEI \le 3 \text{ AND } 5\text{mm} \le h_{\text{ash}} < 50\text{mm}$ | Instantiate ash tracking card; verify N95 mask buffer stock levels. | Open `CARD_VOLCANIC_WATCH` |
+| **LEVEL 2: HEAVY ASHFALL THREAT** | $M_{\text{load}} \ge 50\,\text{kg/m}^2 \text{ OR } 50\text{mm} \le h_{\text{ash}} < 100\text{mm}$ | Issue roof-clearing warnings; compute structural support shortfalls ($\Delta R$). | Open `CARD_DISPATCH_ASH_GEAR` |
+| **LEVEL 3: CATASTROPHIC ERUPTION / COLLAPSE** | $VEI \ge 4 \text{ OR } M_{\text{load}} \ge 100\,\text{kg/m}^2 \text{ OR } D_{\text{vent}} \le 10\text{km}$ | Trigger mandatory evacuation override; dispatch heavy clearing & rescue units. | Execute `WORKFLOW_OAG_VOLCANIC_ALERT` |
+
+---
+
+### 5. Formal Mathematical Proof of Determinism
+
+**Theorem:** Given identical Smithsonian GVP/VAAC telemetry $(VEI, h_{\text{ash}}, \rho_{\text{ash}}, D_{\text{vent}}, v_{\text{wind}})$ and baseline population $P_0$, the Aegis formulation engine shall produce bit-identical output vectors $(\Delta R_{\text{masks}}, \Delta R_{\text{shovels}}, \Delta R_{\text{tank\_covers}}, \text{SOP State})$ across all compute nodes.
+
+**Proof:**
+1. All calculations ($M_{\text{load}}$, plume dispersion $R_{\text{plume}}$, affected population $P_{\text{aff}}$, and ceiling functions) rely entirely on deterministic arithmetic, algebraic scaling, and IEEE 754 floating-point standards.
+2. No stochastic elements, random Monte Carlo seeds, or unseeded parameters exist within `src/registry/formulations/volcanic.ts`.
+3. LLM reasoning layers are strictly decoupled from threshold evaluation gates; text generation occurs exclusively downstream for report rendering.
+4. Therefore, $\forall x \in \text{Inputs}, \, f(x) \equiv f(x)$ across all distributed worker nodes, preserving cryptographic audit chain integrity. Q.E.D.

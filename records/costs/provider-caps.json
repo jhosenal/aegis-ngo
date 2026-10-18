@@ -1,0 +1,33 @@
+{
+  "status": "CONFIRMED",
+  "purpose": "S0038 finding 2. The hosted demo's database, and with it the runtime budget ledger, is temporary: every restart or new revision starts empty. The runtime caps are therefore only a per-instance brake. The limit that actually bounds spend across restarts must be set at each provider for the exact key the cloud uses. deploy/service.live.yaml must not be deployed until every item below is CONFIRMED with evidence.",
+  "items": [
+    {
+      "id": "GOOGLE",
+      "what": "Spend cap at Google for the project and key the cloud will use (AI Studio / Cloud console Gemini API spend cap), at or below 2.00 USD per month. The 5 USD prepaid balance is a second, hard ceiling (at 0 the keys of the billing account stop working).",
+      "allowanceMicro": 2000000,
+      "status": "CONFIRMED",
+      "evidence": "Owner's statement in the working session on 2026-10-15 (\"all done\"). No console screenshot or key-limit text was shown to the engineer; Astra may ask for it before sealing.",
+      "confirmedBy": "owner (Jhosen Choong)",
+      "confirmedOn": "2026-10-15"
+    },
+    {
+      "id": "REAPI",
+      "what": "Spend limit at reAPI on the exact key stored in Secret Manager (a key of its own, not shared), at or below 2.00 USD.",
+      "allowanceMicro": 2000000,
+      "status": "CONFIRMED",
+      "evidence": "Owner's statement in the working session on 2026-10-15 (\"all done\"). No console screenshot or key-limit text was shown to the engineer; Astra may ask for it before sealing.",
+      "confirmedBy": "owner (Jhosen Choong)",
+      "confirmedOn": "2026-10-15"
+    },
+    {
+      "id": "SECRETS",
+      "what": "The Secret Manager secrets hold only the keys covered above (not the spare or the free-tier key), and the service account's Secret Accessor role is set on exactly those secrets. Secret names used by the owner: AEGIS_GOOGLE_API_KEY and AEGIS_REAPI_API_KEY (deploy/service.live.yaml follows these names).",
+      "status": "CONFIRMED",
+      "evidence": "Owner's statement in the working session on 2026-10-15 (\"all done\"). No console screenshot or key-limit text was shown to the engineer; Astra may ask for it before sealing.",
+      "confirmedBy": "owner (Jhosen Choong)",
+      "confirmedOn": "2026-10-15"
+    }
+  ],
+  "note": "Setting a status to CONFIRMED is a statement by the owner that the evidence exists (a console screenshot or text kept outside git). An agent must not change it."
+}

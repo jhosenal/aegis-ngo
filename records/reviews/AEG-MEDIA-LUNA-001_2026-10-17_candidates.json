@@ -1,0 +1,40 @@
+{
+  "pinId": "sg-13",
+  "place": "Changi Airport",
+  "reviewedAt": "2026-10-17T00:15:00+08:00",
+  "discovery": {
+    "method": "Commons API list=search, namespace 6, query Changi Airport Singapore terminal",
+    "queryUrl": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22Changi%20Airport%22%20terminal&srnamespace=6&srlimit=12&format=json",
+    "wikipediaArticle": "https://en.wikipedia.org/wiki/Changi_Airport",
+    "storedLeadDecision": "The Wikipedia lead image was not a Commons file; the article remains linked."
+  },
+  "accepted": {
+    "fileTitle": "File:Changi Airport Terminal 3 entrance Singapore May 2026.jpg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/File:Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg",
+    "imageInfoApi": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AChangi%20Airport%20Terminal%203%20entrance%20Singapore%20May%202026.jpg&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=500&format=json",
+    "description": "Changi Airport Terminal 3 entrance Singapore May 2026",
+    "creator": "Heidi Meudt",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "originalDimensions": "4080x3060",
+    "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg/250px-Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg/500px-Changi_Airport_Terminal_3_entrance_Singapore_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "thumbnailChecks": [
+      { "width": 250, "method": "HEAD", "status": 200, "contentType": "image/jpeg" },
+      { "width": 500, "method": "HEAD", "status": 200, "contentType": "image/jpeg" }
+    ],
+    "scope": "A Terminal 3 entrance photo inside the airport; contextual illustration, not an exact whole-airport view or incident evidence."
+  },
+  "rejected": [
+    {
+      "fileTitle": "File:Singapore Changi Airport Terminal 4 (165259).jpg",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Changi_Airport_Terminal_4_(165259).jpg",
+      "reason": "The Commons ImageDescription says Terminal 3 while the file title says Terminal 4; contradictory subject metadata."
+    },
+    {
+      "fileTitle": "File:Changi airport terminal interior.jpg",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Changi_airport_terminal_interior.jpg",
+      "reason": "The Commons API returned no imageinfo for this search hit; no file metadata or rendition could be verified."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": "2026-10-17-draft-7",
+  "status": "DRAFT for the pilot. Not reviewed by a lawyer. Written from Google's Service Specific Terms (last modified 2026-10-15) and the feed pages read on 2026-10-15/16; see docs/99-inbox/E0001 and E0002. Do not link from the footer until the owner has read it.",
+  "title": "Data sources, attribution and pilot notice",
+  "footerNote": "Pilot: some data uses are still awaiting permission. See Data sources and pilot notice.",
+  "sections": [
+    {
+      "heading": "1. This is a pilot",
+      "text": "Aegis is a pilot, not a finished or operational service. Some of the data it shows is used while we ask for the permissions we still need. After the pilot we will ask each data provider for written permission for the uses we want to keep. Where a provider says no, or does not answer, we will remove that data or replace it with a link to the provider's own page."
+    },
+    {
+      "heading": "2. Google air quality and weather data",
+      "text": "Some readings on Aegis come from Google's Air Quality API and Weather API. Where they appear we show: \"Source: Includes air quality data from Google\" or \"Source: Includes weather data from Google\". Maps are provided by Google Maps and carry Google's own attribution. We have not asked Google for any permission beyond its standard terms yet; that request is planned for after the pilot."
+    },
+    {
+      "heading": "3. How we handle Google readings during the pilot",
+      "text": "We follow Google's published storage limits. Live air quality and weather readings are not kept for more than one hour. We do not read Google air quality or weather values aloud with text-to-speech, and we do not turn them into generated scripts, audio or video. If a reading is older than it looks, the page shows how old it is."
+    },
+    {
+      "heading": "4. Other public feeds",
+      "text": "Aegis also uses or plans to use public hazard feeds, for example the US Geological Survey (earthquakes), NASA FIRMS (satellite fire detections), GDACS (disaster alerts) and the National Environment Agency's Pollutant Standards Index (PSI) for Singapore via data.gov.sg, used under the Singapore Open Data Licence version 1.0. We credit the source on the page. GDACS content is marked by its publisher as reusable with credit to GDACS (CC BY 4.0). We have not yet confirmed the terms of every feed, and we will correct this notice when we have. Place photos and the links to Wikipedia come from Wikipedia and Wikimedia Commons: each photo shows its author and licence (CC0, public domain, CC BY or CC BY-SA). The nearest article image may not show the exact monitored spot, and a place with no suitable image shows none."
+    },
+    {
+      "heading": "5. Modelled weather and community air sensors",
+      "text": "Aegis keeps seven-day trends from Open-Meteo.com: temperature, rain and PM2.5 worked out by computer models on a grid, not read from a station. Open-Meteo data is under CC BY 4.0, its free service is for non-commercial use, and we have not yet checked the licences of the national weather models behind it. Where sensors are nearby we plan to show measured air quality from OpenAQ (openaq.org), which gathers readings from many operators, mostly community and low-cost sensors rather than official monitors. Each station keeps its own open licence (CC BY 4.0, CC0 or public domain) and we credit the operator. Modelled and sensor values are labelled as such, are not a health warning, and are never mixed with Google readings. These terms are still being confirmed."
+    },
+    {
+      "heading": "6. Credits and saved places",
+      "text": "During the pilot, checking a place you drop on the map costs credits, not money. Credits are a demonstration only: no payment provider is connected and nothing is charged. The air quality and weather shown for a dropped pin come live from Google, are shown on screen for at most one hour and are never saved. A saved place keeps only the name you give it and its coordinates. Dropped pins work inside Singapore, Malaysia and Brunei only."
+    },
+    {
+      "heading": "7. Official guidance",
+      "text": "Health and safety guidance is shown as the issuing authority wrote it, with its name, link and the date we read it. For some of it, written permission to reproduce the text is still being requested. The Remarks on the public Assist page list what is not yet settled. Always follow your own authorities' current instructions."
+    },
+    {
+      "heading": "8. Timing and limits of the data",
+      "text": "Readings are not live. Providers publish at their own pace and Aegis refreshes at set times during the day, so a value can be hours old when you see it. Each reading shows the time the provider gave it and when we fetched it. Google's alert service covers some countries and not others: where there is no alert source for a place, the absence of an alert does not mean there is no hazard."
+    },
+    {
+      "heading": "9. Not endorsed",
+      "text": "Google and Google Maps are trademarks of Google LLC. Aegis is not affiliated with, endorsed by or sponsored by Google, the US Geological Survey, NASA, GDACS, the Singapore Ministry of Health, the National Environment Agency, the Ministry of Health Malaysia or any other agency named on the site."
+    },
+    {
+      "heading": "10. News briefings",
+      "text": "Aegis publishes four short briefings a day, at 07:00, 12:00, 17:00 and 22:00 Malaysia and Singapore time. Each one uses only data captured an hour earlier, at 06:00, 11:00, 16:00 and 21:00, and states its capture time on screen and in the end credits. A briefing is written by code from the public feeds named there (USGS, GDACS and, for Singapore air quality, the NEA PSI, and for Malaysian weather the Malaysian Meteorological Department, whose terms we have not yet confirmed), and read by an AI-generated presenter with a synthetic voice. Google air quality and weather readings are shown on screen only: they are never read aloud or used to write a briefing. Subtitles in other languages are translations of the English text, not separate audio, and say so."
+    },
+    {
+      "heading": "11. Not for emergencies",
+      "text": "Do not rely on Aegis in an emergency. If you or someone near you is in danger, call your local emergency number first. Aegis is general information from public sources and is not medical, legal or professional advice."
+    },
+    {
+      "heading": "12. Removal and contact",
+      "text": "If you are a data provider and want something changed or removed, contact jhosen@gmail.com and we will act on it promptly. These terms are in addition to the Terms of use, privacy notice and disclaimer."
+    }
+  ]
+}

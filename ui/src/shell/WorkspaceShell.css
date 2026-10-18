@@ -1,0 +1,76 @@
+/* Shared landing-shell composition. Route files own content, not navigation or page chrome. */
+.regional-app.workspace-shell { display:grid; grid-template-columns:220px minmax(0,1fr); grid-template-rows:70px minmax(0,1fr); height:100dvh; min-height:0; overflow:hidden; background:#edf3fa; font-family:inherit; }
+.workspace-shell > .site-header { position:relative; inset:auto; grid-column:2; grid-row:1; width:auto; height:auto; margin:0 12px; padding:12px 16px; display:flex; gap:16px; align-items:center; border-radius:0 0 12px 12px; }
+.workspace-shell > .site-header > .site-brand { display:none; }
+.workspace-shell > .dashboard-body { display:contents; }
+.workspace-shell .dashboard-sidebar { position:relative; inset:auto; grid-column:1; grid-row:1 / -1; width:220px; max-width:220px; overflow-y:auto; padding:12px 12px 18px; }
+.workspace-shell .shell-content-layout { display:grid; grid-column:2; grid-row:2; min-height:0; padding:12px; gap:0; overflow:hidden; }
+.workspace-shell .shell-page-content { grid-column:auto; grid-row:auto; position:relative; margin:0; padding:0 10px 24px 0; min-height:0; overflow:auto; }
+.workspace-shell .dashboard-assist { position:relative; inset:auto; grid-column:auto; grid-row:auto; display:flex; min-width:0; min-height:0; height:auto; overflow:hidden; border-radius:12px; }
+.workspace-shell .shell-content-layout > .divider { grid-column:auto; grid-row:auto; }
+.shell-page-name { flex:1; font-weight:600; color:#24456b; margin-right:auto; }
+.workspace-shell .shell-menu { display:none; }
+.shell-page-card { min-width:0; margin:0; border:1px solid #dce6f2; border-radius:14px; background:white; }
+.shell-page-card > .dashboard-card-heading { background:#f8fbff; padding:16px 20px; border-radius:14px 14px 0 0; border-bottom:1px solid #dce6f2; }
+.shell-page-card > .module-card-body { padding:20px; }
+.shell-page-card .dashboard-card { border:1px solid #dce6f2; border-radius:12px; box-shadow:0 2px 7px #16345a08; }
+.shell-page-card .dashboard-card .module-card-body { padding:0 16px 16px; }
+.shell-page-card .domain-card, .shell-page-card .assist-remarks, .shell-page-card .assist-endorsements, .shell-page-card .legal-notice > section { border:1px solid #dce6f2; border-radius:12px; background:#f8fbff; padding:16px; }
+.shell-page-card h1 { color:#17395d; font-size:26px; letter-spacing:-.4px; }
+.shell-page-card h2 { color:#17395d; }
+.shell-page-card .domains-page, .shell-page-card .history-page, .shell-page-card .legal-notice { max-width:none !important; margin:0 !important; padding:0 !important; background:transparent; }
+.shell-page-card .domains-header { padding:0; }
+.shell-page-card .domains-hero { max-height:220px; overflow:hidden; border-radius:12px; }
+.shell-page-card .domains-hero img { width:100%; object-fit:cover; }
+.shell-page-card .domains-grid { grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr)); gap:16px; }
+.shell-page-card .domain-card h2 { font-size:20px; }
+.shell-page-card .legal-notice > section { margin:12px 0; }
+.workspace-shell .overview-root { min-height:0; height:auto; background:transparent; font-family:inherit; }
+.workspace-shell .overview-root > .overview-header, .workspace-shell .overview-workspace > .overview-nav { display:none; }
+.workspace-shell .overview-root .overview-workspace { display:block; min-height:0; }
+.workspace-shell .overview-root .overview-main-layout { margin:0; padding:0; }
+.workspace-shell .overview-main { min-width:0; }
+.workspace-shell .hazard-map-root { min-height:650px; height:calc(100dvh - 180px); }
+.workspace-shell .scene-background { display:none; }
+.workspace-shell .app-shell { min-height:0; padding:0; }
+.workspace-shell .workspace { height:auto; min-height:600px; }
+.workspace-shell .admin-desk { padding:0 !important; margin:0 !important; overflow:visible; max-width:none; }
+.workspace-shell .admin-desk > :not(.news-approval-framebox) { margin-inline:0; }
+.workspace-shell .admin-desk .dashboard-page-heading { padding:14px; margin:0 0 16px; }
+.workspace-shell .admin-desk .dashboard-page-heading p { color:#c5d9eb; }
+.workspace-shell .admin-grid.is-approval > :not(.news-approval-framebox) { margin-inline:0; }
+.workspace-shell .admin-grid.is-approval .news-approval-framebox { border-radius:12px; border:1px solid #dce6f2; }
+.workspace-shell .admin-table { display:block; max-width:100%; overflow-x:auto; }
+.workspace-shell .admin-tabs { gap:6px; padding-bottom:6px; }
+.workspace-shell .admin-tabs button { font-size:12px; border-radius:7px; padding:10px 12px; background:#f2f6fc; }
+.workspace-shell .admin-tabs button.is-active { color:#0b4d7a; background:#d9efff; border-bottom-color:#6fb8ed; }
+@media(max-width:1150px) { .workspace-shell .shell-content-layout { grid-template-columns:minmax(0,1fr) !important; } .workspace-shell .shell-content-layout > .divider, .workspace-shell .shell-content-layout > .dashboard-assist { display:none; } .workspace-shell .shell-page-content { padding-right:0; } }
+@media(max-width:760px) {
+ .regional-app.workspace-shell { grid-template-columns:minmax(0,1fr); grid-template-rows:70px minmax(0,1fr); }
+ .workspace-shell > .site-header, .workspace-shell .shell-content-layout { grid-column:1; }
+ .workspace-shell > .site-header { margin:0; gap:10px; }
+ .workspace-shell .shell-menu { display:grid; }
+ .workspace-shell .dashboard-sidebar { display:none; }
+ .workspace-shell .dashboard-sidebar.nav-open { display:flex; position:fixed; inset:0 auto 0 0; width:220px; z-index:50; }
+ .workspace-shell .nav-scrim { position:fixed; inset:0; z-index:49; }
+ .shell-page-card > .module-card-body { padding:14px; }
+ .shell-page-card h1 { font-size:22px; }
+ .shell-page-card .domains-grid { grid-template-columns:minmax(0,1fr); }
+ .workspace-shell .overview-root .overview-main-layout { display:block; }
+ .workspace-shell .overview-main-layout > .divider, .workspace-shell .desktop-assist { display:none; }
+ .workspace-shell .admin-stats, .workspace-shell .admin-subcards { grid-template-columns:minmax(0,1fr); }
+ .workspace-shell .news-approval-decision input { min-width:0 !important; max-width:100%; }
+ .workspace-shell .admin-languages li { grid-template-columns:22px minmax(0,1fr); }
+ .shell-page-name { font-size:12px; }
+}
+
+@media(max-width:760px) {
+ .regional-app.workspace-shell .shell-menu { display:grid; min-width:48px; min-height:48px; }
+ .workspace-shell .domains-page a, .workspace-shell .domains-page summary { min-height:48px; display:inline-flex; align-items:center; }
+ .regional-app.workspace-shell .dashboard-profile { min-width:48px; min-height:48px; }
+}
+
+@media(max-width:800px) {
+ .workspace-shell .overview-root .assist-dock { position:relative; inset:auto; width:100%; height:48px; min-height:48px; flex-direction:row; border-radius:8px !important; margin:12px 0; padding:8px 12px; }
+ .workspace-shell .overview-root .assist-dock span { writing-mode:horizontal-tb; transform:none; }
+}

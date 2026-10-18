@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "documentId": "AEG-MEDIA-LANDMARK-002",
+  "date": "2026-10-17",
+  "status": "LOCAL_DELIVERY_SNAPSHOT",
+  "scope": "Verified local landmark alternatives, precise subject/caption provenance for 70 accepted location images, focused checks and SNET metadata/API handoff",
+  "predecessor": "records/reviews/AEG-MEDIA-LUNA-001_2026-10-17_manifest.json",
+  "files": [
+    {
+      "path": "HANDOVER.md",
+      "bytes": 78163,
+      "sha256": "66c1e6c152ec1f82e53bc7d3bb66c13ea191bd2153beef8f62a72502f271ebbe"
+    },
+    {
+      "path": "content/places/place-media.json",
+      "bytes": 123754,
+      "sha256": "76465be7b6f44f2832d502b53a4eb0007de1102597104fa4c95cf2097b2f6f46"
+    },
+    {
+      "path": "data/place-media.pre-AEG-MEDIA-LANDMARK-002.json",
+      "bytes": 96947,
+      "sha256": "bc3ec9c356e9507deb6f23778ce7744bc4a5ae3a2081e4685cce00258523daf0"
+    },
+    {
+      "path": "docs/03-delivery/AEG-LOG-001_work-log.md",
+      "bytes": 173321,
+      "sha256": "395bc5090843af5cd268b40b2efd2816592059f42fc42980707d8da860b0478d"
+    },
+    {
+      "path": "docs/06-engineering/AEG-LOG-002_build-log.md",
+      "bytes": 138461,
+      "sha256": "1a1b0e33b8a440a987d7b8d6c9181b45e828d153f832bdcea1a2802242de6989"
+    },
+    {
+      "path": "docs/99-inbox/C0019_luna-to-snet_location-media-subject-metadata.md",
+      "bytes": 1419,
+      "sha256": "92500d352ed2dca977bab0fd8769ec3cce7e97a7a56cf515a5c3b9bd3d0d237d"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LANDMARK-002_2026-10-17_additions.json",
+      "bytes": 22468,
+      "sha256": "846f9dc7621a57ae002c396847828c42a76b62b1cbc2931bc11e9c336f76a90f"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LANDMARK-002_2026-10-17_candidate-sweep.json",
+      "bytes": 49792,
+      "sha256": "e480e7b346c9b40ef28ed49ff9ae741c462628c2014559c25fbc2b4747f2f323"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LANDMARK-002_2026-10-17_pins.csv",
+      "bytes": 122455,
+      "sha256": "8e4862e27f2e962b4f8b01aaa7e21734bfbda84d1be52c887fddffb04decbece"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LANDMARK-002_2026-10-17_review.md",
+      "bytes": 10766,
+      "sha256": "a471e1d9765fad08b39e7b31f54431a64353aeb7ed14621453d9acfd9d5da730"
+    },
+    {
+      "path": "records/reviews/AEG-MEDIA-LANDMARK-002_2026-10-17_subjects.json",
+      "bytes": 123105,
+      "sha256": "23ce4be10dd3c75e2dfe9ab9bbf31b1d6fcc8d1d5d7a8787e89b23a58d5f891e"
+    },
+    {
+      "path": "tests/unit/place-media-catalogue.test.ts",
+      "bytes": 4727,
+      "sha256": "828f262769ba0f3ba8b037e78664a3e5690a3033ac362c2cd38b703b10bcc839"
+    }
+  ],
+  "combinedDnaRoot": "0x1eb4b0de37e26bb05ecd3c1f118e9da2c67e66f17308d9396fb41653a8d0fa93",
+  "pathBoundRoot": "0x61e29a9e3ea1f75aeb6813e0a349d0eaaea5f73ace8f6d95215d1ab36574bb8e"
+}

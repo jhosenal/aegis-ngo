@@ -1,0 +1,179 @@
+{
+  "documentId": "AEG-SRC-001",
+  "revision": "0.1",
+  "status": "REFERENCE_SNAPSHOT",
+  "date": "2026-10-13",
+  "owner": "Codex",
+  "scope": "Local reference bytes only; no deployment or authority assertion; no source content copied",
+  "oagObservedVersion": "0.7.28",
+  "references": [
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/.agents/AGENTS.md",
+      "bytes": 9939,
+      "sha256": "1587e8db8c7870fdc798ef1912ab51a06a9dd94394a5cfef17294929acb6749b"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/VERSION",
+      "bytes": 7,
+      "sha256": "8208c65c27d72bcd73265f446786e1979a9187fd37e18758ba952366fb01e9d3"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/.agents/skills/windows-environment/SKILL.md",
+      "bytes": 3796,
+      "sha256": "403e6dbeec1b83dc03623e2503ba2717c66487ab4f9e2cc02b6aec58f1c71110"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/.agents/skills/dna-seal/SKILL.md",
+      "bytes": 4676,
+      "sha256": "e3eb093196cfcf16c046877e8a753b3b53018edb915f9bb4f059b175be9e68a9"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/.agents/skills/deploy-module/SKILL.md",
+      "bytes": 3839,
+      "sha256": "00486d1e29f7197f080206d676f677f7f7f986ade4f9673a5f34a47c1fec320f"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/.agents/skills/three-env-sync/SKILL.md",
+      "bytes": 5014,
+      "sha256": "6918386bc9f0d1694c1133fd03abf25d04ca2877a726f77dcb2a94d85af1d997"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/scripts/sdlc-gate.cjs",
+      "bytes": 10473,
+      "sha256": "c4280fb189b3c57ba16e39d2682a7b72fb63b91a87a9be7b10ea623c07596b3b"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/sps/CSCI-ARC-00_v0.7.28/VLAN_0_Core/sdlcWizard.ts",
+      "bytes": 27329,
+      "sha256": "a430859901b6a894576f4dca5ca844b69e29923c911f07f4235a53bb54047e54"
+    },
+    {
+      "project": "OAG",
+      "path": "E:/OAGv0.7/sps/CSCI-ARC-00_v0.7.28/VLAN_0_Core/factoryConsole.ts",
+      "bytes": 34245,
+      "sha256": "259eda7a5691ad68a6ca7bedca5e3450a7470126a28c2ece680ebf9f9352a336"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/AGENTS.md",
+      "bytes": 5322,
+      "sha256": "e60eb0ed314d075fb98c9bd250a4d2a7105425a260da3b95cf6589140fce850b"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/PROJECT.md",
+      "bytes": 6364,
+      "sha256": "6fc8681c5173f8de18ee69710521931b0c70d0a4e841c45085c0665f4a32654c"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/07_REFERENCES/NEXT_AGENT_START_HERE.md",
+      "bytes": 8525,
+      "sha256": "2377fdd8f24c37845cba37432534a833d46e57b8511ca464962b382867e69e90"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/07_REFERENCES/LLM_CFO_SOP.md",
+      "bytes": 9036,
+      "sha256": "ab774bff50eb75933d7484ac77c659c3916ae83c908f5c20eb9a83f07d5ce898"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/tools/runner/desk/seats/board.ts",
+      "bytes": 18068,
+      "sha256": "0a9fb66b065c77aff6ee01cf4afeda719a555616d9d85cd5a41f6c166fb62bab"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/tools/runner/desk/seats/client.ts",
+      "bytes": 9461,
+      "sha256": "aceeff9b653501715a0213a07350dbb784ca0ef2d58970b2cba8aa7bd77376ee"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/tools/runner/desk/seats/budget.ts",
+      "bytes": 7256,
+      "sha256": "156f4b4528ee0af9ef7915ee5e662f40b5eb370744a406ca1552077b0aac3dfb"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/tools/runner/desk/seats/prompts.ts",
+      "bytes": 9721,
+      "sha256": "8101885d433ef88fb4cc6958c1e59b41a2e542409629218dcd5f956481704fa9"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/tools/runner/desk/seats/validate.ts",
+      "bytes": 15942,
+      "sha256": "d4f37290cdf8f421ff0af7b7d2647d5527c58b5fa6525c4ff025e43c7a29f383"
+    },
+    {
+      "project": "QZEEX",
+      "path": "E:/SOOS_QZEEX_v0.8.3/tools/runner/desk/router.ts",
+      "bytes": 35462,
+      "sha256": "9e4cf09d7439dfb659b9e39772f98ceb9bdf486cfc64942770202c2c1a36b743"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/AGENTS.md",
+      "bytes": 2647,
+      "sha256": "5a49e4b0497c0d8a7865313a0d6537e60effa0fa5789f1eba842d7ebfe177275"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/chat/chat.ts",
+      "bytes": 41866,
+      "sha256": "7c87b87fc562fddb8a4bf9fc3f97fd35b67725723c2ad1d098522f1a7bbe4f70"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/formulations/library.ts",
+      "bytes": 22292,
+      "sha256": "7d555c23c42153b9ef895ece243d6fcf091a1ce94e34ff96c64da96bbe286f72"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/registry/lexicon.ts",
+      "bytes": 18960,
+      "sha256": "eb70786b959648b93d6ed21c88fc60278b75a2c39ea3d62799db71d8fbe353b6"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/agent/agent.ts",
+      "bytes": 40931,
+      "sha256": "31077a5320b2b8d5bb02cb01746b6e69986844570da9385091932ea023613910"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/agent/tools.ts",
+      "bytes": 14243,
+      "sha256": "40265927abb3bcb766d774b77af60e5c871243d2a0f00c0edaf9eb1acaa06ab2"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/learning/thresholds.ts",
+      "bytes": 4941,
+      "sha256": "d6861b45ae699deafe821b250e2cfd763c05c6e2f486c5e04399cdf047696c6f"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/src/modules/learning/trials.ts",
+      "bytes": 4994,
+      "sha256": "3b32ecfd730c547a98096b956e10569dcfa86795ca1cd95a410ba26c6de4f826"
+    },
+    {
+      "project": "Storyboard",
+      "path": "E:/OAG_Storyboard/tests/app/learning.test.ts",
+      "bytes": 5568,
+      "sha256": "286a507577672c0cf3daf23c9169484304110033378dcda7b2fb1e3ed0377a01"
+    }
+  ]
+}

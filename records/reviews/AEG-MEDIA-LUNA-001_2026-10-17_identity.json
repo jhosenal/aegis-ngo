@@ -1,0 +1,918 @@
+{
+  "retrievedAt": "2026-10-16T16:58:10.436Z",
+  "method": "Wikipedia API extracts (exintro, plaintext), one request stream at 1500ms minimum gap",
+  "records": [
+    {
+      "pinId": "sg-01",
+      "place": "Orchard Road",
+      "status": 200,
+      "articleTitle": "Orchard Road",
+      "articleUrl": "https://en.wikipedia.org/wiki/Orchard_Road",
+      "pageId": 976991,
+      "coordinates": {
+        "lat": 1.30483333,
+        "lng": 103.83183333
+      },
+      "articleDistanceM": 5,
+      "titleAgrees": true,
+      "intro": "Orchard Road, often known colloquially as simply Orchard, is a major 2.5 km (1.6 mi)-long road in the Central Area of Singapore. A famous tourist attraction, it is an upscale shopping area, with numerous department stores, shopping malls, restaurants, and coffeehouses located in its vicinity. It has been described as a popular hotspot in Singapore, especially at night, attracting urban youth.\nThe Orchard Planning Area is a planning area as specified by the Urban Redevelopment Authority. It is part of the Central Area located within the Central Region. Orchard is bordered by Newton in the east and north, Tanglin in the west, River Valley in the south and Museum to the southeast. It consists o",
+      "retrievedAt": "2026-10-16T16:53:26.037Z"
+    },
+    {
+      "pinId": "sg-02",
+      "place": "Marina Bay Sands",
+      "status": 200,
+      "articleTitle": "Marina Bay Sands",
+      "articleUrl": "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
+      "pageId": 5299184,
+      "coordinates": {
+        "lat": 1.2825,
+        "lng": 103.86
+      },
+      "articleDistanceM": 127,
+      "titleAgrees": true,
+      "intro": "Marina Bay Sands (often colloquially shortened to 'MBS') is an integrated resort fronting Marina Bay in Singapore and a landmark of the city. At its opening in 2010, it was deemed the world's most expensive standalone casino property at S$8 billion (US$6.88 billion). The resort includes a 1,850-room hotel, a 120,000-square-metre (1,300,000 sq ft) meetings and conventions facility at Sands Expo & Convention Centre, a 74,000-square-metre (800,000 sq ft) luxury shopping mall, The Shoppes at Marina Bay Sands, an ArtScience museum, a 2,183-capacity theatre, the world's first floating Apple store, the world's first Louis Vuitton Island Maison, celebrity chef and signature restaurants, and a casino",
+      "retrievedAt": "2026-10-16T16:53:27.375Z"
+    },
+    {
+      "pinId": "sg-03",
+      "place": "Downtown Core / Raffles Place",
+      "status": 200,
+      "articleTitle": "Raffles Place",
+      "articleUrl": "https://en.wikipedia.org/wiki/Raffles_Place",
+      "pageId": 1609573,
+      "coordinates": {
+        "lat": 1.28388889,
+        "lng": 103.85138889
+      },
+      "articleDistanceM": 99,
+      "titleAgrees": true,
+      "intro": "Raffles Place is the centre of the Financial District of Singapore and is located south of the mouth of the Singapore River. It was first planned and developed in the 1820s as Commercial Square to serve as the hub of the commercial zone of Singapore in Raffles Town Plan. It was renamed Raffles Place in 1858 and is now the site of a number of major banks. It is located in the Downtown Core within the Central Area, and features some of the tallest buildings and landmarks of the country.",
+      "retrievedAt": "2026-10-16T16:53:28.879Z"
+    },
+    {
+      "pinId": "sg-04",
+      "place": "Chinatown",
+      "status": 200,
+      "articleTitle": "Chinatown, Singapore",
+      "articleUrl": "https://en.wikipedia.org/wiki/Chinatown,_Singapore",
+      "pageId": 1144302,
+      "coordinates": {
+        "lat": 1.28361111,
+        "lng": 103.84416667
+      },
+      "articleDistanceM": 71,
+      "titleAgrees": true,
+      "intro": "Chinatown is a subzone and ethnic enclave located within the Outram district in the Central Area of Singapore.\nThis area encompasses five precincts in Singapore: Kreta Ayer, Ann Siang/Club Street, Telok Ayer, Tanjong Pagar/Duxton and Bukit Pasoh. Featuring distinctly Chinese cultural elements, Chinatown has had a historically concentrated ethnic Chinese population.\nChinatown is one of Singapore's most historically and culturally significant districts. Established under the Raffles Town Plan (also known as the Jackson Plan), the area southwest of Singapore River became home to Chinese migrants, a place of commerce, clan associations, and cultural institutions for Chinese migrants in Singapore",
+      "retrievedAt": "2026-10-16T16:53:30.398Z"
+    },
+    {
+      "pinId": "sg-07",
+      "place": "Yishun Central",
+      "status": 200,
+      "articleTitle": "Yishun",
+      "articleUrl": "https://en.wikipedia.org/wiki/Yishun",
+      "pageId": 1059084,
+      "coordinates": {
+        "lat": 1.43,
+        "lng": 103.835
+      },
+      "articleDistanceM": 67,
+      "titleAgrees": true,
+      "intro": "Yishun (IPA:  EE-shoon), also known as Nee Soon (its official name until the 1980s), is a planning area and residential town located in the eastern corner of the North Region of Singapore, bordering Sembawang to the north, Mandai to the west, the Central Water Catchment to its southwest, Ang Mo Kio to its south, as well as Seletar and Sengkang to its east and southeast respectively.\n\n",
+      "retrievedAt": "2026-10-16T16:53:31.916Z"
+    },
+    {
+      "pinId": "sg-09",
+      "place": "Ang Mo Kio",
+      "status": 200,
+      "articleTitle": "Ang Mo Kio",
+      "articleUrl": "https://en.wikipedia.org/wiki/Ang_Mo_Kio",
+      "pageId": 646868,
+      "coordinates": {
+        "lat": 1.37,
+        "lng": 103.84555556
+      },
+      "articleDistanceM": 102,
+      "titleAgrees": true,
+      "intro": "Ang Mo Kio () is a planning area and residential town situated in the North-East Region of Singapore. Located approximately 11 km (6.8 miles) north of the Downtown Core district, Ang Mo Kio is the 4th most populated planning area in the North-East region and ranks 11th in terms of population in the country overall. The planning area is located at the south-western corner of the North-East region, bordered by the planning areas of Yishun to the north, Sengkang to the north-east, Serangoon to the east, Bishan to the south and the Central Water Catchment to the west.\nPrior to urbanization, the area, much like other rural districts in Singapore at the time, was largely undeveloped, being mainly ",
+      "retrievedAt": "2026-10-16T16:53:33.513Z"
+    },
+    {
+      "pinId": "sg-10",
+      "place": "Sentosa Island",
+      "status": 200,
+      "articleTitle": "Sentosa",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sentosa",
+      "pageId": 266229,
+      "coordinates": {
+        "lat": 1.248,
+        "lng": 103.83
+      },
+      "articleDistanceM": 159,
+      "titleAgrees": true,
+      "intro": "Sentosa Island (IPA:  sen-TOH-sə), known mononymously as Sentosa, is an island located off the southern coast of Singapore's main island. The island is separated from the main island of Singapore by a channel of water, the Keppel Harbour, and is adjacent to Pulau Brani, a smaller island wedged between Sentosa and the main island.\nThe island is developed and managed by the Sentosa Development Corporation (SDC), a statutory board established on 1 September 1972 under the purview of the Singapore Ministry of Trade and Industry.\nFormerly used as a British military base and afterwards as a Japanese prisoner-of-war camp, the island was renamed Sentosa in the 1970s to become a popular tourist desti",
+      "retrievedAt": "2026-10-16T16:53:34.911Z"
+    },
+    {
+      "pinId": "sg-13",
+      "place": "Changi Airport",
+      "status": 200,
+      "articleTitle": "Changi Airport",
+      "articleUrl": "https://en.wikipedia.org/wiki/Changi_Airport",
+      "pageId": 18952243,
+      "coordinates": {
+        "lat": 1.35916667,
+        "lng": 103.98944444
+      },
+      "articleDistanceM": 625,
+      "titleAgrees": true,
+      "intro": "Changi Airport (IATA: SIN, ICAO: WSSS) is the main international airport of Singapore, and functions as one of the most significant aviation gateways in the Asia-Pacific region. Situated within the Changi planning area in the eastern part of the country, the airport is approximately 24 kilometres (15 miles) east from the Central Area and occupies a site spanning about 25 square kilometres (9.7 square miles). The airport is a base for more than 100 international carriers with scheduled services linking Singapore to destinations across Asia, Oceania, Africa, Europe, the Middle East and North America. As of 2025, Changi Airport handled about 70 million passengers and ranked the 16th busiest air",
+      "retrievedAt": "2026-10-16T16:53:36.475Z"
+    },
+    {
+      "pinId": "sg-15",
+      "place": "Bedok Reservoir",
+      "status": 200,
+      "articleTitle": "Bedok Reservoir",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bedok_Reservoir",
+      "pageId": 1731900,
+      "coordinates": {
+        "lat": 1.34222222,
+        "lng": 103.925
+      },
+      "articleDistanceM": 1019,
+      "titleAgrees": true,
+      "intro": "Bedok Reservoir (Malay: Empangan Bedok, Chinese: 勿洛蓄水池; pinyin: Wùluò Xùshuǐchí, Tamil: பெடோக் நீர்த்தேக்கம்) is a reservoir in the eastern part of Singapore, to the north of Bedok. The reservoir has a surface area of 880,000 m2, and a capacity of 12.8 million m3. The mean depth of the reservoir is 9 m, with a maximum depth of 18.2 m. The shoreline length is 4.3 km.",
+      "retrievedAt": "2026-10-16T16:53:37.958Z"
+    },
+    {
+      "pinId": "sg-17",
+      "place": "Jurong East",
+      "status": 200,
+      "articleTitle": "Jurong East",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jurong_East",
+      "pageId": 1834722,
+      "coordinates": {
+        "lat": 1.32888333,
+        "lng": 103.73994722
+      },
+      "articleDistanceM": 604,
+      "titleAgrees": true,
+      "intro": "Jurong East is the regional centre of the West Region of Singapore. It borders Jurong West and Boon Lay to the west, Clementi to the east, Tengah and Bukit Batok to the north and Selat Jurong to the south.\nFirst developed in the 1970s, it is located approximately 20 km (12 miles) west of the city-centre. Jurong East is the 7th most populated planning area in the West Region. Jurong East, along with the entire Jurong area in general, is envisioned to be the country's second central business district (CBD) as part of the Jurong Lake District project.",
+      "retrievedAt": "2026-10-16T16:53:39.450Z"
+    },
+    {
+      "pinId": "sg-19",
+      "place": "Boon Lay",
+      "status": 200,
+      "articleTitle": "Boon Lay",
+      "articleUrl": "https://en.wikipedia.org/wiki/Boon_Lay",
+      "pageId": 1839970,
+      "coordinates": {
+        "lat": 1.34591389,
+        "lng": 103.711625
+      },
+      "articleDistanceM": 1180,
+      "titleAgrees": true,
+      "intro": "Boon Lay (simplified Chinese: 文礼; traditional Chinese: 文禮, Tamil: பூன் லே) is a neighbourhood located in the town of Jurong West in the West Region of Singapore. Its borders very roughly correspond to the URA subzone of Boon Lay Place, situated within the Jurong West Planning Area.",
+      "retrievedAt": "2026-10-16T16:54:01.629Z"
+    },
+    {
+      "pinId": "bn-01",
+      "place": "Bandar Seri Begawan (Capital)",
+      "status": 200,
+      "articleTitle": "Bandar Seri Begawan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+      "pageId": 56611,
+      "coordinates": {
+        "lat": 4.89027778,
+        "lng": 114.94222222
+      },
+      "articleDistanceM": 202,
+      "titleAgrees": true,
+      "intro": "Bandar Seri Begawan (BSB) is the capital and largest city of Brunei. It is officially a municipal area (kawasan bandaran) with an area of 100.36 square kilometres (38.75 sq mi) and has a population of 72,133 as of 2025 estimate. It is part of Brunei–Muara District, the smallest yet most populous district which is home to over 70 percent of the country's population. It is the country's largest urban centre and nominally the country's only city. The capital is home to Brunei's seat of government, as well as a commercial and cultural centre. It was formerly known as Brunei Town until it was renamed in 1970 in honour of Omar Ali Saifuddien III, the 28th Sultan of Brunei and the father of Sultan ",
+      "retrievedAt": "2026-10-16T16:54:02.727Z"
+    },
+    {
+      "pinId": "bn-02",
+      "place": "Muara Port",
+      "status": 200,
+      "articleTitle": "Muara Port",
+      "articleUrl": "https://en.wikipedia.org/wiki/Muara_Port",
+      "pageId": 70820044,
+      "coordinates": {
+        "lat": 5.0242489,
+        "lng": 115.0704866
+      },
+      "articleDistanceM": 518,
+      "titleAgrees": true,
+      "intro": "The Muara Port (Malay: Pelabuhan Muara), also known as Muara Harbour, is a seaport operated by the Muara Port Company (MPC) Sdn Bhd, under the supervision of the Maritime and Port Authority of Brunei Darussalam. The port also contributed to the Brunei Darussalam–Indonesia–Malaysia–Philippines East ASEAN Growth Area (BIMP-EAGA).",
+      "retrievedAt": "2026-10-16T16:54:04.198Z"
+    },
+    {
+      "pinId": "bn-07",
+      "place": "Kuala Belait Town",
+      "status": 200,
+      "articleTitle": "Kuala Belait",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuala_Belait",
+      "pageId": 2533570,
+      "coordinates": {
+        "lat": 4.582835,
+        "lng": 114.191783
+      },
+      "articleDistanceM": 4602,
+      "titleAgrees": true,
+      "intro": "Kuala Belait (KB) or officially the Kuala Belait Town (Malay: Pekan Kuala Belait), is the administrative town of Belait District, Brunei. The population of the town proper was 4,544 in 2021. Kuala Belait is officially a municipal area (kawasan bandaran), as well as a settlement under the mukim of the same name. The town is located 85 kilometres (53 mi) west of the country's capital Bandar Seri Begawan, and 20 kilometres (12 mi) west of Seria, the district's other town. It is also in the westernmost part of country, near the mouth of the Belait River.",
+      "retrievedAt": "2026-10-16T16:54:05.707Z"
+    },
+    {
+      "pinId": "bn-11",
+      "place": "Tutong Town",
+      "status": 200,
+      "articleTitle": "Tutong (town)",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tutong_(town)",
+      "pageId": 2533605,
+      "coordinates": {
+        "lat": 4.80666667,
+        "lng": 114.65916667
+      },
+      "articleDistanceM": 1258,
+      "titleAgrees": true,
+      "intro": "Tutong Town (Malay: Pekan Tutong; Jawi: توتوڠ) or simply known as Tutong, is a municipality town in Mukim Pekan Tutong, Tutong District, Brunei. It is located about 40 kilometres (25 mi) from the country's capital Bandar Seri Begawan. It is the administrative centre of Tutong District.",
+      "retrievedAt": "2026-10-16T16:54:07.231Z"
+    },
+    {
+      "pinId": "bn-14",
+      "place": "Bangar Town",
+      "status": 200,
+      "articleTitle": "Bangar, Brunei",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bangar,_Brunei",
+      "pageId": 2533595,
+      "coordinates": {
+        "lat": 4.7086,
+        "lng": 115.0739
+      },
+      "articleDistanceM": 351,
+      "titleAgrees": true,
+      "intro": "Bangar (Malay pronunciation: [ˈbaŋaɾ] ) or officially known as Bangar Town (Malay: Pekan Bangar), is a town and administrative centre of Temburong District, Brunei, an isolated territorial exclave separated from the rest of the country by the Malaysian state of Sarawak.  The population of the town proper was 451 in 2021.  A number of tiny retail establishments may be found throughout the town, providing everything from clothing to handicrafts to basic needs.",
+      "retrievedAt": "2026-10-16T16:54:08.742Z"
+    },
+    {
+      "pinId": "my-01",
+      "place": "KLCC / City Centre",
+      "status": 200,
+      "articleTitle": "Kuala Lumpur City Centre",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Centre",
+      "pageId": 4659099,
+      "coordinates": {
+        "lat": 3.15687,
+        "lng": 101.71473
+      },
+      "articleDistanceM": 366,
+      "titleAgrees": true,
+      "intro": "Kuala Lumpur City Centre (KLCC) is a multipurpose development area in Kuala Lumpur, Malaysia. Located in the heart of Malaysia, KLCC refers to the area within and surrounding the KLCC Park, but the term has also been widely used to refer to the buildings nearby to the vicinity.\nDesigned to be a city within a city, the 100-acre site hosts the tallest twin buildings in the world, the fourth tallest hotel in the world, a shopping mall, office buildings and several hotels. A public park and a mosque have also been built in the area and are open to everyone. Areas within KLCC is cooled via district cooling located on the property. The whole precinct was developed by KLCC Property Holdings Berhad ",
+      "retrievedAt": "2026-10-16T16:54:10.237Z"
+    },
+    {
+      "pinId": "my-02",
+      "place": "Bangsar",
+      "status": 200,
+      "articleTitle": "Bangsar",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bangsar",
+      "pageId": 451188,
+      "coordinates": {
+        "lat": 3.13083333,
+        "lng": 101.66944444
+      },
+      "articleDistanceM": 1011,
+      "titleAgrees": true,
+      "intro": "Bangsar is a residential suburb on the outskirts of Kuala Lumpur, lying about 4 kilometres (2.5 mi) south-west of the city centre. It is part of the Lembah Pantai parliamentary constituency. Bangsar is administered by Dewan Bandaraya Kuala Lumpur (DBKL), unlike other townships in the Klang Valley such as Petaling Jaya and Subang Jaya which have their municipal councils. Neighbourhood residents' associations and business councils play a part in communicating with the local authority, but they exercise no legal or administrative power. Malays make up most of the population at 61%, followed by the Chinese at 24%, Indians at 15%.\n\n",
+      "retrievedAt": "2026-10-16T16:54:11.761Z"
+    },
+    {
+      "pinId": "my-03",
+      "place": "Cheras",
+      "status": 200,
+      "articleTitle": "Cheras, Kuala Lumpur",
+      "articleUrl": "https://en.wikipedia.org/wiki/Cheras,_Kuala_Lumpur",
+      "pageId": 3750691,
+      "coordinates": {
+        "lat": 3.107178,
+        "lng": 101.71649
+      },
+      "articleDistanceM": 1046,
+      "titleAgrees": true,
+      "intro": "Cheras is a suburb and a district, straddling both the Federal Territory of Kuala Lumpur and Hulu Langat District in the state of Selangor, Malaysia.\nThe township is located to the south-east of downtown Kuala Lumpur. Cheras is also adjacent to Ampang to the north and Kajang to the south, both of which are major towns that administer some townships in Cheras such as Taman Segar Perdana, Taman Bukit Segar, Cheras Hartamas and Kampung Cheras Baru. These townships are either administered in whole or part by both MPKJ and MPAJ due to its close proximity.\nThe district mainly consist of Chinese residents, which also make up the majority of voters for the Cheras electorate.",
+      "retrievedAt": "2026-10-16T16:54:13.249Z"
+    },
+    {
+      "pinId": "my-04",
+      "place": "Kepong",
+      "status": 200,
+      "articleTitle": "Kepong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kepong",
+      "pageId": 5062565,
+      "coordinates": {
+        "lat": 3.21422222,
+        "lng": 101.63891667
+      },
+      "articleDistanceM": 422,
+      "titleAgrees": true,
+      "intro": "Kepong is a town in northern Kuala Lumpur, Malaysia, bordering Selayang in the neighbouring state of Selangor. Ever since Kepong emerged as a Chinese tin-mining village, it has always had a mostly Chinese population, shown by a 72.9% majority in the wider federal constituency of Kepong in 2025.",
+      "retrievedAt": "2026-10-16T16:54:14.763Z"
+    },
+    {
+      "pinId": "my-05",
+      "place": "Setapak",
+      "status": 200,
+      "articleTitle": "Setapak",
+      "articleUrl": "https://en.wikipedia.org/wiki/Setapak",
+      "pageId": 5062474,
+      "coordinates": {
+        "lat": 3.20361111,
+        "lng": 101.72444444
+      },
+      "articleDistanceM": 2624,
+      "titleAgrees": true,
+      "intro": "Setapak is a town and mukim straddling both northeastern Kuala Lumpur and Gombak District of Selangor, Malaysia.",
+      "retrievedAt": "2026-10-16T16:55:01.564Z"
+    },
+    {
+      "pinId": "my-06",
+      "place": "Wangsa Maju",
+      "status": 200,
+      "articleTitle": "Wangsa Maju",
+      "articleUrl": "https://en.wikipedia.org/wiki/Wangsa_Maju",
+      "pageId": 5062438,
+      "coordinates": {
+        "lat": 3.199495,
+        "lng": 101.7400196
+      },
+      "articleDistanceM": 450,
+      "titleAgrees": true,
+      "intro": "Wangsa Maju is a township and a constituency in Kuala Lumpur, Malaysia. This area is surrounded by Setapak, Taman Melati and Gombak district in Selangor. Wangsa Maju is one of the major suburbs in Kuala Lumpur.",
+      "retrievedAt": "2026-10-16T16:55:03.386Z"
+    },
+    {
+      "pinId": "my-07",
+      "place": "Petaling Jaya (PJ State)",
+      "status": 200,
+      "articleTitle": "Petaling Jaya",
+      "articleUrl": "https://en.wikipedia.org/wiki/Petaling_Jaya",
+      "pageId": 812316,
+      "coordinates": {
+        "lat": 3.09722222,
+        "lng": 101.64444444
+      },
+      "articleDistanceM": 442,
+      "titleAgrees": true,
+      "intro": "Petaling Jaya (Malaysian pronunciation: [pətaliŋ d͡ʒaja] ), colloquially referred to as \"PJ\", is a city in Petaling District, in the state of Selangor, Malaysia. Originally developed as a satellite township for Kuala Lumpur, the capital of Malaysia, it is part of the Greater Kuala Lumpur area. Petaling Jaya was granted city status on 20 June 2006. It has an area of approximately 97.2 square kilometres (37.5 sq mi).\nPetaling Jaya is surrounded by Kuala Lumpur to the east, Sungai Buloh to the north, Shah Alam, the capital of Selangor, and Subang Jaya to the west, and Bandar Kinrara (Puchong) to the south.",
+      "retrievedAt": "2026-10-16T16:55:04.529Z"
+    },
+    {
+      "pinId": "my-08",
+      "place": "Shah Alam Central",
+      "status": 200,
+      "articleTitle": "Shah Alam",
+      "articleUrl": "https://en.wikipedia.org/wiki/Shah_Alam",
+      "pageId": 113668,
+      "coordinates": {
+        "lat": 3.07222222,
+        "lng": 101.51666667
+      },
+      "articleDistanceM": 252,
+      "titleAgrees": true,
+      "intro": "Shah Alam (, Malaysian: [ʃah ˈalam], from Persian, meaning \"king of the world\") is a city and the state capital of Selangor, Malaysia which is situated within the Petaling District and a small portion of the neighbouring Klang District. Shah Alam replaced Kuala Lumpur as the capital city of the state of Selangor in 1978 due to Kuala Lumpur's incorporation into a Federal Territory in 1974. Shah Alam was the first planned city in Malaysia after independence from Britain in 1957.",
+      "retrievedAt": "2026-10-16T16:55:06.042Z"
+    },
+    {
+      "pinId": "my-10",
+      "place": "Port Klang Coastal",
+      "status": 200,
+      "articleTitle": "Port Klang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Port_Klang",
+      "pageId": 601382,
+      "coordinates": {
+        "lat": 3,
+        "lng": 101.4
+      },
+      "articleDistanceM": 0,
+      "titleAgrees": true,
+      "intro": "Port Klang (Malay: Pelabuhan Klang) is the principal port of Malaysia on the Strait of Malacca. Known during colonial times as Port Swettenham (Malay: Pelabuhan Swettenham), it was renamed Port Klang in July 1972 and has since become the largest port in the country. It is located about 6 kilometres (3.7 mi) southwest of the town of Klang, and 38 kilometres (24 mi) southwest of Kuala Lumpur.\nPort Klang was also known as the \"National Load Centre\".\nLocated in the District of Klang, it was the 14th busiest container port (2022) in the world. It was also the 12th busiest port in by volume (million TEU) in 2018 and as of July 2020 was the top location for aluminium stockholding for LME, the top m",
+      "retrievedAt": "2026-10-16T16:55:07.507Z"
+    },
+    {
+      "pinId": "my-11",
+      "place": "Subang Jaya",
+      "status": 200,
+      "articleTitle": "Subang Jaya",
+      "articleUrl": "https://en.wikipedia.org/wiki/Subang_Jaya",
+      "pageId": 1479897,
+      "coordinates": {
+        "lat": 3.06444444,
+        "lng": 101.59361111
+      },
+      "articleDistanceM": 1279,
+      "titleAgrees": true,
+      "intro": "Subang Jaya is a city in Petaling District, Selangor, Malaysia. It comprises the southern third district of Petaling. It consists of the neighbourhoods from SS12 to SS19, UEP Subang Jaya (USJ), Putra Heights, Batu Tiga as well as PJS7, PJS9 and PJS11 of Bandar Sunway, the latter of which are partially jurisdictional within Petaling Jaya under the MBPJ. The city is governed by Subang Jaya City Council (MBSJ), which also governs other areas of the Petaling district, such as Puchong and Seri Kembangan. According to Subang Jaya City Council, Subang Jaya has a population of 968,930 in 2020, which makes it the sixth largest city in Malaysia by population.",
+      "retrievedAt": "2026-10-16T16:55:09.047Z"
+    },
+    {
+      "pinId": "my-12",
+      "place": "Kajang",
+      "status": 200,
+      "articleTitle": "Kajang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kajang",
+      "pageId": 16911,
+      "coordinates": {
+        "lat": 2.99305556,
+        "lng": 101.78888889
+      },
+      "articleDistanceM": 173,
+      "titleAgrees": true,
+      "intro": "Kajang is a town in the Hulu Langat District, located at the southeast part of Selangor, Malaysia, and further southeast of Federal Territory of Kuala Lumpur. Kajang, along with much of the Hulu Langat District, is governed by the Kajang Municipal Council. Kajang town is located on the eastern banks of the Langat River. It is surrounded by Cheras, Semenyih, Bangi, Putrajaya and Seri Kembangan.\n\nAccording to the 2020 census, the local authority area (which includes Kajang, Cheras, Balakong, Bangi, Semenyih and Pekan Hulu Langat) has a population of 1.05 million people, making it the second largest city in Malaysia.",
+      "retrievedAt": "2026-10-16T16:55:10.602Z"
+    },
+    {
+      "pinId": "my-15",
+      "place": "Muar (Haze Monitoring Hub)",
+      "status": 200,
+      "articleTitle": "Muar (town)",
+      "articleUrl": "https://en.wikipedia.org/wiki/Muar_(town)",
+      "pageId": 18807564,
+      "coordinates": {
+        "lat": 2.05,
+        "lng": 102.56666667
+      },
+      "articleDistanceM": 691,
+      "titleAgrees": true,
+      "intro": "Muar (Muarian dialect: Muo), officially known by the sobriquet Bandar Maharani (\"Empress Town\"), is a historical town and the capital of Muar District, Johor, Malaysia, situated by the estuary of the eponymous Muar River. It is the fourth largest urban area in Johor, after Johor Bahru, Batu Pahat and Kluang.\nOn 5 February 2012, Muar was declared as the royal town of Johor by Sultan Ibrahim Sultan Iskandar.\nMuar is one of the cleanest cities in Southeast Asia, having won the ASEAN Clean Tourist City Standard Award in 2017 and 2022. It is regarded as one of the most popular tourist attractions in Malaysia to be visited and explored for its cuisine, culture and historical prewar buildings.",
+      "retrievedAt": "2026-10-16T16:55:12.051Z"
+    },
+    {
+      "pinId": "my-16",
+      "place": "Batu Pahat",
+      "status": 200,
+      "articleTitle": "Batu Pahat (town)",
+      "articleUrl": "https://en.wikipedia.org/wiki/Batu_Pahat_(town)",
+      "pageId": 19389745,
+      "coordinates": {
+        "lat": 1.85222222,
+        "lng": 102.93722222
+      },
+      "articleDistanceM": 598,
+      "titleAgrees": true,
+      "intro": "Batu Pahat, also sometimes known as Bandar Penggaram or by its initials as BP, is a town and capital of Batu Pahat District, Johor, Malaysia. It lies south-east of Muar (a royal town), south-west of Kluang, north-west of Pontian and south of Segamat. The town is in Simpang Kanan parish.\nAs of 2009, Batu Pahat town is the 20th largest urban area in Malaysia in population. In 2006, Batu Pahat surpassed Muar to become the second largest urban area in Johor and by 2012 Batu Pahat was the 16th largest urban area in Malaysia in population. Chinese make up the majority of the population at 62% followed by Malays at 36% and Indians at 2%.",
+      "retrievedAt": "2026-10-16T16:55:13.533Z"
+    },
+    {
+      "pinId": "my-17",
+      "place": "Kluang",
+      "status": 200,
+      "articleTitle": "Kluang District",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kluang_District",
+      "pageId": 285862,
+      "coordinates": {
+        "lat": 2.03361111,
+        "lng": 103.31944444
+      },
+      "articleDistanceM": 427,
+      "titleAgrees": true,
+      "intro": "Kluang is a district in Johor, Malaysia. Its district capital is Kluang Town. Kluang district is one of the three landlocked districts in Johor, the other being Segamat and Kulai.",
+      "retrievedAt": "2026-10-16T16:55:15.081Z"
+    },
+    {
+      "pinId": "my-18",
+      "place": "Pasir Gudang Industrial",
+      "status": 200,
+      "articleTitle": "Pasir Gudang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Pasir_Gudang",
+      "pageId": 1197743,
+      "coordinates": {
+        "lat": 1.50277778,
+        "lng": 103.93555556
+      },
+      "articleDistanceM": 6836,
+      "titleAgrees": true,
+      "intro": "Pasir Gudang is a city located in eastern Johor Bahru District, Johor, which is the second largest district in Malaysia by population. The main industries are transportation and logistics, shipbuilding, petrochemicals and other heavy industries, and oil palm storage and distribution, which is located in Johor Port and Tanjung Langsat.",
+      "retrievedAt": "2026-10-16T16:56:00.860Z"
+    },
+    {
+      "pinId": "my-19",
+      "place": "Skudai",
+      "status": 200,
+      "articleTitle": "Skudai",
+      "articleUrl": "https://en.wikipedia.org/wiki/Skudai",
+      "pageId": 1539875,
+      "coordinates": {
+        "lat": 1.53333333,
+        "lng": 103.66666667
+      },
+      "articleDistanceM": 699,
+      "titleAgrees": true,
+      "intro": "Skudai (also spelled Sekudai) is a town in Johor, Malaysia. It is about 13 km northwest from Johor Bahru's central business district.",
+      "retrievedAt": "2026-10-16T16:56:02.315Z"
+    },
+    {
+      "pinId": "my-20",
+      "place": "Iskandar Puteri",
+      "status": 200,
+      "articleTitle": "Iskandar Puteri",
+      "articleUrl": "https://en.wikipedia.org/wiki/Iskandar_Puteri",
+      "pageId": 3364501,
+      "coordinates": {
+        "lat": 1.42222222,
+        "lng": 103.65
+      },
+      "articleDistanceM": 1892,
+      "titleAgrees": true,
+      "intro": "Iskandar Puteri (formerly known as Nusajaya) is a city and the administrative capital of the state of Johor, Malaysia. It is situated along the Straits of Johor at the southern end of the Malay Peninsula and the southernmost city of continental Eurasia. Together with the adjacent cities of Johor Bahru and Pasir Gudang, it is located within the Johor Bahru District, the second largest district in Malaysia by population. The 15th busiest container port in the world, Port of Tanjung Pelepas, is also located in the city.\nIskandar Puteri hosts Kota Iskandar, which represents the seat of government of the state of Johor (Executive branch & Legislative branch).",
+      "retrievedAt": "2026-10-16T16:56:03.807Z"
+    },
+    {
+      "pinId": "my-25",
+      "place": "Jelutong",
+      "status": 200,
+      "articleTitle": "Jelutong, Penang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jelutong,_Penang",
+      "pageId": 6296987,
+      "coordinates": {
+        "lat": 5.39047222,
+        "lng": 100.31302778
+      },
+      "articleDistanceM": 351,
+      "titleAgrees": true,
+      "intro": "Jelutong is a suburb of George Town in the Malaysian state of Penang. Located 3.2 km (2.0 mi) south of the city centre, Jelutong has been inhabited since as early as the late 18th century, when traders from Aceh and India settled around the area.\nIt was once notorious as a turf for gangsters and triads until the 1980s, when urbanisation transformed the area into a residential suburb of George Town.",
+      "retrievedAt": "2026-10-16T16:56:06.075Z"
+    },
+    {
+      "pinId": "my-27",
+      "place": "Ipoh City",
+      "status": 200,
+      "articleTitle": "Ipoh",
+      "articleUrl": "https://en.wikipedia.org/wiki/Ipoh",
+      "pageId": 300499,
+      "coordinates": {
+        "lat": 4.59722222,
+        "lng": 101.075
+      },
+      "articleDistanceM": 1674,
+      "titleAgrees": true,
+      "intro": "Ipoh (, Malay pronunciation: [ipoh] ) is the capital city of the Malaysian state of Perak. Located on the Kinta River, it is nearly 200 km (120 mi) north of Kuala Lumpur and 150 km (93 mi) southeast of George Town in neighbouring Penang. As of the 2020 census, Ipoh had a population of 759,952, making it the ninth-largest city in Malaysia by population and the fourth most populous state capital, after Johor Bahru, Shah Alam and George Town.\nIn recent years, Ipoh's popularity as an international tourist destination has been significantly boosted by efforts to conserve its British colonial-era architecture. The city is also well known for its cuisine and natural attractions including limestone ",
+      "retrievedAt": "2026-10-16T16:56:06.850Z"
+    },
+    {
+      "pinId": "my-28",
+      "place": "Taiping",
+      "status": 200,
+      "articleTitle": "Taiping, Perak",
+      "articleUrl": "https://en.wikipedia.org/wiki/Taiping,_Perak",
+      "pageId": 1942732,
+      "coordinates": {
+        "lat": 4.85,
+        "lng": 100.73333333
+      },
+      "articleDistanceM": 4,
+      "titleAgrees": true,
+      "intro": "Taiping (Malay: [taipeŋ]) is a city located in Larut, Matang and Selama District, in the state of Perak, Malaysia. It is located approximately 48 km (30 mi) northwest of Ipoh, the capital of Perak, and 78 km (48 mi) southeast of George Town, Penang. With a population of 245,182 (in 2013), it is the second largest city in Perak after Ipoh, the state capital.\nTaiping took over Kuala Kangsar's role as the state capital from 1876 to 1937, but was then replaced by Ipoh. Its growth slowed after that, but in recent years the town has been developing rapidly again. Perak State Museum is located in the town.\nTaiping also receives some limelight for being the wettest town in Peninsular Malaysia. Its a",
+      "retrievedAt": "2026-10-16T16:56:08.404Z"
+    },
+    {
+      "pinId": "my-29",
+      "place": "Alor Setar",
+      "status": 200,
+      "articleTitle": "Alor Setar",
+      "articleUrl": "https://en.wikipedia.org/wiki/Alor_Setar",
+      "pageId": 1275152,
+      "coordinates": {
+        "lat": 6.11833333,
+        "lng": 100.36944444
+      },
+      "articleDistanceM": 742,
+      "titleAgrees": true,
+      "intro": "Alor Setar (Kedah Malay: Loqstaq), known as Alor Star from 2003 to 2009, is the state capital of Kedah, Malaysia. It is the second-largest city in the state, after Sungai Petani, and one of the most important cities on the west coast of Peninsular Malaysia. It is home to the third-tallest tower in Malaysia, the Alor Setar Tower.\nIts location along the main travel corridor from Malaysia to Thailand has long made it a major transportation hub in the northern Malay Peninsula. Alor Setar sits along the country's longest expressway, located 430 km (270 mi) from Kuala Lumpur and 79 km (49 mi) north of George Town, Penang. From Thailand, the city is easily accessible via the Padang Besar–Sadao High",
+      "retrievedAt": "2026-10-16T16:56:09.853Z"
+    },
+    {
+      "pinId": "my-30",
+      "place": "Sungai Petani",
+      "status": 200,
+      "articleTitle": "Sungai Petani",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sungai_Petani",
+      "pageId": 1063906,
+      "coordinates": {
+        "lat": 5.65,
+        "lng": 100.5
+      },
+      "articleDistanceM": 1401,
+      "titleAgrees": true,
+      "intro": "Sungai Petani  (abbr. Sg. Petani or SP) is a town in Kuala Muda District, Kedah, Malaysia. The population of the municipal area of Sungai Petani is larger than Kedah's state capital, Alor Setar. It is located about 55 km south of Alor Setar, and 33 km northeast of George Town, the capital city of the neighbouring state of Penang.",
+      "retrievedAt": "2026-10-16T16:56:11.332Z"
+    },
+    {
+      "pinId": "my-32",
+      "place": "Kuantan Coastal",
+      "status": 200,
+      "articleTitle": "Kuantan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuantan",
+      "pageId": 737705,
+      "coordinates": {
+        "lat": 3.81666667,
+        "lng": 103.33333333
+      },
+      "articleDistanceM": 1287,
+      "titleAgrees": true,
+      "intro": "Kuantan (Pahang Malay: Kontaeng; Terengganu Malay: Kuatang/Kuantang) is a city and the state capital of Pahang, Malaysia. It is located near the mouth of the Kuantan River. Kuantan is the 12th largest city in Malaysia based on a 2020 population of 548,014 and the largest city on the East Coast of Peninsular Malaysia.\nThe administrative centre of the state of Pahang was officially relocated to Kuantan on 27 August 1955 from Kuala Lipis, and was officiated by HRH Sultan Abu Bakar Ri'ayatuddin Al Muadzam Shah, the Sultan of Pahang.",
+      "retrievedAt": "2026-10-16T16:56:12.849Z"
+    },
+    {
+      "pinId": "my-34",
+      "place": "Bentong",
+      "status": 200,
+      "articleTitle": "Bentong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bentong",
+      "pageId": 2275777,
+      "coordinates": {
+        "lat": 3.51666667,
+        "lng": 101.91666667
+      },
+      "articleDistanceM": 1050,
+      "titleAgrees": true,
+      "intro": "Bentong, the seat of Bentong District, is a town located in western Pahang, Malaysia, at the border with the state of Selangor in the west and the state of Negeri Sembilan in the south.",
+      "retrievedAt": "2026-10-16T16:56:14.361Z"
+    },
+    {
+      "pinId": "my-35",
+      "place": "Cameron Highlands",
+      "status": 200,
+      "articleTitle": "Cameron Highlands",
+      "articleUrl": "https://en.wikipedia.org/wiki/Cameron_Highlands",
+      "pageId": 1213900,
+      "coordinates": {
+        "lat": 4.5,
+        "lng": 101.5
+      },
+      "articleDistanceM": 14113,
+      "titleAgrees": true,
+      "intro": "The Cameron Highlands (Malay: Tanah Tinggi Cameron) is a district in Pahang, Malaysia, occupying an area of 712.18 square kilometres (274.97 sq mi). To the north, its boundary touches that of Kelantan; to the west, it shares part of its border with Perak. Situated at the northwestern tip of Pahang, Cameron Highlands is approximately 90 kilometres (56 mi) east from Ipoh, roughly 200 kilometres (120 mi) north from Kuala Lumpur or about 355 kilometres (221 mi) from Kuantan, the capital of Pahang. It is the smallest municipality in the state.\nSurveyed by the government geologist and explorer William Cameron in 1885, the outpost consists of three mukims (subdistricts), namely Ringlet, Tanah Rata ",
+      "retrievedAt": "2026-10-16T16:57:01.154Z"
+    },
+    {
+      "pinId": "my-36",
+      "place": "Kuala Terengganu",
+      "status": 200,
+      "articleTitle": "Kuala Terengganu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuala_Terengganu",
+      "pageId": 603365,
+      "coordinates": {
+        "lat": 5.32916667,
+        "lng": 103.13611111
+      },
+      "articleDistanceM": 532,
+      "titleAgrees": true,
+      "intro": "Kuala Terengganu (Malaysian pronunciation: [ˈkuˈala ˈtəˈrəŋˈganu] ; Terengganu Malay: Kole Tranung), colloquially referred to as KT, is the administrative, economic and royal city of the state of Terengganu, Malaysia. Kuala Terengganu is also the seat of Kuala Terengganu District. It is also the only royal capital among the nine royal states of the country to bear its state's name. Kuala Terengganu is located about 440 kilometres (270 mi) northeast of Kuala Lumpur on the East Coast of Peninsular Malaysia. The city is situated at the estuary of Terengganu River, facing the South China Sea.\nAs a district, Kuala Terengganu is the smallest in terms of area, but it and Kuala Nerus District that t",
+      "retrievedAt": "2026-10-16T16:57:02.651Z"
+    },
+    {
+      "pinId": "my-37",
+      "place": "Chukai / Kemaman",
+      "status": 200,
+      "articleTitle": "Chukai",
+      "articleUrl": "https://en.wikipedia.org/wiki/Chukai",
+      "pageId": 5419975,
+      "coordinates": {
+        "lat": 4.25,
+        "lng": 103.41666667
+      },
+      "articleDistanceM": 1857,
+      "titleAgrees": true,
+      "intro": "Chukai (Terengganu Malay: Chuka), also known by the name of Kemaman Town (Malay: Bandar Kemaman, Terengganu Malay: Bando Mamang), is a mukim and capital of Kemaman District, Terengganu, Malaysia.\nThe name \"Chukai\" (proper spelling of the Malay word: cukai) means 'taxes' in Malay. The town is so named due to its position near the estuary of the Kemaman River, whereby taxes and levies were imposed on riverine traffic, especially during the British colonial period. Chukai is the largest  town in southern Terengganu, and its position between the state capitals of Kuantan and Kuala Terengganu as well as proximity to the oil town of Kerteh has turned Chukai into a major commercial hub for the regi",
+      "retrievedAt": "2026-10-16T16:57:04.130Z"
+    },
+    {
+      "pinId": "my-38",
+      "place": "Kota Bharu",
+      "status": 200,
+      "articleTitle": "Kota Bharu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kota_Bharu",
+      "pageId": 441996,
+      "coordinates": {
+        "lat": 6.13333333,
+        "lng": 102.25
+      },
+      "articleDistanceM": 1584,
+      "titleAgrees": true,
+      "intro": "Kota Bharu (Kelantanese: Koto Baghu), colloquially referred to as KB, is a town in Malaysia that serves as the state capital and royal seat of Kelantan. It is situated in the northeastern part of Peninsular Malaysia and lies near the mouth of the Kelantan River.\nThe town is home to many religious buildings, various museums, the unique architecture of the old royal palaces (still occupied by the Sultan and Sultanah and off-limits to visitors but viewable from outside) and former royal buildings (which can be visited). It is served by Keretapi Tanah Melayu's East Coast Line at the nearby Wakaf Bharu Terminal Station, in the town of Wakaf Bharu across the Kelantan River and Sultan Ismail Petra ",
+      "retrievedAt": "2026-10-16T16:57:05.618Z"
+    },
+    {
+      "pinId": "my-39",
+      "place": "Pasir Mas Flood Zone",
+      "status": 200,
+      "articleTitle": "Pasir Mas District",
+      "articleUrl": "https://en.wikipedia.org/wiki/Pasir_Mas_District",
+      "pageId": 55903360,
+      "coordinates": {
+        "lat": 6.03333333,
+        "lng": 102.13333333
+      },
+      "articleDistanceM": 1251,
+      "titleAgrees": true,
+      "intro": "Pasir Mas District (Kelantanese: Jajahey Pasey Mah) is a district (jajahan) in Kelantan, Malaysia. The district  covers an area of 614.15 square kilometers and is bordered by the districts of Tumpat District to the north, Tanah Merah District to the south, Kota Bharu District to the east, and the Thai district of Su-ngai Kolok (Malay: Sungai Golok) to the west.\nDue to its geographical location, it acts as the main gateway of the East Coast of Malaysia to Thailand and is also traversed by major road transport routes from the West Coast to the state capital of Kota Bharu.\nThe district of Pasir Mas was originally part of the district of Kota Bharu. In 1918, the town of Pasir Mas and its surroun",
+      "retrievedAt": "2026-10-16T16:57:07.142Z"
+    },
+    {
+      "pinId": "my-41",
+      "place": "Miri City (Peatland Hotspot)",
+      "status": 200,
+      "articleTitle": "Miri",
+      "articleUrl": "https://en.wikipedia.org/wiki/Miri",
+      "pageId": 990433,
+      "coordinates": {
+        "lat": 4.3925,
+        "lng": 113.98611111
+      },
+      "articleDistanceM": 975,
+      "titleAgrees": true,
+      "intro": "Miri () is a coastal city in north-eastern Sarawak, Malaysia, located near the border of Brunei, on the island of Borneo. The city covers an area of 997.43 square kilometres (385.11 sq mi), located 798 kilometres (496 mi) northeast of Kuching and 329 kilometres (204 mi) southwest of Kota Kinabalu. Miri is the second largest city in Sarawak, with a population of 356,900 as of 2020. The city is also the capital of Miri District, Miri Division.\nBefore Miri was founded, Marudi was the administrative centre of the northern region of Sarawak. Miri was founded in 1910 when the first oil well was drilled by Royal Dutch Shell. The discovery of an oil field in Miri has led to rapid development of Miri",
+      "retrievedAt": "2026-10-16T16:57:08.641Z"
+    },
+    {
+      "pinId": "my-42",
+      "place": "Sibu Town",
+      "status": 200,
+      "articleTitle": "Sibu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sibu",
+      "pageId": 990423,
+      "coordinates": {
+        "lat": 2.28777778,
+        "lng": 111.83083333
+      },
+      "articleDistanceM": 2077,
+      "titleAgrees": true,
+      "intro": "Sibu () is a city located in the central region of Sarawak, Malaysia. It serves as the capital of Sibu District within Sibu Division and is situated on the island of Borneo. Covering an area of 129.5 square kilometres (50.0 sq mi), the city is positioned at the confluence of the Rajang and Igan Rivers, approximately 60 kilometres from the South China Sea and 191.5 kilometres (119 mi) north-east of the state capital, Kuching.",
+      "retrievedAt": "2026-10-16T16:57:10.165Z"
+    },
+    {
+      "pinId": "my-44",
+      "place": "Kota Samarahan",
+      "status": 200,
+      "articleTitle": "Kota Samarahan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kota_Samarahan",
+      "pageId": 2608079,
+      "coordinates": {
+        "lat": 1.45944444,
+        "lng": 110.49888889
+      },
+      "articleDistanceM": 201,
+      "titleAgrees": true,
+      "intro": "Kota Samarahan, formerly known as Muara Tuang, is a town and the administrative seat of the Samarahan District in Samarahan Division, Sarawak, Malaysia. It is also a satellite town for Kuching due to its proximity to the city part of Greater Kuching area. The Sarawak government position Kota Samarahan as the medical and education hub of the state. Kota Samarahan can be considered \nas the 'heart' of Malay/Muslims in Sarawak (in addition to Kuching) which forms approximately over 54% of the population, thus make it as another \"Putrajaya\" version of Sarawak.\nThe Kota Samarahan Municipal Council (MPKS) exercises local authority over Samarahan and Asajaya districts, as well as Sadong Jaya subdist",
+      "retrievedAt": "2026-10-16T16:57:11.665Z"
+    },
+    {
+      "pinId": "my-46",
+      "place": "Limbang Town",
+      "status": 200,
+      "articleTitle": "Limbang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Limbang",
+      "pageId": 990468,
+      "coordinates": {
+        "lat": 4.75916667,
+        "lng": 115.00666667
+      },
+      "articleDistanceM": 1259,
+      "titleAgrees": true,
+      "intro": "Limbang is a border town and the capital of Limbang District in the Limbang Division of northern Sarawak, East Malaysia, on the island of Borneo. This district area is 3,978.10 square kilometres, and population (year 2020 census) was 56,900. It is located on the banks of the Limbang River (Sungai Limbang in Malay), between the two halves of Brunei.",
+      "retrievedAt": "2026-10-16T16:57:13.163Z"
+    },
+    {
+      "pinId": "my-48",
+      "place": "Serian",
+      "status": 200,
+      "articleTitle": "Serian District",
+      "articleUrl": "https://en.wikipedia.org/wiki/Serian_District",
+      "pageId": 59988596,
+      "coordinates": {
+        "lat": 1.17083333,
+        "lng": 110.56638889
+      },
+      "articleDistanceM": 421,
+      "titleAgrees": true,
+      "intro": "Serian is a district, in Serian Division, Sarawak, Malaysia.",
+      "retrievedAt": "2026-10-16T16:57:14.684Z"
+    },
+    {
+      "pinId": "my-49",
+      "place": "Sarikei",
+      "status": 200,
+      "articleTitle": "Sarikei",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sarikei",
+      "pageId": 991308,
+      "coordinates": {
+        "lat": 2.12555556,
+        "lng": 111.52194444
+      },
+      "articleDistanceM": 1144,
+      "titleAgrees": true,
+      "intro": "Sarikei is a town, and the capital of Sarikei District in Sarikei Division, Sarawak, Malaysia. It is located on the Rajang River, near where the river empties into the South China Sea. The district population (year 2010 census) was 56,798.\nThe most distinctive feature of the bustling waterfront is a 3.6-m-high pineapple statue and also the tallest building in Sarikei - Wisma Jubli Mutiara.\nThe town itself consists of a main road, Repok Road which is bisected by another road leading to the new development in Kampung Seberang which is known as Susur Jambu.",
+      "retrievedAt": "2026-10-16T16:58:01.430Z"
+    },
+    {
+      "pinId": "my-52",
+      "place": "Kota Kinabalu City",
+      "status": 200,
+      "articleTitle": "Kota Kinabalu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+      "pageId": 361120,
+      "coordinates": {
+        "lat": 5.975,
+        "lng": 116.0725
+      },
+      "articleDistanceM": 611,
+      "titleAgrees": true,
+      "intro": "Kota Kinabalu (Malaysian: [ˈkota kinaˈbalu]; previously Jesselton), colloquially referred to as KK, is the state capital of Sabah, Malaysia. It is also the capital of the Kota Kinabalu District as well as the West Coast Division of Sabah. The city is located on the northwest coast of Borneo facing the South China Sea. The Tunku Abdul Rahman National Park lies to its west and Mount Kinabalu, which gave the city its name, is located to its east. Kota Kinabalu has a population of 452,058 according to the 2010 census; when the adjacent Penampang and Tuaran districts are included, the metro area has a combined population of 628,725. The 2020 Census revealed an increase in the municipal population",
+      "retrievedAt": "2026-10-16T16:58:02.909Z"
+    },
+    {
+      "pinId": "my-53",
+      "place": "Penampang",
+      "status": 200,
+      "articleTitle": "Penampang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Penampang",
+      "pageId": 2414376,
+      "coordinates": {
+        "lat": 5.91666667,
+        "lng": 116.11666667
+      },
+      "articleDistanceM": 1789,
+      "titleAgrees": true,
+      "intro": "Penampang (Malay: Pekan Penampang) is the capital of the Penampang District in the West Coast Division of Sabah, Malaysia. Its population was estimated to be around 93,616 in 2010, with ethnic Kadazan as the majority. It contains, or is synonymous with, Donggongon, which as of 2007, had a population of 78,086. It was also considered as the sixth-largest town in Sabah.\nPenampang has virtually become a suburb of Kota Kinabalu and considered as part of the Greater Kota Kinabalu area.",
+      "retrievedAt": "2026-10-16T16:58:04.419Z"
+    },
+    {
+      "pinId": "my-54",
+      "place": "Tuaran",
+      "status": 200,
+      "articleTitle": "Tuaran District",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tuaran_District",
+      "pageId": 55754724,
+      "coordinates": {
+        "lat": 6.18333333,
+        "lng": 116.23333333
+      },
+      "articleDistanceM": 633,
+      "titleAgrees": true,
+      "intro": "The Tuaran District (Malay: Daerah Tuaran) is an administrative district in the Malaysian state of Sabah, part of the West Coast Division which includes the districts of Kota Belud, Kota Kinabalu, Papar, Penampang, Putatan, Ranau and Tuaran. The capital of the district is in Tuaran Town and the administrative area includes the entire boundary of Tuaran District, covering an area of 116,500 hectares (287,875 acres). Tuaran also one of the districts in Sabah located near Kota Kinabalu, and it is considered part of the Greater Kota Kinabalu area.\n\nSt. Andrews Anglican church was consecrated on 12 November 1967 by Roland Koh.",
+      "retrievedAt": "2026-10-16T16:58:05.930Z"
+    },
+    {
+      "pinId": "my-55",
+      "place": "Ranau (Mt. Kinabalu Base)",
+      "status": 200,
+      "articleTitle": "Ranau",
+      "articleUrl": "https://en.wikipedia.org/wiki/Ranau",
+      "pageId": 55754316,
+      "coordinates": {
+        "lat": 5.96666667,
+        "lng": 116.68333333
+      },
+      "articleDistanceM": 2564,
+      "titleAgrees": true,
+      "intro": "Ranau Town (Malay: Pekan Ranau) is the capital of the Ranau District in the West Coast Division of Sabah, Malaysia. Its population was estimated to be around 87,500 in 2023.\nThe federal constituency represented in the Dewan Rakyat is Ranau (federal constituency).",
+      "retrievedAt": "2026-10-16T16:58:07.451Z"
+    },
+    {
+      "pinId": "my-63",
+      "place": "Lahad Datu Town",
+      "status": 200,
+      "articleTitle": "Lahad Datu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Lahad_Datu",
+      "pageId": 1732104,
+      "coordinates": {
+        "lat": 5.03,
+        "lng": 118.34
+      },
+      "articleDistanceM": 1483,
+      "titleAgrees": true,
+      "intro": "Lahad Datu (Malay: Bandar Lahad Datu) is the capital of the Lahad Datu District in the Dent Peninsula on Tawau Division of Sabah, Malaysia. Its population was estimated to be around 27,887 in 2010. The town is surrounded by stretches of cocoa and palm oil plantations. It is also an important timber exporting port. The town has an airport for domestic flights.",
+      "retrievedAt": "2026-10-16T16:58:08.919Z"
+    },
+    {
+      "pinId": "bn-dis-02",
+      "place": "Kampong Ayer (Water Village)",
+      "status": 200,
+      "articleTitle": "Kampong Ayer",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Ayer",
+      "pageId": 3498014,
+      "coordinates": {
+        "lat": 4.8825,
+        "lng": 114.9425
+      },
+      "articleDistanceM": 45,
+      "titleAgrees": true,
+      "intro": "Kampung Ayer (kahm-PONG AH-yuhr,  Malay pronunciation: [ˈkampoŋ ˈaje(r)], Brunei: Kampung Aing) is a prominent traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre. It has an area of about 10 square kilometres (3.9 sq mi); the total population was 10,250 in 2016. It has been historically nicknamed 'Venice of the East'.",
+      "retrievedAt": "2026-10-16T16:58:10.436Z"
+    }
+  ]
+}

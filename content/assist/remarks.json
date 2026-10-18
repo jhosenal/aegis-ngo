@@ -1,0 +1,10 @@
+[
+  { "id": "MVP-PREVIEW", "text": "This is a minimum viable product (MVP) preview. A remark below means something was not done or not checked yet; it is stated here so nothing is left unsaid." },
+  { "id": "MVP-NOT-CLINICAL", "text": "The guidance has not been reviewed by a clinician. Each line is the official wording, checked against a saved copy of the official page on the date shown. The authority's own current page always comes first." },
+  { "id": "MVP-PERMISSION", "text": "We have not yet asked the publishers for written permission to reproduce their text. Terms differ by publisher and are not cleared for every source. Text is shown unchanged, with its source, link and date, and we will remove any text on request." },
+  { "id": "MVP-NGO-FREE", "text": "Free use by NGOs is our aim. It depends on each publisher's terms, which are not all confirmed, so it is not promised for every source." },
+  { "id": "MVP-LANGUAGE", "text": "English only for now. Translation into local languages will be added later." },
+  { "id": "ID-BAHASA-ONLY", "text": "Indonesia's current official haze guidance was found only in Bahasa Indonesia, and nothing is translated here, so no Indonesian group guidance is shown yet.", "country": "ID" },
+  { "id": "MY-2008", "text": "The Malaysian guidance shown is a 2008 Ministry of Health leaflet. Newer Ministry pages exist but could not be saved and may differ. The air quality (API) action table could not be settled and is not shown.", "country": "MY" },
+  { "id": "SG-MOH-TERMS", "text": "The mask and medical-advice lines on the Singapore cards come from the Ministry of Health page. Its terms require written permission to reproduce its text; that has not been requested yet.", "country": "SG" }
+]

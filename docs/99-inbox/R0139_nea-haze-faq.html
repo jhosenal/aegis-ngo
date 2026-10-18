@@ -1,0 +1,753 @@
+ <!--Page variables--> <!--Twitter variables--> <!--Facebook variables--> <!DOCTYPE html> <html class="no-js" lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <title>
+	FAQs
+</title> <meta name="description" content="The National Environment Agency"> <meta name="viewport" content="width=device-width,initial-scale=1"> <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" /> <!-- Web Mobile --> <link rel="apple-touch-icon" href="/apple-icon.png"> <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"> <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"> <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"> <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"> <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"> <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"> <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"> <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"> <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"> <link rel="manifest" href="/assets/images/web_mobile/manifest.json"> <link rel="stylesheet" href="/assets/styles/sgdsnea.css"> <link rel="stylesheet" href="/assets/styles/all.min.css"> <link rel="stylesheet" href="/assets/styles/main.css"> <!-- Twitter --> <meta id="tw_card" name="twitter:card" content="summary"> <meta id="tw_title" name="twitter:title"> <meta id="tw_description" name="twitter:description"> <meta id="tw_imageUrl" name="twitter:image:src"> <!-- Facebook --> <meta id="fb_title" property="og:title" /> <meta id="fb_description" property="og:description" /> <meta id="fb_imageUrl" property="og:image" /> <meta id="fb_imageWidth" property="og:image:width" /> <meta id="fb_imageHeight" property="og:image:height" /> <meta id="fb_url" property="og:url" /> <meta property="fb:admins" content="" /> <meta name="facebook-domain-verification" content="07qfp6p53tgdwjamsdhb98wb6nnefp" /> <script src="/assets/scripts/sketch.js" type="text/javascript"></script> <script src="/assets/scripts/modernizr-custom.js" type="text/javascript"></script> <script src="/assets/scripts/main.js" type="text/javascript"></script> <!-- SGDS Masthead --> <script type="module" src="/assets/scripts/sgds-masthead.js"></script> <!-- WOGAA --> <script src="https://assets.wogaa.sg/scripts/wogaa.js"></script> <!-- Google Tag Manager --> <script>
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-NP59Q69');
+            </script> <!-- End Google Tag Manager --> <!--Google Analytics--> <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-319615248"></script> <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-319615248');
+            </script> <!--End Google Analytics--> <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=66f662b881d8c0001ad2dba1&product=inline-share-buttons' async='async'></script> <!-- Banner Persistence Close Script --> <script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const banner = document.getElementById("collapseNotification");
+				const closeBtn = document.querySelector(".notification-btn-close");
+
+				const CLOSED_KEY = "bannerClosedAt";
+				// Set timer duration in minutes
+                const timerSet = 1440 * 60 * 1000;
+
+				const closedAt = localStorage.getItem(CLOSED_KEY);
+
+				if (closedAt) {
+					const timeElapsed = Date.now() - parseInt(closedAt, 10);
+
+					if (timeElapsed < timerSet) {
+							banner.style.display = "none";
+					} else {
+							localStorage.removeItem(CLOSED_KEY);
+					}
+				}
+
+				closeBtn.addEventListener("click", function () {
+					banner.style.display = "none";
+					localStorage.setItem(CLOSED_KEY, Date.now().toString());
+				});
+			});
+		</script> <script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function () {
+  const closeButton = document.querySelector(".notification-btn-close");
+  const collapseTarget = document.getElementById("collapseNotification");
+
+  closeButton.addEventListener("click", function () {
+    collapseTarget.style.transition = "height 0.3s ease";
+    collapseTarget.style.overflow = "hidden";
+    collapseTarget.style.height = collapseTarget.scrollHeight + "px";
+
+    void collapseTarget.offsetHeight;
+
+    collapseTarget.style.height = "0";
+
+    setTimeout(() => {
+      collapseTarget.style.display = "none";
+      collapseTarget.style.opacity = "0";
+      closeButton.setAttribute("aria-expanded", "false");
+    }, 300);
+  });
+});
+
+</script><style type="text/css" media="all">.notification-bg {
+  background-color: hsl(70, 67%, 81%);
+  padding: 1rem;
+}
+
+.notification-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification-content {
+  display: flex;
+  gap: 1rem;
+
+  & > svg {
+    flex-shrink: 0;
+  }
+}
+
+.notification-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  & > p {
+    margin: 0;
+
+    & > a {
+      color: #1547be;
+      text-decoration: underline;
+    }
+  }
+}
+
+.notification-btn-close {
+  background-color: transparent;
+  box-sizing: content-box;
+  border: 0;
+  border-radius: 0.375rem;
+  height: 1em;
+  width: 1em;
+  margin: 0;
+
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+@media (min-width: 992px) {
+  .notification-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .notification-container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .notification-container {
+    max-width: 1320px;
+  }
+}
+</style><style type="text/css" media="all">.st-btn[data-network='custom-sticky-copy'] {
+  background-color: #14682B
+}
+.st-btn[data-network='custom-sticky-copy'] img {
+  filter: 
+}
+.st-btn[data-network='custom-sticky-copy'] > span {
+  color: #fff
+}
+
+.wog--flex {
+  margin-bottom: 30px;
+}</style><link rel="canonical" href="https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs" /></head> <body onload="lateLoadChatFile()"> <sgds-masthead></sgds-masthead> <!--Captain Green--> <script>
+        function lateLoadChatFile() {
+            setTimeout(() => {
+                const bodyTag = document.getElementsByTagName("body")[0];
+
+                // Create link element to import chat.css file and append it on the body element
+                let linkTag = document.createElement("link");
+                linkTag.href = " https://webchat.vica.gov.sg/static/css/chat.css";
+                linkTag.type = "text/css";
+                linkTag.rel = "stylesheet";
+                linkTag.referrerPolicy = "origin";
+                bodyTag.appendChild(linkTag);
+
+                // Create script element to import chat.js file and append it on the body element
+                let scriptTag = document.createElement("script");
+                scriptTag.src = " https://webchat.vica.gov.sg/static/js/chat.js";
+                scriptTag.type = "text/javascript";
+                scriptTag.referrerPolicy = "origin";
+                scriptTag.defer = true;
+                bodyTag.appendChild(scriptTag);
+            }, 5000);
+        }
+    </script> <!--End Captain Green--> <!-- Google Tag Manager (noscript) --> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP59Q69"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <!-- End Google Tag Manager (noscript) --> <form id="mvcForm"> <script src="/assets/scripts/jquery.min.js" type="text/javascript"></script> <a href="#main" class="skip-link vh">Skip to main</a> <header id="header" class="header"> <div class="nav"> 
+
+
+
+<script
+  id="searchsg-config"
+  src="https://api.search.gov.sg/v1/searchconfig.js?clientId=13ebc128-18ff-4d69-8a0f-34e44e9e5b97"
+  defer
+></script>
+<div >
+    <div ><div class="notification-bg" id="collapseNotification">
+    <div class="container notification-container">
+        <div class="notification-wrapper">
+            <div class="notification-content"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
+                    <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
+                </svg>
+
+                <div class="notification-text">
+                    <p>Government officials will NEVER ask you to transfer money or disclose bank log-in details over a phone call.
+                    </p>
+                    <p>Visit <a href="http://www.scamshield.gov.sg" target="_blank" data-sf-ec-immutable="">ScamShield</a> or call the 24/7 ScamShield Helpline at 1799 if you are unsure if something is a scam.
+                    </p>
+                </div>
+            </div><button type="button" class="notification-btn-close" aria-label="Close" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000000" viewBox="0 0 256 256">
+                    <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div></div>    
+</div>
+
+
+<nav class="navbar sgds-menu">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="logo"><img src="/assets/images/design/logo.png" alt="National Environment Agency"></a>
+        </div>
+        <div class="menu-list">
+            <ul id="mainnav" class="navbar-menu nav-container">
+                <div class="navbar-item sgds-search is-hidden-desktop search-bar" id="searchbar" style="display: block;">
+                    <div class="">
+                        <div class="row">
+                            <div class="col">
+                                <div class="padding--sm">
+                                    <div id="searchsg-searchbar">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <li class="navbar-item is-expanded has-dropdown is-hoverable is-mega">
+            <a href="/our-services" target="_self" class="navbar-link nav__item is-uppercase">
+                Our Services
+            </a>
+            <i class="sgds-icon sgds-icon-chevron-down dropdown-icon"></i>
+            <div class="navbar-dropdown">
+                <div class="container">
+                            <a class="navbar-item" href="/our-services/after-death" target="_self">After Death</a>
+        <a class="navbar-item" href="/our-services/climate-change-energy-efficiency" target="_self">Climate Change &amp; Energy Efficiency</a>
+        <a class="navbar-item" href="/our-services/dengue-zika" target="_self">Dengue &amp; Zika</a>
+        <a class="navbar-item" href="/our-services/development-control" target="_self">Development Control</a>
+        <a class="navbar-item" href="/our-services/hawker-management" target="_self">Hawker Management</a>
+        <a class="navbar-item" href="/our-services/pest-control" target="_self">Pest Control</a>
+        <a class="navbar-item" href="/our-services/pollution-control" target="_self">Pollution Control</a>
+        <a class="navbar-item" href="/our-services/port-health" target="_self">Port Health</a>
+        <a class="navbar-item" href="/our-services/public-cleanliness" target="_self">Public Cleanliness</a>
+        <a class="navbar-item" href="/our-services/radiation-safety" target="_self">Radiation Safety</a>
+        <a class="navbar-item" href="/our-services/smoking-prohibition" target="_self">Smoking Prohibition</a>
+        <a class="navbar-item" href="/our-services/waste-management" target="_self">Waste Management </a>
+        <a class="navbar-item" href="/our-services/weather" target="_self">Weather</a>
+        <a class="navbar-item" href="/our-services/towards-zero-waste" target="_self">Towards Zero Waste</a>
+        <a class="navbar-item" href="/our-services/year-of-public-hygiene" target="_self">Year of Public Hygiene</a>
+
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item is-expanded has-dropdown is-hoverable is-mega">
+            <a href="/corporate-functions/who-we-are" target="_self" class="navbar-link nav__item is-uppercase">
+                Who We Are
+            </a>
+            <i class="sgds-icon sgds-icon-chevron-down dropdown-icon"></i>
+            <div class="navbar-dropdown">
+                <div class="container">
+                            <a class="navbar-item" href="/corporate-functions/who-we-are/about-us" target="_self">About Us</a>
+        <a class="navbar-item" href="/corporate-functions/who-we-are/our-purpose" target="_self">Our Purpose</a>
+        <a class="navbar-item" href="/corporate-functions/who-we-are/people" target="_self">People</a>
+        <a class="navbar-item" href="/corporate-functions/who-we-are/groups-and-divisions" target="_self">Groups and Divisions</a>
+        <a class="navbar-item" href="/corporate-functions/who-we-are/careers" target="_self">Careers</a>
+
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item is-expanded has-dropdown is-hoverable is-mega">
+            <a href="/programmes-grants" target="_self" class="navbar-link nav__item is-uppercase">
+                Programmes &amp; Grants
+            </a>
+            <i class="sgds-icon sgds-icon-chevron-down dropdown-icon"></i>
+            <div class="navbar-dropdown">
+                <div class="container">
+                            <a class="navbar-item" href="/programmes-grants/campaigns" target="_self">Campaigns</a>
+        <a class="navbar-item" href="/programmes-grants/courses" target="_self">Courses</a>
+        <a class="navbar-item" href="/programmes-grants/events-calendar" target="_self">Events</a>
+        <a class="navbar-item" href="/programmes-grants/grants-and-awards" target="_self">Grants and Awards</a>
+        <a class="navbar-item" href="/programmes-grants/learning-journeys" target="_self">Learning Journeys</a>
+        <a class="navbar-item" href="/programmes-grants/programmes" target="_self">Programmes</a>
+        <a class="navbar-item" href="/programmes-grants/schemes" target="_self">Schemes</a>
+        <a class="navbar-item" href="/programmes-grants/volunteering" target="_self">Volunteering</a>
+
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item is-expanded has-dropdown is-hoverable is-mega">
+            <a href="/media" target="_self" class="navbar-link nav__item is-uppercase">
+                Media
+            </a>
+            <i class="sgds-icon sgds-icon-chevron-down dropdown-icon"></i>
+            <div class="navbar-dropdown">
+                <div class="container">
+                            <a class="navbar-item" href="/media/news" target="_self">News</a>
+        <a class="navbar-item" href="/media/videos" target="_blank">Videos</a>
+        <a class="navbar-item" href="/media/nea-vox" target="_self">NEA Vox</a>
+        <a class="navbar-item" href="/media/readers-letters" target="_self">Readers&#39; Letters </a>
+
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item is-expanded has-dropdown is-hoverable is-mega">
+            <a href="/corporate-functions/resources" target="_self" class="navbar-link nav__item is-uppercase">
+                Resources
+            </a>
+            <i class="sgds-icon sgds-icon-chevron-down dropdown-icon"></i>
+            <div class="navbar-dropdown">
+                <div class="container">
+                            <a class="navbar-item" href="/corporate-functions/resources/circulars" target="_self">Circulars</a>
+        <a class="navbar-item" href="/corporate-functions/resources/educational-materials" target="_self">Educational Materials</a>
+        <a class="navbar-item" href="/corporate-functions/resources/facts-figures" target="_self">Facts and Figures</a>
+        <a class="navbar-item" href="/corporate-functions/resources/legislation-international-law" target="_self">Legislation and International Law</a>
+        <a class="navbar-item" href="/corporate-functions/resources/medium-term-note-programme" target="_self">Medium Term Note Programme</a>
+        <a class="navbar-item" href="/corporate-functions/resources/practices-and-guidelines" target="_self">Practices and Guidelines</a>
+        <a class="navbar-item" href="/corporate-functions/resources/publications" target="_self">Publications</a>
+        <a class="navbar-item" href="/corporate-functions/resources/tender-notices" target="_self">Tender Notices</a>
+        <a class="navbar-item" href="/corporate-functions/resources/research" target="_self">Research</a>
+
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item is-expanded has-dropdown is-hoverable">
+                <a href="/e-services" target="_blank" class="navbar-link nav__item is-uppercase" rel="noopener noreferrer">
+                    E-Services
+                </a>
+        </li>
+            </ul>
+<div class="nav-extension-mobile"><!-- Mobile Content: Put this in the content block START -->
+ <!-- Stacked at top as links -->
+ <ul class="social-links"><li><a href="https://play.google.com/store/apps/details?id=sg.gov.nea&amp;hl=en" target="_blank" data-sf-ec-immutable=""><span class="icon smallicon-android"></span>myENV on Android</a></li><li><a href="https://apps.apple.com/sg/app/myenv/id444435182" target="_blank" data-sf-ec-immutable=""><span class="icon smallicon-iphone"></span>myENV on iPhone</a></li></ul><!-- Stacked at bottom as social icons -->
+ <div class="mobile-socials"><span style="padding-right:1rem;">Follow us on: </span>
+ <ul class="social-icons"><li><a href="https://www.facebook.com/NEASingapore" aria-label="facebook" target="_blank" data-sf-ec-immutable=""><span class="fab fa-facebook-f"></span></a></li><li><a href="https://www.instagram.com/nea_sg/" aria-label="instagram" target="_blank" data-sf-ec-immutable=""><span class="fab fa-instagram"></span></a></li><li><a href="https://www.linkedin.com/company/national-environment-agency" aria-label="linkedin" target="_blank" data-sf-ec-immutable=""><span class="fab fa-linkedin-in"></span></a></li><li><a href="https://go.gov.sg/whatsapp-nea" aria-label="whatsapp" target="_blank" data-sf-ec-immutable=""><span class="fab fa-whatsapp"></span></a></li><li><a href="https://www.youtube.com/channel/UC-tjEFkd0tT2VpD5vbjyAKA/videos" aria-label="youtube" target="_blank" data-sf-ec-immutable=""><span class="fab fa-youtube"></span></a></li><li><a href="https://www.tiktok.com/@nea_sg" aria-label="tiktok" target="_blank" data-sf-ec-immutable=""><span class="fab fa-tiktok"></span></a></li></ul></div><!-- Mobile Content: Put this in the content block END -->
+</div>        </div>
+        <ul class="nav-container mobile-navbar-menu">
+            <li class="navbar-item has-dropdown is-hoverable notification">
+                <button class="sgds-button is-white btn-notification js-notification" type="button" aria-label="notification button">
+                    <span class="icon smallicon-notifications"></span>
+                    <i id="notification-circle"></i>
+                </button>
+            </li>
+            <li class="navbar-item has-dropdown is-hoverable is-hidden-touch">
+                <button id="search-activate" class="sgds-button is-white" type="button" aria-label="search button">
+                    <span class="sgds-icon sgds-icon-search"></span>
+                </button>
+            </li>
+            <li>
+                <div class="navbar-burger burger js-mobile-menu" data-target="mainnav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="sgds-search container-fluid is-hidden-touch search-bar" id="searchbar">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="padding--sm">
+                    <div id="searchsg-searchbar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sgds-menu nav-extension"><div class="container"><!-- Desktop Content: Put this in the content block START -->
+ <!-- Appears on left side as social icons -->
+ <div style="display:flex;align-items:center;"><span style="padding-right:1rem;">Follow us on: </span>
+ <ul class="social-icons"><li><a href="https://www.facebook.com/NEASingapore" aria-label="facebook" target="_blank" data-sf-ec-immutable=""><span class="fab fa-facebook-f"></span></a></li><li><a href="https://www.instagram.com/nea_sg/" aria-label="instagram" target="_blank" data-sf-ec-immutable=""><span class="fab fa-instagram"></span></a></li><li><a href="https://www.linkedin.com/company/national-environment-agency" aria-label="linkedin" target="_blank" data-sf-ec-immutable=""><span class="fab fa-linkedin-in"></span></a></li><li><a href="https://go.gov.sg/whatsapp-nea" aria-label="whatsapp" target="_blank" data-sf-ec-immutable=""><span class="fab fa-whatsapp"></span></a></li><li><a href="https://www.youtube.com/channel/UC-tjEFkd0tT2VpD5vbjyAKA/videos" aria-label="youtube" target="_blank" data-sf-ec-immutable=""><span class="fab fa-youtube"></span></a></li><li><a href="https://www.tiktok.com/@nea_sg" aria-label="tiktok" target="_blank" data-sf-ec-immutable=""><span class="fab fa-tiktok"></span></a></li></ul></div><!-- Appears on right side as links -->
+ <ul class="social-links"><li><span>Get the app: </span>
+ </li><li><a href="https://play.google.com/store/apps/details?id=sg.gov.nea&amp;hl=en" title="" target="_blank" data-sf-ec-immutable=""><em class="icon smallicon-android"></em>&nbsp;Android</a></li><li><a href="https://apps.apple.com/sg/app/myenv/id444435182" title="" target="_blank" data-sf-ec-immutable=""><em class="icon smallicon-iphone"></em>&nbsp;iPhone</a></li></ul><!-- Desktop Content: Put this in the content block END -->
+ </div></div><div id="gtx-trans" style="position:absolute;left:26px;top:258.688px;"><div class="gtx-trans-icon"></div></div>
+
+<div id="heavyRainDiv" class="notification-bar" style="display: none;">
+
+</div>
+
+<script>
+    jQuery(document).ready(function ($) {
+        // Wait for the timestamp to be loaded
+        window.timestampPromise
+            .then(timestamp => {
+                return $.ajax({
+                    url: '/api/HeavyRainWarning/GetData/' + timestamp,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data != null) {
+                            var warningText = ((data.warning || '') + '').replace(/<br\s*\/?>/gi, ' ');
+                            var $container = $('<div class="container"></div>');
+                            var $text = $('<p></p>').text(warningText);
+                            var $closeButton = $('<button type="button" class="js-close-notification"><span class="visuallyhidden">Close notification</span><i class="icon icon-close"></i></button>');
+
+                            $container.append($text).append($closeButton);
+                            $("#heavyRainDiv").addClass("rain-alert-notification").append($container);
+                        }
+                    },
+                    error: function (param) {
+                        console.log(param);
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error during asynchronous tasks:', error);
+            })
+            .finally(() => {
+                jQuery('.js-notification').click();
+            });
+    });
+</script>
+
+
+ </div> </header> <main id="main" class="main"> <section class="header-banner"> <div class="content"> <div class="container"> <h2 class="header-banner__title"><span>Air Pollution</span><span class="subtitle"></span></h2> </div> </div> </section> 
+<section class="breadcrumb">
+    <div class="container">
+        <ol>
+                    <li class="breadcrumb__item"><a href="/" class="breadcrumb__link"><span>The National Environment Agency</span></a></li>
+                    <li class="breadcrumb__item"><a href="/our-services" class="breadcrumb__link"><span>Our Services</span></a></li>
+                    <li class="breadcrumb__item"><a href="/our-services/pollution-control" class="breadcrumb__link"><span>Pollution Control</span></a></li>
+                    <li class="breadcrumb__item"><a href="/our-services/pollution-control/air-pollution" class="breadcrumb__link"><span>Air Pollution</span></a></li>
+                    <li class="breadcrumb__item"><a href="/our-services/pollution-control/air-pollution/faqs" class="breadcrumb__link is-active"><span>FAQs</span></a></li>
+        </ol>
+    </div>
+</section>
+<div id="Breadcrumb_TADDA5307006_Col00" class="sf_colsIn container" data-sf-element="Container">
+<div >
+    <div ><div class="font-resizer"><button data-size="normal" class="js-resizer is-active" aria-label="Normal"><span class="visuallyhidden">Normal Font Size</span><i class="icon-font-size"></i></button><button data-size="big" class="js-resizer" aria-label="Big"><span class="visuallyhidden">Big Font Size</span><i class="icon-font-size"></i></button><button data-size="bigger" class="js-resizer" aria-label="Bigger"><span class="visuallyhidden">Bigger Font Size</span><i class="icon-font-size"></i></button><button type="button" class="print-button" aria-label="Print"><i class="icon-printer"></i></button></div><div class="clear"></div></div>    
+</div>
+</div>
+ 
+<div class="container container--spt" data-sf-element="Row">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainContent_T20AD9D6A003_Col00" class="sf_colsIn sf_1col_1_100" data-sf-element="Column 1"><div class="sf_cols" data-sf-element="Row">
+    <div class="sf_colsOut sf_2cols_1_25">
+        <div id="MainContent_T20AD9D6A004_Col00" class="sf_colsIn sf_2cols_1in_25 side-nav" data-sf-element="Column 1" data-placeholder-label="side nav">
+<div class="side-nav">
+    <div class="container">
+        <ul class="side-nav__list no-mobile">
+     <li class="">
+        <a href="/our-services/pollution-control/air-pollution/air-quality" class="side-nav__link">Air Quality</a>
+
+            <ul>
+     <li class="">
+        <a href="/our-services/pollution-control/air-pollution/air-quality/accredited-testing-bodies-for-source-emission-tests" class="side-nav__link">Testing Bodies For Source Emission Tests</a>
+
+    </li>
+            </ul>
+    </li>
+     <li class="">
+        <a href="/our-services/pollution-control/air-pollution/air-pollution-regulations" class="side-nav__link">Air Pollution Regulations</a>
+
+    </li>
+     <li class="">
+        <a href="/our-services/pollution-control/air-pollution/managing-haze" class="side-nav__link">Managing Haze</a>
+
+            <ul>
+     <li class="">
+        <a href="/our-services/pollution-control/air-pollution/managing-haze/air-cleaning-devices" class="side-nav__link">Air Cleaning Devices</a>
+
+    </li>
+            </ul>
+    </li>
+     <li class="is-active">
+        <a href="/our-services/pollution-control/air-pollution/faqs" class="side-nav__link">FAQs</a>
+
+    </li>
+        </ul>
+        <div class="mobile-only">
+            <label for="sidenavmenu">You are now reading:</label>
+            <select id="sidenavmenu" onchange="this.options[this.selectedIndex].dataset.url && (window.location = this.options[this.selectedIndex].dataset.url);" class="js-redirect">
+    <option data-url="/our-services/pollution-control/air-pollution/air-quality" >Air Quality</option>
+    <option data-url="/our-services/pollution-control/air-pollution/air-quality/accredited-testing-bodies-for-source-emission-tests" >Testing Bodies For Source Emission Tests</option>
+    <option data-url="/our-services/pollution-control/air-pollution/air-pollution-regulations" >Air Pollution Regulations</option>
+    <option data-url="/our-services/pollution-control/air-pollution/managing-haze" >Managing Haze</option>
+    <option data-url="/our-services/pollution-control/air-pollution/managing-haze/air-cleaning-devices" >Air Cleaning Devices</option>
+    <option data-url="/our-services/pollution-control/air-pollution/faqs" selected>FAQs</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_2cols_2_75">
+        <div id="MainContent_T20AD9D6A004_Col01" class="sf_colsIn sf_2cols_2in_75 rte" data-sf-element="Column 2" data-placeholder-label="article"><div class="sf_cols" data-sf-element="Row">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainContent_T20AD9D6A005_Col00" class="sf_colsIn sf_1col_1_100" data-sf-element="Column 1"><h1>FAQs</h1>
+            
+        </div>
+    </div>
+</div><div class="sf_cols" data-sf-element="Row">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainContent_T20AD9D6A006_Col00" class="sf_colsIn sf_1col_1in_100" data-sf-element="Column 1">
+<div >
+    <div ><h3><strong>Page Sections:</strong></h3><ol type="A"><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterA">Preparing for haze</a></li><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterB">Understanding Air Quality</a></li><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterC">Using NEA&rsquo;s 1-hour PM2.5 Concentration Readings and 24-hour PSI</a></li><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterD">Impact of haze on health</a></li><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterE">Practical tips for households</a></li><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterF">Use and availability of masks</a></li><li><a href="/our-services/pollution-control/air-pollution/faqs#chapterG">Impact of haze on workplaces</a></li><li style="text-align:left;"><a href="/our-services/pollution-control/air-pollution/faqs#chapterH">Common concerns and misconceptions</a></li><li style="text-align:left;"><a href="https://t553-p540-blue-admin.prd.cwp2.sg/our-services/pollution-control/air-pollution/faqs#smell" data-sf-ec-immutable="" data-sf-marked="">Smell Incidents</a></li><li style="text-align:left;"><a href="https://t553-p540-blue-admin.prd.cwp2.sg/our-services/pollution-control/air-pollution/faqs#annex" data-sf-ec-immutable="" data-sf-marked="">Annexes</a><br data-sf-ec-immutable="" /><strong><br /><br /></strong></li></ol><div id="chapterA"><p><strong>A. Preparing for haze</strong></p><p><strong>1. How prepared is the Singapore government for haze?</strong><br /></p><p style="text-align:justify;">The Government&rsquo;s Haze Task Force (HTF), comprising 28 government agencies and led by the National Environment Agency (NEA), develops, and implements action plans to minimise and manage the impact of haze on Singapore. Even though we did not experience any transboundary haze for the past few years, the HTF has continued to meet regularly to review and update our plans and preparations.<br /></p><p style="text-align:justify;">HTF member agencies have robust action plans in place, allowing tiered responses depending on the intensity of the haze, which are based on the air quality readings and forecasts. These plans are intended to protect the health and well-being of the public, especially the more vulnerable groups such as the elderly, pregnant women, children, and those with chronic lung and heart diseases. NEA and the HTF will continue to closely monitor the air quality and hotspots in the region and will provide further updates and advisories should the haze affect Singapore.<br /></p></div><div id="chapterB"><p><strong>B. Understanding Air Quality</strong></p><p style="text-align:justify;"><strong>2. How does NEA measure Singapore&rsquo;s air quality?<br /></strong><br />The ambient air quality in Singapore is continuously monitored through a network of air monitoring sensors across the island. These sensors measure concentration levels of particulate matter (PM<sub>10</sub>), fine particulate matter (PM<sub>2.5</sub>), sulphur dioxide (SO<sub>2</sub>), nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), and carbon monoxide (CO). The concentrations are then used to compute the Pollutant Standards Index (PSI) over a rolling 24-hour period.<br /></p><p style="text-align:justify;">PM<sub>2.5</sub> is the predominant pollutant during periods of transboundary haze, and NEA publishes 1-hr PM<sub>2.5</sub> concentration levels alongside the PSI on the myENV app, haze microsite (<a href="http://www.haze.gov.sg/" data-sf-ec-immutable="">www.haze.gov.sg</a>), NEA website (<a href="/index">www.nea.gov.sg</a>), Facebook, and Twitter (NEAsg). The data from the air monitoring sensors are reported for five regions in Singapore &ndash; North, South, East, West, Central.</p></div><p><strong>3. How are the five regions (North, South, East, West and Central) for PSI / 1-hour PM</strong><strong><sub>2.5</sub></strong><strong>&nbsp;determined and which regions' PSI / 1-hour PM</strong><strong><sub>2.5</sub></strong><strong>&nbsp;should I look at?</strong></p><p style="text-align:justify;">You should first note your location as the five regions are based on town centres/areas. A general guide of the town centres/areas within each of the five regions is listed below. If your location is not listed, please use the region closest to you.<br /></p><p><strong>Regions for air quality reporting<br /></strong></p><table border="0" cellspacing="0" cellpadding="0" width="858"><tbody><tr><td valign="top"><p align="center"><strong>Region</strong></p></td><td width="546" valign="top"><p align="center"><strong>Town Centres /Areas</strong></p></td></tr><tr><td valign="top"><p>North</p></td><td width="546" valign="top"><p>Admirality, Kranji, Woodlands, Sembawang, Yishun, Yio Chu Kang, Seletar, Punggol, Sengkang</p></td></tr><tr><td valign="top"><p>South</p></td><td width="546" valign="top"><p>Holland, Queenstown, Bukit Merah, Telok Blangah, Pasir Panjang, Sentosa,</p><p>Bukit Timah, Newton, Orchard, City, Marina South</p></td></tr><tr><td valign="top"><p>East</p></td><td width="546" valign="top"><p>Serangoon, Hougang, Tampines, Pasir Ris, Loyang, Simei, Kallang, Katong,</p><p>East Coast, Macpherson, Bedok, Pulau Ubin, Pulau Tekong</p></td></tr><tr><td valign="top"><p>West</p></td><td width="546" valign="top"><p>Lim Chu Kang, Choa Chu Kang, Bukit Panjang, Tuas, Jurong East, Jurong West, Jurong Industrial Estate, Jurong Island, Bukit Batok, Hillview, West Coast, Clementi</p></td></tr><tr><td valign="top"><p>Central</p></td><td width="546" valign="top"><p>Thomson, Marymount, Sin Ming, Ang Mo Kio, Bishan, Serangoon Gardens, MacRitchie, Toa Payoh</p></td></tr></tbody></table><p><strong>4. There are other sources online that claim to publish more accurate air quality information for Singapore. Which source of air quality information should I refer to?</strong></p><p><span style="text-align:justify;">The air quality data reported by NEA is the official air quality information for Singapore. The data is derived from analysers which continuously monitor Singapore&rsquo;s air quality for 6 criteria air pollutants, particulate matter (PM</span><sub style="text-align:justify;">10</sub><span style="text-align:justify;">), fine particulate matter (PM</span><sub style="text-align:justify;">2.5</sub><span style="text-align:justify;">), sulphur dioxide (SO</span><sub style="text-align:justify;">2</sub><span style="text-align:justify;">), nitrogen dioxide (NO</span><sub style="text-align:justify;">2</sub><span style="text-align:justify;">), ozone (O</span><sub style="text-align:justify;">3</sub><span style="text-align:justify;">), and carbon monoxide (CO). The analysers are highly specialised equipment and certified by international bodies. The concentrations of the key pollutants are also available on the Department of Statistics website (singstat.gov.sg) and Government&rsquo;s One-Stop portal for datasets (data.gov.sg).</span><br /></p><p><span style="text-align:justify;">In July 2010, an Advisory Committee was formed comprising members from MOH, MTI, MOM, MCYS, EDB, EMA, SEC, NUS, NTU, the National Health Group and the Singapore Health Services. The committee had reviewed the different indices adopted by different countries in &nbsp;Europe, Asia and the US and found that there were no international guidelines on the computation of an air quality index and countries in the world adopted different index systems based on their local needs and circumstances. The committee supported the PSI as scientific studies and health findings were based on average concentrations over 24 hours and not hourly concentrations. In Apr 2014, PM</span><sub style="text-align:justify;">2.5</sub><span style="text-align:justify;"> was included as the 6th pollutant in the computation of the PSI.</span><br /></p><p>While Singapore had referenced the USEPA AQI system, it is not identical. Air quality readings or indices provided by other websites, such as aqicn.org, adopt other methods of computing the index and are not comparable with the 24-hr PSI.</p><p>Furthermore, they may rely on low-cost and less robust sensors or use data published by NEA to make their calculations.<br /></p><p><strong>5. Is visibility or smell a good indicator of air quality?</strong></p><p style="text-align:justify;">Poor visibility does not mean that the air is more polluted. A significant factor of visibility is the amount of water vapour in the air. Water droplets scatter light, resulting in lower visibility. Certain air pollutant particles attract water molecules, which results in larger particles that scatter more light. Such water-bound particles cause poor visibility to persist for a longer time. Thus, on days with smoke haze, high humidity or rain, visibility can be much lower.</p><p style="text-align:justify;">We may sometimes experience a burning smell during haze periods. The smell is usually, but not always, accompanied by an increase in the 1-hr PM<sub>2.5</sub> concentration readings or PSI. Transboundary haze affecting Singapore mainly arises from forest and peat fires in the region. Besides generating smoke particles, vegetation and peat land fires also generate a complex mixture of gases which cause an acrid burning smell. These gases causing smell are different from the air pollutants monitored for air quality. Sometimes, the occurrence of some fires in your vicinity due to localized burning activities, may also contribute to the burning smell, and not transboundary haze.</p><p>For the best indication of air quality, refer to NEA&rsquo;s real-time air quality readings available on the myENV app, haze microsite (<a href="http://www.haze.gov.sg/" data-sf-ec-immutable="">www.haze.gov.sg</a>), NEA website (<a href="/index">www.nea.gov.sg</a>), Facebook, and Twitter (NEAsg).<strong></strong></p><p><strong>6. What are the current research efforts in air quality?</strong><strong></strong></p><p style="text-align:justify;">There have been peer-reviewed studies conducted locally and internationally on the impact of air pollution on health. The WHO takes into account the latest health studies on the impact of air pollution in the development of its ambient air quality guidelines. NEA is currently reviewing the long-term air quality targets for Singapore, taking into consideration the latest WHO AQG issued in 2021.</p><p style="text-align:justify;">NEA also continuously reviews our existing air quality monitoring capabilities. For example, in the past few years, NEA has expanded the network of analysers which continuously monitor the Volatile Organic Compounds (VOCs) levels in the ambient air, which are common industrial emissions and are precursors of ozone. NEA also funds and supports research in urban air quality. Such research will further our understanding of Singapore&rsquo;s ambient air pollutants and support the design of more targeted pollution control policies using a science-based approach.</p><div id="chapterC"><p><strong style="text-align:left;">C. Using NEA&rsquo;s 1-hour PM</strong><strong style="text-align:left;"><sub>2.5</sub></strong><strong style="text-align:left;">&nbsp;Concentration Readings and 24-hour PSI</strong><br /></p></div><p><strong>7. What is the 1-hour PM<sub>2.5</sub> Concentration Reading and what is it used for?</strong><br /></p><p style="text-align:justify;">The 1-hr PM<sub>2.5</sub> concentrations reflect the average concentration of fine particulate matter (PM<sub>2.5</sub>) over one hour, and is a key indicator of current air quality, especially during periods of transboundary haze.<br /></p><p style="text-align:justify;">NEA first began publishing the 1-hr PM<sub>2.5</sub> concentrations on an hourly basis across the five regions in Singapore in 2014. In 2016, NEA introduced bandings and descriptors to help the public interpret the readings. In 2020, MSE and MOH jointly developed a personal guide to help individuals decide on their <span style="text-decoration:underline;">immediate</span> outdoor activities based on the current 1-hr PM<sub>2.5</sub> concentration reading. This new 1-hr PM2.5 personal guide serves as one of the many guiding factors that the public can consider when deciding whether or not to continue with physical activities.</p><p style="text-align:justify;">The 1-hr PM<sub>2.5</sub> concentration levels can be volatile and tend to fluctuate over the day due to weather conditions, especially during periods of transboundary haze.<strong></strong></p><img alt="" src="/images/default-source/about-us/how-to-plan-your-outdoor-activities-during-haze.png" sf-size="100" /><p style="text-align:justify;"><strong>8. What is the 24-hour PSI and why does it have an accompanying health advisory?</strong><br /></p><p style="text-align:justify;">The 24-Hour Pollutant Standards Index (PSI) is an index to provide accurate and easily understandable information about daily levels of air quality. The PSI is computed based on the 24-hour average of concentration levels of 6 pollutants namely, particulate matter (PM<sub>10</sub>), fine particulate matter (PM<sub>2.5</sub>), sulphur dioxide (SO<sub>2</sub>), nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), and carbon monoxide (CO). A sub-index value is computed for each pollutant based on the pollutant&rsquo;s ambient air concentration. The highest sub-index value is then taken as the PSI value. Technical details on how the PSI is calculated can be found here:&nbsp;<a href="http://www.haze.gov.sg/docs/default-source/faq/computation-of-the-pollutant-standards-index-(psi).pdf" target="_blank" data-sf-ec-immutable="">computation of PSI</a><span style="text-decoration:underline;">.</span> The PSI value gives an indication of the air quality as shown:<br /></p><p><strong>MOH HEALTH ADVISORY FOR THE GENERAL PUBLIC&nbsp;</strong>- (<a href="http://www.moh.gov.sg/others/haze" data-sf-ec-immutable="">http://www.moh.gov.sg/others/haze</a>)<br /></p><table border="1" cellspacing="0" cellpadding="0" width="652"><tbody><tr><td width="132" valign="top"><p><strong>24-hour PSI</strong></p><p>Descriptor</p></td><td width="64" valign="top"><p><strong>&nbsp;0-50</strong></p><p><strong>&nbsp;Good</strong></p></td><td width="78" valign="top"><p><strong>&nbsp;51-100</strong></p><p><strong>&nbsp;Moderate</strong></p></td><td width="132" valign="top"><p><strong>&nbsp;101-200</strong></p><p><strong>&nbsp;Unhealthy</strong></p></td><td width="132" valign="top"><p><strong>&nbsp;201-300</strong></p><p><strong>&nbsp;Very Unhealthy</strong></p></td><td width="113" valign="top"><p><strong>&nbsp;&gt;300</strong></p><p><strong>&nbsp;Hazardous</strong></p></td></tr><tr><td width="132" valign="top"><p><strong>HEALTHY<br /></strong><strong>PERSONS</strong></p></td><td width="64" valign="top"><p>&nbsp;Normal&nbsp; &nbsp;activities</p></td><td width="78" valign="top"><p>&nbsp;Normal&nbsp; activities</p></td><td width="132" valign="top"><p><strong>&nbsp;Reduce&nbsp;</strong>prolonged&nbsp; &nbsp;or strenuous outdoor&nbsp; &nbsp;physical exertion</p></td><td width="132" valign="top"><p><strong>&nbsp;Avoid&nbsp;</strong>prolonged or&nbsp; &nbsp;strenuous outdoor&nbsp; &nbsp;physical exertion</p></td><td width="113" valign="top"><p><strong>&nbsp;Minimise&nbsp;</strong>outdoor&nbsp; &nbsp;activity</p></td></tr><tr><td width="132" valign="top"><p><strong>ELDERLY,<br /></strong><strong>PREGNANT<br /></strong><strong>WOMEN, CHILDREN</strong></p></td><td width="64" valign="top"><p>&nbsp;Normal&nbsp; &nbsp;activities</p></td><td width="78" valign="top"><p>&nbsp;Normal&nbsp; &nbsp;activities</p></td><td width="132" valign="top"><p><strong>&nbsp;Minimise&nbsp;</strong>prolonged&nbsp; &nbsp;or strenuous outdoor&nbsp; &nbsp;physical exertion</p></td><td width="132" valign="top"><p><strong>&nbsp;Minimise&nbsp;</strong>outdoor&nbsp; &nbsp;activity</p></td><td width="113" valign="top"><p><strong>&nbsp;Avoid&nbsp;</strong>outdoor&nbsp; &nbsp;activity</p></td></tr><tr><td width="132" valign="top"><p><strong>PERSONS&nbsp;<br /></strong><strong>WITH CHRONIC<br /></strong><strong>LUNG DISEASE, HEART DISEASE</strong></p></td><td width="64" valign="top"><p>&nbsp;Normal&nbsp; &nbsp;activities</p></td><td width="78" valign="top"><p>&nbsp;Normal&nbsp; &nbsp;activities</p></td><td width="132" valign="top"><p><strong>&nbsp;Avoid&nbsp;</strong>prolonged or&nbsp; &nbsp;strenuous outdoor&nbsp; &nbsp;physical exertion</p></td><td width="132" valign="top"><p><strong>&nbsp;Avoid&nbsp;</strong>outdoor&nbsp; &nbsp;activity</p></td><td width="113" valign="top"><p><strong>&nbsp;Avoid&nbsp;</strong>outdoor&nbsp; &nbsp;activity</p></td></tr></tbody></table><p style="text-align:justify;">The health impact of air pollution is related to concentration levels of pollutants, the duration of exposure, as well as the health status and level of activity of an individual. The existing health advisory was developed based on exposure to the 24-hour PSI (which incorporates the 24-hour PM<sub>2.5</sub>&nbsp;concentration levels) as majority of available scientific and epidemiological studies on the health effects of particulate matter were done under prolonged duration of exposure (i.e., &gt;24 hours). When planning for next day&rsquo;s activities and events, individuals and organisations should continue to refer to the 24-hr PSI and accompanying health advisory.<br /><strong><br />9. How should I use the 1-hr PM<sub>2.5</sub> concentration reading and the 24-hour PSI forecast during periods of transboundary haze to decide and plan my activities?</strong><br /></p><p style="text-align:justify;">Since 2013, during the Southwest Monsoon months when the likelihood of transboundary haze affecting Singapore is higher, NEA has been publishing a forecast range of the 24-hr PSI for the next 24 hours accompanied with a corresponding health advisory, during haze. The forecast is based on NEA&rsquo;s assessment of the air quality, weather conditions, hotspot and haze situation in the region.<br /></p><p style="text-align:justify;">The 24-hr PSI forecast of daily haze conditions is less volatile, individuals, institutions and companies will find it suitable for forward planning (i.e. next day) of outdoor activities or events that typically take place over many hours. The related advisory is also more appropriate when taking precautions for prolonged outdoor work. On the other hand, the 1-hr PM<sub>2.5</sub> concentration readings are meant for<span style="text-decoration:underline;"> immediate</span> decisions such as whether or not to go for a walk or run outdoors. This is akin to checking the weather forecast for that hour (rather than the day&rsquo;s forecast) before deciding whether to go out now.<br /></p><p style="text-align:justify;">During periods of transboundary haze, the forecast range of the 24-hr PSI, as well as NEA&rsquo;s daily haze advisory will be available on NEA&rsquo;s website (<a href="/index">www.nea.gov.sg</a>), the haze microsite (<a href="http://www.haze.gov.sg/" data-sf-ec-immutable="">www.haze.gov.sg</a>), NEA&rsquo;s Facebook page (<a href="http://www.facebook.com/NEASingapore" data-sf-ec-immutable="">www.facebook.com/NEASingapore</a>) and NEA Twitter (@NEAsg), and the myENV app.<br /><br /><em style="text-align:left;"><span style="text-decoration:underline;">Example Scenario</span></em></p><p style="text-align:justify;"><em>An individual is planning a picnic for the next day. He would first check NEA&rsquo;s haze advisory and the forecast 24-hr PSI range. If the 24-hr PSI forecast is that the PSI will trend in the Unhealthy range or worse, the outdoor picnic could be deferred.</em></p><p style="text-align:justify;"><em>If the 24-hr PSI forecast is that the PSI will trend in the Good or Moderate range, planning for the picnic could go ahead. On the day of the picnic, he would monitor the current 1-hr PM<sub>2.5</sub> concentration readings to determine whether or not he should still proceed with the picnic or adjust his plans to do an indoor activity instead.<br /><br /></em><strong style="text-align:left;">10. How did NEA arrive at the 1-hour PM</strong><strong style="text-align:left;"><sub>2.5&nbsp;</sub></strong><strong style="text-align:left;">concentration reading bands?</strong></p><p style="text-align:justify;">NEA provides bands and descriptors to serve as a gauge of the current air quality level based on the 1-hour PM<sub>2.5</sub>&nbsp;concentration readings.</p><p style="text-align:justify;">If the 1-hour PM<sub>2.5</sub>&nbsp;concentration levels stay within the &ldquo;Normal&rdquo; band (1) for 24 hours, the 24-hour PSI will be in the "Good to Moderate" level (1 - 100). </p><p style="text-align:justify;">If the 1-hour PM<sub>2.5</sub>&nbsp;concentration levels stay within the &ldquo;Elevated&rdquo; band (2) for 24 hours, the 24-hour PSI will be in the "Unhealthy" level (101 - 200).&nbsp;</p><p style="text-align:justify;">If the 1-hour PM<sub>2.5</sub>&nbsp;concentration levels stay within the &ldquo;High&rdquo; band (3) for 24 hours, the 24-hour PSI will be in the "Very Unhealthy" level (201 - 300). </p><p style="text-align:justify;">If the 1-hour PM<sub>2.5</sub>concentration levels stay within the &ldquo;Very High&rdquo; band (4) for 24 hours, the 24-hour PSI will be in the "Hazardous" level (&gt;300).</p><p style="text-align:justify;">The 1-hour PM<sub>2.5</sub>&nbsp;concentration readings can be volatile and tend to fluctuate over the day during haze episodes, as can be seen in the trend graphs below for the 1-hour PM<sub>2.5 </sub>concentrations and 24-hour PSI readings recorded during two haze episodes in Sep 2015 and Sep 2019 for the South region of Singapore, when Singapore was affected by transboundary haze.&nbsp;&nbsp;&nbsp;<br /><img src="/images/default-source/default-album/fy21/default-album/1hr-pm2-5-and-24-hr-psi-in-2015.png?MaxWidth=620&amp;MaxHeight=&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=C84247FE57A3F7104A76696CCE7C7E7C34E7BEC1" data-method="ResizeFitToAreaArguments" title="1hr PM2.5 and 24 hr PSI in 2015" data-displaymode="Custom" alt="1hr PM2.5 and 24 hr PSI in 2015" data-customsizemethodproperties="{" /><br /></p><p align="center" style="text-align:left;"><em>1-Hour PM2.5 Concentration and 24-Hour PSI Levels for the South Region in September 2015</em></p><p><img src="/images/default-source/default-album/fy21/default-album/1hr-pm2-5-and-24-hour-psi-in-2019.jpg?MaxWidth=600&amp;MaxHeight=&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=EFA978E8ABF0A97AE6EAF8AF92CCF67911B152C7" data-method="ResizeFitToAreaArguments" title="1hr PM2.5 and 24 hour PSI in 2019" data-displaymode="Custom" alt="1hr PM2.5 and 24 hour PSI in 2019" data-customsizemethodproperties="{" /><br /><em>1-Hour PM2.5 Concentration and 24-Hour PSI Levels for the South Region in September 2019<br /></em></p><p><strong>11. How is the 1-hour&nbsp;PM</strong><strong><sub>2.5&nbsp;</sub></strong><strong>concentration reading different from a 1-hour PSI?<br /></strong>
+</p><p><span style="text-align:justify;">During episodes of transboundary haze, PM</span><sub style="text-align:justify;">2.5 </sub><span style="text-align:justify;">is the predominant air pollutant. The 24-hour PSI is computed based on the 24-hour average concentrations of 6 pollutants, including 24-hour PM</span><sub style="text-align:justify;">2.5</sub><span style="text-align:justify;">, as majority of available scientific and epidemiological studies on the health effects of pollutants were done under prolonged duration of exposure (i.e., &gt;24 hours exposure to particulate matter). 1-hour PSI is not used as scientific and health findings were based on average concentrations over a 24-hour exposure. The 1-hr PM</span><sub style="text-align:justify;">2.5</sub><span style="text-align:justify;"> concentrations reflects the current air quality, and should be referred to together with the personal advisory when deciding on immediate activities.<br /></span></p><p><strong>12. There are claims that NEA&rsquo;s 1-hour PM</strong><strong><sub>2.5&nbsp;</sub></strong><strong>breakpoints are not as rigorous as those used in other countries. Why is this so?</strong></p><p><span style="text-align:justify;">NEA has introduced 1-hour PM</span><sub style="text-align:justify;">2.5&nbsp;</sub><span style="text-align:justify;">bands with descriptors and a personal guide to enable the public to better interpret 1-hour PM</span><sub style="text-align:justify;">2.5&nbsp;</sub><span style="text-align:justify;">concentrations. This information can be used as a guide for the public to plan immediate activities during haze periods.&nbsp;The 1-hour PM</span><sub style="text-align:justify;">2.5&nbsp;</sub><span style="text-align:justify;">bands were established based on an analysis of 1-hour PM</span><sub style="text-align:justify;">2.5&nbsp;</sub><span style="text-align:justify;">concentration readings experienced during haze and non-haze periods in Singapore.</span><br /></p><p style="text-align:justify;">As there are no international guidelines on the computation of an air quality index, countries in the world adopt different index systems with different descriptors and breakpoints.&nbsp;It would not be appropriate to compare the bands and descriptors that NEA has introduced for 1-hour PM<sub>2.5</sub>&nbsp;concentrations with the longer-duration PM<sub>2.5</sub>&nbsp;breakpoints and descriptors used in the air quality index in Singapore, or in other countries.</p><p style="text-align:justify;">From NEA&rsquo;s analysis of its records, outside the haze period, 1-hour PM<sub>2.5</sub>&nbsp;concentrations are less than 55 &micro;g/m<sup>3&nbsp;</sup>about 99 per cent of the time, with most of the readings being in the less than 30 &micro;g/m<sup>3</sup>&nbsp;range. NEA considers 1-hour PM<sub>2.5</sub>&nbsp;concentrations of 55 &micro;g/m<sup>3</sup>&nbsp;and below as &ldquo;Normal&rdquo;.&nbsp;During haze periods, 1-hour PM<sub>2.5&nbsp;</sub>concentrations tend to be volatile.&nbsp;In periods of significant haze, the 1-hour PM<sub>2.5&nbsp;</sub>concentrations are in the &ldquo;Normal&rdquo; band about half the time, and in the &ldquo;Elevated&rdquo; band of 55 &micro;g/m<sup>3</sup>&nbsp;to 150 &micro;g/m<sup>3&nbsp;</sup>about 40 per cent of the time; the 1-hour PM<sub>2.5&nbsp;</sub>concentrations during the remaining 10 per cent of the time would be in the &lsquo;High&rsquo; or &lsquo;Very High&rsquo; bands.</p><p style="text-align:justify;">The 1-hour PM<sub>2.5</sub>&nbsp;bands and their descriptors are intended to provide information on short-term fluctuations in PM<sub>2.5</sub>&nbsp;concentrations through the day during haze periods, based on local conditions. Besides the 1-hour PM<sub>2.5</sub>&nbsp;bands, NEA also provides the 24-hour PSI, which is an air quality index based on the level of pollutants over a 24-hour period.</p><p style="text-align:justify;">During haze periods, NEA publishes the 24-hour PSI daily forecast, which predicts the 24-hour PSI over the next 24 hours, with an accompanying health advisory.</p><p style="text-align:justify;"><strong></strong>To date, the vast majority of studies on the health effects of short-term exposure to Particulate Matter (PM) have been based on 24-hour measurements. These studies demonstrate good correlation of health effects with 24-hour PM averages.<br /><strong style="text-align:left;"></strong></p><div id="chapterD"><p><strong style="text-align:left;">D. Impact of haze on health</strong><br /></p></div><p>Source: Health Hub Live Healthy accessible&nbsp; <a href="https://www.healthhub.sg/live-healthy/how-to-protect-yourself-against-haze" target="_blank" data-sf-ec-immutable="" data-sf-marked="">here</a>.<br /></p><p><strong>13. What are the key air pollutants of concern during the haze period?<br /></strong>
+</p><p style="text-align:justify;">The key air pollutant of concern during the haze period is &nbsp;particulate matter (PM). Short term exposure (i.e. continuous exposure to unhealthy daily average PSI levels over a period of a few days) to these air pollutants can cause respiratory symptoms and aggravate existing heart or lung disease. Exposure to particulate matter may also cause irritation of the eyes, nose and throat in healthy individuals.<br /><br /><strong style="text-align:left;">14. What is the short-term effect of the haze on my health?</strong></p><p>Haze particles can affect the heart and lungs, especially in people who already have chronic heart or lung disease e.g. asthma, chronic obstructive pulmonary disease (COPD), or heart failure. There may be up to 1-3 days of time between exposure to haze and health effects/ symptoms. Among healthy individuals, short term exposure (i.e. continuous exposure to unhealthy daily average PSI levels over a period of a few days) to high levels of haze particles may cause irritation of the eyes, nose, and throat in healthy individuals. Such irritation resolves on its own in most cases.<br /><br /><strong style="text-align:left;">15. What are the long-term effects of the haze?</strong></p><p style="text-align:justify;">Singapore is not affected by the haze throughout the year. Any exposure is short-term in nature (i.e. continuous exposure to unhealthy daily average PSI levels over a period of a few days) and such exposure may vary from year to year. As international studies are based on long term exposure to air pollution, there is little robust data on the longer-term effects of short-term exposure to haze like the pattern seen in Singapore. Studies have shown that persons living overseas with continuous exposure over several years to high ambient pollution from fine particles (i.e. particulate matter 2.5 (PM<sub>2.5</sub>); particles smaller than 2.5 micrometres), may have a higher risk of (i) cardiovascular effects, such as heart attacks, (ii) reduced lung development, as well as (iii) the development of chronic respiratory diseases, such as asthma, in children.<br /><br /><strong style="text-align:left;">16. Which groups of people are more sensitive to haze?</strong><br /></p><p style="text-align:justify;">In general, children, elderly, and people with chronic lung disease, heart disease are more sensitive to the health effects of haze, and should adopt the preventive measures in the MOH health advisory when air quality is poor. Individuals are advised to consult their doctor should they develop breathing difficulties. In addition, it is advised that pregnant women reduce exposure to haze for the health of their unborn baby.<br /><br /><strong style="text-align:left;">17. What is MOH&rsquo;s advice to the public?</strong></p><p style="text-align:justify;">The public is recommended to adhere to the&nbsp; MOH Haze Webpage (<a href="http://www.moh.gov.sg/others/haze" data-sf-ec-immutable="">http://www.moh.gov.sg/others/haze</a>). In most cases, it is still safe to carry on with outdoor activities. However, do drink plenty of water to stay well hydrated. Individuals with existing chronic heart and lung conditions should ensure that your medications are on hand and readily available. Nonetheless, please note that each individual&rsquo;s reaction to pollutants may vary, and the amount of physical activity or exertion that can be performed differs according to an individual&rsquo;s health status or physical capacity. Should you encounter symptoms or discomfort, please take additional measures to prevent further exposure. Although the general advice to the public when the air quality is good or moderate (PSI&le;100) is to maintain normal activities, vulnerable persons, especially those with chronic heart and lung conditions, who develop symptoms or feel unwell should seek medical attention promptly.</p><div id="chapterE"><p><strong>E. Practical tips for households</strong></p></div><p><strong>18. What are some practical tips for households to reduce exposure to haze particles at home?</strong></p><p style="text-align:justify;">During haze episodes, the air pollutant of concern is mainly haze particles. Some practical tips to reduce indoor exposure to haze particles at home include:</p><ul><li style="text-align:justify;">Close doors and windows, when the outdoor air quality appears to be worsening. This will help to reduce the rate of haze particles entering the home.</li><li style="text-align:justify;">Stay indoors and reduce physical activities.</li><li style="text-align:justify;">Reduce other sources of indoor air pollution, e.g. cigarettes, candles.</li><li style="text-align:justify;">Re-open the windows and doors in the home when the outdoor air quality improves.</li><li style="text-align:justify;">Wet-cleaning methods (e.g. mopping or wiping) can be used to remove settled dust in the home as unlike dry-dusting or vacuuming, they generally do not stir up dust particles.</li><li style="text-align:justify;">Fans or air-conditioners may be used for air circulation and cooling. If the air-conditioner draws in unfiltered air from outside (e.g. window units), close the outdoor air intake opening.</li><li style="text-align:justify;">Portable air purifiers can be used to further reduce the indoor particle level.</li></ul><p>Advisory:</p><ul><li style="text-align:justify;">Minimize activities that can produce indoor air pollutants in enclosed spaces, e.g. smoking.</li></ul><p>How to choose an air purifier:</p><ul><li style="text-align:justify;">Suitable cleaning technology: For removing fine particles, highly efficient filters, such as High Efficiency Particulate Air (HEPA) filters, are preferred.</li><li style="text-align:justify;">Appropriate Size: For effective cleaning, the unit should be sized appropriately for the intended room. The effective floor area and flow rate of the air purifier are factors to consider for this purpose. Some air purifiers are labelled with a Clean Air Delivery Rate (CADR), which has three CADR numbers - one each for smoke, dust, and pollen. The smoke CADR is the most appropriate for haze pollutants. An appropriate air purifier should have a smoke CADR number that is at least 3 times the volume of the room in cubic metre, or 1/12 of the volume of room in cubic feet. A larger CADR number means faster cleaning in an enclosed room. There are many effective air purifiers without CADR rating in the market. Users should obtain from the manufacturer information that backs any claim on efficiency of removal of fine particles.&nbsp;<a href="https://www.haze.gov.sg/resources/portable-air-cleaners" data-sf-ec-immutable="">https://www.haze.gov.sg/resources/portable-air-cleaners</a>&nbsp;provides a list of portable air purifiers and suppliers for reference. For Practical Tips for Managing Particulate Matter Levels in Naturally Ventilated and Split-Unit Air-Conditioned Indoor Spaces During Haze, please click&nbsp;<a href="http://www.haze.gov.sg/docs/default-source/faq/detailed-practical-tips-for-manging-iaq-during-haze.pdf?sfvrsn=2" target="_blank" title="here" data-sf-ec-immutable="">here</a>.</li></ul><div id="chapterF"><p><strong>F. Use and availability of masks</strong></p></div><p><strong>19. When should I use an N95 mask?<br /></strong>
+</p><p style="text-align:justify;">N95 masks are not needed for short exposure, like commuting from home to school or work, travel from bus-stop to shopping mall. N95 masks are also not needed in an indoor environment. A healthy person who has to be outdoors for several hours when the air quality is in the hazardous range (PSI &gt;300) may reduce exposure by wearing a N95 mask. People with chronic lung or heart disease, elderly, and pregnant women should avoid or minimize outdoor activity when the air quality is very unhealthy (PSI &gt; 200). If they have to be outdoors for several hours , they may reduce exposure by wearing a N95 mask. You should take a break from using a N95 mask if you feel uncomfortable. Elderly, pregnant women and people with severe lung or heart problems who have difficulty breathing at rest or on exertion should consult their doctor as to whether they should use the N95 mask. Women in the 2nd and 3rd trimesters of pregnancy may already have reduced lung volumes or breathing issues. They should stop using a N95 mask if they feel uncomfortable.<br /><br /><strong style="text-align:left;">20. Is the N95 mask an adequate protection against haze? Does it protect against PM</strong><strong style="text-align:left;"><sub>2.5</sub></strong><strong style="text-align:left;">?</strong><br /></p><p style="text-align:justify;">N95 masks work only if there is a good fit with the face of the wearer. This way, most of the air that the wearer breathes in has to go through the filter and not through the gaps between the mask and the wearer&rsquo;s face. Haze can contain fine particles that are 2.5 microns or smaller (PM<sub>2.5</sub>), and studies have shown that N95 masks do provide good protection against particle pollutants as they are at least 95% efficient against fine particles that are about 0.1 &ndash; 0.3 microns.<br /><br /><strong style="text-align:left;">21. What are the effects of wearing a N95 mask?</strong><br /></p><p style="text-align:justify;">The use of N95 masks increases effort in breathing. For some people, the use of N95 mask may cause discomfort in breathing, tiredness or headache. This may be due to the mask causing increased resistance to breathing, and a reduction in the volume of air breathed. For most people this is not serious. However, some elderly people, people with lung or heart conditions, and women in the later stages of pregnancy may already have reduced lung volumes or breathing issues. You should take a break from using a N95 mask if you feel uncomfortable. Elderly, pregnant women and people with severe lung or heart problems who have difficulty breathing at rest or on exertion should consult their doctor as to whether they should use the N95 mask. Women in the 2nd and 3rd trimesters of pregnancy may already have reduced lung volumes or breathing issues. They should stop using a N95 mask if they feel uncomfortable.<br /><br /><strong style="text-align:left;">22. How do I get a mask?</strong></p><p style="text-align:justify;"><strong style="text-align:left;"></strong>Masks are available at major pharmacies and supermarkets, such as Unity, Watsons, Guardian, Cold Storage, Giant&nbsp;and&nbsp;Fairprice. The national stockpile of N95 masks may be released to the major pharmacies and supermarkets if more are needed. Employers of workers who are required to work outdoors for prolonged period are encouraged to maintain a seven-day stock for immediate response. Procurement of additional masks can be made through the major pharmacies and supermarkets.<br /><br /><strong style="text-align:left;">23. Are there different types of N95 masks in the market?</strong><br /></p><p style="text-align:justify;">There are different brands of N95 masks in the market which have the same functionality. They come in different colours, shapes and sizes. Please see also Annex A.<br /><br /><strong>24. What are EN-149: 2001 masks? Are they equivalent to the N95 masks?<br /><br /></strong>EN-149 is one of the European Standard for masks while N95 masks are certified by the US National Institute for Occupational Safety and Health (NIOSH). Both types of masks are designed to reduce wearer&rsquo;s respiratory exposure to airborne contaminants such as particles, gases or vapours. The EN-149 masks are classified in three classes depending on the ability to separate air-borne particles:</p><table border="1" cellspacing="0" cellpadding="0" width="576"><thead><tr><td valign="bottom"><p align="center"><strong>Class</strong></p></td><td width="440" valign="bottom"><p align="center"><strong>Separation ability at 95L/min airflow</strong></p></td></tr></thead><tbody><tr><td valign="top"><p>FFP1</p></td><td width="440" valign="top"><p>Filter separates 80% of airborne particles</p></td></tr><tr><td valign="top"><p>FFP2</p></td><td width="440" valign="top"><p>Filter separates 94% of airborne particles</p></td></tr><tr><td valign="top"><p>FFP3</p></td><td width="440" valign="top"><p>Filter separates 99% of airborne particles</p></td></tr></tbody></table><p><strong><strong>FFP2 masks that meet the EN-149 standard are the closest to N95 masks in the ability to filter particles<br /></strong></strong><strong><br />25. How would members of public know if the N95 or other types of masks meet safety and quality standards?</strong><strong><strong><br /></strong></strong></p><p style="text-align:justify;">A NIOSH-approved mask is certified by the US National Institute for Occupational Safety and Health (NIOSH) to have 95% filter efficiency. A NIOSH-approved respirator has the following information printed on its packaging:<br /></p><ul><li style="text-align:justify;">NIOSH</li><li style="text-align:justify;">the type of approval (e.g.N95)</li><li style="text-align:justify;">the manufacturer&rsquo;s name</li></ul><p style="text-align:justify;">A list of NIOSH certified N95 masks is available on NIOSH&rsquo;s website: <a href="https://www.cdc.gov/niosh/ppe/niosh-approved-respirators/ffr-cel.html?CDC_AAref_Val=https://www.cdc.gov/niosh/npptl/topics/respirators/disp_part/n95list1.html" data-sf-ec-immutable="">Find Filtering Facepiece Respirators on the Certified Equipment List | Personal Protective Equipment | CDC</a></p><p style="text-align:justify;">Please also see Annex B for some examples. EN149 is the European Standard for respiratory mask designed to reduce wearer&rsquo;s respiratory exposure to airborne contaminants such as particles, gases or vapours.</p><p style="text-align:justify;">Masks are classified in 3 three classes depending on the ability to separate air-borne particles according to the FFP (Filtering Face Pieces). An European standard certified mask will have the following text printed on it:<br /></p><ul><li>the CE mark</li><li>EN 149:2001; the classification of the mask (e.g.FFP2)<br /></li><li>the manufacturer&rsquo;s name.</li></ul><p><strong>26. How does a consumer choose which mask to purchase?</strong></p><p style="text-align:justify;">Both the NIOSH-certified N95 masks or the EN-149 masks are designed to reduce wearer&rsquo;s respiratory exposure to airborne contaminants such as particles, gases or vapours. Consumers should perform a fit check to ensure a good fit.<br /><br /><strong>27.&nbsp;How do I learn to fit my N95 mask?<br /></strong><span style="text-align:left;"><br />For best effect, N95 masks need to be fitted properly for each user. To check for proper fit, please check that the available mask is appropriately sized and covers the nose and mouth comfortably without leak. The MOH has a step by step guide on how to wear it N95 masks properly. See</span>&nbsp;<a href="https://www.moh.gov.sg/newsroom/faq-use-of-masks-and-availability-of-masks" data-sf-ec-immutable="">https://www.moh.gov.sg/newsroom/faq-use-of-masks-and-availability-of-masks</a>&nbsp;.<span style="text-align:left;">&nbsp;</span><span style="text-align:left;">&nbsp;The use of N95 masks to filter out pollutants in the air is not identical to the use of N95 masks for infection control in a healthcare institution during a disease pandemic situation. For use during a haze incident, even if the mask is not perfectly fitted, it can still be useful in filtering out pollutants for those who need to wear it.<br /></span><strong style="text-align:left;"><br />28. How do I wear a mask?</strong><br /></p><p>To learn how to put on a mask properly, the MOH has a step-by-step video guide on how to wear a mask on their website:&nbsp;<a href="https://www.youtube.com/watch?v=bo-PEzHE7iw" data-sf-ec-immutable="">https://www.youtube.com/watch?v=bo-PEzHE7iw</a>. Please see also Annex C.<br /><br /><strong>29. Can I reuse my N95 mask?</strong></p><p>You can reuse your N95 mask. It should be changed when it gets soiled or distorted in shape. It should not be shared.<br /><br /><strong>30. Are surgical masks useful?</strong><br /></p><p style="text-align:justify;">Normal surgical masks are not effective in filtering fine particles (i.e. tiny particles that are 2.5 microns or less in width), although they can reduce the discomfort cause by haze by providing a barrier between the wearer&rsquo;s nose and mouth, and larger irritant particles in the air.<br /><br /><strong style="text-align:left;">31. Are surgical masks the same as N95 masks?</strong><br /></p><p style="text-align:justify;">Surgical masks and N95 masks are different and were made for different purposes. Surgical masks were designed to protect the surrounding environment from the user&rsquo;s own spit or mucous. Healthcare professionals use them (e.g. in an operating theatre) to prevent their own germs from infecting the patient. N95 masks were designed to protect the wearer from airborne particles. Studies have shown that they are at least 95% efficient against fine particles that are about 0.1 &ndash; 0.3 microns, assuming good fit on the wearer&rsquo;s face.<br /><br /><strong style="text-align:left;">32. Are the new AIR+ Smart Masks safe?</strong></p><p style="text-align:justify;">The mask has been tested according to European Standard EN 149:2001=A1:2009 to benchmark its quality and performance and is certified to be safe for use in adults.&nbsp;<br /><br /><strong style="text-align:left;">33. What are the findings of the clinical trial on the impact of the AIR+ Smart Mask on children?</strong></p><ul type="disc"><li>The key precaution for children during haze is to minimize prolonged or strenuous outdoor physical exertion when the forecasted air quality is unhealthy (24-hr PSI&gt;100), and avoid outdoor activity when the forecasted air quality is in the hazardous range (24-hr PSI&gt;300).&nbsp;</li></ul><ul type="disc"><li>There are currently no international certification standards (such as N95) for use of masks in children. Certification standards such as those by the National Institute for Occupational Safety and Health (NIOSH) (which are used to certify masks as N95 masks) were developed in an occupational setting and apply to use in adults only.</li></ul><ul><li style="text-align:justify;">Alternatively, for children, the AIR+ Smart Mask can be used (only where necessary) to protect against the effect of haze. The AIR+ Smart Mask, can be used safely in children with no existing heart and lung conditions. To be effective, the mask needs to maintain a well-fitted seal at all times. If the child experiences breathing discomfort while using the mask, it should be removed<br /></li></ul><p style="text-align:justify;"><strong><br />34. What level of activity can be conducted when wearing the AIR+ Smart Mask?<br /><br /></strong>Children who wear the mask with or without the micro-ventilators can carry out light physical activity such as brisk walking. Children are not advised to carry out greater levels of physical activity when wearing the mask, even with the micro-ventilator.<br /><br /><strong style="text-align:left;">35. Should children with pre-existing respiratory conditions (e.g. asthma) use the AIR+ Smart Mask?</strong></p><p style="text-align:justify;">The key precaution for persons with pre-existing lung and heart disease is to avoid prolonged or strenuous outdoor physical&nbsp;exertion when the forecasted air quality is unhealthy (24-hr PSI&gt;100), and avoid outdoor activity when the forecasted air quality is in the very unhealthy and hazardous range (24-hr PSI&gt;200). Children with chronic heart and lung conditions may respond differently to the mask. Please consult your child&rsquo;s attending physician if there is any doubt or if your child experiences discomfort.&nbsp;<br /><br /><strong style="text-align:left;">36. Why are masks recommended for outdoor workers at lower PSI than for the general public?</strong><br /></p><p style="text-align:justify;">The threshold for usage of N95 masks or equivalent for protection of outdoor workers is suggested at lower PSI than for the general public as work commitments may require prolonged outdoor exposure or strenuous work on a regular basis. Employers should refer to the MOM guidelines for more details on situations where suitable masks or respirators have to be used. In general, work arrangements to reduce outdoor work such as frequent breaks and job rotation should be made to reduce prolonged or strenuous outdoor work. Use of mechanical aids such as trolleys, lifts or hoists instead of manual lifting and carrying could also reduce the strenuous nature of these activities. Where outdoor work is unavoidable, employers should provide suitable masks (based on the MOM&rsquo;s guidelines) to protect workers. If N95 masks are used, employers and employees should note that these increase the effort of breathing. For some employees, this may cause discomfort in breathing, tiredness or headache. This may be due to their masks causing increased resistance to breathing, and a reduction in the volume of air breathed. Employers should consider instituting regular breaks and encourage hydration of employees using masks. Risk assessment, taking into account the usage of the respirators, individual employee&rsquo;s heath conditions and nature of outdoor work must be conducted.<br /><br /><strong style="text-align:left;">37. How will the haze impact patients in nursing homes and subsidised wards with natural ventilation?<br /><br /></strong><span style="text-align:left;">The healthcare institutions will institute specific measures to manage particulate matter (PM) levels in indoor spaces, taking reference from the NEA&rsquo;s guidelines on indoor air quality. The healthcare institutions will also monitor patients closely and ensure ample circulation of clean air indoors.&nbsp;<br /><br /></span><strong style="text-align:left;">
+ </strong></p><div id="chapterG"><strong style="text-align:left;">G. Impact of haze on workplaces</strong>
+ <p>Ministry of Manpower FAQs accessible&nbsp;<a href="http://www.mom.gov.sg/haze" target="_blank" data-sf-ec-immutable="">here</a>.&nbsp;</p><p><strong>38. Which haze index should employers monitor so as to decide what measures to take to protect their workers?<br /></strong>
+ </p><p style="text-align:justify;">Employers should refer to the 24-hour PSI forecast on the NEA website, as well as the updated health advisories on the NEA website (<a href="/index">www.nea.gov.sg</a>) or the Haze website (<a href="http://www.haze.gov.sg/" target="_blank" data-sf-ec-immutable="">www.haze.gov.sg</a>). The impact on one&rsquo;s health is dependent on the quality of air, duration of exposure, and one&rsquo;s health conditions. Employers can take reference from MOM&rsquo;s guideline to employers, available on MOM&rsquo;s website (<a href="http://www.mom.gov.sg/haze" target="_blank" data-sf-ec-immutable="">www.mom.gov.sg/haze</a>) and the Haze website (<a href="http://www.haze.gov.sg/" target="_blank" data-sf-ec-immutable="">www.haze.gov.sg</a>) for general measures to minimise or mitigate the effects of haze on their employees. Additional measures specific to the work requirements and health conditions of the employees would have to be instituted based on the risk as assessed by the employers.<br /><br /><strong style="text-align:left;">39. What other workplace measures can companies consider or do to mitigate the impact of the haze on workers?</strong><br /></p><p style="text-align:justify;">All employers should carry out proper risk assessments of their various work activities and implement appropriate measures, to ensure that the risks identified are minimised or mitigated. Depending on the air quality, employers should first find ways to reduce or avoid prolonged or strenuous outdoor work. Risk assessments, taking into account the impact of the haze, individual employee&rsquo;s health, work demands and fatigue, etc, must be conducted and risk mitigating measures adopted.</p><p>Examples of such measures include:<br /></p><ol><li style="text-align:justify;">Use mechanical aids (e.g. trolleys, hoists) to transport or carry heavy objects instead of manual lifting or carrying.</li><li style="text-align:justify;">Adjust work assignments or rotate jobs to shorten the time spent in outdoor work.</li><li style="text-align:justify;">Schedule sufficient indoor rest breaks for workers performing outdoor work.</li><li style="text-align:justify;">Ensure adequate hydration for workers.</li><li style="text-align:justify;">Monitor employees&rsquo; health by encouraging feedback on any symptoms that may occur.<br /></li><li style="text-align:justify;">Defer non-essential work.<br /></li></ol><p style="text-align:justify;">If prolonged or strenuous outdoor work is unavoidable, an employer who requires an employee to do so due to extenuating circumstances, is strongly urged to provide masks. Employees who need to wear masks / respirators should be fit-tested to ensure good fit. Employers should ensure sufficient stock of masks / respirators for these employees, and conduct training and supervision to ensure correct usage. Masks should be changed when soiled/physically damaged or when the wearer finds it hard to breathe. Elderly and pregnant employees as well as those with chronic heart/lung disease should consult their treating doctors on the usage of masks. Reference should be made to the Singapore Standard SS 548:2009: Code of Practice for Selection, use and maintenance of respiratory protective devices. Employers are strongly encouraged to adopt a flexible and enlightened approach in implementing flexible work arrangements for all staff, especially susceptible employees, such as the elderly, pregnant and those with chronic heart or lung illnesses. Examples of flexible work arrangements include telecommuting. If their employees feel unwell and wish to rest at home, employers are encouraged to be flexible in allowing them to take their leave. For employees who have used up their annual leave/sick leave entitlements, employers could consider granting them advance leave or other leave arrangements. In such situations, the employees&rsquo; wages should not be deducted.<br /><br /><strong style="text-align:left;">40. MOM&rsquo;s guidelines advise employers to institute regular rest breaks during the haze. How long would be&nbsp;a sufficient time for each break?</strong><br /></p><p style="text-align:justify;">MOM&rsquo;s guidelines provide general measures that employers can take to mitigate the risks their employees face in a haze situation, and is not meant to be prescriptive. Employers should carry out a proper risk assessment of their various work activities and implement appropriate measures (such as identifying appropriate rest periods) so as to ensure that the risks identified are minimised or mitigated.<br /><br /><strong style="text-align:left;">41. What should an outdoor worker do if an employer does not heed the advisory on the haze situation?</strong><br /></p><p style="text-align:justify;">Workers should first raise their concerns to their supervisor, HR department and union representatives. If no action has been taken, workers can call the MOM Contact Centre at 6438 5122 or visit&nbsp;<a href="http://www.mom.gov.sg/" target="_blank" data-sf-ec-immutable="">http://www.mom.gov.sg</a>&nbsp;for general advice. If there are significant safety concerns on outdoor work during the haze situation, workers can call the MOM Occupational Safety and Health Hotline at 6317 1111 or email&nbsp;<a href="mailto:MOM_OSHD@mom.gov.sg">MOM_OSHD@mom.gov.sg</a>.<br /><br /><strong style="text-align:left;">42. Who can workers turn to if there are employer and employee disputes regarding the haze risk assessment?</strong><br /></p><p style="text-align:justify;">Workers should first raise their concerns to their supervisor, HR department and union representatives. If no action has been taken, workers can call the MOM Contact Centre at 6438 5122 or visit&nbsp;<a href="http://www.mom.gov.sg/" target="_blank" data-sf-ec-immutable="">http://www.mom.gov.sg</a>&nbsp;for general advice. If there are significant safety concerns on outdoor work during the haze situation, workers can call the MOM Occupational Safety and Health Hotline at 6317 1111 or email&nbsp;<a href="mailto:MOM_OSHD@mom.gov.sg">MOM_OSHD@mom.gov.sg</a>.<br /><br /><strong style="text-align:left;">43. What penalties can MOM impose if employers do not follow MOM's guidelines?</strong><br /></p><p style="text-align:justify;">Under the&nbsp;<a href="http://www.mom.gov.sg/workplace-safety-and-health/workplace-safety-and-health-act" target="_blank" data-sf-ec-immutable="">Workplace Safety &amp; Health Act&nbsp;</a>(WSH Act), employers have a duty to protect their employees&rsquo; safety and health at work. In situations where haze poses risk to the safety and health of workers and measures have not been taken to mitigate those risks, either by adopting measures suggested in the advisory or other alternative mitigation measures, MOM may order the affected work to stop. If any person (individual or corporate bodies) subsequently fails to comply with a stop work order, under the WSH Act he shall be liable on conviction to a fine not exceeding $500,000 or to imprisonment for a term not exceeding 12 months or to both. Our inspectors will be looking out for employers who disregard the safety and health of their workers, especially those performing strenuous and prolonged outdoor work.<br /><br /><strong style="text-align:left;">44. If an employee suffers injury or illness while working in hazy conditions, will the worker be eligible for work injury compensation?</strong><br /></p><p style="text-align:justify;">Under the Work Injury Compensation Act (WICA), an employee who sustains an illness/injury arising out of and in the course of employment is eligible to claim work injury compensation from his employer. Employers should notify MOM (through the&nbsp;<a href="https://www.mom.gov.sg/eservices/services/wsh-incident-reporting" target="_blank" data-sf-ec-immutable="">iReport</a>&nbsp;tool on the MOM website) if any employee has sustained an illness/injury due to working outdoors during the haze. For cases where the employee is able to recover over time and resume work without permanent ill effects, employers should pay any medical leave wages and medical expenses due directly to the employee.<br /><br /><strong style="text-align:left;">45. For employees who need to take leave arising from the haze, but have run out of their leave entitlements, what can they do?<br /><br /></strong>Some employees may be unable to report for work because they are unwell or need to take care of their family members, e.g. family members are unwell because of the haze, or require alternative childcare arrangements as school / childcare facilities are closed.<br /></p><p>They are encouraged to:</p><ul><li style="text-align:justify;">Discuss with their employers on the feasibility of adopting flexible work arrangements (FWAs) to meet organisational and personal needs.</li><li style="text-align:justify;">Where FWAs are not feasible, employees may wish to seek approval from their employers to take time-off, use advance leave or other leave arrangements.</li></ul><p><strong>46. If employers decide that work should be stopped in view of the haze situation, can the employees&rsquo; salaries or annual leave be deducted on that day?<br /></strong>
+ </p><p>Employers who wish to suspend business operations should take note of the following:<br /></p><ul><li style="text-align:justify;">If the suspension is on a short-term and ad-hoc basis, employers should bear the costs of doing so and not deduct from the pay or leave entitlements of their affected employees.</li><li style="text-align:justify;">If the suspension of business operations is for longer periods, employers should discuss with their union and employees on the appropriate flexible work, leave and salary arrangements to be put in place.</li></ul><p><strong>47. Can employers ask employees to take annual leave if the company closes or operations have stopped due to the haze situation?<br /></strong>
+ </p><p style="text-align:justify;">If the suspension is on a short-term and ad-hoc basis, employers should bear the costs of doing so and not deduct from the pay or leave entitlements of their affected employees. If the suspension of business operations is for longer periods, employers should discuss with their union and employees on the appropriate flexible work, leave and salary arrangements to be put in place.<br /><br /><strong>48. Who can employees turn to if there are employer and employee disputes regarding leave and salaries?<br /><br /></strong>Employers are strongly encouraged to put in place in advance internal company grievance handling procedures to manage any haze-related employment disputes. Employees should first approach their employers to resolve the matter amicably. If there are disagreements, the issue should be raised to the management via union representatives or your HR. If the dispute cannot be resolved amicably, you can make an online enquiry via <a href="http://www.mom.gov.sg/feedback" data-sf-ec-immutable="">www.mom.gov.sg/feedback</a>&nbsp;or call the MOM Contact Centre at 6438 5122, for further assistance.</p><div id="chapterH"><p><strong style="text-align:left;">H. Common concerns and misconceptions</strong></p></div><p><strong>49. Can we conduct cloud seeding in Singapore to disperse the smoke haze?</strong></p><p>Cloud seeding attempts to artificially induce rain by implanting clouds with suitable particles. The seeding particles serve as condensation or ice nuclei to induce formation of more water droplets or ice crystals in the cloud. However, there are no reliable means to validate the effectiveness of cloud seeding in Singapore. Cloud seeding requires existing clouds as it cannot generate rain out of thin and dry air. During dry seasons, cloud seeding is less effective due to the lack of suitable clouds for seeding. The small size of Singapore and the variability of winds also mean that the induced rain, if any, may not fall directly over our island. Rain may also provide only temporary relief as the smoke haze would continue to be blown toward Singapore by the prevailing winds, should the fires in the region continue to persist<br /></p><div id="smell"><strong><br />I. Smell Incidents</strong><br /><p><strong>50. Why is the burning smell worse at night?<br /></strong></p><p>At night, the winds are weaker so the air pollutants are not diluted and dispersed as quickly as in the day. Cooler temperatures at night also restrict air pollutants from dispersing upwards. These factors result in a stronger smell at night. The smell will usually dissipate in the day when the winds pick up speed.<br /><br /><strong>51. Why is there occasional flaring observed in Pasir Gudang Industrial Complex?</strong><br /></p><p>Flaring is a common safety feature in refineries and petrochemical plants. During routine maintenance and plant upsets, the flare prevents the critical build-up of process gases and safely burns them off into carbon dioxide and water vapour.<br /><br /><strong>52. What are the VOC levels here, and are they within safe limits?</strong><br /></p><p>Volatile Organic Compounds (VOCs) are organic chemical vapours which can come from both man-made and natural sources. They can cause smell and are precursors to ozone, an air pollutant. NEA continuously measures a variety of VOCs in the air at our monitoring stations, four of which are located in the north-eastern region of Singapore. The VOC readings at our stations, including readings for benzene, have been in the parts per billion and parts per trillion range, which are much lower than the safe levels for these VOCs which are in the parts per million range.<br /><strong><br />53. How have we been engaging Malaysia on these issues?</strong><br /></p><p>The NEA and SCDF meet regularly with the Department of Environment (DOE) Johor and the Johor Fire &amp; Rescue Department (Bomba), conduct joint exercises and have been in close contact with them to share info on the hotspots and fires in Johor. DOE and Bomba updates on the status of the fires and on the fire-fighting efforts to put out the fires quickly so as to minimise the light hazy impact to Singapore.</p></div><div id="annex"><p><strong>J. Annexes</strong></p><strong>Annex A:&nbsp;</strong><strong>Examples of N95 Masks<br /><img src="/images/default-source/default-album/fy21/default-album/annex-a---n95.jpg?MaxWidth=600&amp;MaxHeight=&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=F2A786754B1E258142EF73E0B9A11732DD50F341" data-method="ResizeFitToAreaArguments" title="Annex A - N95" data-displaymode="Custom" alt="Annex A - N95" data-customsizemethodproperties="{" /></strong>
+
+ <p><strong>Annex B</strong>: <strong>Examples of NIOSH-Approved Masks<br /><img src="/images/default-source/our-serivces/annex_b.jpg" title="examples of noish approved masks" data-displaymode="Original" alt="examples of noish approved masks" /><br /></strong></p></div><p><strong style="background-color:initial;font-family:inherit;font-size:inherit;text-transform:inherit;word-spacing:normal;caret-color:auto;white-space:inherit;">Annex C</strong><span style="background-color:initial;font-family:inherit;font-size:inherit;text-transform:inherit;word-spacing:normal;caret-color:auto;white-space:inherit;">: </span><strong style="background-color:initial;font-family:inherit;font-size:inherit;text-transform:inherit;word-spacing:normal;caret-color:auto;white-space:inherit;">How to wear a Mask</strong></p><img src="/images/default-source/our-serivces/how-to-wear-a-mask.jpg" title="how-to-wear-a-mask" data-displaymode="Original" alt="how-to-wear-a-mask" /><p>&nbsp;</p><p>&nbsp;</p></div></div>    
+</div>
+            
+        </div>
+    </div>
+</div>
+        
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    </div>
+</div><div class="sf_cols content-block" data-sf-element="Row">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainContent_T20AD9D6A008_Col00" class="sf_colsIn sf_1col_1_100" data-sf-element="Column 1" data-placeholder-label="explore more">
+            
+        </div>
+    </div>
+</div> </main> <footer class="footer"> <button type="button" class="backtotop js-backtotop"><i class="icon icon-arrow-up"></i><span class="vh">Back to</span><span>Top</span></button> <div class="related-sites"> <div class="container"> <div class="related-sites_item"> <div class="related-sites_title"> <h2 class="title">Our Related Sites</h2> </div> </div> </div> </div> 
+
+<div >
+    <div ><div class="footer__icons"><div class="container-fluid"><ul class="site-icon-wrapper row"><li><a href="http://www.weather.gov.sg/home/" title="" target="_blank" rel="noreferrer noopener" data-sf-ec-immutable=""><img src="/images/default-source/homepage/footer-logo-mss.jpg" title="Meterological Service Singapore website" data-displaymode="Original" alt="Meterological Service Singapore website" /></a></li><li><a href="https://www.haze.gov.sg/" title="" target="_blank" rel="noreferrer noopener" data-sf-ec-immutable=""><img src="/images/default-source/homepage/footer-logo-nea-haze.jpg" title="Haze Website" data-displaymode="Original" alt="Haze Website" /></a></li><li><a href="https://www.cgs.gov.sg/" title="" target="_blank" rel="noreferrer noopener" data-sf-ec-immutable=""><img src="/images/default-source/homepage/footer-logo-cgs.jpg" title="Clean & Green Singapore website" data-displaymode="Original" alt="Clean & Green Singapore website" /></a></li><li><a href="https://www.publichygienecouncil.sg/" title="" target="_blank" rel="noreferrer noopener" data-sf-ec-immutable=""><img src="/images/default-source/homepage/footer-logo-phc.jpg" title="Public Hygiene Council website" data-displaymode="Original" alt="Public Hygiene Council website" /></a></li><li><a href="https://www.cleanenvirosummit.gov.sg/" class="site-icon-item" target="_blank" rel="noreferrer noopener" title="Clean Enviro Summit website" data-sf-ec-immutable=""><img src="/images/default-source/default-album/fy21/default-album/footer-logo-cess.png" title="footer-logo-cess" data-displaymode="Original" alt="Clean Enviro Summit website" /></a></li><li><a href="https://www.climate-friendly-households.gov.sg/" title="" target="_blank" data-sf-ec-immutable=""><img src="/images/default-source/homepage/climate-vouchers.png" title="Climate Vouchers website" data-displaymode="Original" alt="Climate Vouchers" /></a></li><li><a href="https://www.greenplan.gov.sg/" title="" target="_blank" data-sf-ec-immutable=""><img src="/images/default-source/homepage/sg-green-plan_small_2.png" title="SG Green Plan website" data-displaymode="Original" alt="SG Green Plan website" /></a><br /></li></ul></div></div></div>    
+</div> 
+<footer class="sgds-footer top-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <p class="title"><b>National Environment Agency</b></p>
+            </div>
+            <div class="col-md-7 is-right-desktop-only">
+                <div class="footer_info app-block">
+                    <span class="has-text-weight-bold">Get the app</span>
+                    <ul class="social-media app-list">
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=sg.gov.nea&amp;hl=en" target="_blank" rel="noreferrer noopener" class="app-list-item">
+                                <i class="icon smallicon-android"></i>
+                                <span>Download <br />for Android</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://itunes.apple.com/sg/app/myenv/id444435182?mt=8" target="_blank" rel="noreferrer noopener" class="app-list-item">
+                                <i class="icon smallicon-iphone"></i>
+                                <span>Download <br />for iPhone</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Best viewed using the current and previous release of Chrome and Safari<br /></p>
+            </div>
+            <div class="col-md-7 is-right-desktop-only">
+                <ul>
+                    <li class="">
+                        <p><a href="/corporate-functions/Contact-Us" target="_self">Contact Us</a></p>
+                    </li>
+                    <li class="">
+                        <p><a href="/corporate-functions/feedback" target="_self">Feedback</a></p>
+                    </li>
+
+                    <li class="footer_info"><a href="/follow-nea">Follow us</a>
+
+    <ul class="social-media">
+        <li><a href="https://www.facebook.com/NEASingapore" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">Facebook</span><span class="fab fa-facebook-f"></span></a></li>
+        <li><a href="https://www.instagram.com/nea_sg/" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">Instagram</span><span class="fab fa-instagram"></span></a></li>
+        <li><a href="https://www.linkedin.com/company/national-environment-agency" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">LinkedIn</span><span class="fab fa-linkedin-in"></span></a></li>
+        <li><a href="https://go.gov.sg/whatsapp-nea" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">WhatsApp</span><span class="fab fa-whatsapp"></span></a></li>
+     
+
+        <li><a href="https://www.youtube.com/channel/UC-tjEFkd0tT2VpD5vbjyAKA/videos" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">Youtube</span><span class="fab fa-youtube"></span></a></li>
+        <li><a href="https://www.tiktok.com/@nea_sg" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">Tiktok</span><span class="fab fa-tiktok"></span></a></li>
+        <li><a href="/rss/rss-feeds" target="_blank" rel="noreferrer noopener" class="social-media__item"><span class="visuallyhidden">RSS</span><em class="icon smallicon-rss"></em></a></li>
+    </ul>
+</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row divider">
+            <div class="col-md-12">
+                <ul class="footer-links">
+                    <li><a href="https://tech.gov.sg/report_vulnerability" target="_blank" rel="noreferrer noopener">Report Vulnerability</a></li>
+                    <li><a href="/privacy-statement" target="_self">Privacy Statement</a></li>
+                    <li><a href="/terms-of-use" target="_self">Terms of Use</a></li>
+                    <li><a href="/open-data-licence" target="_self">Open Data Licence</a></li>
+                    <li><a href="/sitemap" target="_self">Sitemap</a></li>
+                    <li><a href="https://www.reach.gov.sg/" target="_blank" rel="noreferrer noopener" title="Link to reach.gov.sg">REACH  <i class="fa fa-external-link" style="margin-left: 5px;"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-12 is-right-desktop-only">
+                <p class="copyright">
+                    <span>&copy; 2026 Government of Singapore</span><br />
+                    <span class="last-update">Last updated 29 September 2026</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript">
+//Overwrite ShareThis Sticky copy to clipboard button
+(function waitForStickyShareButton() {
+  // Function to modify the sticky share button once it's available
+  function modifyStickyShareButton() {
+    const stickyButton = document.querySelector('.st-sticky-share-buttons [data-network="copy"]');
+
+    // If the button is found, modify it
+    if (stickyButton) {
+      // Change data-network from "copy" to "custom-sticky-copy"
+      stickyButton.setAttribute('data-network', 'custom-sticky-copy');
+
+      // Add event listener for the click event
+      stickyButton.addEventListener('click', function () {
+        // Prevent further clicks while the message is showing
+        if (stickyButton.classList.contains('copy-disabled')) return;
+
+        // Copy the URL to clipboard
+        const urlToCopy = window.location.href;
+        navigator.clipboard.writeText(urlToCopy).then(() => {
+          // Get the label inside the button and change it to "URL Copied!"
+          const label = stickyButton.querySelector('.st-label');
+          const originalText = label ? label.innerText : "Share";
+
+          // Change the label to "URL Copied!" with smaller font size
+          if (label) {
+            label.innerText = 'URL Copied!';
+            label.style.fontSize = '10px'; // Adjust font size here
+          }
+
+          // Disable further clicks by adding a class
+          stickyButton.classList.add('copy-disabled');
+
+          // Revert the label back to the original text and font size after the timeout
+          setTimeout(() => {
+            if (label) {
+              label.innerText = originalText;
+              label.style.fontSize = ''; // Reset font size to default
+            }
+            stickyButton.classList.remove('copy-disabled'); // Re-enable the button
+          }, 1500);
+        }).catch(err => {
+          console.error('Failed to copy text:', err);
+        });
+      });
+    } else {
+      // If not found, check again after 100ms
+      setTimeout(modifyStickyShareButton, 100);
+    }
+  }
+
+  modifyStickyShareButton(); // Start checking for the button
+})();
+
+</script>
+ </footer> <script>
+            var jqe = jQuery.noConflict();
+            jqe('a[href^="/doc"]').each(function () {
+                if (jqe(this).attr('title') === "Untitled" || jqe(this).attr('title') === '' || jqe(this).not('title')) {
+                    jqe(this).attr('title', $(this).text());
+                }
+
+                if (jqe(this).attr('alt') === "Untitled" || jqe(this).attr('alt') === '' || jqe(this).not('alt')) {
+                    jqe(this).attr('alt', $(this).text());
+                }
+            })
+        </script> </form> <div id="webchat"
+         app-id="nea-captain-green"
+         app-name="Ask Captain Green"
+         app-color="#33863F"
+         app-enable-recommendations="false"
+         app-icon="/images/default-source/vica-nea/captaingreen-avatar_final.png?Status=Temp"
+         app-subtitle=""
+         app-orchestrator-timeout="17000"
+         app-welcome-message="How can I help?"
+         app-base-font-size="16"
+         app-position-right="15"
+         app-position-bottom="100"
+         app-enable-auto-complete="true"
+         app-enable-recommendations="true"
+         app-auto-launch="false"
+         app-bot-response-trigger-event="true"
+         app-quick-launch-event="welcome"
+         app-foreground-color1="#FFFFFF"
+         app-welcome-message-foreground-color="#33863F"
+         app-foreground-color-2="#2E2E2E"
+         app-background-color2="#FFFFFF"
+         app-canvas-background-color="#DCDCDC"
+         app-button-border-color="#91D149"
+         app-quick-reply-button-background-color="#ECECEC"
+         app-auto-complete-background-color="#D6EEBB"
+         app-auto-complete-foreground-color="#2E2E2E"
+         app-auto-complete-hover-color="#91D149"
+         app-auto-complete-divider-color="#2E2E2E"
+         app-launcher-animation-iteration="0"
+         app-orchestrator-timeout="8000"
+         app-font-family="Roboto, sans-serif"> </div> <script src="/assets/scripts/sgds.js" type="text/javascript"></script> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP59Q69" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <script src="/assets/scripts/socialmedia.js" type="text/javascript"></script> <!--Facebook Pixel Code --> <script>
+            setTimeout(function () {
+                !function (f, b, e, v, n, t, s) {
+                    if (f.fbq) return;
+                    n = f.fbq = function () {
+                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!f._fbq) f._fbq = n;
+                    n.push = n;
+                    n.loaded = !0;
+                    n.version = '2.0';
+                    n.queue = [];
+                    t = b.createElement(e);
+                    t.async = !0;
+                    t.src = v;
+                    s = b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s)
+                }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '390401731988315');
+                fbq('track', 'PageView');
+            }, 3000);
+        </script> <noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=390401731988315&ev=PageView&noscript=1" /> </noscript> <!--End Facebook Pixel Code --> <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.body.addEventListener('click', function (event) {
+                    // Check if the clicked element has the class 'st-btn'
+                    var button = event.target.closest('.st-btn');
+                    if (button) {
+                        var network = button.getAttribute('data-network');
+
+                        // Check for a parent with data-url
+                        var parent = button.closest('[data-url]');
+                        var pageUrl = parent ? parent.getAttribute('data-url') : window.location.href;
+
+                        // Log the pageUrl value to the console
+                        console.log("Page URL:", pageUrl);
+
+                        // Send the event to Google Analytics
+                        gtag('event', 'share_button_click', {
+                            'event_category': 'ShareThis Buttons',
+                            'event_label': network,
+                            'page_url': pageUrl
+                        });
+                    }
+                });
+            });
+        </script> </body> </html>

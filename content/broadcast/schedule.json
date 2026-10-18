@@ -1,0 +1,108 @@
+{
+  "version": "2026-10-16-3",
+  "timezone": {
+    "name": "Malaysia and Singapore time (MYT/SGT)",
+    "utcOffsetHours": 8
+  },
+  "captureLeadMinutes": 60,
+  "slots": [
+    {
+      "id": "morning",
+      "airLocal": "07:00",
+      "greeting": "Good morning"
+    },
+    {
+      "id": "midday",
+      "airLocal": "12:00",
+      "greeting": "Good afternoon"
+    },
+    {
+      "id": "evening",
+      "airLocal": "17:00",
+      "greeting": "Good evening"
+    },
+    {
+      "id": "night",
+      "airLocal": "22:00",
+      "greeting": "Good evening"
+    }
+  ],
+  "coverage": {
+    "countries": [
+      "SGP",
+      "MYS",
+      "BRN"
+    ],
+    "note": "Singapore, Malaysia and Brunei Darussalam: the countries covered by the monitored pins. Elsewhere in ASEAN is mentioned as a count only."
+  },
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "state": "active"
+    },
+    {
+      "code": "ms",
+      "label": "Bahasa Melayu",
+      "state": "locked"
+    },
+    {
+      "code": "zh",
+      "label": "Mandarin",
+      "state": "locked"
+    },
+    {
+      "code": "ta",
+      "label": "Tamil",
+      "state": "locked"
+    }
+  ],
+  "narratedSources": [
+    {
+      "sourceId": "SRC.USGS.LIVE",
+      "name": "U.S. Geological Survey (USGS)",
+      "credit": "Source: U.S. Geological Survey. Public domain; credit USGS.",
+      "licence": "Public domain, credit USGS"
+    },
+    {
+      "sourceId": "SRC.GDACS.LIVE",
+      "name": "Global Disaster Alert and Coordination System (GDACS)",
+      "credit": "Source: GDACS, CC BY 4.0. Indicative only; not for decision making without alternate sources.",
+      "licence": "CC BY 4.0, indicative only"
+    },
+    {
+      "sourceId": "SRC.NEA.PSI.LIVE",
+      "name": "National Environment Agency (NEA) PSI via data.gov.sg",
+      "credit": "Contains information from PSI accessed from data.gov.sg (National Environment Agency, Singapore), made available under the terms of the Singapore Open Data Licence version 1.0 (https://data.gov.sg/open-data-licence).",
+      "licence": "Singapore Open Data Licence v1.0"
+    },
+    {
+      "sourceId": "SRC.METMY.LIVE",
+      "name": "Malaysian Meteorological Department (MetMalaysia) via api.data.gov.my",
+      "credit": "Source: Malaysian Meteorological Department (MetMalaysia), via Malaysia's official open API (api.data.gov.my). Licence terms not yet confirmed; used for this pilot only.",
+      "licence": "UNVERIFIED (pilot)"
+    }
+  ],
+  "neverNarrated": [
+    {
+      "name": "Google Air Quality and Weather",
+      "reason": "Google Maps Platform terms 3.2.3(a)(iv) and 3.2.3(c): no text-to-speech and no content created from Google Maps Content. Shown on screen only, with its attribution."
+    }
+  ],
+  "disclosure": {
+    "presenter": "AI-generated presenter",
+    "voice": "Synthetic voice (Kokoro, stock voice, no cloning)",
+    "pilot": "Pilot: some data uses are still awaiting permission."
+  },
+  "metMalaysia": {
+    "keyLocations": [
+      "Kuala Lumpur",
+      "Johor Bahru",
+      "Kuching",
+      "Kota Kinabalu",
+      "Kuantan",
+      "Kota Bharu"
+    ],
+    "tomorrowFromLocalHour": 20
+  }
+}

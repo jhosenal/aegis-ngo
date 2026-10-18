@@ -1,0 +1,175 @@
+# Engineer proof-of-concept results (isolated; no application code or project database touched)
+date: 2026-10-13T12:54:37Z
+node: v22.19.0   tsx: 4.23.15   better-sqlite3: 13.0.3   zod: 4.6.7
+command: node --import tsx --test --test-reporter=spec research/engineer/rational.test.ts research/engineer/rational-limits.test.ts research/engineer/lifecycle.test.ts research/engineer/composition.test.ts research/engineer/guard.test.ts research/engineer/migration.test.ts research/engineer/units-and-tables.test.ts research/engineer/table-validation.test.ts
+
+▶ C1: typed graph with unique node identity
+  ✔ validates the corrected water graph: inventory is independent of demand, and both feed the shortfall (11.7213ms)
+  ✔ allows the same formulation twice under different node ids, and rejects a duplicate node id (1.5734ms)
+  ✔ rejects a cycle, a missing node, a missing output and a dimension mismatch (2.0877ms)
+✔ C1: typed graph with unique node identity (18.3216ms)
+▶ R4: every required input has exactly one binding, and nothing is bound twice
+  ✔ Astra's probe: a node with a required input and no binding is rejected before scheduling (0.806ms)
+  ✔ an explicit constant or external input satisfies a required port; an optional port may stay unbound (0.6134ms)
+  ✔ multiple writers to one port (two edges, or an edge and an external binding) are rejected (0.5305ms)
+  ✔ nested resolution is checked against the TRUSTED definitions: unknown formulations, hash and port mismatches are rejected (1.1051ms)
+  ✔ identifiers outside the ASCII policy are rejected, not folded (1.4889ms)
+✔ R4: every required input has exactly one binding, and nothing is bound twice (5.5989ms)
+▶ R3: authority cannot change without the composition identity changing
+  ✔ Astra's probe: excluding a dependency changes the identity, because the exclusion policy and the resolved closure are bound into the envelope (4.7155ms)
+  ✔ an exclusion that removes a data-producing dependency of an executing node is rejected (2.9043ms)
+  ✔ the closure includes NESTED dependencies taken from trusted definitions, and a caller cannot hide one (0.8881ms)
+  ✔ a change deep in the nested closure changes the identity (0.8348ms)
+  ✔ is stable for equivalent inputs and changes with any version, numeric policy, unit, binding or definition (1.4761ms)
+✔ R3: authority cannot change without the composition identity changing (11.664ms)
+▶ C2: candidate graphs are stored and linted without approvals; sandbox needs explicit authority; approved execution needs lifecycle checks
+  ✔ lint always works, sandbox needs authority, approved needs every executing node authorized (1.4056ms)
+✔ C2: candidate graphs are stored and linted without approvals; sandbox needs explicit authority; approved execution needs lifecycle checks (1.5987ms)
+▶ C3: deterministic aggregation with an ordinal comparator
+  ✔ summary precedence is INVALID, CONFLICT, STALE, UNKNOWN, VALID and every reason is kept (0.8109ms)
+  ✔ the result is identical for all 120 orders in which the inputs are visited (2.0586ms)
+  ✔ ordering is ordinal and locale-independent: uppercase sorts before lowercase, digits before letters, and this never depends on the runtime locale (0.3762ms)
+  ✔ input names and codes outside the identifier policy are rejected (1.0794ms)
+✔ C3: deterministic aggregation with an ordinal comparator (4.9439ms)
+▶ C4: UNKNOWN may expose a typed known partial, never a complete total
+  ✔ a VALID result carries a value; an UNKNOWN result carries a partial marked incomplete and no value (2.7615ms)
+  ✔ NOT_APPLICABLE and ZERO_DURATION are metadata, not new statuses (0.4838ms)
+✔ C4: UNKNOWN may expose a typed known partial, never a complete total (3.5461ms)
+▶ D3: allowed use is a ceiling intersected with scope, over the RESOLVED closure
+  ✔ an OPERATIONAL graph is authorized only when every closure member and the composition allow it (0.898ms)
+  ✔ a DEMO nested dependency limits an otherwise OPERATIONAL graph (0.5503ms)
+  ✔ conflicting scopes deny; expired, revoked and missing approvals deny, including the composition's own (0.4556ms)
+  ✔ an OPERATIONAL label grants no action: dispatch, clinical or spending authority is separate (0.3833ms)
+✔ D3: allowed use is a ceiling intersected with scope, over the RESOLVED closure (2.6519ms)
+▶ D4: exact normalization before hashing
+  ✔ equivalent external rationals give one identity (0.8937ms)
+✔ D4: exact normalization before hashing (1.0579ms)
+▶ the combined execution path: composition grant + resolved closure + lifecycle + full scope, in one guard
+  ✔ authorizes when the composition grant and all seven closure members (five nodes and two nested) pass (63.1222ms)
+  ✔ a suspended NESTED dependency denies the whole run, and the work never starts (66.155ms)
+  ✔ the scope of ONE member narrows the whole composition on every dimension, not only tenant and purpose (285.6823ms)
+  ✔ a DEMO-approved member limits an OPERATIONAL request even though the composition grant allows OPERATIONAL (41.3288ms)
+  ✔ the composition grant is bound to the exact identity: an exclusion, a changed edge or a changed policy invalidates it (33.4269ms)
+  ✔ a missing, revoked, expired, over-wide or unauthorized composition grant denies, and so does a missing registry member or a mismatched trusted definition (81.8547ms)
+  ✔ a successful run records the lifecycle revision of EVERY member, atomically with the work (36.0762ms)
+  ✔ an OPERATIONAL composition still grants no action unless the grant and every member list it (32.3736ms)
+✔ the combined execution path: composition grant + resolved closure + lifecycle + full scope, in one guard (641.4467ms)
+▶ D2: lifecycle storage and transitions beside the unchanged four-state registry
+  ✔ reproduces Astra's finding on the real migrations: a state-and-spec update on an active row is rejected, a state-only update is allowed (20.7994ms)
+  ✔ walks candidate to active one stage at a time, keeps the registry in step, and authorizes the approved use and scope only (10.9799ms)
+  ✔ checks the FULL scope on every execution: tenant, purpose, resource, jurisdiction, validity domain and action (9.6761ms)
+  ✔ refuses a skipped stage (3.7528ms)
+  ✔ refuses metadata-only activation: a spec that claims "active", or a bare state update, authorizes nothing (5.4987ms)
+  ✔ activation needs a recorded approval for a named use, with scope and an unexpired expiry (6.7188ms)
+  ✔ refuses a stale approval: a changed definition or a changed trusted binding invalidates earlier evidence (8.9618ms)
+  ✔ re-checks hashes and expiry against TRUSTED values on every execution (6.4308ms)
+  ✔ allows immediate suspension from active, and reinstatement only to the stage it came from with unchanged hashes (10.7383ms)
+✔ D2: lifecycle storage and transitions beside the unchanged four-state registry (85.4078ms)
+▶ R1: revocation cannot be bypassed, and suspension keeps the stage it came from
+  ✔ Astra's sequence: active, revoke, suspend, reinstate is refused at the first step after the revoke (12.952ms)
+  ✔ suspension before first activation does not manufacture an active state: reinstate returns to the earlier stage (29.9959ms)
+  ✔ a version that was suspended twice in a row, or deprecated, cannot be reinstated (10.73ms)
+  ✔ refuses the workaround: deprecate, edit the spec, reactivate (12.3349ms)
+✔ R1: revocation cannot be bypassed, and suspension keeps the stage it came from (66.4511ms)
+▶ R2: legacy adoption is an explicit, reviewed, immutable, one-time allowlist
+  ✔ adopts exactly the listed row, with its reviewed use and scope, and the real reader still reads it (8.6075ms)
+  ✔ Astra's probe: a candidate row flipped to active then "adopted" is refused, and so is any unlisted or changed row (5.068ms)
+  ✔ a definition that differs from the reviewed hash, or a row that is not active, is refused, and nothing is adopted (6.6799ms)
+  ✔ the adoption record is immutable, sealed after one use, and changed bindings or tenants lose the authority (4.3897ms)
+✔ R2: legacy adoption is an explicit, reviewed, immutable, one-time allowlist (25.0142ms)
+▶ server-side trust and runtime validation
+  ✔ a caller cannot pass the clock or the hashes, and malformed shapes are refused at runtime (4.7678ms)
+  ✔ an approver without authority cannot record a transition, and nothing is written (3.1395ms)
+  ✔ instants are canonical UTC and compared as numbers; impossible dates and other spellings are refused (4.6982ms)
+✔ server-side trust and runtime validation (12.8362ms)
+▶ the event chain is verified on every authorization, against a trusted head, and fails closed
+  ✔ a tampered event stops every authorization and every transition (6.8014ms)
+  ✔ truncation of the tail is detected against a trusted external checkpoint (7.8903ms)
+✔ the event chain is verified on every authorization, against a trusted head, and fails closed (14.9326ms)
+▶ check-then-act: a stop recorded before the action commits blocks it, and the authorizing revision is recorded
+  ✔ a run records the lifecycle revision that authorized it (8.5903ms)
+  ✔ a stop between planning and commit is refused by the fence; a stop before the run blocks it (8.9401ms)
+✔ check-then-act: a stop recorded before the action commits blocks it, and the authorizing revision is recorded (17.7706ms)
+▶ the adapter over the REAL registry reader and a real-shaped definition
+  ✔ the real reader fails closed on a promoted lifecycle-managed row; the adapter is the path, and the frozen definition is never edited (12.0281ms)
+  ✔ suspension, reinstatement and the real reader's own refusal agree (9.3174ms)
+  ✔ an unauthorized read never returns a definition, even when the row is active (12.8191ms)
+✔ the adapter over the REAL registry reader and a real-shaped definition (34.4645ms)
+▶ definition hash
+  ✔ binds the stored algorithm hash and spec (4.6239ms)
+✔ definition hash (4.8566ms)
+▶ migration rehearsal on disposable databases: upgrade, failure, replay, rollback
+  ✔ upgrade from the current schema adds only the lifecycle tables and leaves every existing registry byte unchanged, and the real reader still works (17.7198ms)
+  ✔ applying the upgrade twice changes nothing (idempotent) (3.6227ms)
+  ✔ failure injection: an upgrade that fails part-way leaves the database exactly as it was (3.5066ms)
+  ✔ replay: rebuilding a disposable database from the registry definitions plus the ordered event record reproduces the same lifecycle, the same chain and the same authorization (24.1005ms)
+  ✔ rollback is clean while no lifecycle record exists, and refused afterwards (fix forward) (14.0284ms)
+  ✔ a run recorded under the old registry only (before the upgrade) is unaffected: the real reader path is unchanged for the frozen row (3.5668ms)
+✔ migration rehearsal on disposable databases: upgrade, failure, replay, rollback (67.9454ms)
+▶ R5: one lexical limit at every entry point, counted raw before BigInt
+  ✔ Astra probe: a 41-digit external numerator is refused (2.5691ms)
+  ✔ leading zeros count: a denominator padded to 41 raw digits is refused even though its value is small (0.4522ms)
+  ✔ the decimal rule is stated and enforced: integer digits plus fractional digits together, at most 40 (1.1112ms)
+  ✔ the strict internal parser has the same per-component limit, so no entry point is looser (0.8048ms)
+✔ R5: one lexical limit at every entry point, counted raw before BigInt (7.1623ms)
+▶ persisted results: reduced values up to 120 digits can be replayed by a distinct validator
+  ✔ the 40-digit parser cannot read a permitted large result, the persisted validator can, and the round trip is exact (2.33ms)
+  ✔ the persisted validator keeps the same strict grammar and its own limit (0.6063ms)
+✔ persisted results: reduced values up to 120 digits can be replayed by a distinct validator (3.3568ms)
+▶ raw temporaries and the operation budget
+  ✔ two result-sized operands may need a 240-digit temporary; a result that does not reduce below 120 digits is refused (0.9272ms)
+  ✔ an operation budget refuses further work and never rounds or clips (0.6797ms)
+✔ raw temporaries and the operation budget (2.2691ms)
+▶ D1: rounding only at declared boundaries, exact arithmetic through composition
+  ✔ V-D1a: demand = supply = 2/5 L has an exact gap of zero; exact mL conversion gives 400 and 400 and the frozen gap is zero (3.9114ms)
+  ✔ V-D1b: separate whole-litre rounding invents a gap (the conservative envelope is not the exact gap) (0.7699ms)
+  ✔ V-D1c: D = 6/5, S = 11/10 gives an exact gap of 1/10; in 100 mL subunits the gap is 1 (0.3933ms)
+  ✔ V-D1d: 2/5 + 2/5 + 1/5 = 1 before packing, and partitioning the same total gives the same result (1.3266ms)
+  ✔ V-D1e: a rational that is not a whole number of subunits is rejected, not rounded (1/3 L is 1000/3 mL) (0.5104ms)
+  ✔ V-D1f: the frozen 0..1e9 limits are enforced after conversion, never clipped (0.4357ms)
+  ✔ V-D1g: deductions are exact before any rounding; rounding each subtraction separately gives a different, wrong answer (0.4272ms)
+✔ D1: rounding only at declared boundaries, exact arithmetic through composition (10.2537ms)
+▶ D4: typed rational encoding contract
+  ✔ normalizes external 2/4 to 1/2 and rejects an internal 2/4 (1.0511ms)
+  ✔ zero is exactly 0/1; 0/2 is rejected; whole values are n/1 (0.612ms)
+  ✔ rejects denominator zero, plus sign, leading zeros, whitespace, exponent, negative zero and negatives in unsigned fields (1.1787ms)
+  ✔ rejects oversized digit strings before any BigInt arithmetic (0.4604ms)
+  ✔ external adapters normalize equivalent spellings; floats and exponents never enter (0.6378ms)
+  ✔ intermediate results are bounded, so unbounded growth is refused (0.3674ms)
+  ✔ an integer field accepts only one encoding: a safe JSON integer (0.4501ms)
+  ✔ exact normalization before hashing gives a stable identity, and the existing serializer is reused unchanged (0.7663ms)
+  ✔ comparison and ordering are exact (0.4662ms)
+✔ D4: typed rational encoding contract (7.2456ms)
+▶ R6 and R7: a table is validated before analysis, and acceptance is not the same as analysis
+  ✔ Astra probe: an enum with no values is refused, not "proven" with zero cells (2.7544ms)
+  ✔ refuses malformed tables with an explicit reason and no exception (3.1313ms)
+  ✔ Astra probe: no rules is refused, and a table with a gap and no default is not accepted, with the gap witness kept (1.0913ms)
+  ✔ a table is accepted only when valid, fully analysed, free of ties and completely covered (2.3202ms)
+  ✔ R5 at the table entry point: interval endpoints obey the same 40-digit limit, counted raw (1.3202ms)
+✔ R6 and R7: a table is validated before analysis, and acceptance is not the same as analysis (13.9515ms)
+▶ C5: dimensions are checked, not just labelled
+  ✔ litres and m3 are units of volume, m2 is area, kg/m2 is areal mass, Pa is pressure; they are distinct dimensions (2.2765ms)
+  ✔ water demand Q = P * r * T is a volume only when the rate is per person per day (0.5086ms)
+  ✔ shelter area A = P * a has no time factor; multiplying by days gives area-days, which is not an area (0.3269ms)
+  ✔ ash mass per area = thickness (m) * density (kg/m3) is kg/m2, and dynamic pressure = 1/2 * kg/m3 * (m/s)^2 is Pa (0.8842ms)
+  ✔ every registered unit has a dimension and a positive exact base factor, and an unregistered unit is an error (0.429ms)
+✔ C5: dimensions are checked, not just labelled (6.5162ms)
+▶ C6: coverage proof for a restricted rule language, with explicit priority resolution
+  ✔ finds the overlap of two rules at the same priority (nominal and critical), a real ambiguity (3.2706ms)
+  ✔ a permitted overlap needs a unique priority: with CRITICAL above NOMINAL there is one effective outcome in every cell (0.9729ms)
+  ✔ finds gaps: depth 1 or more with velocity below 2 matches nothing, so without an explicit default the table is incomplete (1.0903ms)
+  ✔ checks the boundaries themselves: equality at 0.3 and at velocity 2 is in the partition, not skipped (0.5053ms)
+  ✔ works with enumerated fields, and detects a missing combination (1.1276ms)
+  ✔ refuses to call a table proven when the partition is too large: that is tested coverage only (162.1644ms)
+  ✔ runtime handling remains: an unknown input, an ambiguity or no match yields UNKNOWN, never nominal (0.3783ms)
+  ✔ V10 asks for ONE EFFECTIVE OUTCOME per cell, not exactly one raw predicate: resolved overlaps are allowed, ties are not (0.3666ms)
+✔ C6: coverage proof for a restricted rule language, with explicit priority resolution (170.4818ms)
+ℹ tests 109
+ℹ suites 26
+ℹ pass 109
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1341.4976
+exit code: 0

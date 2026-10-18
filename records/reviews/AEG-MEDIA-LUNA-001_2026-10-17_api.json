@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-16T17:00:26.557Z",
+  "origin": "http://127.0.0.1:8787",
+  "route": "/public/environment",
+  "registryPins": 125,
+  "catalogueEntries": 125,
+  "matchingPinCount": 124,
+  "mismatches": [
+    {
+      "pinId": "sg-13",
+      "mismatches": [
+        "status",
+        "thumb250",
+        "thumb500",
+        "licence",
+        "credit",
+        "commonsUrl"
+      ]
+    }
+  ],
+  "my35": {
+    "status": "matched",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cameron_Highlands",
+    "articleTitle": "Cameron Highlands",
+    "image": {
+      "thumb250": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/250px-Tea_fields_%28Will_Ellis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb500": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/500px-Tea_fields_%28Will_Ellis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 500,
+      "height": 375,
+      "alt": "Image from the Wikipedia article \"Cameron Highlands\", the nearest article to this place",
+      "credit": "Photo: Will Ellis from Reading, England, CC BY 2.0, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tea_fields_(Will_Ellis).jpg"
+    },
+    "fallback": "hide-image-keep-link",
+    "checkedAt": "2026-10-16T16:25:09.000Z"
+  },
+  "sg13": {
+    "status": "no_image",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Changi_Airport",
+    "articleTitle": "Changi Airport",
+    "image": null,
+    "fallback": "hide-image-keep-link",
+    "checkedAt": "2026-10-16T16:16:03.015Z"
+  }
+}

@@ -1,0 +1,42 @@
+# What `gcloud run deploy --source .` uploads (AEG-PLN-003, checklist S0015). Syntax: gitignore (gcloud topic gcloudignore).
+# Only what the Dockerfile needs is sent: src, ui, content, migrations, fixtures, records/releases, package files.
+.gcloudignore
+.git
+.gitignore
+.env
+.env.*
+/docs
+/tests
+/research
+/tools
+/.agents
+/.github
+/data
+/runtime
+/coverage
+/dist
+node_modules
+ui/node_modules
+ui/dist
+records/*
+!records/releases
+*.pdf
+*.mhtml
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.pem
+*.key
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+/HANDOVER.md
+/render
+/deploy
+
+# Not needed by the image build: loose screenshots and pages at the project root, and the import and export working folders (found 2026-10-17: a stray 1.4 MB root screenshot pushed the upload over the guard).
+/*.png
+/*.html
+/import
+/export

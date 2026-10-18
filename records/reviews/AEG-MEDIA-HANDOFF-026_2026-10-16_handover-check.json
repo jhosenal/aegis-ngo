@@ -1,0 +1,75 @@
+{
+  "mode": "working-tree",
+  "snapshot": "AEG-BAS-002",
+  "files": 32,
+  "errors": [],
+  "baselineMatches": [
+    ".agents/skills/aegis-oag-governance/SKILL.md",
+    ".agents/skills/aegis-qzeex-workers/SKILL.md",
+    ".agents/skills/aegis-storyboard-learning/SKILL.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "docs/00-governance/AEG-DEC-001_decisions-and-open-items.md",
+    "docs/00-governance/AEG-GOV-001_document-control.md",
+    "docs/01-product/AEG-CHR-001_product-charter.md",
+    "docs/01-product/AEG-REQ-001_requirements-and-acceptance.md",
+    "docs/01-product/AEG-UXD-001_card-workspace.md",
+    "docs/02-architecture/AEG-ARC-001_system-blueprint.md",
+    "docs/02-architecture/AEG-CON-001_engine-contracts.md",
+    "docs/02-architecture/AEG-CON-002_workers-and-provider-failover.md",
+    "docs/02-architecture/AEG-DAT-001_data-and-provenance-plan.md",
+    "docs/03-delivery/AEG-SOP-001_sdlc-and-agent-working.md",
+    "docs/03-delivery/AEG-TPL-001_work-and-evidence-templates.md",
+    "docs/03-delivery/AEG-WO-001_first-vertical-slice.md",
+    "docs/04-assurance/AEG-AUD-001_integrity-and-release-evidence.md",
+    "docs/04-assurance/AEG-RSK-001_risks-and-limitations.md",
+    "docs/04-assurance/AEG-VVP-001_verification-plan.md",
+    "docs/05-references/AEG-REF-001_cross-project-methods.md",
+    "docs/05-references/AEG-REF-002_external-verification-and-submission.md",
+    "docs/05-references/AEG-SRC-001_local-reference-snapshot.json",
+    "records/verification/AEG-VER-001_handover-verification.md"
+  ],
+  "expectedWorkingChanges": [
+    {
+      "path": ".gitignore",
+      "reason": "Ignore data/secrets (Google OAuth client file); no tracked content removed",
+      "evidence": "AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "AGENTS.md",
+      "reason": "Bytes differ from the snapshot; edit not authored in this session, author not recorded. Author to be confirmed by the owner; content not reviewed by SNET",
+      "evidence": "AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "HANDOVER.md",
+      "reason": "Dated status update added above the original 2026-10-13 text (kept as history), per S0038 finding 9 | 2026-10-16: Dated 2026-10-16 status update added (history, live feeds, Google adapter, legal draft, no deploy); earlier text kept as history | SOL AEG-LIVE-UI-001 append-only local frontend handback (2026-10-16) | SOL AEG-HOME-UI-002 append-only completion (2026-10-16) | SOL AEG-ENV-UI-003 append-only handback (2026-10-16) | SOL AEG-UX-AUDIT-001 append-only audit handback | SOL AEG-MAP-UI-004 append-only handback | SOL AEG-MAP-UI-005 append-only top-bar clarification | SOL AEG-MAP-UI-006 append-only handback | SOL AEG-MAP-UI-007 append-only handback | SOL AEG-NEWS-UI-008 append-only handback | SOL AEG-NEWS-UI-009 append-only handback | SOL AEG-NEWS-UI-010 append-only handback | SOL AEG-NEWS-UI-011 append-only handback | SOL AEG-NEWS-UI-012 append-only handback | SOL AEG-NEWS-UI-013 append-only handback | SOL AEG-NEWS-UI-014 append-only handback | SOL AEG-NEWS-UI-015 append-only handback | SOL AEG-NEWS-UI-016 append-only handback | SOL AEG-NEWS-UI-017 append-only handback | SOL AEG-NEWS-UI-018 append-only handback | SOL AEG-MAP-UI-019 append-only handback | SOL AEG-MAP-UI-020 append-only handback | SOL AEG-MAP-UI-021 append-only handback | 2026-10-16: Dsol appended public deployment/onboarding/account milestones; earlier text preserved. Working-tree declaration, not a baseline match. | SOL AEG-ENV-UI-022 append-only handback and intervening shared work-log entries | SOL AEG-UI-SHELL-023 shared layout/SOP registration and append-only completion (including intervening shared work-log entries) | SOL AEG-MAP-UI-024 append-only completion | SOL AEG-MAP-UI-025 tint correction completion | SOL AEG-MEDIA-HANDOFF-026 documentation/inventory completion",
+      "evidence": "S0038 finding 9 (docs/99-inbox/S0038_astra-findings.md); AEG-LOG-002 entry \"S0038 answer\" 2026-10-15; AEG-LOG-002 entry \"Handover refresh\" 2026-10-16; AEG-LOG-002 SOL frontend C0007/C0008 handback; records/reviews/AEG-LIVE-UI-001_2026-10-16_review.md; AEG-LOG-002 SOL C0009 daily chart and country filter; records/reviews/AEG-HOME-UI-002_2026-10-16_review.md; AEG-LOG-002 SOL C0010 Air and weather layer; records/reviews/AEG-ENV-UI-003_2026-10-16_review.md; AEG-LOG-002 SOL left-menu and shared-template audit; records/reviews/AEG-UX-AUDIT-001_2026-10-16_review.md; AEG-LOG-002 SOL Air & Weather map disclosure; records/reviews/AEG-MAP-UI-004_2026-10-16_review.md; records/reviews/AEG-MAP-UI-005_2026-10-16_review.md; records/reviews/AEG-MAP-UI-006_2026-10-16_review.md; records/reviews/AEG-MAP-UI-007_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-008_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-009_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-010_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-011_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-012_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-013_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-014_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-015_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-016_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-017_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-018_2026-10-16_review.md; records/reviews/AEG-MAP-UI-019_2026-10-16_review.md; records/reviews/AEG-MAP-UI-020_2026-10-16_review.md; records/reviews/AEG-MAP-UI-021_2026-10-16_review.md; records/reviews/AEG-AUTH-UI-20261016-live-final.json; AEG-LOG-001 AEG-AUTH-UI completion; records/reviews/AEG-AUTH-UI-20261016-custom-domain-final.json; records/reviews/AEG-ENV-UI-022_2026-10-16_review.md; records/reviews/AEG-UI-SHELL-023_2026-10-16_review.md; records/reviews/AEG-MAP-UI-024_2026-10-16_review.md; records/reviews/AEG-MAP-UI-025_2026-10-16_review.md; records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_review.md"
+    },
+    {
+      "path": "README.md",
+      "reason": "Status table and wording corrected after the S0038 audit (finding 9): hosted private revision stated, status vocabulary extended, repository data wording, sign-in and live-Gemini rows, disabled live-test entry point | 2026-10-16: Bytes differ from the earlier declaration; edit not authored in this session, author not recorded. Author to be confirmed by the owner; content not reviewed by SNET",
+      "evidence": "S0038 finding 9 (docs/99-inbox/S0038_astra-findings.md); AEG-LOG-002 entry \"S0038 answer\" 2026-10-15; AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "docs/00-governance/AEG-PRV-001_provenance-and-reuse.md",
+      "reason": "Reuse-log entries for sources added by SNET backend (history, WHO, USGS, GDACS, IDMC, EM-DAT decision)",
+      "evidence": "AEG-LOG-002 entry \"Handover refresh\" 2026-10-16"
+    },
+    {
+      "path": "docs/00-governance/AEG-REG-001_document-register.csv",
+      "reason": "Register entries for AEG-CON-003 (rev 0.4) and AEG-PLN-001 (rev 0.3) as review drafts; AEG-PLN-002 registered (historical databank plan) before its file was created; AEG-PLN-003 registered (public Assist module plan) before its file was created; AEG-CON-004 (cost-accounting contract) and AEG-SOP-002 (cloud and model spend procedure) registered before their files were created AEG-CON-004 and AEG-SOP-002 revised to rev 0.3 (free-credit formulation) [AEG-LOG-002 entry \"Free-credit formulation\" 2026-10-14]. | 2026-10-16: Bytes differ from the earlier declaration; edit not authored in this session, author not recorded. Author to be confirmed by the owner; content not reviewed by SNET | SOL AEG-UI-SHELL-023 shared layout/SOP registration and append-only completion (including intervening shared work-log entries) | SOL AEG-MEDIA-HANDOFF-026 documentation/inventory completion",
+      "evidence": "A0004 D5; A0005; AEG-LOG-002 entry \"A0005 reply, step 2\" 2026-10-13; A0006 sec. \"Reserve/register any controlled document IDs\"; AEG-LOG-002 entry \"Databank plan\" 2026-10-14; AEG-LOG-002 entry \"Public Assist plan\" 2026-10-14; AEG-LOG-002 entry \"Cost-accounting engine\" 2026-10-14; AEG-LOG-002 entry \"Handover refresh\" 2026-10-16; records/reviews/AEG-UI-SHELL-023_2026-10-16_review.md; records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_review.md"
+    },
+    {
+      "path": "docs/03-delivery/AEG-LOG-001_work-log.md",
+      "reason": "Append-only review claims and completion records added by Astra (A0005 review, S0038 interim audit) | 2026-10-16: Append-only SNET backend entries 2026-10-16 added (history, live feeds, impact data, cyclones) | SOL AEG-LIVE-UI-001 append-only local frontend handback (2026-10-16) | SOL AEG-HOME-UI-002 append-only completion (2026-10-16) | SOL AEG-ENV-UI-003 append-only handback (2026-10-16) | SOL AEG-UX-AUDIT-001 append-only audit handback | SOL AEG-MAP-UI-004 append-only handback | SOL AEG-MAP-UI-005 append-only top-bar clarification | SOL AEG-MAP-UI-006 append-only handback | SOL AEG-MAP-UI-007 append-only handback | SOL AEG-NEWS-UI-008 append-only handback | SOL AEG-NEWS-UI-009 append-only handback | SOL AEG-NEWS-UI-010 append-only handback | SOL AEG-NEWS-UI-011 append-only handback | SOL AEG-NEWS-UI-012 append-only handback | SOL AEG-NEWS-UI-013 append-only handback | SOL AEG-NEWS-UI-014 append-only handback | SOL AEG-NEWS-UI-015 append-only handback | SOL AEG-NEWS-UI-016 append-only handback | SOL AEG-NEWS-UI-017 append-only handback | SOL AEG-NEWS-UI-018 append-only handback | SOL AEG-MAP-UI-019 append-only handback | SOL AEG-MAP-UI-020 append-only handback | SOL AEG-MAP-UI-021 append-only handback | 2026-10-16: Dsol appended public deployment/onboarding/account milestones; earlier text preserved. Working-tree declaration, not a baseline match. | SOL AEG-ENV-UI-022 append-only handback and intervening shared work-log entries | SOL AEG-UI-SHELL-023 shared layout/SOP registration and append-only completion (including intervening shared work-log entries) | SOL AEG-MAP-UI-024 append-only completion | SOL AEG-MAP-UI-025 tint correction completion | SOL AEG-MEDIA-HANDOFF-026 documentation/inventory completion",
+      "evidence": "A0005 D5; records/reviews/AEG-REV-003 manifest and evidence; S0038 findings (docs/99-inbox/S0038_astra-findings.md); declared in the work log itself; hash re-declared by the engineer 2026-10-15 (AEG-LOG-002 entry \"S0038 answer\"); AEG-LOG-002 entry \"Handover refresh\" 2026-10-16; AEG-LOG-002 SOL frontend C0007/C0008 handback; records/reviews/AEG-LIVE-UI-001_2026-10-16_review.md; AEG-LOG-002 SOL C0009 daily chart and country filter; records/reviews/AEG-HOME-UI-002_2026-10-16_review.md; AEG-LOG-002 SOL C0010 Air and weather layer; records/reviews/AEG-ENV-UI-003_2026-10-16_review.md; AEG-LOG-002 SOL left-menu and shared-template audit; records/reviews/AEG-UX-AUDIT-001_2026-10-16_review.md; AEG-LOG-002 SOL Air & Weather map disclosure; records/reviews/AEG-MAP-UI-004_2026-10-16_review.md; records/reviews/AEG-MAP-UI-005_2026-10-16_review.md; records/reviews/AEG-MAP-UI-006_2026-10-16_review.md; records/reviews/AEG-MAP-UI-007_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-008_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-009_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-010_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-011_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-012_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-013_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-014_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-015_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-016_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-017_2026-10-16_review.md; records/reviews/AEG-NEWS-UI-018_2026-10-16_review.md; records/reviews/AEG-MAP-UI-019_2026-10-16_review.md; records/reviews/AEG-MAP-UI-020_2026-10-16_review.md; records/reviews/AEG-MAP-UI-021_2026-10-16_review.md; records/reviews/AEG-AUTH-UI-20261016-live-final.json; AEG-LOG-001 AEG-AUTH-UI completion; records/reviews/AEG-AUTH-UI-20261016-custom-domain-final.json; records/reviews/AEG-ENV-UI-022_2026-10-16_review.md; records/reviews/AEG-UI-SHELL-023_2026-10-16_review.md; records/reviews/AEG-MAP-UI-024_2026-10-16_review.md; records/reviews/AEG-MAP-UI-025_2026-10-16_review.md; records/reviews/AEG-MEDIA-HANDOFF-026_2026-10-16_review.md"
+    },
+    {
+      "path": "tools/verify-handover.mjs",
+      "reason": "Verifier reports snapshot matches, declared working changes and unexplained drift separately; strict mode; record validation",
+      "evidence": "A0005 D5; AEG-LOG-002 entry \"A0005 reply\" 2026-10-13"
+    }
+  ],
+  "unexplainedDrift": []
+}

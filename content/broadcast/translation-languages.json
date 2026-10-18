@@ -1,0 +1,109 @@
+{
+  "_note": "Languages an emergency bulletin can be translated into by Google Cloud Translation, and the Google Cloud Text-to-Speech voice where Google has one (no speech entry = text, card and subtitles only). Checked against the live Google language and voice lists on 2026-10-17 (records/e2e/2026-10-17_asean/google-language-support.json). Translations and voices still need a reader of the language before real use.",
+  "languages": {
+    "ms": {
+      "name": "Malay (Bahasa Melayu, as used in Malaysia and Brunei)",
+      "code": "ms",
+      "speech": {
+        "languageCode": "ms-MY",
+        "voice": "ms-MY-Standard-A"
+      }
+    },
+    "zh": {
+      "name": "Simplified Chinese (Mandarin)",
+      "code": "zh-CN",
+      "speech": {
+        "languageCode": "cmn-CN",
+        "voice": "cmn-CN-Standard-A"
+      }
+    },
+    "ta": {
+      "name": "Tamil (as used in Singapore and Malaysia)",
+      "code": "ta",
+      "speech": {
+        "languageCode": "ta-IN",
+        "voice": "ta-IN-Standard-A"
+      }
+    },
+    "vi": {
+      "name": "Vietnamese",
+      "code": "vi",
+      "speech": {
+        "languageCode": "vi-VN",
+        "voice": "vi-VN-Standard-A"
+      }
+    },
+    "id": {
+      "name": "Indonesian (Bahasa Indonesia)",
+      "code": "id",
+      "speech": {
+        "languageCode": "id-ID",
+        "voice": "id-ID-Standard-A"
+      }
+    },
+    "tl": {
+      "name": "Filipino (Tagalog)",
+      "code": "tl",
+      "speech": {
+        "languageCode": "fil-PH",
+        "voice": "fil-PH-Standard-A"
+      }
+    },
+    "th": {
+      "name": "Thai",
+      "code": "th",
+      "speech": {
+        "languageCode": "th-TH",
+        "voice": "th-TH-Standard-A"
+      }
+    },
+    "pt": {
+      "name": "Portuguese",
+      "code": "pt",
+      "speech": {
+        "languageCode": "pt-PT",
+        "voice": "pt-PT-Standard-E"
+      }
+    },
+    "km": {
+      "name": "Khmer (as used in Cambodia and Vietnam)",
+      "code": "km"
+    },
+    "hmn": {
+      "name": "Hmong (Latin script)",
+      "code": "hmn"
+    },
+    "jv": {
+      "name": "Javanese",
+      "code": "jv"
+    },
+    "su": {
+      "name": "Sundanese",
+      "code": "su"
+    },
+    "lo": {
+      "name": "Lao",
+      "code": "lo"
+    },
+    "my": {
+      "name": "Burmese (Myanmar)",
+      "code": "my"
+    },
+    "shn": {
+      "name": "Shan",
+      "code": "shn"
+    },
+    "ceb": {
+      "name": "Cebuano",
+      "code": "ceb"
+    },
+    "ilo": {
+      "name": "Ilocano",
+      "code": "ilo"
+    },
+    "tet": {
+      "name": "Tetum",
+      "code": "tet"
+    }
+  }
+}

@@ -1,0 +1,670 @@
+[
+  {
+    "id": "FLOOD-KL-SELANGOR-EN-01A",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "moderate",
+    "title": "Before a flood",
+    "region": "SYNTHETIC Kuala Lumpur / Selangor scenario; not a live incident or a verified shelter location",
+    "synthetic": true,
+    "lines": [
+      {
+        "id": "FLOOD-999",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "FLOOD-BEFORE-INFO",
+        "kind": "step",
+        "text": "Get information about floods in your area.",
+        "sourceId": "SRC-JPS-BEFORE-INFO"
+      },
+      {
+        "id": "FLOOD-BEFORE-WARN",
+        "kind": "step",
+        "text": "Find out the local flood warning system and how warnings are delivered.",
+        "sourceId": "SRC-JPS-BEFORE-WARN"
+      },
+      {
+        "id": "FLOOD-BEFORE-DOCS",
+        "kind": "do",
+        "text": "Keep important documents in a safe place or take them in a waterproof container.",
+        "sourceId": "SRC-JPS-DOCUMENTS"
+      },
+      {
+        "id": "FLOOD-BEFORE-RADIO",
+        "kind": "step",
+        "text": "Listen to announcements on the radio.",
+        "sourceId": "SRC-JPS-DURING-RADIO"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number"
+      },
+      {
+        "sourceId": "SRC-JPS-BEFORE-INFO",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Get information about floods in your area."
+      },
+      {
+        "sourceId": "SRC-JPS-BEFORE-WARN",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Find out the kind of flood warning system, how it is delivered and local flood preparation information."
+      },
+      {
+        "sourceId": "SRC-JPS-DOCUMENTS",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Keep important documents in a safe place or take along in a waterproof container."
+      },
+      {
+        "sourceId": "SRC-JPS-DURING-RADIO",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Listen to announcements on the radio."
+      }
+    ]
+  },
+  {
+    "id": "FLOOD-KL-SELANGOR-EN-01B",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "moderate",
+    "title": "During a flood",
+    "region": "SYNTHETIC Kuala Lumpur / Selangor scenario; not a live incident or a verified shelter location",
+    "synthetic": true,
+    "lines": [
+      {
+        "id": "FLOOD-999",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "FLOOD-MOVE-HIGH",
+        "kind": "step",
+        "text": "Go to higher, safer ground.",
+        "sourceId": "SRC-JPS-HIGHER"
+      },
+      {
+        "id": "FLOOD-DONT-WADE",
+        "kind": "dont",
+        "text": "Avoid going through flooded areas; strong currents can sweep you away.",
+        "sourceId": "SRC-JPS-WATER"
+      },
+      {
+        "id": "FLOOD-DONT-DRIVE",
+        "kind": "dont",
+        "text": "Do not drive into flooded areas. Avoid unstable bridges and roads that are always flooded.",
+        "sourceId": "SRC-MET-DRIVE"
+      },
+      {
+        "id": "FLOOD-DONT-WIRES",
+        "kind": "dont",
+        "text": "Do not touch fallen cables or wires.",
+        "sourceId": "SRC-JPS-WIRES"
+      },
+      {
+        "id": "FLOOD-DONT-DRINK",
+        "kind": "dont",
+        "text": "Do not drink floodwater.",
+        "sourceId": "SRC-JPS-DRINK"
+      },
+      {
+        "id": "FLOOD-EVACUATE",
+        "kind": "step",
+        "text": "If ordered to evacuate, do so immediately.",
+        "sourceId": "SRC-JPS-EVACUATE",
+        "condition": "When ordered to move out and evacuate."
+      },
+      {
+        "id": "FLOOD-ROUTE",
+        "kind": "step",
+        "text": "Follow designated evacuation routes; shorter routes may be impassable.",
+        "sourceId": "SRC-JPS-ROUTES",
+        "condition": "During evacuation."
+      },
+      {
+        "id": "FLOOD-MONITOR",
+        "kind": "do",
+        "text": "Know your local flood risk and monitor official announcements.",
+        "sourceId": "SRC-NADMA-ALERTS"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number"
+      },
+      {
+        "sourceId": "SRC-JPS-HIGHER",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Go to a higher and safer ground."
+      },
+      {
+        "sourceId": "SRC-JPS-WATER",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Avoid going through flooded areas as strong currents can sweep you away."
+      },
+      {
+        "sourceId": "SRC-MET-DRIVE",
+        "publisher": "Malaysian Meteorological Department (METMalaysia)",
+        "url": "https://www.met.gov.my/en/pendidikan/fenomena-cuaca/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not drive into flooded areas. Avoid crossing unstable bridges and roads that are always flooded."
+      },
+      {
+        "sourceId": "SRC-JPS-WIRES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not touch any fallen cables or wires."
+      },
+      {
+        "sourceId": "SRC-JPS-DRINK",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not drink floodwaters."
+      },
+      {
+        "sourceId": "SRC-JPS-EVACUATE",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "When ordered to move out and evacuate, do so immediately."
+      },
+      {
+        "sourceId": "SRC-JPS-ROUTES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Follow the designated routes, as the shorter routes may be impassable."
+      },
+      {
+        "sourceId": "SRC-NADMA-ALERTS",
+        "publisher": "National Disaster Management Agency (NADMA)",
+        "url": "https://www.nadma.gov.my/bi/media-en/news/5991-when-sirens-call-how-kl-s-early-flood-warning-system-works-and-why-it-matters",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Know the flood risk level in your area, monitor official announcements"
+      }
+    ]
+  },
+  {
+    "id": "FLOOD-KL-SELANGOR-EN-02",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "moderate",
+    "title": "SYNTHETIC EXAMPLE: During a flood - safety steps",
+    "region": "SYNTHETIC Kuala Lumpur / Selangor scenario; not a live incident or a verified shelter location",
+    "synthetic": true,
+    "lines": [
+      {
+        "id": "FLOOD-999",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "FLOOD-DURING-EVACUATE",
+        "kind": "step",
+        "text": "When ordered to evacuate, do so immediately.",
+        "sourceId": "SRC-JPS-EVACUATE",
+        "condition": "When ordered to move out and evacuate."
+      },
+      {
+        "id": "FLOOD-DURING-HIGHER",
+        "kind": "step",
+        "text": "Go to higher, safer ground.",
+        "sourceId": "SRC-JPS-HIGHER"
+      },
+      {
+        "id": "FLOOD-DURING-CROSS",
+        "kind": "dont",
+        "text": "Do not attempt to cross flooded areas; turn back.",
+        "sourceId": "SRC-JPS-DURING-CROSS"
+      },
+      {
+        "id": "FLOOD-DURING-WIRES",
+        "kind": "dont",
+        "text": "Do not touch fallen cables or wires.",
+        "sourceId": "SRC-JPS-WIRES"
+      },
+      {
+        "id": "FLOOD-DURING-DRINK",
+        "kind": "dont",
+        "text": "Do not drink floodwater.",
+        "sourceId": "SRC-JPS-DRINK"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number"
+      },
+      {
+        "sourceId": "SRC-JPS-EVACUATE",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "When ordered to move out and evacuate, do so immediately."
+      },
+      {
+        "sourceId": "SRC-JPS-HIGHER",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Go to a higher and safer ground."
+      },
+      {
+        "sourceId": "SRC-JPS-DURING-CROSS",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not attempt to cross flooded areas, turn back."
+      },
+      {
+        "sourceId": "SRC-JPS-WIRES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not touch any fallen cables or wires."
+      },
+      {
+        "sourceId": "SRC-JPS-DRINK",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not drink floodwaters."
+      }
+    ]
+  },
+  {
+    "id": "FLOOD-KL-SELANGOR-EN-03",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "moderate",
+    "title": "SYNTHETIC EXAMPLE: After a flood - return and inspection",
+    "region": "SYNTHETIC Kuala Lumpur / Selangor scenario; not a live incident or a verified shelter location",
+    "synthetic": true,
+    "lines": [
+      {
+        "id": "FLOOD-999",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "FLOOD-AFTER-ORDERS",
+        "kind": "step",
+        "text": "Listen to radio announcements or wait for authorities? orders.",
+        "sourceId": "SRC-JPS-AFTER-RADIO"
+      },
+      {
+        "id": "FLOOD-AFTER-RETURN",
+        "kind": "dont",
+        "text": "Do not return home until authorities allow it or it is really safe.",
+        "sourceId": "SRC-JPS-AFTER-RETURN"
+      },
+      {
+        "id": "FLOOD-AFTER-SHOES",
+        "kind": "do",
+        "text": "Wear shoes when entering buildings after floods.",
+        "sourceId": "SRC-JPS-AFTER-SHOES",
+        "condition": "While entering buildings after floods."
+      },
+      {
+        "id": "FLOOD-AFTER-INSPECT",
+        "kind": "step",
+        "text": "Check walls, floors, doors and windows for damage.",
+        "sourceId": "SRC-JPS-AFTER-INSPECT"
+      },
+      {
+        "id": "FLOOD-AFTER-ANIMALS",
+        "kind": "step",
+        "text": "Check for poisonous or hazardous animals and insects.",
+        "sourceId": "SRC-JPS-AFTER-ANIMALS"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number"
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-RADIO",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Listen to radio announcements or wait for orders from the authorities."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-RETURN",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not return home before being allowed to do so or until it is really safe to do so."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-SHOES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Wear shoes."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-INSPECT",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Check for any damage to the walls, floors, doors and windows."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-ANIMALS",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Check for any signs of poisonous and hazardous animals or insects."
+      }
+    ]
+  },
+  {
+    "id": "FLOOD-KL-SELANGOR-EN-04",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "moderate",
+    "title": "SYNTHETIC EXAMPLE: During a flood - evacuation guidance",
+    "region": "SYNTHETIC Kuala Lumpur / Selangor scenario; not a live incident or a verified shelter location",
+    "synthetic": true,
+    "lines": [
+      {
+        "id": "FLOOD-999",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "FLOOD-DURING-ORDERS",
+        "kind": "step",
+        "text": "Upon receiving orders, evacuate immediately.",
+        "sourceId": "SRC-JPS-DURING-EARLY-EVAC"
+      },
+      {
+        "id": "FLOOD-DURING-EARLY",
+        "kind": "step",
+        "text": "Evacuate early before the floodwaters worsen, or during the day as it is more practical and safe.",
+        "sourceId": "SRC-JPS-DURING-EARLY-EVAC"
+      },
+      {
+        "id": "FLOOD-DURING-ROUTES",
+        "kind": "step",
+        "text": "Follow the designated routes, as the shorter routes may be impassable.",
+        "sourceId": "SRC-JPS-DURING-ROUTES"
+      },
+      {
+        "id": "FLOOD-DURING-WANDER",
+        "kind": "dont",
+        "text": "Do not wander around deliberately in flooded areas either by foot or in a sampan.",
+        "sourceId": "SRC-JPS-DURING-WANDER"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number"
+      },
+      {
+        "sourceId": "SRC-JPS-DURING-EARLY-EVAC",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Upon receiving orders, evacuate immediately. Evacuate early before the floodwaters worsen, or during the day as it is more practical and safe."
+      },
+      {
+        "sourceId": "SRC-JPS-DURING-ROUTES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Follow the designated routes, as the shorter routes may be impassable."
+      },
+      {
+        "sourceId": "SRC-JPS-DURING-WANDER",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not wander around deliberately in flooded areas either by foot or in a sampan."
+      }
+    ]
+  },
+  {
+    "id": "FLOOD-KL-SELANGOR-EN-05",
+    "language": "en",
+    "hazard": "flood",
+    "severity": "moderate",
+    "title": "SYNTHETIC EXAMPLE: After a flood - inspection guidance",
+    "region": "SYNTHETIC Kuala Lumpur / Selangor scenario; not a live incident or a verified shelter location",
+    "synthetic": true,
+    "lines": [
+      {
+        "id": "FLOOD-999",
+        "kind": "contact",
+        "text": "For emergency help in Malaysia, call 999.",
+        "sourceId": "SRC-APM-999"
+      },
+      {
+        "id": "FLOOD-AFTER-ORDERS",
+        "kind": "step",
+        "text": "Listen to radio announcements or wait for orders from the authorities.",
+        "sourceId": "SRC-JPS-AFTER-RADIO"
+      },
+      {
+        "id": "FLOOD-AFTER-RETURN",
+        "kind": "dont",
+        "text": "Do not return home before being allowed to do so or until it is really safe to do so.",
+        "sourceId": "SRC-JPS-AFTER-RETURN"
+      },
+      {
+        "id": "FLOOD-AFTER-ENTER",
+        "kind": "dont",
+        "text": "Do not immediately enter a flooded house, and beware of many hidden dangers.",
+        "sourceId": "SRC-JPS-AFTER-ENTER"
+      },
+      {
+        "id": "FLOOD-AFTER-SHOES",
+        "kind": "do",
+        "text": "Wear shoes.",
+        "sourceId": "SRC-JPS-AFTER-SHOES"
+      },
+      {
+        "id": "FLOOD-AFTER-INSPECT",
+        "kind": "step",
+        "text": "Check for any damage to the walls, floors, doors and windows.",
+        "sourceId": "SRC-JPS-AFTER-INSPECT"
+      },
+      {
+        "id": "FLOOD-AFTER-ANIMALS",
+        "kind": "step",
+        "text": "Check for any signs of poisonous and hazardous animals or insects.",
+        "sourceId": "SRC-JPS-AFTER-ANIMALS"
+      },
+      {
+        "id": "FLOOD-AFTER-GAS",
+        "kind": "step",
+        "text": "Check for any broken or leaking gas pipes.",
+        "sourceId": "SRC-JPS-AFTER-GAS"
+      },
+      {
+        "id": "FLOOD-AFTER-WIRES",
+        "kind": "step",
+        "text": "Check for any electrical wires submerged in water.",
+        "sourceId": "SRC-JPS-AFTER-WIRES"
+      },
+      {
+        "id": "FLOOD-AFTER-ELECTRICAL",
+        "kind": "step",
+        "text": "Check for any submerged electrical items.",
+        "sourceId": "SRC-JPS-AFTER-WIRES"
+      },
+      {
+        "id": "FLOOD-AFTER-FOOD",
+        "kind": "dont",
+        "text": "Discards food item which has been submerged or come into contact with floodwaters, including canned food.",
+        "sourceId": "SRC-JPS-AFTER-FOOD"
+      },
+      {
+        "id": "FLOOD-AFTER-AMENITIES",
+        "kind": "step",
+        "text": "Report any damage to public amenities to the authorities.",
+        "sourceId": "SRC-JPS-AFTER-AMENITIES"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-APM-999",
+        "publisher": "Angkatan Pertahanan Awam Malaysia",
+        "url": "https://www.civildefence.gov.my/999-emergency-services/?lang=en",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "From 1 October 2007 the 999 emergency line was introduced to the Malaysian community by combining all emergency numbers namely 991, 994 and 999 into one emergency number"
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-RADIO",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Listen to radio announcements or wait for orders from the authorities."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-RETURN",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not return home before being allowed to do so or until it is really safe to do so."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-ENTER",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Do not immediately enter a flooded house, and beware of many hidden dangers."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-SHOES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Wear shoes."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-INSPECT",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Check for any damage to the walls, floors, doors and windows."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-ANIMALS",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Check for any signs of poisonous and hazardous animals or insects."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-GAS",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Check for any broken or leaking gas pipes. Check for any electrical wires submerged in water. Check for any submerged electrical items."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-WIRES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Check for any broken or leaking gas pipes. Check for any electrical wires submerged in water. Check for any submerged electrical items."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-FOOD",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Discards food item which has been submerged or come into contact with floodwaters, including canned food."
+      },
+      {
+        "sourceId": "SRC-JPS-AFTER-AMENITIES",
+        "publisher": "Department of Irrigation and Drainage Malaysia (JPS)",
+        "url": "https://www.water.gov.my/index.php/pages/view/581",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Report any damage to public amenities to the authorities."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1465 @@
+{
+  "checkedAt": "2026-10-16T17:27:36.544Z",
+  "method": "Article candidates were re-read in bounded batched MediaWiki queries; results are screening evidence only and no candidate auto-accepted.",
+  "results": [
+    {
+      "pinId": "sg-05",
+      "pinName": "Newton Circus",
+      "candidateRequested": "Newton MRT station",
+      "articleTitle": "Newton MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Newton_MRT_station",
+      "distanceM": 31,
+      "articleCoordinate": {
+        "lat": 1.31305556,
+        "lon": 103.83833333,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:DT11_NS21_Newton_Exit_B_2.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-05",
+      "pinName": "Newton Circus",
+      "candidateRequested": "Newton Food Centre",
+      "articleTitle": "Newton Food Centre",
+      "articleUrl": "https://en.wikipedia.org/wiki/Newton_Food_Centre",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "sg-05",
+      "pinName": "Newton Circus",
+      "candidateRequested": "Scotts Road",
+      "articleTitle": "Scotts Road",
+      "articleUrl": "https://en.wikipedia.org/wiki/Scotts_Road",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Scotts_Road,_Dec_05.JPG",
+      "missing": false
+    },
+    {
+      "pinId": "sg-12",
+      "pinName": "Pasir Panjang Port",
+      "candidateRequested": "Pasir Panjang MRT station",
+      "articleTitle": "Pasir Panjang MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Pasir_Panjang_MRT_station",
+      "distanceM": 10,
+      "articleCoordinate": {
+        "lat": 1.27611111,
+        "lon": 103.79138889,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:CC26_Pasir_Panjang_Exit_A.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-12",
+      "pinName": "Pasir Panjang Port",
+      "candidateRequested": "Reflections at Bukit Chandu",
+      "articleTitle": "Reflections at Bukit Chandu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Reflections_at_Bukit_Chandu",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:ReflectionsatBukitChandu-Singapore-20070809.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-12",
+      "pinName": "Pasir Panjang Port",
+      "candidateRequested": "Bukit Chandu",
+      "articleTitle": "Bukit Chandu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bukit_Chandu",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:ReflectionsatBukitChandu-Singapore-20070809.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-14",
+      "pinName": "Tampines Regional Centre",
+      "candidateRequested": "Tampines Mall",
+      "articleTitle": "Tampines Mall",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tampines_Mall",
+      "distanceM": 94,
+      "articleCoordinate": {
+        "lat": 1.3525,
+        "lon": 103.94472222,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "sg-14",
+      "pinName": "Tampines Regional Centre",
+      "candidateRequested": "Century Square",
+      "articleTitle": "Century Square",
+      "articleUrl": "https://en.wikipedia.org/wiki/Century_Square",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "sg-14",
+      "pinName": "Tampines Regional Centre",
+      "candidateRequested": "Tampines MRT station",
+      "articleTitle": "Tampines MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tampines_MRT_station",
+      "distanceM": 248,
+      "articleCoordinate": {
+        "lat": 1.355,
+        "lon": 103.94388889,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:EW2_Tampines_MRT_Exit_C_20200718_125427.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-18",
+      "pinName": "Tuas Industrial Zone",
+      "candidateRequested": "Tuas West Road MRT station",
+      "articleTitle": "Tuas West Road MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tuas_West_Road_MRT_station",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:EW32_Tuas_West_Road_MRT_Station_Platform_202412.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-18",
+      "pinName": "Tuas Industrial Zone",
+      "candidateRequested": "Tuas Crescent MRT station",
+      "articleTitle": "Tuas Crescent MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tuas_Crescent_MRT_station",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Tuas_Crescent_MRT_station_171224.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-18",
+      "pinName": "Tuas Industrial Zone",
+      "candidateRequested": "Tuas Depot",
+      "articleTitle": "Tuas Depot",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tuas_Depot",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Tuas_MRT_Depot_20210120_145106.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-03",
+      "pinName": "Jerudong Beach",
+      "candidateRequested": "Jerudong Park Amphitheatre",
+      "articleTitle": "Jerudong Park Amphitheatre",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jerudong_Park_Amphitheatre",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Jerudong_8_October_2023_10.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-03",
+      "pinName": "Jerudong Beach",
+      "candidateRequested": "Jerudong Park",
+      "articleTitle": "Jerudong Park",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jerudong_Park",
+      "distanceM": 442,
+      "articleCoordinate": {
+        "lat": 4.9369,
+        "lon": 114.835,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Jerudong_Park_31_December_2022_33.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-03",
+      "pinName": "Jerudong Beach",
+      "candidateRequested": "Mukim Sengkurong",
+      "articleTitle": "Mukim Sengkurong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mukim_Sengkurong",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Brunei_as_seen_from_the_aircraft_taking_off.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-04",
+      "pinName": "Berakas",
+      "candidateRequested": "Kampong Anggerek Desa",
+      "articleTitle": "Kampong Anggerek Desa",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Anggerek_Desa",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Bandar_Seri_Begawan_31_December_2023_02.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-04",
+      "pinName": "Berakas",
+      "candidateRequested": "Kampong Pancha Delima",
+      "articleTitle": "Kampong Pancha Delima",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Pancha_Delima",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Kampong_Berakas_19_February_2023_02.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-04",
+      "pinName": "Berakas",
+      "candidateRequested": "Girl Guides Association of Brunei Darussalam",
+      "articleTitle": "Girl Guides Association of Brunei Darussalam",
+      "articleUrl": "https://en.wikipedia.org/wiki/Girl_Guides_Association_of_Brunei_Darussalam",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-05",
+      "pinName": "Sengkurong",
+      "candidateRequested": "Sengkurong Library",
+      "articleTitle": "Sengkurong Library",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sengkurong_Library",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sengkurong_2_June_2023_09.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-05",
+      "pinName": "Sengkurong",
+      "candidateRequested": "Prisons Department (Brunei",
+      "articleTitle": "Prisons Department (Brunei",
+      "articleUrl": "https://en.wikipedia.org/wiki/Prisons_Department_(Brunei",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": true
+    },
+    {
+      "pinId": "bn-06",
+      "pinName": "Gadong Commercial Area",
+      "candidateRequested": "Gadong",
+      "articleTitle": "Gadong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Gadong",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-06",
+      "pinName": "Gadong Commercial Area",
+      "candidateRequested": "Brunei",
+      "articleTitle": "Brunei",
+      "articleUrl": "https://en.wikipedia.org/wiki/Brunei",
+      "distanceM": 53235,
+      "articleCoordinate": {
+        "lat": 4.5,
+        "lon": 114.66666667,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Flag_of_Brunei.svg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-06",
+      "pinName": "Gadong Commercial Area",
+      "candidateRequested": "Sultan Sharif Ali Islamic University",
+      "articleTitle": "Sultan Sharif Ali Islamic University",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sultan_Sharif_Ali_Islamic_University",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-06",
+      "pinName": "Gadong Commercial Area",
+      "candidateRequested": "Duli Pengiran Muda Al-Muhtadee Billah College",
+      "articleTitle": "Duli Pengiran Muda Al-Muhtadee Billah College",
+      "articleUrl": "https://en.wikipedia.org/wiki/Duli_Pengiran_Muda_Al-Muhtadee_Billah_College",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Duli_Pengiran_Muda_Al-Muhtadee_Billah_College_entrance.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-08",
+      "pinName": "Seria Oilfield Zone",
+      "candidateRequested": "British Army Jungle Warfare Training School",
+      "articleTitle": "British Army Jungle Warfare Training School",
+      "articleUrl": "https://en.wikipedia.org/wiki/British_Army_Jungle_Warfare_Training_School",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Medicina_Lines_Family_Day_18_October_2024_62.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-08",
+      "pinName": "Seria Oilfield Zone",
+      "candidateRequested": "Anthony Abell College",
+      "articleTitle": "Anthony Abell College",
+      "articleUrl": "https://en.wikipedia.org/wiki/Anthony_Abell_College",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Seria_19_July_2024_27.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-08",
+      "pinName": "Seria Oilfield Zone",
+      "candidateRequested": "Seria Library",
+      "articleTitle": "Seria Library",
+      "articleUrl": "https://en.wikipedia.org/wiki/Seria_Library",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Seria_15_July_2022_05.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-09",
+      "pinName": "Sungai Liang Industrial",
+      "candidateRequested": "Kampong Sungai Liang",
+      "articleTitle": "Kampong Sungai Liang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Sungai_Liang",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Liang_15_January_2023_03.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-09",
+      "pinName": "Sungai Liang Industrial",
+      "candidateRequested": "Brunei Fertilizer Industries",
+      "articleTitle": "Brunei Fertilizer Industries",
+      "articleUrl": "https://en.wikipedia.org/wiki/Brunei_Fertilizer_Industries",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-09",
+      "pinName": "Sungai Liang Industrial",
+      "candidateRequested": "Brunei Methanol Company",
+      "articleTitle": "Brunei Methanol Company",
+      "articleUrl": "https://en.wikipedia.org/wiki/Brunei_Methanol_Company",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Logo_of_the_Brunei_Methanol_Company.svg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-10",
+      "pinName": "Labi Interior",
+      "candidateRequested": "Mukim Labi",
+      "articleTitle": "Mukim Labi",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mukim_Labi",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Luagan_Lalak_Forest_Recreational_Park_(1).jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-12",
+      "pinName": "Lamunin",
+      "candidateRequested": "Mukim Kiudang",
+      "articleTitle": "Mukim Kiudang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mukim_Kiudang",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Birau_Research_Station(buildings_And_Experimental_Fields)_=_ビラウ試験場（庁舎ならびに圃場）_-_36531341936.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-12",
+      "pinName": "Lamunin",
+      "candidateRequested": "Mukim Lamunin",
+      "articleTitle": "Mukim Lamunin",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mukim_Lamunin",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Tutong_mukims.png",
+      "missing": false
+    },
+    {
+      "pinId": "bn-13",
+      "pinName": "Tanjong Maya",
+      "candidateRequested": "Tutong Sixth Form Centre",
+      "articleTitle": "Tutong Sixth Form Centre",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tutong_Sixth_Form_Centre",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:RPN_Bukit_Beruang_24-04-2023_04.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-13",
+      "pinName": "Tanjong Maya",
+      "candidateRequested": "Sayyidina 'Othman Secondary School",
+      "articleTitle": "Sayyidina 'Othman Secondary School",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sayyidina_%27Othman_Secondary_School",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-13",
+      "pinName": "Tanjong Maya",
+      "candidateRequested": "Kampong Bukit Beruang",
+      "articleTitle": "Kampong Bukit Beruang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Bukit_Beruang",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-13",
+      "pinName": "Putrajaya Federal Admin",
+      "candidateRequested": "Seri Bestari Bridge",
+      "articleTitle": "Seri Bestari Bridge",
+      "articleUrl": "https://en.wikipedia.org/wiki/Seri_Bestari_Bridge",
+      "distanceM": 141,
+      "articleCoordinate": {
+        "lat": 2.925155,
+        "lon": 101.6961837,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-13",
+      "pinName": "Putrajaya Federal Admin",
+      "candidateRequested": "Wisma Putra",
+      "articleTitle": "Wisma Putra",
+      "articleUrl": "https://en.wikipedia.org/wiki/Wisma_Putra",
+      "distanceM": 373,
+      "articleCoordinate": {
+        "lat": 2.92611111,
+        "lon": 101.69305556,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Putrajaya_Malaysia_Ministry-of-Foreign-Affairs-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-13",
+      "pinName": "Putrajaya Federal Admin",
+      "candidateRequested": "Seri Bakti Bridge",
+      "articleTitle": "Seri Bakti Bridge",
+      "articleUrl": "https://en.wikipedia.org/wiki/Seri_Bakti_Bridge",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-14",
+      "pinName": "Johor Bahru City Centre",
+      "candidateRequested": "Larkin Sentral",
+      "articleTitle": "Larkin Sentral",
+      "articleUrl": "https://en.wikipedia.org/wiki/Larkin_Sentral",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Larkin_Public_Market_and_Bazaar.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-14",
+      "pinName": "Johor Bahru City Centre",
+      "candidateRequested": "Tan Sri Dato' Haji Hassan Yunos Stadium",
+      "articleTitle": "Tan Sri Dato' Haji Hassan Yunos Stadium",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tan_Sri_Dato%27_Haji_Hassan_Yunos_Stadium",
+      "distanceM": 1234,
+      "articleCoordinate": {
+        "lat": 1.497575,
+        "lon": 103.751374,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Stadium_Larkin.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-14",
+      "pinName": "Johor Bahru City Centre",
+      "candidateRequested": "Tun Hussein Onn Jamek Mosque",
+      "articleTitle": "Tun Hussein Onn Jamek Mosque",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tun_Hussein_Onn_Jamek_Mosque",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-24",
+      "pinName": "Butterworth Port",
+      "candidateRequested": "Bagan Luar",
+      "articleTitle": "Bagan Luar",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bagan_Luar",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Jalan_Bagan_Luar_(Malaysia_Federal_Highway_1),_Butterworth_20250917_122515.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-24",
+      "pinName": "Butterworth Port",
+      "candidateRequested": "Sultan Abdul Halim ferry terminal bridge collapse",
+      "articleTitle": "Sultan Abdul Halim ferry terminal bridge collapse",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sultan_Abdul_Halim_ferry_terminal_bridge_collapse",
+      "distanceM": 490,
+      "articleCoordinate": {
+        "lat": 5.3947,
+        "lon": 100.3641,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-24",
+      "pinName": "Butterworth Port",
+      "candidateRequested": "Sultan Abdul Halim Ferry Terminal",
+      "articleTitle": "Sultan Abdul Halim Ferry Terminal",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sultan_Abdul_Halim_Ferry_Terminal",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Butterworth_ferry_terminal,_Seberang_Perai.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-26",
+      "pinName": "Tanjung Bungah",
+      "candidateRequested": "Penang Floating Mosque",
+      "articleTitle": "Penang Floating Mosque",
+      "articleUrl": "https://en.wikipedia.org/wiki/Penang_Floating_Mosque",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Penang_Malaysia_Sunrise_at_Tanjong_Bungah_Mosque-04and_(4461552447).jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-26",
+      "pinName": "Tanjung Bungah",
+      "candidateRequested": "Tanjong Bungah",
+      "articleTitle": "Tanjong Bungah",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tanjong_Bungah",
+      "distanceM": 923,
+      "articleCoordinate": {
+        "lat": 5.46861111,
+        "lon": 100.28555556,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Tanjong_Bungah,_George_Town,_Penang_2023.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-26",
+      "pinName": "Tanjung Bungah",
+      "candidateRequested": "Dalat International School",
+      "articleTitle": "Dalat International School",
+      "articleUrl": "https://en.wikipedia.org/wiki/Dalat_International_School",
+      "distanceM": 1221,
+      "articleCoordinate": {
+        "lat": 5.46711111,
+        "lon": 100.28975,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-31",
+      "pinName": "Langkawi Kuah Town",
+      "candidateRequested": "Kuah",
+      "articleTitle": "Kuah",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuah",
+      "distanceM": 1327,
+      "articleCoordinate": {
+        "lat": 6.31666667,
+        "lon": 99.85,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Kuah_Town.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-31",
+      "pinName": "Langkawi Kuah Town",
+      "candidateRequested": "Mahsuri National Secondary School",
+      "articleTitle": "Mahsuri National Secondary School",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mahsuri_National_Secondary_School",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-31",
+      "pinName": "Langkawi Kuah Town",
+      "candidateRequested": "Langkawi Stadium",
+      "articleTitle": "Langkawi Stadium",
+      "articleUrl": "https://en.wikipedia.org/wiki/Langkawi_Stadium",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-43",
+      "pinName": "Bintulu Port",
+      "candidateRequested": "Bintulu",
+      "articleTitle": "Bintulu",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bintulu",
+      "distanceM": 1336,
+      "articleCoordinate": {
+        "lat": 3.17333333,
+        "lon": 113.04333333,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Shophouses_at_Bintulu_town,_Sarawak,_Malaysia.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-43",
+      "pinName": "Bintulu Port",
+      "candidateRequested": "The Spring Bintulu",
+      "articleTitle": "The Spring Bintulu",
+      "articleUrl": "https://en.wikipedia.org/wiki/The_Spring_Bintulu",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:The_Spring_Bintulu.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-43",
+      "pinName": "Bintulu Port",
+      "candidateRequested": "Kemena River",
+      "articleTitle": "Kemena River",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kemena_River",
+      "distanceM": 1850,
+      "articleCoordinate": {
+        "lat": 3.18333333,
+        "lon": 113.03333333,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Bintulu_08-04-2023_03.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-45",
+      "pinName": "Kuala Lurah Border Checkpoint",
+      "candidateRequested": "Kampong Kuala Lurah",
+      "articleTitle": "Kampong Kuala Lurah",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Kuala_Lurah",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Brunei_Kuala_Lurah_1.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-45",
+      "pinName": "Kuala Lurah Border Checkpoint",
+      "candidateRequested": "Kampong Batang Perhentian",
+      "articleTitle": "Kampong Batang Perhentian",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Batang_Perhentian",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-45",
+      "pinName": "Kuala Lurah Border Checkpoint",
+      "candidateRequested": "IBTE Agro-Technology Campus",
+      "articleTitle": "IBTE Agro-Technology Campus",
+      "articleUrl": "https://en.wikipedia.org/wiki/IBTE_Agro-Technology_Campus",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-47",
+      "pinName": "Limbang Interior",
+      "candidateRequested": "Kampong Bukit Belalong",
+      "articleTitle": "Kampong Bukit Belalong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Bukit_Belalong",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-50",
+      "pinName": "Sri Aman (Haze Frontline)",
+      "candidateRequested": "Simanggang",
+      "articleTitle": "Simanggang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Simanggang",
+      "distanceM": 402,
+      "articleCoordinate": {
+        "lat": 1.23527778,
+        "lon": 111.46972222,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Aerial_view_of_Sri_Aman,_Sarawak,_Malaysia_(3).jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-50",
+      "pinName": "Sri Aman (Haze Frontline)",
+      "candidateRequested": "Fort Alice",
+      "articleTitle": "Fort Alice",
+      "articleUrl": "https://en.wikipedia.org/wiki/Fort_Alice",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Fort_Alice.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-51",
+      "pinName": "Lawas Border",
+      "candidateRequested": "Lawas Airport",
+      "articleTitle": "Lawas Airport",
+      "articleUrl": "https://en.wikipedia.org/wiki/Lawas_Airport",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Twin_Otter_Lawas_Runway.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-51",
+      "pinName": "Lawas Border",
+      "candidateRequested": "Kampung Sitakong",
+      "articleTitle": "Kampung Sitakong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampung_Sitakong",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-51",
+      "pinName": "Lawas Border",
+      "candidateRequested": "Lawas",
+      "articleTitle": "Lawas",
+      "articleUrl": "https://en.wikipedia.org/wiki/Lawas",
+      "distanceM": 2606,
+      "articleCoordinate": {
+        "lat": 4.83333333,
+        "lon": 115.4,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Lawas_-_The_Border_Town.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-56",
+      "pinName": "Keningau Interior",
+      "candidateRequested": "Keningau",
+      "articleTitle": "Keningau",
+      "articleUrl": "https://en.wikipedia.org/wiki/Keningau",
+      "distanceM": 9,
+      "articleCoordinate": {
+        "lat": 5.33777778,
+        "lon": 116.16027778,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:SabahDistricts-Keningau-pp.png",
+      "missing": false
+    },
+    {
+      "pinId": "my-56",
+      "pinName": "Keningau Interior",
+      "candidateRequested": "Keningau Oath Stone",
+      "articleTitle": "Keningau Oath Stone",
+      "articleUrl": "https://en.wikipedia.org/wiki/Keningau_Oath_Stone",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Keningau_Sabah_BatuSumpahKeningau-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-56",
+      "pinName": "Keningau Interior",
+      "candidateRequested": "Diocese of Keningau",
+      "articleTitle": "Diocese of Keningau",
+      "articleUrl": "https://en.wikipedia.org/wiki/Diocese_of_Keningau",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Keningau_Sabah_Roman-Catholic-Diocese-of-Keningau-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-57",
+      "pinName": "Sandakan - Bandar Sandakan Waterfront",
+      "candidateRequested": "Sandakan Municipal Council",
+      "articleTitle": "Sandakan Municipal Council",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sandakan_Municipal_Council",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Municipal_Council_official_logo.svg",
+      "missing": false
+    },
+    {
+      "pinId": "my-57",
+      "pinName": "Sandakan - Bandar Sandakan Waterfront",
+      "candidateRequested": "William Pryer Monument",
+      "articleTitle": "William Pryer Monument",
+      "articleUrl": "https://en.wikipedia.org/wiki/William_Pryer_Monument",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Sabah_WilliamPryerMemorial-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-57",
+      "pinName": "Sandakan - Bandar Sandakan Waterfront",
+      "candidateRequested": "Sandakan War Monument",
+      "articleTitle": "Sandakan War Monument",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sandakan_War_Monument",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Sabah_SandakanWarMemorial-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-58",
+      "pinName": "Sandakan - Batu Sapi Coastal",
+      "candidateRequested": "Sandakan District Mosque",
+      "articleTitle": "Sandakan District Mosque",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sandakan_District_Mosque",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Sabah_Sim-Sim-CityMosque-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-58",
+      "pinName": "Sandakan - Batu Sapi Coastal",
+      "candidateRequested": "Sandakan",
+      "articleTitle": "Sandakan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sandakan",
+      "distanceM": 4940,
+      "articleCoordinate": {
+        "lat": 5.83333333,
+        "lon": 118.11666667,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Sandakan_Sabah_MajlisPerbandaranSandakan.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-58",
+      "pinName": "Sandakan - Batu Sapi Coastal",
+      "candidateRequested": "Sandakan Japanese Cemetery",
+      "articleTitle": "Sandakan Japanese Cemetery",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sandakan_Japanese_Cemetery",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Sabah_OldJapaneseCemetery-28.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-59",
+      "pinName": "Sandakan - Elopura Urban",
+      "candidateRequested": "Bandar Indah Jaya",
+      "articleTitle": "Bandar Indah Jaya",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bandar_Indah_Jaya",
+      "distanceM": 1107,
+      "articleCoordinate": {
+        "lat": 5.85469444,
+        "lon": 118.07255556,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Aerial_view_of_Bandar_Indah_Jaya_-_panoramio.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-59",
+      "pinName": "Sandakan - Elopura Urban",
+      "candidateRequested": "Gilwell Scouts Nature Park Sandakan",
+      "articleTitle": "Gilwell Scouts Nature Park Sandakan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Gilwell_Scouts_Nature_Park_Sandakan",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:WOSM_SCENES_Charter_for_Gilwell_SNP_Sandakan.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-59",
+      "pinName": "Sandakan - Elopura Urban",
+      "candidateRequested": "Duchess of Kent Hospital",
+      "articleTitle": "Duchess of Kent Hospital",
+      "articleUrl": "https://en.wikipedia.org/wiki/Duchess_of_Kent_Hospital",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Sabah_Hospital-Duchess-of-Kent-02.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-60",
+      "pinName": "Sandakan - Mile 4 / Jalan Leila",
+      "candidateRequested": "Sandakan Memorial Park",
+      "articleTitle": "Sandakan Memorial Park",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sandakan_Memorial_Park",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Sandakan_Sabah_SandakanMemorialPark-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-62",
+      "pinName": "Tawau - Kalabakan Hotspot Zone",
+      "candidateRequested": "Kalabakan",
+      "articleTitle": "Kalabakan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kalabakan",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Kalabakan_Sabah_AccessToTown-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-62",
+      "pinName": "Tawau - Kalabakan Hotspot Zone",
+      "candidateRequested": "Kalabakan District",
+      "articleTitle": "Kalabakan District",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kalabakan_District",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Kalabakan_Sabah_Roundabout-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-62",
+      "pinName": "Tawau - Kalabakan Hotspot Zone",
+      "candidateRequested": "Raid on Kalabakan",
+      "articleTitle": "Raid on Kalabakan",
+      "articleUrl": "https://en.wikipedia.org/wiki/Raid_on_Kalabakan",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-01",
+      "pinName": "Jerudong Slope & Landslide Zone",
+      "candidateRequested": "Brunei Darussalam International Defence Exhibition",
+      "articleTitle": "Brunei Darussalam International Defence Exhibition",
+      "articleUrl": "https://en.wikipedia.org/wiki/Brunei_Darussalam_International_Defence_Exhibition",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:BRIDEX_in_2014.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-01",
+      "pinName": "Jerudong Slope & Landslide Zone",
+      "candidateRequested": "Kampong Jerudong",
+      "articleTitle": "Kampong Jerudong",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kampong_Jerudong",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Bandar_Seri_Begawan_28_July_2022_36.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-04",
+      "pinName": "Lumut Coastal & Industrial Basin",
+      "candidateRequested": "Pengiran Anak Puteri Hajah Rashidah Sa'adatul Bolkiah Secondary School",
+      "articleTitle": "Pengiran Anak Puteri Hajah Rashidah Sa'adatul Bolkiah Secondary School",
+      "articleUrl": "https://en.wikipedia.org/wiki/Pengiran_Anak_Puteri_Hajah_Rashidah_Sa%27adatul_Bolkiah_Secondary_School",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Pengiran_Anak_Puteri_Hajah_Rashidah_Sa'adatul_Bolkiah_Secondary_School_(front).jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-04",
+      "pinName": "Lumut Coastal & Industrial Basin",
+      "candidateRequested": "Lumut",
+      "articleTitle": "Lumut",
+      "articleUrl": "https://en.wikipedia.org/wiki/Lumut",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-04",
+      "pinName": "Lumut Coastal & Industrial Basin",
+      "candidateRequested": "Mukim Liang",
+      "articleTitle": "Mukim Liang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mukim_Liang",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Bukit_Lumut_15_January_2023_09.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-05",
+      "pinName": "Pekan Tutong River Basin",
+      "candidateRequested": "Bukit Bendera",
+      "articleTitle": "Bukit Bendera",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bukit_Bendera",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-05",
+      "pinName": "Pekan Tutong River Basin",
+      "candidateRequested": "Tutong (town",
+      "articleTitle": "Tutong (town",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tutong_(town",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": true
+    },
+    {
+      "pinId": "bn-dis-06",
+      "pinName": "Sungei Teraban Border Basin",
+      "candidateRequested": "Suri Seri Begawan Hospital",
+      "articleTitle": "Suri Seri Begawan Hospital",
+      "articleUrl": "https://en.wikipedia.org/wiki/Suri_Seri_Begawan_Hospital",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Suri_Seri_Begawan_Hospital_9_July_2022_01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-06",
+      "pinName": "Sungei Teraban Border Basin",
+      "candidateRequested": "Belait Beach",
+      "articleTitle": "Belait Beach",
+      "articleUrl": "https://en.wikipedia.org/wiki/Belait_Beach",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Belait_Beach_01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "bn-dis-06",
+      "pinName": "Sungei Teraban Border Basin",
+      "candidateRequested": "IBTE Jefri Bolkiah Campus",
+      "articleTitle": "IBTE Jefri Bolkiah Campus",
+      "articleUrl": "https://en.wikipedia.org/wiki/IBTE_Jefri_Bolkiah_Campus",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Kuala_Belait_11_December_2022_34.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-03",
+      "pinName": "Kuala Baram Peatland (Miri)",
+      "candidateRequested": "Miri Crocodile Farm cum Mini Zoo",
+      "articleTitle": "Miri Crocodile Farm cum Mini Zoo",
+      "articleUrl": "https://en.wikipedia.org/wiki/Miri_Crocodile_Farm_cum_Mini_Zoo",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Estuarine_Crocodile_(Crocodylus_porosus)_(6990157230).jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-03",
+      "pinName": "Kuala Baram Peatland (Miri)",
+      "candidateRequested": "Baram River",
+      "articleTitle": "Baram River",
+      "articleUrl": "https://en.wikipedia.org/wiki/Baram_River",
+      "distanceM": 4728,
+      "articleCoordinate": {
+        "lat": 4.58833333,
+        "lon": 113.97027778,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Mündung_des_Baram.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-04",
+      "pinName": "Batu Niah Interior River Basin",
+      "candidateRequested": "Batu Niah",
+      "articleTitle": "Batu Niah",
+      "articleUrl": "https://en.wikipedia.org/wiki/Batu_Niah",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-05",
+      "pinName": "Kundasang Mount Kinabalu Base",
+      "candidateRequested": "Kundasang Valley",
+      "articleTitle": "Kundasang Valley",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kundasang_Valley",
+      "distanceM": 1416,
+      "articleCoordinate": {
+        "lat": 5.99238889,
+        "lon": 116.58577778,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-05",
+      "pinName": "Kundasang Mount Kinabalu Base",
+      "candidateRequested": "Kundasang War Memorial",
+      "articleTitle": "Kundasang War Memorial",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kundasang_War_Memorial",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Kundasang_Sabah_WarMemorial-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-05",
+      "pinName": "Kundasang Mount Kinabalu Base",
+      "candidateRequested": "Desa Dairy Farm",
+      "articleTitle": "Desa Dairy Farm",
+      "articleUrl": "https://en.wikipedia.org/wiki/Desa_Dairy_Farm",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:2016-05-02_Kundasang_-_Desa_Cattle_Dairy_Farm_01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-07",
+      "pinName": "Tawau - Sin On River Basin",
+      "candidateRequested": "Battle of Tawau",
+      "articleTitle": "Battle of Tawau",
+      "articleUrl": "https://en.wikipedia.org/wiki/Battle_of_Tawau",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-07",
+      "pinName": "Tawau - Sin On River Basin",
+      "candidateRequested": "Operation Khas",
+      "articleTitle": "Operation Khas",
+      "articleUrl": "https://en.wikipedia.org/wiki/Operation_Khas",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-07",
+      "pinName": "Tawau - Sin On River Basin",
+      "candidateRequested": "Sabah Chinese High School",
+      "articleTitle": "Sabah Chinese High School",
+      "articleUrl": "https://en.wikipedia.org/wiki/Sabah_Chinese_High_School",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Tawau_Sabah_Sekolah-Tinggi-Cina-Sabah-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-08",
+      "pinName": "Beaufort Padas River Basin",
+      "candidateRequested": "Starcevich Monument",
+      "articleTitle": "Starcevich Monument",
+      "articleUrl": "https://en.wikipedia.org/wiki/Starcevich_Monument",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Beaufort_Sabah_StarcevichMemorialMonument-01.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-08",
+      "pinName": "Beaufort Padas River Basin",
+      "candidateRequested": "Beaufort District",
+      "articleTitle": "Beaufort District",
+      "articleUrl": "https://en.wikipedia.org/wiki/Beaufort_District",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Beaufort_Sabah_MajlisDaerahBeaufort-.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-08",
+      "pinName": "Beaufort Padas River Basin",
+      "candidateRequested": "Battle of Beaufort (1945",
+      "articleTitle": "Battle of Beaufort (1945",
+      "articleUrl": "https://en.wikipedia.org/wiki/Battle_of_Beaufort_(1945",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": true
+    },
+    {
+      "pinId": "my-dis-09",
+      "pinName": "Masjid Jamek (Klang & Gombak Confluence)",
+      "candidateRequested": "Jamek Mosque",
+      "articleTitle": "Jamek Mosque",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jamek_Mosque",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Mosque_Jamek.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-09",
+      "pinName": "Masjid Jamek (Klang & Gombak Confluence)",
+      "candidateRequested": "Masjid Jamek LRT station",
+      "articleTitle": "Masjid Jamek LRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Masjid_Jamek_LRT_station",
+      "distanceM": 63,
+      "articleCoordinate": {
+        "lat": 3.14966667,
+        "lon": 101.69641667,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:LRT_Masjid_Jamek_Station_2.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-09",
+      "pinName": "Masjid Jamek (Klang & Gombak Confluence)",
+      "candidateRequested": "Former Supreme Court",
+      "articleTitle": "Former Supreme Court",
+      "articleUrl": "https://en.wikipedia.org/wiki/Former_Supreme_Court",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": true
+    },
+    {
+      "pinId": "my-dis-09",
+      "pinName": "Masjid Jamek (Klang & Gombak Confluence)",
+      "candidateRequested": "Kuala Lumpur",
+      "articleTitle": "Kuala Lumpur",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+      "distanceM": 183,
+      "articleCoordinate": {
+        "lat": 3.14777778,
+        "lon": 101.69527778,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Bukit_Bintang_junction_in_2024_2.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-10",
+      "pinName": "Taman TTDI Jaya (Shah Alam)",
+      "candidateRequested": "TTDI Jaya",
+      "articleTitle": "TTDI Jaya",
+      "articleUrl": "https://en.wikipedia.org/wiki/TTDI_Jaya",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-10",
+      "pinName": "Taman TTDI Jaya (Shah Alam)",
+      "candidateRequested": "Tengku Ampuan Jemaah Mosque",
+      "articleTitle": "Tengku Ampuan Jemaah Mosque",
+      "articleUrl": "https://en.wikipedia.org/wiki/Tengku_Ampuan_Jemaah_Mosque",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-10",
+      "pinName": "Taman TTDI Jaya (Shah Alam)",
+      "candidateRequested": "Saujana Golf and Country Club",
+      "articleTitle": "Saujana Golf and Country Club",
+      "articleUrl": "https://en.wikipedia.org/wiki/Saujana_Golf_and_Country_Club",
+      "distanceM": 2027,
+      "articleCoordinate": {
+        "lat": 3.1058706,
+        "lon": 101.5686464,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Saujanaentrance.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-11",
+      "pinName": "Johan Setia (Klang)",
+      "candidateRequested": "Johan Setia LRT station",
+      "articleTitle": "Johan Setia LRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Johan_Setia_LRT_station",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Johan_Setia_LRT_Station_exterior_(260621)_02.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-11",
+      "pinName": "Johan Setia (Klang)",
+      "candidateRequested": "Bandar Botanic",
+      "articleTitle": "Bandar Botanic",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bandar_Botanic",
+      "distanceM": 4008,
+      "articleCoordinate": {
+        "lat": 2.98877778,
+        "lon": 101.44752778,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": null,
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-11",
+      "pinName": "Johan Setia (Klang)",
+      "candidateRequested": "ÆON Bukit Tinggi Shopping Centre",
+      "articleTitle": "ÆON Bukit Tinggi Shopping Centre",
+      "articleUrl": "https://en.wikipedia.org/wiki/%C3%86ON_Bukit_Tinggi_Shopping_Centre",
+      "distanceM": 4543,
+      "articleCoordinate": {
+        "lat": 2.99430556,
+        "lon": 101.44444444,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:AEON_Bukit_Tinggi.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-14",
+      "pinName": "Tangga Krai (Kuala Krai)",
+      "candidateRequested": "Kuala Krai (town",
+      "articleTitle": "Kuala Krai (town",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kuala_Krai_(town",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": true
+    },
+    {
+      "pinId": "my-dis-15",
+      "pinName": "Lanchang River Flood Zone",
+      "candidateRequested": "Lanchang",
+      "articleTitle": "Lanchang",
+      "articleUrl": "https://en.wikipedia.org/wiki/Lanchang",
+      "distanceM": 957,
+      "articleCoordinate": {
+        "lat": 3.4987,
+        "lon": 102.1898,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:T3S_TEMERLOH_TITIK_TENGAH_SEMENANJUNG.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "my-dis-17",
+      "pinName": "Sungei Tua / Hulu Yam Bharu Corridor",
+      "candidateRequested": "Selangor State Park",
+      "articleTitle": "Selangor State Park",
+      "articleUrl": "https://en.wikipedia.org/wiki/Selangor_State_Park",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:Type_locality_of_Semachrysa_jade_-_ZooKeys-214-001-g004.jpeg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-dis-01",
+      "pinName": "Bukit Timah Road Canal",
+      "candidateRequested": "Botanic Gardens MRT station",
+      "articleTitle": "Botanic Gardens MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Botanic_Gardens_MRT_station",
+      "distanceM": 156,
+      "articleCoordinate": {
+        "lat": 1.3225,
+        "lon": 103.81527778,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:CC19_DT9_Botanic_Gardens_MRT_Exit_A_20201219_181723.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-dis-01",
+      "pinName": "Bukit Timah Road Canal",
+      "candidateRequested": "East Asian Institute (Singapore",
+      "articleTitle": "East Asian Institute (Singapore",
+      "articleUrl": "https://en.wikipedia.org/wiki/East_Asian_Institute_(Singapore",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": null,
+      "missing": true
+    },
+    {
+      "pinId": "sg-dis-02",
+      "pinName": "Bedok Canal & Marine Parade",
+      "candidateRequested": "I12 Katong",
+      "articleTitle": "I12 Katong",
+      "articleUrl": "https://en.wikipedia.org/wiki/I12_Katong",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:At_Singapore_2023_029_-_Facade_of_i12_Katong.jpg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-dis-02",
+      "pinName": "Bedok Canal & Marine Parade",
+      "candidateRequested": "Singapore",
+      "articleTitle": "Singapore",
+      "articleUrl": "https://en.wikipedia.org/wiki/Singapore",
+      "distanceM": 8348,
+      "articleCoordinate": {
+        "lat": 1.28333333,
+        "lon": 103.83333333,
+        "primary": "",
+        "globe": "earth"
+      },
+      "fileTitle": "File:Flag_of_Singapore.svg",
+      "missing": false
+    },
+    {
+      "pinId": "sg-dis-02",
+      "pinName": "Bedok Canal & Marine Parade",
+      "candidateRequested": "Marine Parade MRT station",
+      "articleTitle": "Marine Parade MRT station",
+      "articleUrl": "https://en.wikipedia.org/wiki/Marine_Parade_MRT_station",
+      "distanceM": null,
+      "articleCoordinate": null,
+      "fileTitle": "File:(SGP-Singapore)_Marine_Parade_MRT_Station_Exit_1_2024-06-29.jpg",
+      "missing": false
+    }
+  ]
+}

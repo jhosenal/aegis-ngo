@@ -1,0 +1,384 @@
+[
+  {
+    "id": "HAZE-SG-LUNG-HEART-01",
+    "language": "en",
+    "country": "SG",
+    "hazard": "haze",
+    "severity": "moderate",
+    "title": "Haze - chronic lung or heart conditions - Singapore",
+    "region": "Singapore",
+    "synthetic": false,
+    "lines": [
+      {
+        "id": "SG-LH-SRC-SG-CONTACT",
+        "kind": "contact",
+        "text": "SCDF Ambulance and Fire Service 995",
+        "sourceId": "SRC-SG-CONTACT"
+      },
+      {
+        "id": "SG-LH-SRC-SG-PSI-ASTHMA-LUNG-HEART-1",
+        "kind": "do",
+        "text": "Normal Activities",
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-1",
+        "condition": "24-hour PSI 0-50 Good; source group PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "SG-LH-SRC-SG-PSI-ASTHMA-LUNG-HEART-2",
+        "kind": "do",
+        "text": "Normal Activities",
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-2",
+        "condition": "24-hour PSI 51-100 Moderate; source group PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "SG-LH-SRC-SG-PSI-ASTHMA-LUNG-HEART-3",
+        "kind": "dont",
+        "text": "Avoid prolonged or strenuous outdoor physical exertion",
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-3",
+        "condition": "24-hour PSI 101-200 Unhealthy; source group PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "SG-LH-SRC-SG-PSI-ASTHMA-LUNG-HEART-4",
+        "kind": "dont",
+        "text": "Avoid outdoor activity",
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-4",
+        "condition": "24-hour PSI 201-300 Very Unhealthy; source group PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "SG-LH-SRC-SG-PSI-ASTHMA-LUNG-HEART-5",
+        "kind": "dont",
+        "text": "Avoid outdoor activity",
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-5",
+        "condition": "24-hour PSI >300 Hazardous; source group PERSONS WITH CHRONIC LUNG DISEASE, HEART DISEASE"
+      },
+      {
+        "id": "SG-LH-SRC-SG-CHRONIC-MEDS",
+        "kind": "do",
+        "text": "individuals with existing chronic heart and lung conditions should ensure that medications are on hand and readily available.",
+        "sourceId": "SRC-SG-CHRONIC-MEDS",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-LH-SRC-SG-VULN-MASK",
+        "kind": "do",
+        "text": "Vulnerable persons such as the elderly, pregnant women and individuals with chronic heart or lung disease may wear an N95 mask to reduce exposure when the air quality forecast is in the Very Unhealthy range (PSI >200) and if they have to be outdoors for several hours.",
+        "sourceId": "SRC-SG-VULN-MASK",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-LH-SRC-SG-MASK-CAVEAT",
+        "kind": "step",
+        "text": "However, the elderly, pregnant women and those with severe lung or heart problems who have difficulty breathing at rest or on exertion should consult their doctor before using an N95 mask.",
+        "sourceId": "SRC-SG-MASK-CAVEAT",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-LH-SRC-SG-MASK-DISCOMFORT",
+        "kind": "step",
+        "text": "Any person who feels discomfort when using an N95 mask should take a break from using the mask.",
+        "sourceId": "SRC-SG-MASK-DISCOMFORT",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-LH-SRC-SG-SEEK-ADVICE",
+        "kind": "step",
+        "text": "Persons who are not feeling well, especially the elderly and children, and those with chronic heart or lung conditions, should seek medical advice.",
+        "sourceId": "SRC-SG-SEEK-ADVICE",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-SG-CONTACT",
+        "publisher": "Government of Singapore",
+        "url": "https://www.gov.sg/contact-us/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "SCDF Ambulance and Fire Service 995",
+        "savedFile": "R0101_sg-995-emergency-contacts.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-BANDS",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "24-Hour PSI Descriptor 0-50 Good 51-100 Moderate 101-200 Unhealthy 201-300 Very Unhealthy >300 Hazardous",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-1",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Normal Activities",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-2",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Normal Activities",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-3",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Avoid prolonged or strenuous outdoor physical exertion",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-4",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Avoid outdoor activity",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-ASTHMA-LUNG-HEART-5",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Avoid outdoor activity",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-CHRONIC-MEDS",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "individuals with existing chronic heart and lung conditions should ensure that medications are on hand and readily available.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-VULN-MASK",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Vulnerable persons such as the elderly, pregnant women and individuals with chronic heart or lung disease may wear an N95 mask to reduce exposure when the air quality forecast is in the Very Unhealthy range (PSI >200) and if they have to be outdoors for several hours.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-MASK-CAVEAT",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "However, the elderly, pregnant women and those with severe lung or heart problems who have difficulty breathing at rest or on exertion should consult their doctor before using an N95 mask.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-MASK-DISCOMFORT",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Any person who feels discomfort when using an N95 mask should take a break from using the mask.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-SEEK-ADVICE",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Persons who are not feeling well, especially the elderly and children, and those with chronic heart or lung conditions, should seek medical advice.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      }
+    ],
+    "audience": "lung-heart"
+  },
+  {
+    "id": "HAZE-SG-VULNERABLE-01",
+    "language": "en",
+    "country": "SG",
+    "hazard": "haze",
+    "severity": "moderate",
+    "title": "Haze - children, older adults and pregnant women - Singapore",
+    "region": "Singapore",
+    "synthetic": false,
+    "lines": [
+      {
+        "id": "SG-V-SRC-SG-CONTACT",
+        "kind": "contact",
+        "text": "SCDF Ambulance and Fire Service 995",
+        "sourceId": "SRC-SG-CONTACT"
+      },
+      {
+        "id": "SG-V-SRC-SG-PSI-CHILDREN-1",
+        "kind": "do",
+        "text": "Normal Activities",
+        "sourceId": "SRC-SG-PSI-CHILDREN-1",
+        "condition": "24-hour PSI 0-50 Good; source group ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "SG-V-SRC-SG-PSI-CHILDREN-2",
+        "kind": "do",
+        "text": "Normal Activities",
+        "sourceId": "SRC-SG-PSI-CHILDREN-2",
+        "condition": "24-hour PSI 51-100 Moderate; source group ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "SG-V-SRC-SG-PSI-CHILDREN-3",
+        "kind": "do",
+        "text": "Minimise prolonged or strenuous outdoor physical exertion",
+        "sourceId": "SRC-SG-PSI-CHILDREN-3",
+        "condition": "24-hour PSI 101-200 Unhealthy; source group ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "SG-V-SRC-SG-PSI-CHILDREN-4",
+        "kind": "do",
+        "text": "Minimise outdoor activity",
+        "sourceId": "SRC-SG-PSI-CHILDREN-4",
+        "condition": "24-hour PSI 201-300 Very Unhealthy; source group ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "SG-V-SRC-SG-PSI-CHILDREN-5",
+        "kind": "dont",
+        "text": "Avoid outdoor activity",
+        "sourceId": "SRC-SG-PSI-CHILDREN-5",
+        "condition": "24-hour PSI >300 Hazardous; source group ELDERLY, PREGNANT WOMEN, CHILDREN"
+      },
+      {
+        "id": "SG-V-SRC-SG-VULN-MASK",
+        "kind": "do",
+        "text": "Vulnerable persons such as the elderly, pregnant women and individuals with chronic heart or lung disease may wear an N95 mask to reduce exposure when the air quality forecast is in the Very Unhealthy range (PSI >200) and if they have to be outdoors for several hours.",
+        "sourceId": "SRC-SG-VULN-MASK",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-V-SRC-SG-MASK-CAVEAT",
+        "kind": "step",
+        "text": "However, the elderly, pregnant women and those with severe lung or heart problems who have difficulty breathing at rest or on exertion should consult their doctor before using an N95 mask.",
+        "sourceId": "SRC-SG-MASK-CAVEAT",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-V-SRC-SG-MASK-DISCOMFORT",
+        "kind": "step",
+        "text": "Any person who feels discomfort when using an N95 mask should take a break from using the mask.",
+        "sourceId": "SRC-SG-MASK-DISCOMFORT",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      },
+      {
+        "id": "SG-V-SRC-SG-SEEK-ADVICE",
+        "kind": "step",
+        "text": "Persons who are not feeling well, especially the elderly and children, and those with chronic heart or lung conditions, should seek medical advice.",
+        "sourceId": "SRC-SG-SEEK-ADVICE",
+        "condition": "Ministry of Health Singapore haze health advisory"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "SRC-SG-CONTACT",
+        "publisher": "Government of Singapore",
+        "url": "https://www.gov.sg/contact-us/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "SCDF Ambulance and Fire Service 995",
+        "savedFile": "R0101_sg-995-emergency-contacts.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-BANDS",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "24-Hour PSI Descriptor 0-50 Good 51-100 Moderate 101-200 Unhealthy 201-300 Very Unhealthy >300 Hazardous",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-CHILDREN-1",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Normal Activities",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-CHILDREN-2",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Normal Activities",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-CHILDREN-3",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Minimise prolonged or strenuous outdoor physical exertion",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-CHILDREN-4",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Minimise outdoor activity",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-PSI-CHILDREN-5",
+        "publisher": "National Environment Agency, Singapore",
+        "url": "https://www.nea.gov.sg/our-services/pollution-control/air-pollution/faqs",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Avoid outdoor activity",
+        "savedFile": "R0139_nea-haze-faq.html"
+      },
+      {
+        "sourceId": "SRC-SG-VULN-MASK",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Vulnerable persons such as the elderly, pregnant women and individuals with chronic heart or lung disease may wear an N95 mask to reduce exposure when the air quality forecast is in the Very Unhealthy range (PSI >200) and if they have to be outdoors for several hours.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-MASK-CAVEAT",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "However, the elderly, pregnant women and those with severe lung or heart problems who have difficulty breathing at rest or on exertion should consult their doctor before using an N95 mask.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-MASK-DISCOMFORT",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Any person who feels discomfort when using an N95 mask should take a break from using the mask.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      },
+      {
+        "sourceId": "SRC-SG-SEEK-ADVICE",
+        "publisher": "Ministry of Health, Singapore",
+        "url": "https://www.moh.gov.sg/others/haze/",
+        "accessed": "2026-10-14",
+        "status": "SOURCED",
+        "passage": "Persons who are not feeling well, especially the elderly and children, and those with chronic heart or lung conditions, should seek medical advice.",
+        "savedFile": "R0085_sg-moh-haze.html"
+      }
+    ],
+    "audience": "children-older-pregnant"
+  }
+]

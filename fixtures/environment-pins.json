@@ -1,0 +1,2299 @@
+{
+ "schemaVersion": 1,
+ "registryId": "AEG-ENV-PINS",
+ "asOf": "2026-10-16",
+ "cellMeters": 500,
+ "provenance": "Owner-supplied pin lists (two files, 125 rows, plus 2 slope pins added the same day), 2026-10-16. Coordinates are owner data and have NOT been verified against a boundary dataset; entries with a review note are flagged. Two duplicate-coordinate hazard pins were merged into their general pin (mergedFrom). Typo corrected: sg-04 Chinatown.",
+ "pins": [
+  {
+   "pinId": "sg-01",
+   "country": "SG",
+   "region": "Central",
+   "name": "Orchard Road",
+   "lat": 1.3048,
+   "lng": 103.8318,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-02",
+   "country": "SG",
+   "region": "Central",
+   "name": "Marina Bay Sands",
+   "lat": 1.2834,
+   "lng": 103.8607,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-03",
+   "country": "SG",
+   "region": "Central",
+   "name": "Downtown Core / Raffles Place",
+   "lat": 1.283,
+   "lng": 103.8513,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-04",
+   "country": "SG",
+   "region": "Central",
+   "name": "Chinatown",
+   "lat": 1.2839,
+   "lng": 103.8436,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-05",
+   "country": "SG",
+   "region": "Central",
+   "name": "Newton Circus",
+   "lat": 1.3129,
+   "lng": 103.8381,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-06",
+   "country": "SG",
+   "region": "North",
+   "name": "Woodlands Checkpoint",
+   "lat": 1.4447,
+   "lng": 103.7702,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-07",
+   "country": "SG",
+   "region": "North",
+   "name": "Yishun Central",
+   "lat": 1.4294,
+   "lng": 103.835,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-08",
+   "country": "SG",
+   "region": "North",
+   "name": "Sembawang",
+   "lat": 1.4491,
+   "lng": 103.8185,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-09",
+   "country": "SG",
+   "region": "North",
+   "name": "Ang Mo Kio",
+   "lat": 1.3691,
+   "lng": 103.8454,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-10",
+   "country": "SG",
+   "region": "South",
+   "name": "Sentosa Island",
+   "lat": 1.2494,
+   "lng": 103.8303,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-11",
+   "country": "SG",
+   "region": "South",
+   "name": "Telok Blangah",
+   "lat": 1.2721,
+   "lng": 103.8097,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-12",
+   "country": "SG",
+   "region": "South",
+   "name": "Pasir Panjang Port",
+   "lat": 1.2762,
+   "lng": 103.7914,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-13",
+   "country": "SG",
+   "region": "East",
+   "name": "Changi Airport",
+   "lat": 1.3644,
+   "lng": 103.9915,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-14",
+   "country": "SG",
+   "region": "East",
+   "name": "Tampines Regional Centre",
+   "lat": 1.3532,
+   "lng": 103.9452,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-15",
+   "country": "SG",
+   "region": "East",
+   "name": "Bedok Reservoir",
+   "lat": 1.3332,
+   "lng": 103.9234,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-16",
+   "country": "SG",
+   "region": "East",
+   "name": "Pasir Ris Coastal",
+   "lat": 1.3721,
+   "lng": 103.9474,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-17",
+   "country": "SG",
+   "region": "West",
+   "name": "Jurong East",
+   "lat": 1.3329,
+   "lng": 103.7436,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-18",
+   "country": "SG",
+   "region": "West",
+   "name": "Tuas Industrial Zone",
+   "lat": 1.3211,
+   "lng": 103.6371,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-19",
+   "country": "SG",
+   "region": "West",
+   "name": "Boon Lay",
+   "lat": 1.3473,
+   "lng": 103.7011,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-20",
+   "country": "SG",
+   "region": "West",
+   "name": "Clementi Town",
+   "lat": 1.3162,
+   "lng": 103.7649,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-01",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Bandar Seri Begawan (Capital)",
+   "lat": 4.8903,
+   "lng": 114.9404,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-02",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Muara Port",
+   "lat": 5.0268,
+   "lng": 115.0744,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-03",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Jerudong Beach",
+   "lat": 4.9333,
+   "lng": 114.8333,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-04",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Berakas",
+   "lat": 4.9378,
+   "lng": 114.9482,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-05",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Sengkurong",
+   "lat": 4.8833,
+   "lng": 114.8333,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-06",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Gadong Commercial Area",
+   "lat": 4.908,
+   "lng": 114.918,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-07",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Kuala Belait Town",
+   "lat": 4.5833,
+   "lng": 114.2333,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-08",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Seria Oilfield Zone",
+   "lat": 4.6079,
+   "lng": 114.3262,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-09",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Sungai Liang Industrial",
+   "lat": 4.6833,
+   "lng": 114.5,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-10",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Labi Interior",
+   "lat": 4.4167,
+   "lng": 114.4667,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-11",
+   "country": "BN",
+   "region": "Tutong",
+   "name": "Tutong Town",
+   "lat": 4.8,
+   "lng": 114.65,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-12",
+   "country": "BN",
+   "region": "Tutong",
+   "name": "Lamunin",
+   "lat": 4.6833,
+   "lng": 114.7167,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-13",
+   "country": "BN",
+   "region": "Tutong",
+   "name": "Tanjong Maya",
+   "lat": 4.75,
+   "lng": 114.6167,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-14",
+   "country": "BN",
+   "region": "Temburong",
+   "name": "Bangar Town",
+   "lat": 4.7117,
+   "lng": 115.0733,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-15",
+   "country": "BN",
+   "region": "Temburong",
+   "name": "Batu Apoi National Park",
+   "lat": 4.5333,
+   "lng": 115.1667,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-01",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "KLCC / City Centre",
+   "lat": 3.1579,
+   "lng": 101.7116,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-02",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "Bangsar",
+   "lat": 3.1292,
+   "lng": 101.6784,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-03",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "Cheras",
+   "lat": 3.1068,
+   "lng": 101.7259,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-04",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "Kepong",
+   "lat": 3.2175,
+   "lng": 101.637,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-05",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "Setapak",
+   "lat": 3.1895,
+   "lng": 101.7055,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-06",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "Wangsa Maju",
+   "lat": 3.2023,
+   "lng": 101.7371,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-07",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Petaling Jaya (PJ State)",
+   "lat": 3.0982,
+   "lng": 101.6483,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-08",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Shah Alam Central",
+   "lat": 3.0738,
+   "lng": 101.5183,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-09",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Puchong Jaya",
+   "lat": 3.045,
+   "lng": 101.621,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-10",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Port Klang Coastal",
+   "lat": 3.0,
+   "lng": 101.4,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-11",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Subang Jaya",
+   "lat": 3.0567,
+   "lng": 101.5851,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-12",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Kajang",
+   "lat": 2.9935,
+   "lng": 101.7874,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-13",
+   "country": "MY",
+   "region": "Putrajaya",
+   "name": "Putrajaya Federal Admin",
+   "lat": 2.9264,
+   "lng": 101.6964,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-14",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Johor Bahru City Centre",
+   "lat": 1.4927,
+   "lng": 103.7414,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-15",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Muar (Haze Monitoring Hub)",
+   "lat": 2.0442,
+   "lng": 102.5689,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-16",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Batu Pahat",
+   "lat": 1.8548,
+   "lng": 102.9325,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-17",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Kluang",
+   "lat": 2.0305,
+   "lng": 103.3172,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-18",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Pasir Gudang Industrial",
+   "lat": 1.4722,
+   "lng": 103.8822,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-19",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Skudai",
+   "lat": 1.535,
+   "lng": 103.6606,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-20",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Iskandar Puteri",
+   "lat": 1.423,
+   "lng": 103.633,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-21",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Pontian",
+   "lat": 1.487,
+   "lng": 103.389,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-22",
+   "country": "MY",
+   "region": "Penang",
+   "name": "George Town Heritage",
+   "lat": 5.4164,
+   "lng": 100.3327,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-23",
+   "country": "MY",
+   "region": "Penang",
+   "name": "Bayan Lepas Industrial",
+   "lat": 5.2952,
+   "lng": 100.2638,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-24",
+   "country": "MY",
+   "region": "Penang",
+   "name": "Butterworth Port",
+   "lat": 5.3991,
+   "lng": 100.3638,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-25",
+   "country": "MY",
+   "region": "Penang",
+   "name": "Jelutong",
+   "lat": 5.388,
+   "lng": 100.315,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-26",
+   "country": "MY",
+   "region": "Penang",
+   "name": "Tanjung Bungah",
+   "lat": 5.4628,
+   "lng": 100.2796,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-27",
+   "country": "MY",
+   "region": "Perak",
+   "name": "Ipoh City",
+   "lat": 4.5975,
+   "lng": 101.0901,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-28",
+   "country": "MY",
+   "region": "Perak",
+   "name": "Taiping",
+   "lat": 4.85,
+   "lng": 100.7333,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-29",
+   "country": "MY",
+   "region": "Kedah",
+   "name": "Alor Setar",
+   "lat": 6.1248,
+   "lng": 100.3678,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-30",
+   "country": "MY",
+   "region": "Kedah",
+   "name": "Sungai Petani",
+   "lat": 5.647,
+   "lng": 100.4877,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-31",
+   "country": "MY",
+   "region": "Kedah",
+   "name": "Langkawi Kuah Town",
+   "lat": 6.3265,
+   "lng": 99.8432,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-32",
+   "country": "MY",
+   "region": "Pahang",
+   "name": "Kuantan Coastal",
+   "lat": 3.8077,
+   "lng": 103.326,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-33",
+   "country": "MY",
+   "region": "Pahang",
+   "name": "Temerloh River Basin",
+   "lat": 3.4475,
+   "lng": 102.417,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-34",
+   "country": "MY",
+   "region": "Pahang",
+   "name": "Bentong",
+   "lat": 3.5222,
+   "lng": 101.909,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-35",
+   "country": "MY",
+   "region": "Pahang",
+   "name": "Cameron Highlands",
+   "lat": 4.4721,
+   "lng": 101.3758,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-36",
+   "country": "MY",
+   "region": "Terengganu",
+   "name": "Kuala Terengganu",
+   "lat": 5.3302,
+   "lng": 103.1408,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-37",
+   "country": "MY",
+   "region": "Terengganu",
+   "name": "Chukai / Kemaman",
+   "lat": 4.2333,
+   "lng": 103.4167,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-38",
+   "country": "MY",
+   "region": "Kelantan",
+   "name": "Kota Bharu",
+   "lat": 6.1254,
+   "lng": 102.2381,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-39",
+   "country": "MY",
+   "region": "Kelantan",
+   "name": "Pasir Mas Flood Zone",
+   "lat": 6.0427,
+   "lng": 102.1396,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-40",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Kuching City Centre",
+   "lat": 1.5533,
+   "lng": 110.3592,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-41",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Miri City (Peatland Hotspot)",
+   "lat": 4.3995,
+   "lng": 113.9914,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-42",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Sibu Town",
+   "lat": 2.3,
+   "lng": 111.8167,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-43",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Bintulu Port",
+   "lat": 3.1667,
+   "lng": 113.0333,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-44",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Kota Samarahan",
+   "lat": 1.4606,
+   "lng": 110.4975,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-45",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Kuala Lurah Border Checkpoint",
+   "lat": 4.7431,
+   "lng": 114.8117,
+   "roles": [
+    "general",
+    "hazard"
+   ],
+   "hazards": [
+    "Riverine Flood / Border Transit Block"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [
+    "my-dis-01"
+   ],
+   "review": "Labelled MY; Kuala Lurah is believed to be the Brunei-side checkpoint and these coordinates fall inside Brunei. Owner to confirm the country."
+  },
+  {
+   "pinId": "my-46",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Limbang Town",
+   "lat": 4.75,
+   "lng": 115.0,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-47",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Limbang Interior",
+   "lat": 4.5,
+   "lng": 115.15,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": "About 4 km from bn-15 Batu Apoi on the Brunei-Malaysia border; owner to confirm country and place."
+  },
+  {
+   "pinId": "my-48",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Serian",
+   "lat": 1.1683,
+   "lng": 110.5692,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-49",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Sarikei",
+   "lat": 2.1167,
+   "lng": 111.5167,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-50",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Sri Aman (Haze Frontline)",
+   "lat": 1.2333,
+   "lng": 111.4667,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-51",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Lawas Border",
+   "lat": 4.8561,
+   "lng": 115.4056,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-52",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Kota Kinabalu City",
+   "lat": 5.9804,
+   "lng": 116.0735,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-53",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Penampang",
+   "lat": 5.9123,
+   "lng": 116.1011,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-54",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Tuaran",
+   "lat": 6.1792,
+   "lng": 116.2294,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-55",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Ranau (Mt. Kinabalu Base)",
+   "lat": 5.9538,
+   "lng": 116.6641,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-56",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Keningau Interior",
+   "lat": 5.3378,
+   "lng": 116.1602,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-57",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Sandakan - Bandar Sandakan Waterfront",
+   "lat": 5.8402,
+   "lng": 118.117,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-58",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Sandakan - Batu Sapi Coastal",
+   "lat": 5.8123,
+   "lng": 118.156,
+   "roles": [
+    "general",
+    "hazard"
+   ],
+   "hazards": [
+    "High Tide / Tidal Surge"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [
+    "my-dis-06"
+   ],
+   "review": null
+  },
+  {
+   "pinId": "my-59",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Sandakan - Elopura Urban",
+   "lat": 5.858,
+   "lng": 118.082,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-60",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Sandakan - Mile 4 / Jalan Leila",
+   "lat": 5.865,
+   "lng": 118.065,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-61",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Tawau Town Centre",
+   "lat": 4.2447,
+   "lng": 117.8912,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-62",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Tawau - Kalabakan Hotspot Zone",
+   "lat": 4.4167,
+   "lng": 117.4833,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-63",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Lahad Datu Town",
+   "lat": 5.0268,
+   "lng": 118.327,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-64",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Lahad Datu - Felda Sahabat Coastal",
+   "lat": 5.2639,
+   "lng": 119.0681,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": "Location not confirmed; coordinates look like the Darvel Bay coast. Owner to confirm."
+  },
+  {
+   "pinId": "my-65",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Semporna Waterfront",
+   "lat": 4.4817,
+   "lng": 118.6111,
+   "roles": [
+    "general"
+   ],
+   "hazards": [],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-dis-01",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Jerudong Slope & Landslide Zone",
+   "lat": 4.9458,
+   "lng": 114.8421,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Landslide / Flash Flood"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-dis-02",
+   "country": "BN",
+   "region": "Brunei-Muara",
+   "name": "Kampong Ayer (Water Village)",
+   "lat": 4.8821,
+   "lng": 114.9425,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Tidal Surge / High Wind"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-dis-03",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Badas Peat Swamp Forest",
+   "lat": 4.5682,
+   "lng": 114.415,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Peat Fire / Toxic Haze"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-dis-04",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Lumut Coastal & Industrial Basin",
+   "lat": 4.6465,
+   "lng": 114.4371,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Coastal Flooding / Erosion"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-dis-05",
+   "country": "BN",
+   "region": "Tutong",
+   "name": "Pekan Tutong River Basin",
+   "lat": 4.8112,
+   "lng": 114.6548,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Riverine Monsoon Flood"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "bn-dis-06",
+   "country": "BN",
+   "region": "Belait",
+   "name": "Sungei Teraban Border Basin",
+   "lat": 4.588,
+   "lng": 114.205,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Flash Flood / Peat Fire"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-02",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Limbang River Basin (Pekan Limbang)",
+   "lat": 4.7551,
+   "lng": 115.0028,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Monsoon Overflow"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-03",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Kuala Baram Peatland (Miri)",
+   "lat": 4.5823,
+   "lng": 114.0125,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Severe Peat Fire / Wildfire"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-04",
+   "country": "MY",
+   "region": "Sarawak",
+   "name": "Batu Niah Interior River Basin",
+   "lat": 3.821,
+   "lng": 113.7315,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Flash Flood"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-05",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Kundasang Mount Kinabalu Base",
+   "lat": 6.0025,
+   "lng": 116.578,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Landslide / Mudflow"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-07",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Tawau - Sin On River Basin",
+   "lat": 4.271,
+   "lng": 117.9021,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Urban Flash Flood"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-08",
+   "country": "MY",
+   "region": "Sabah",
+   "name": "Beaufort Padas River Basin",
+   "lat": 5.3472,
+   "lng": 115.7511,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Severe Monsoon River Flood"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-09",
+   "country": "MY",
+   "region": "Kuala Lumpur",
+   "name": "Masjid Jamek (Klang & Gombak Confluence)",
+   "lat": 3.1492,
+   "lng": 101.6961,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Urban Flash Flood"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-10",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Taman TTDI Jaya (Shah Alam)",
+   "lat": 3.1012,
+   "lng": 101.551,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Damansara River Overflow"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-11",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Johan Setia (Klang)",
+   "lat": 2.9781,
+   "lng": 101.482,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Agricultural Peatland Fire / Haze"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-12",
+   "country": "MY",
+   "region": "Penang",
+   "name": "Batu Ferringhi Hillside Corridor",
+   "lat": 5.4682,
+   "lng": 100.245,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Landslide / Slope Collapse"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-13",
+   "country": "MY",
+   "region": "Johor",
+   "name": "Kota Tinggi River Basin",
+   "lat": 1.7312,
+   "lng": 103.899,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Major Riverine Flooding"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-14",
+   "country": "MY",
+   "region": "Kelantan",
+   "name": "Tangga Krai (Kuala Krai)",
+   "lat": 5.5312,
+   "lng": 102.2025,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Severe River Basin Inundation"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-15",
+   "country": "MY",
+   "region": "Pahang",
+   "name": "Lanchang River Flood Zone",
+   "lat": 3.4981,
+   "lng": 102.1812,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Monsoon Inundation"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-16",
+   "country": "MY",
+   "region": "Perak",
+   "name": "Simpang Pulai Quarry Corridor",
+   "lat": 4.521,
+   "lng": 101.135,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Landslide / Rockfall"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-17",
+   "country": "MY",
+   "region": "Selangor",
+   "name": "Sungei Tua / Hulu Yam Bharu Corridor",
+   "lat": 3.3318,
+   "lng": 101.7025,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Landslide / Recreational Flash Flood / Mudflow"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "my-dis-18",
+   "country": "MY",
+   "region": "Pahang",
+   "name": "Genting Highlands Summit & Slope Corridor",
+   "lat": 3.4239,
+   "lng": 101.7928,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Slope Failure / Landslide / Heavy Fog & Torrential Rain"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-dis-01",
+   "country": "SG",
+   "region": "Central",
+   "name": "Bukit Timah Road Canal",
+   "lat": 1.3211,
+   "lng": 103.8152,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Flash Monsoon Drain Overflow"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-dis-02",
+   "country": "SG",
+   "region": "East",
+   "name": "Bedok Canal & Marine Parade",
+   "lat": 1.3051,
+   "lng": 103.9052,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Tidal Inundation / Heavy Downpour"
+   ],
+   "needs": [
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  },
+  {
+   "pinId": "sg-dis-03",
+   "country": "SG",
+   "region": "North-West",
+   "name": "Sungei Kadut Industrial Estate",
+   "lat": 1.4121,
+   "lng": 103.7511,
+   "roles": [
+    "hazard"
+   ],
+   "hazards": [
+    "Industrial Drainage Surge / Haze"
+   ],
+   "needs": [
+    "air",
+    "weather"
+   ],
+   "mergedFrom": [],
+   "review": null
+  }
+ ]
+}

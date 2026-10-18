@@ -1,0 +1,21 @@
+{
+  "status": "REVIEW_ACCEPTED_WITH_BACKEND_FOLLOWUPS",
+  "cataloguePins": 125,
+  "photos": 57,
+  "livePins": 125,
+  "comparison": "media status, article link, both thumbnail URLs, credit, licence; retryable errors must project null; excludes check timestamp and display alt wording",
+  "matching": 124,
+  "mismatches": [
+    {
+      "pinId": "sg-13",
+      "name": "Changi Airport",
+      "storedStatus": "matched",
+      "servedStatus": "no_image"
+    }
+  ],
+  "scopedMediaTests": "16/16 PASS",
+  "lunaSnapshot": "21/21 file hashes independently matched",
+  "projectTypecheck": "PASS after frontend JSON import attribute fix",
+  "uiTypecheck": "PASS",
+  "productionBuild": "PASS"
+}

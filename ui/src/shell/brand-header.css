@@ -1,0 +1,84 @@
+.aeg-brand-header {
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+  color: var(--aeg-ink);
+  background: var(--aeg-surface);
+  border-bottom: 1px solid var(--aeg-border);
+  font-family: var(--aeg-font);
+}
+.aeg-brand-header-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.aeg-brand-logo {
+  min-width: 96px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  border-radius: var(--aeg-radius-control);
+}
+.aeg-brand-logo img { display: block; width: 96px; height: 48px; object-fit: contain; }
+.aeg-brand-tagline {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--aeg-brand-navy);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .11em;
+  white-space: nowrap;
+}
+.aeg-brand-header nav {
+  min-width: 0;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+.aeg-brand-tagline > span, .aeg-brand-tagline > small { display: block; }
+.aeg-brand-tagline > small { font-size: 7px; letter-spacing: .08em; color: var(--aeg-ink-muted); margin-top: 4px; }
+.aeg-brand-link {
+  min-width: 48px;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  color: var(--aeg-primary-text);
+  border-bottom: 3px solid transparent;
+  border-radius: var(--aeg-radius-control) var(--aeg-radius-control) 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.aeg-brand-link:hover { background: var(--aeg-page-bg); }
+.aeg-brand-link-active { border-bottom-color: var(--aeg-primary-text); }
+.aeg-brand-header a:focus-visible { outline: var(--aeg-focus); outline-offset: 1px; }
+.aeg-brand-link-compact { display: none; }
+
+@media (max-width: 700px) {
+  .aeg-brand-header { height: 56px; }
+  .aeg-brand-header-inner { gap: 4px; }
+  .aeg-brand-logo { min-width: 76px; min-height: 48px; }
+  .aeg-brand-logo img { width: 76px; height: 42px; }
+  .aeg-brand-tagline { display: none; }
+  .aeg-brand-header nav {
+    height: 56px;
+    flex: 1 1 auto;
+    gap: 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+  .aeg-brand-header nav::-webkit-scrollbar { display: none; }
+  .aeg-brand-link { min-height: 48px; flex: 0 0 auto; padding-inline: 9px; font-size: 12px; }
+  .aeg-brand-link-full { display: none; }
+  .aeg-brand-link-compact { display: inline; }
+}
